@@ -22,6 +22,8 @@ Download the [cats.sb2](resources/cats.sb2){:target="_blank"} Scratch starter pr
 
 + Click on the sprite called 'Pen' and add code to set the pen colour to the same blue as the obstacles on the stage, the pen size to 5 and then clear the screen.
 
+![Set pen color](images/pen-color.png)
+
 + Add some more code to make the sprite follow the mouse pointer. Test your program to check that the code works.
 
 [[[generic-scratch-saving]]]
