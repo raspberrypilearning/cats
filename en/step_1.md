@@ -4,12 +4,7 @@ Create a simple line following game in Scratch. Guide the cats to safety - don't
 
 ### What you will make
 
-Here is a preview of what you will make:
-
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/169972197/?autostart=false" frameborder="0"></iframe>
-</div>
-
+Here is a preview of the game you will make:
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/59279346/?autostart=false" frameborder="0"></iframe>
