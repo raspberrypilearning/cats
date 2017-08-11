@@ -31,7 +31,7 @@ Download the [cats.sb2](resources/cats.sb2){:target="_blank"} Scratch starter pr
 --- hints ---
 --- hint ---
 **If** the **mouse is down***, put the **pen down**
-**Else**, put the **pen up**
+**Else** put the **pen up**
 --- /hint ---
 
 --- hint ---
@@ -41,11 +41,8 @@ Here are the code blocks you'll need
 --- /hint ---
 
 --- hint ---
-Here are the code blocks you'll need
-
-![Drawing with the pen hint](images/draw-with-pen-hint.png)
---- /hint ---
 This is what your code should look like:
 ![Drawing with the pen solution](images/draw-with-pen-solution.png)
+--- /hint ---
 
 --- /hints ---
