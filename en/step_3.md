@@ -32,7 +32,7 @@ Download the [cats.sb2](resources/cats.sb2){:target="_blank"} Scratch starter pr
 
 --- hints ---
 --- hint ---
-**If** the **mouse is down***, put the **pen down**
+**If** the **mouse is down**, put the **pen down**
 **Else** put the **pen up**
 --- /hint ---
 
@@ -53,7 +53,7 @@ This is what your code should look like:
 
 ![Draw a line](images/draw-a-line.png)
 
-You will probably notice that a blue dot always appears in the top right corner of your stage (circled in red). This is because when you click the green flag to start the game, the pen immediately starts drawing.
+You will probably notice that a blue dot always appears in the top right corner of your stage (circled in red). This is because when you click the green flag to start the game, the mouse is pressed down so the pen immediately starts drawing.
 
 + Add a block to wait 0.5 seconds before the 'forever' block to stop this from happening.
 

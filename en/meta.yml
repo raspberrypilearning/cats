@@ -13,7 +13,7 @@ site_areas:
 steps:
   - title: Introduction
   - title: What you will need
-  - title: Drawing lines - pencil sprite
+  - title: Drawing lines
   - title: Cloning cats - create a bunch of cats
   - title: Moving cats - cats move, switch costume, and fall
   - title: Sticking to the lines - cats fall until line but go up if on one
