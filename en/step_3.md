@@ -20,7 +20,7 @@ Download the [cats.sb2](resources/cats.sb2){:target="_blank"} Scratch starter pr
 
 --- /collapse ---
 
-+ Click on the sprite called 'Pen' and add code to set the pen colour to the same blue as the obstacles on the stage, the pen size to 5 and then clear the screen.
++ Click on the sprite called 'Pen' and add code to set the pen colour to the same blue as the obstacles on the stage, clear the screen and set the pen size to 5.
 
 ![Set pen color](images/pen-color.png)
 
@@ -28,7 +28,7 @@ Download the [cats.sb2](resources/cats.sb2){:target="_blank"} Scratch starter pr
 
 [[[generic-scratch-saving]]]
 
-+ Add some code to tell the sprite to draw a line on the stage - but only when the mouse button is pressed down
++ Add some code to tell the sprite to draw a line on the stage - but only if the mouse button is pressed down
 
 --- hints ---
 --- hint ---
@@ -48,3 +48,13 @@ This is what your code should look like:
 --- /hint ---
 
 --- /hints ---
+
++ Test your code. You should be able to click and drag with the mouse to draw a blue line on the screen.
+
+![Draw a line](images/draw-a-line.png)
+
+You will probably notice that a blue dot always appears in the top right corner of your stage (circled in red). This is because when you click the green flag to start the game, the pen immediately starts drawing.
+
++ Add a block to wait 0.5 seconds before the 'forever' block to stop this from happening.
+
+![Wait half a second](images/wait-half-second.png)
