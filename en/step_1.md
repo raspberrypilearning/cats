@@ -1,19 +1,19 @@
 ## Introduction
 
-Add project description here. What will learners be making?
+Create a simple line following game in Scratch. Guide the cats to safety - don't let any fall through the gaps!
 
 ### What you will make
 
-Add something here to showcase here, for example:
+Here is a preview of what you will make:
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
+    <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/59279346/?autostart=false" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Add instructions here. These should explain either how the finished project will work, or explain how to interact with the content above.
+Click and drag with the mouse to draw a line with the pencil. Your objective is to stop the cats falling to their doom by creating a safe path to the exit.
 
 ### What you will learn
 
 This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-+ [Add curriculum strand/level description.](https://www.raspberrypi.org/curriculum/strand/level)
++ [Apply basic programming constructs to solve a problem](https://curriculum.raspberrypi.org/programming/builder/)
