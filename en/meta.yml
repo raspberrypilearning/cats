@@ -13,4 +13,9 @@ site_areas:
 steps:
   - title: Introduction
   - title: What you will need
-  - title: Step title
+  - title: Drawing lines - pencil sprite
+  - title: Cloning cats - create a bunch of cats
+  - title: Moving cats - cats move, switch costume, and fall
+  - title: Sticking to the lines - cats fall until line but go up if on one
+  - title: Getting to safety - cats disappear, mew and score +1 if hit door
+  - title: "Challenge: Something"
