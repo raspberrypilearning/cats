@@ -4,7 +4,9 @@ We want to generate an infinite stream of cats to guide along the path to the ex
 
 + Click on the sprite called 'Cat' and add some code to make the sprite invisible, but also to clone itself every 3 seconds
 
-If you run the program at the moment, nothing will happen.
+If you run the program at the moment, nothing will happen. Let's make the cats fall down so we can see that a new one is being created every 3 seconds.
+
+![Clone a cat](images/clone-a-cat.png)
 
 + Add some code to tell the sprite that when it starts as a clone, it should become visible and fall until it reaches the blue floor which is drawn on the stage
 
