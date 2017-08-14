@@ -33,7 +33,7 @@ You will notice that if you draw a bridge across the gap so that the cats can ge
 
 --- hints ---
 --- hint ---
-Remove the **forever** loop and replace it with a different loop to make the cats walk and fall **until they are touching the edge**. Once they reach an edge, add a block to **delete the clone** which will make the cat disappear.
+Remove the **forever** loop and replace it with a different loop which repeats **until the cats are touching the edge**. Once they reach an edge, add a block to **delete the clone** which will make the cat disappear.
 --- /hint ---
 
 --- hint ---
