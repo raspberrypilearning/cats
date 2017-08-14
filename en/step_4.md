@@ -31,6 +31,6 @@ This is what your code should look like:
 
 --- /hints ---
 
-When you press the green flag you should see a new cat falling out of the sky every 3 seconds:
+When you press the green flag you should see a new cat falling out of the sky every 3 seconds and landing in a big pile of overlapping cats on the blue floor at the bottom.
 
 ![Falling cats](images/falling-cats.png)

@@ -58,6 +58,6 @@ This is what your code should look like:
 
 You will probably notice that a blue dot always appears in the top right corner of your stage (circled in red). This is because when you click the green flag to start the game, the mouse is pressed down so the pen immediately starts drawing.
 
-+ Add a block to wait 0.5 seconds before the 'forever' block to stop this from happening.
++ Add a block to wait 1 second before the 'forever' block to stop this from happening.
 
 ![Wait half a second](images/wait-half-second.png)

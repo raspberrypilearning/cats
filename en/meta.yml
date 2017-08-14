@@ -15,7 +15,7 @@ steps:
   - title: What you will need
   - title: Drawing lines
   - title: Cloning cats
-  - title: Moving cats - cats move, switch costume, and fall
+  - title: Moving cats 
   - title: Sticking to the lines - cats fall until line but go up if on one
   - title: Getting to safety - cats disappear, mew and score +1 if hit door
   - title: "Challenge: Something"
