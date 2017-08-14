@@ -7,7 +7,10 @@
 title: I'm using Scratch online
 ---
 
-Open the 'CATS!' Scratch starter project at [jumpto.cc/cats-go](http://jumpto.cc/cats-go){:target="_blank"}.
++ Open the 'CATS!' Scratch starter project at [jumpto.cc/cats-go](http://jumpto.cc/cats-go){:target="_blank"}.
+
++ If you have a Scratch account, you can click on **Remix** on the top right to save a copy of the project to your account
+
 
 --- /collapse ---
 
