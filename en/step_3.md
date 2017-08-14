@@ -8,6 +8,7 @@ title: I'm using Scratch online
 ---
 
 + Open the 'CATS!' Scratch starter project at [jumpto.cc/cats-go](http://jumpto.cc/cats-go){:target="_blank"}.
+Real link - https://scratch.mit.edu/projects/171181805/
 
 + If you have a Scratch account, you can click on **Remix** on the top right to save a copy of the project to your account
 
