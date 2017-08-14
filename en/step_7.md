@@ -1,7 +1,5 @@
 ## Getting to safety
 
- - cats disappear, mew and score +1 if hit door
-
 The object of the game is to guide the cats to safety by creating a safe path for them to reach the door. Let's make a score variable to keep track of how many cats have successfully reached the door.
 
 + Create a variable called **score**
