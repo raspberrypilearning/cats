@@ -17,5 +17,5 @@ steps:
   - title: Cloning cats
   - title: Moving cats
   - title: Sticking to the lines
-  - title: Getting to safety - cats disappear, mew and score +1 if hit door
-  - title: "Challenge: Something"
+  - title: Getting to safety
+  - title: "Challenge: More levels"
