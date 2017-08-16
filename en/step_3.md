@@ -8,7 +8,6 @@ title: I'm using Scratch online
 ---
 
 + Open the 'CATS!' Scratch starter project at [jumpto.cc/cats-go](http://jumpto.cc/cats-go){:target="_blank"}.
-Real link - https://scratch.mit.edu/projects/171181805/
 
 + If you have a Scratch account, you can click on **Remix** on the top right to save a copy of the project to your account
 
@@ -27,6 +26,8 @@ Download the [cats.sb2](resources/cats.sb2){:target="_blank"} Scratch starter pr
 + Click on the sprite called 'Pen' and add code to set the pen colour to the same blue as the obstacles on the stage, clear the screen and set the pen size to 5.
 
 ![Set pen color](images/pen-color.png)
+
+You can select a colour by clicking on the colour block (circled) to get the pipette cursor, followed by clicking on the colour you want on the stage.
 
 + Add some more code to make the sprite follow the mouse pointer. Test your program to check that the code works.
 
