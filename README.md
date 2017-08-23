@@ -1,3 +1,3 @@
-# cats
+# CATS!
 
-Don't forget to update the project name in LICENSE.md
+Create a simple line following game in Scratch. Guide the cats to safety - don't let any fall through the gaps!

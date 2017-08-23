@@ -1,0 +1,21 @@
+title: CATS!
+hero_image: images/banner.png
+description: Create a simple line-following game in Scratch. Guide the cats to safety, and don't let any fall through the gaps!
+theme: red # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+duration: 1 # possible values: 1, 2 or 3
+listed: false
+ingredient: false
+copyedit: true
+curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+interests: "games"
+technologies: "scratch"
+site_areas:
+steps:
+  - title: Introduction
+  - title: What you will need
+  - title: Drawing lines
+  - title: Cloning cats
+  - title: Moving cats
+  - title: Sticking to the lines
+  - title: Getting to safety
+  - title: "Challenge: More obstacles"
