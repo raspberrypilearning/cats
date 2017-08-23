@@ -1,6 +1,6 @@
 ## Introduction
 
-Create a simple line following game in Scratch. Guide the cats to safety - don't let any fall through the gaps!
+In this project, you will create a simple line-following game in Scratch. Guide the cats to safety, and don't let any of them fall through the gaps!
 
 ### What you will make
 
