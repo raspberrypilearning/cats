@@ -2,15 +2,15 @@
 
 The object of the game is to guide the cats to safety by creating a safe path for them to reach the door. Let's make a score variable to keep track of how many cats have successfully reached the door.
 
-+ Create a variable called **score**
++ Create a variable called `score`.
 
 [[[generic-scratch-add-variable]]]
 
-+ Add some code to your cat sprite to add one to the score each time a cat reaches the door. Don't forget to also set the score to 0 at the start of the game.
++ Add some code to your cat sprite to add one to the score each time a cat reaches the door. Don't forget to also set the score to zero at the start of the game.
 
 --- hints ---
 --- hint ---
-**If** the cat is **touching the door sprite** then **add 1 to the score**.
+`If` the cat is `touching the door sprite`, then `add 1 to the score`.
 --- /hint ---
 
 --- hint ---
@@ -25,6 +25,6 @@ This is what your code should look like:
 
 --- /hints ---
 
-+ Add some more code so that a cat successfully reaching the door makes a *meow* sound, and then the sprite disappears
++ Add some more code so that a cat sprite that reaches the door makes a 'meow' sound and then disappears.
 
 ![Play meow](images/play-meow.png)
