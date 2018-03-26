@@ -4,13 +4,11 @@ In this project, you will create a simple line-following game in Scratch. Guide 
 
 ### What you will make
 
-Here is a preview of the game you will make:
+Click and drag with the mouse to draw a line with the pencil. Your objective is to stop the cats falling to their doom by creating a safe path to the exit.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/59279346/?autostart=false" frameborder="0"></iframe>
 </div>
-
-Click and drag with the mouse to draw a line with the pencil. Your objective is to stop the cats falling to their doom by creating a safe path to the exit.
 
 ### What you will learn
 
