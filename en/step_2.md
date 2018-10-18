@@ -14,7 +14,7 @@ Click on the sprite called **Pen**, and add code to set the pen colour to the sa
 
 ```blocks
 when flag clicked
-set pen color to #0000ff
+set pen color to [#0000ff]
 clear
 set pen size to (5)
 ```
@@ -65,7 +65,7 @@ This is what your code should look like:
 
 ```blocks
 when flag clicked
-set pen color to #0000ff
+set pen color to [#0000ff]
 clear
 set pen size to (5)
 forever
@@ -95,7 +95,7 @@ Add a block to wait one second before the `forever` block to stop this from happ
 
 ```blocks
 when flag clicked
-set pen color to #0000ff
+set pen color to [#0000ff]
 clear
 set pen size to (5)
 + wait (0.5) secs
