@@ -59,6 +59,8 @@ You will notice that, if you draw a bridge across the gap so that the cats can g
 --- task ---
 Remove the forever loop you added, and instead add a different loop to make the cats only walk until they reach an edge. When a cat reaches the edge of the screen, it should disappear.
 
+![Cat sprite](images/cat-sprite.png)
+
 ```blocks
 when I start as a clone
 show
@@ -81,7 +83,7 @@ Press the green flag and check that the cats disappear when they reach the edge 
 You might notice that the cats don't disappear properly if they fall into the hole, they just get stuck at the bottom. This is because the sprite is getting stuck trying to fall!
 --- /task ---
 
-This is the code which tells the cat to keep falling until it touches blue. However, in the hole the cat will never reach blue, so it is stuck forever.
+This is the part of the code which tells the cat to keep falling until it touches blue. However, in the hole the cat will never reach blue, so it is stuck forever.
 
 ```blocks
 repeat until <touching color [#0000ff]?>
@@ -90,6 +92,8 @@ end
 
 --- task ---
 Add more blocks to this loop to tell it to repeat until it is touching blue `or`{:class="blockoperators"} `touching the edge`{:class="blocksensing"}. This way, the sprite will stop trying to fall if it reaches the edge of the screen.
+
+![Cat sprite](images/cat-sprite.png)
 
 ```blocks
 repeat until <<touching color [#0000ff]?> or <touching [edge v]?>>

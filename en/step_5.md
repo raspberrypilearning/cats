@@ -4,25 +4,56 @@ When testing your game, you might notice that if you draw a low bridge between t
 
 ![Cats walking through the platform](images/cat-walk-through-platform.png)
 
-+ In the code for the cat sprite, add another loop after the loop which makes the cat fall. This time, the loop should tell the cat to move upwards by two until it is not touching blue.
+--- task ---
+In the code for the cat sprite, add another loop before the `next costume`{:class="blocklooks"} block. This time, the loop should tell the cat to move upwards by two until it is not touching blue.
 
-![Add code here](images/add-code-here.png)
+![Cat sprite](images/cat-sprite.png)
 
 --- hints ---
 --- hint ---
-The cat should`move up 2`, and this should `repeat until it is not touching blue`.
+The cat should `move up 2`{:class="blockmotion"}, and this should `repeat until`{:class="blockcontrol"} it is `not`{:class="blockoperators"} `touching blue`{:class="blocksensing"}.
 --- /hint ---
 
 --- hint ---
 Here are the code blocks you'll need:
-![Moving up hint](images/move-up-hint.png)
+
+```blocks
+<touching color [#0000ff]?>
+
+change y by (2)
+
+repeat until <>
+end
+
+not <>
+```
+
 --- /hint ---
 
 --- hint ---
 This is what your code should look like:
-![Moving up hint](images/move-up-solution.png)
+
+```blocks
+when I start as a clone
+show
+repeat until <touching [edge v]?>
+    move (10) steps
+    repeat until <touching color [#0000ff]?>
+        change y by (-2)
+    end
+    + repeat until <not <touching color [#0000ff]?>>
+        + change y by (2)
+    + end
+    next costume
+    wait (0.1) secs
+end
+delete this clone
+```
 --- /hint ---
 
 --- /hints ---
+--- /task ---
 
-+ Click the green flag and try drawing a line which slopes upwards. Check that your cat follows the line.
+--- task ---
+Click the green flag and try drawing a line which slopes upwards. Check that your cat follows the line.
+--- /task ---
