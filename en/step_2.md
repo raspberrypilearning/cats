@@ -12,6 +12,8 @@ Open the 'CATS!' starter project.
 --- task ---
 Click on the sprite called **Pen**, and add code to set the pen colour to the same blue as the obstacles on the stage.
 
+![Pen sprite](images/pen-sprite.png)
+
 ```blocks
 when flag clicked
 set pen color to [#0000ff]
@@ -26,6 +28,8 @@ You can select a colour by clicking on the colour block to get the pipette curso
 --- task ---
 Add some more code to make the sprite follow the mouse pointer. Test your program to check that the code works.
 
+![Pen sprite](images/pen-sprite.png)
+
 ```blocks
 forever
 go to [mouse pointer v]
@@ -38,6 +42,8 @@ end
 
 --- task ---
 Add some code to tell the sprite to draw a line on the stage if the mouse button is pressed down.
+
+![Pen sprite](images/pen-sprite.png)
 
 --- hints ---
 --- hint ---
@@ -92,6 +98,8 @@ You will probably notice that a blue dot always appears in the top right corner 
 
 --- task ---
 Add a block to wait one second before the `forever`{:class="blockcontrol"} block to stop this from happening.
+
+![Pen sprite](images/pen-sprite.png)
 
 ```blocks
 when flag clicked

@@ -5,6 +5,8 @@ We want to generate an infinite stream of cats that the player will guide along 
 --- task ---
 Click on the sprite called **Cat**, and add some code to make it invisible, and also to clone it every three seconds.
 
+![Cat sprite](images/cat-sprite.png)
+
 ```blocks
 when flag clicked
 hide
@@ -20,7 +22,9 @@ end
 If you run the program at the moment, nothing will happen. Let's make each cloned cat appear and fall out of the sky, so we can check that a new one is being created every three seconds.
 
 --- task ---
-Add some code to tell the sprite that when it starts as a clone, it should become visible and fall until it reaches the blue floor which is drawn on the stage
+Add some code to tell the sprite that when it starts as a clone, it should become visible and fall until it reaches the blue floor which is drawn on the stage.
+
+![Cat sprite](images/cat-sprite.png)
 
 --- hints ---
 --- hint ---
@@ -40,7 +44,7 @@ show
 
 change y by (-2)
 
-when i start as a clone
+when I start as a clone
 ```
 --- /hint ---
 
@@ -48,7 +52,7 @@ when i start as a clone
 This is what your code should look like:
 
 ```blocks
-when i start as a clone
+when I start as a clone
 show
 repeat until <touching color [#0000ff]?>
 change y by (-2)
