@@ -1,28 +1,30 @@
-## Sticking to the lines
+## Getting to safety
 
-When testing your game, you might notice that if you draw a low bridge between the two platforms, or a line that slopes upwards, the cats end up walking through the platform rather than on top of it!
+The object of the game is to guide the cats to safety by creating a safe path for them to reach the door. Let's make a score variable to keep track of how many cats have successfully reached the door.
 
-![Cats walking through the platform](images/cat-walk-through-platform.png)
++ Create a variable called `score`.
 
-+ In the code for the cat sprite, add another loop after the loop which makes the cat fall. This time, the loop should tell the cat to move upwards by two until it is not touching blue.
+[[[generic-scratch-add-variable]]]
 
-![Add code here](images/add-code-here.png)
++ Add some code to your cat sprite to add one to the score each time a cat reaches the door. Don't forget to also set the score to zero at the start of the game.
 
 --- hints ---
 --- hint ---
-The cat should`move up 2`, and this should `repeat until it is not touching blue`.
+`If` the cat is `touching the door sprite`, then `add 1 to the score`.
 --- /hint ---
 
 --- hint ---
-Here are the code blocks you'll need:
-![Moving up hint](images/move-up-hint.png)
+Here are the new code blocks you'll need to add:
+![Score points hint](images/score-points-hint.png)
 --- /hint ---
 
 --- hint ---
 This is what your code should look like:
-![Moving up hint](images/move-up-solution.png)
+![Score points solution](images/score-points-solution.png)
 --- /hint ---
 
 --- /hints ---
 
-+ Click the green flag and try drawing a line which slopes upwards. Check that your cat follows the line.
++ Add some more code so that a cat sprite that reaches the door makes a 'meow' sound and then disappears.
+
+![Play meow](images/play-meow.png)

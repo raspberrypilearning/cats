@@ -7,7 +7,6 @@ version: 4.0.0
 last_tested: 2018-10-18
 steps:
 - title: Introduction
-- title: What you will need
 - title: Drawing lines
 - title: Cloning cats
 - title: Moving cats
