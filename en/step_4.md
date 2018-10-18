@@ -35,7 +35,7 @@ when I start as a clone
 show
 forever
     move (10) steps
-    repeat until <touching colour [#0000ff]?>
+    repeat until <touching color [#0000ff]?>
         change y by (-2)
     end
     next costume
@@ -64,7 +64,7 @@ when I start as a clone
 show
 + repeat until <touching [edge v]?>
     move (10) steps
-    repeat until <touching colour [#0000ff]?>
+    repeat until <touching color [#0000ff]?>
         change y by (-2)
     end
     next costume
@@ -84,7 +84,7 @@ You might notice that the cats don't disappear properly if they fall into the ho
 This is the code which tells the cat to keep falling until it touches blue. However, in the hole the cat will never reach blue, so it is stuck forever.
 
 ```blocks
-repeat until <touching colour [#0000ff]?>
+repeat until <touching color [#0000ff]?>
 end
 ```
 
@@ -92,8 +92,7 @@ end
 Add more blocks to this loop to tell it to repeat until it is touching blue `or`{:class="blockoperators"} `touching the edge`{:class="blocksensing"}. This way, the sprite will stop trying to fall if it reaches the edge of the screen.
 
 ```blocks
-repeat until <<touching colour [#0000ff]?> or <touching [edge v]?>>
+repeat until <<touching color [#0000ff]?> or <touching [edge v]?>>
 end
 ```
-
 --- /task ---
