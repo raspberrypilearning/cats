@@ -40,6 +40,7 @@ This is what your code should look like:
 
 ```blocks
 when I start as a clone
++ set [score v] to (0)
 show
 repeat until <touching [edge v]?>
     move (10) steps

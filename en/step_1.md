@@ -21,8 +21,8 @@ Click and drag with the mouse to draw a line with the pencil. Your objective is 
 title: What you will learn
 ---
 
-+ Learning
-+ Objectives
++ How to use a forever loop to constantly generate moving cats
++ How to use a repeat-until loop to ensure your cats follow a line
 
 --- /collapse ---
 
