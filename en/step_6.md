@@ -12,7 +12,7 @@ Create a variable called `score`{:class="blockdata"}.
 --- /task ---
 
 --- task ---
-Add some code to your cat sprite to add one to the score each time a cat reaches the door. Don't forget to also set the score to zero at the start of the game.
+Add some code to your cat sprite to add one to the score each time a cat reaches the door. Don't forget to also set the score to zero when the flag is clicked at the start of the game.
 
 ![Cat sprite](images/cat-sprite.png)
 
@@ -22,14 +22,12 @@ Add some code to your cat sprite to add one to the score each time a cat reaches
 --- /hint ---
 
 --- hint ---
-Here are the new code blocks you'll need to add:
+Here are the new code blocks you'll need to add to your `when I start as a clone` script:
 ```blocks
 change [score v] by (1)
 
 if <> then
 end
-
-set [score v] to (0)
 
 <touching [Door v]?>
 ```
@@ -40,7 +38,6 @@ This is what your code should look like:
 
 ```blocks
 when I start as a clone
-+ set [score v] to (0)
 show
 repeat until <touching [edge v]?>
     move (10) steps
@@ -57,6 +54,9 @@ repeat until <touching [edge v]?>
     + end
 end
 delete this clone
+
+when flag clicked
++ set [score v] to (0)
 ```
 --- /hint ---
 
