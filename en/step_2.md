@@ -97,12 +97,13 @@ Test your code. You should be able to click and drag with the mouse to draw a bl
 You will probably notice that a blue dot always appears in the top right corner of your stage (circled). This is because when you click the green flag to start the game, the mouse is pressed down so the pen immediately starts drawing.
 
 --- task ---
-Add a block to wait one second before the `forever`{:class="blockcontrol"} block to stop this from happening.
+Add a `pen up`{:class="blockpen"} block at the start and a block to wait one second before the `forever`{:class="blockcontrol"} block to stop this from happening.
 
 ![Pen sprite](images/pen-sprite.png)
 
 ```blocks
 when flag clicked
+pen up
 set pen color to [#0000ff]
 clear
 set pen size to (5)
