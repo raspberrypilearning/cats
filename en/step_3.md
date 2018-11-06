@@ -19,7 +19,7 @@ title: I'm using Scratch online
 title: I'm using Scratch offline
 ---
 
-Download the [cats.sb2](rpf.io/cats-off){:target="_blank"} Scratch starter project, and open it using the offline editor.
+Download the Scratch starter project at [rpf.io/cats-off](http://rpf.io/cats-off){:target="_blank"} and open it using the offline editor.
 
 --- /collapse ---
 
