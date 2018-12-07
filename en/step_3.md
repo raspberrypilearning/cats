@@ -22,17 +22,17 @@ end
 If you run the program now, nothing happens on the Stage. To check that a new Cat sprite clone is created every three seconds, make each clone appear and fall out of the sky.
 
 --- task ---
-Add code to tell the sprite that `when it starts as a clone`{:class="blockcontrol"}, it should `show`{:class="blocklooks"} itself and fall until it reaches the blue floor that is drawn on the Stage.
+Add code to tell the sprite that `when it starts as a clone`{:class="blockcontrol"}, it should `show`{:class="blocklooks"} itself and fall until it `touches`{:class="blocksensing"} the blue floor that is drawn on the Stage.
 
 ![Cat sprite](images/cat-sprite.png)
 
 --- hints ---
 --- hint ---
-`When the sprite starts as a clone`{:class="blockcontrol"}, `show`{:class="blocklooks"} the sprite. `Repeat`{:class="blockcontrol"} this until it `touches`{:class="blocksensing"} the blue stage. `Change`{:class="blockmotion"} the y coordinate of the sprite by `-2`.
+`When the sprite starts as a clone`{:class="blockcontrol"}, `show`{:class="blocklooks"} the sprite. `Repeatedly`{:class="blockcontrol"} `Change`{:class="blockmotion"} the sprite's `y` coordinate by `-2`, until the sprite `touches`{:class="blocksensing"} the blue Stage.
 --- /hint ---
 
 --- hint ---
-Here are the code blocks you'll need:
+Here are the code blocks you need:
 
 ```blocks
 repeat until <>
@@ -64,6 +64,6 @@ end
 
 --- /task ---
 
-When you press the green flag, you should see a new cat falling out of the sky every three seconds and landing in a big pile of overlapping cats on the blue floor at the bottom.
+When you click the green flag, you should see a new cat fall from the top of the Stage every three seconds. Every cat should land in a big pile of overlapping cats on the blue floor at the bottom.
 
 ![Falling cats](images/falling-cats.png)
