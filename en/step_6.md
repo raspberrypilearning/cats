@@ -1,6 +1,6 @@
-## Getting to safety
+## Get to safety
 
-The object of the game is to guide the cats to safety by creating a safe path for them to reach the door. Let's make a score variable to keep track of how many cats have successfully reached the door.
+The object of the game is to guide the cats to safety by creating a path so they can reach the door. Create a score variable to keep track of how many cats reach the door.
 
 --- task ---
 Create a variable called `score`{:class="blockdata"}.
@@ -12,7 +12,7 @@ Create a variable called `score`{:class="blockdata"}.
 --- /task ---
 
 --- task ---
-Add some code to your cat sprite to add one to the score each time a cat reaches the door. Don't forget to also set the score to zero when the flag is clicked at the start of the game.
+Add code to your cat sprite to add `1` to the `score`{:class="blockdata"} each time a cat reaches the door. Also set `score`{:class="blockdata"} to `0` `when the flag is clicked`{:class="blockevents"} at the start of the game.
 
 ![Cat sprite](images/cat-sprite.png)
 
@@ -22,7 +22,7 @@ Add some code to your cat sprite to add one to the score each time a cat reaches
 --- /hint ---
 
 --- hint ---
-Here are the new code blocks you'll need to add to your `when I start as a clone` script:
+Here are the new code blocks you need to add to your `when I start as a clone` script:
 ```blocks
 change [score v] by (1)
 
@@ -65,7 +65,7 @@ when flag clicked
 --- /task ---
 
 --- task ---
-Add some more code so that a cat sprite that reaches the door makes a 'meow' sound and then disappears.
+Add some more code so that, when a cat sprite reaches the door, the cat makes a 'meow' sound and then disappears.
 
 ![Cat sprite](images/cat-sprite.png)
 
