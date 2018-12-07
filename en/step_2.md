@@ -1,16 +1,16 @@
 ## Drawing lines
 
 --- task ---
-Open the 'CATS!' starter project.
+Open the 'CATS!' Scratch starter project.
 
-**Online:** Open the 'CATS!' Scratch starter project at [jumpto.cc/cats-go](http://jumpto.cc/cats-go){:target="_blank"}. You can click on 'Remix' in the top right-hand corner to save a copy of the project if you have a Scratch account.
+**Online:** open the starter project at [jumpto.cc/cats-go](http://jumpto.cc/cats-go){:target="_blank"}. If you have a Scratch account, you can click on **Remix** in the top right-hand corner to save a copy of the project.
 
-**Offline:** Open the [starter project](resources/cats-resources.sb2) in the offline editor. If you need to download the Scratch offline editor you will find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+**Offline:** open the [starter project](resources/cats-resources.sb2) in the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
 --- /task ---
 
 --- task ---
-Click on the sprite called **Pen**, and add code to set the pen colour to the same blue as the obstacles on the stage.
+Click on the sprite called 'Pen', and add code to set the pen colour to the same blue as the obstacles on the Stage.
 
 ![Pen sprite](images/pen-sprite.png)
 
@@ -21,7 +21,7 @@ clear
 set pen size to (5)
 ```
 
-You can select a colour by clicking on the colour block to get the pipette cursor, followed by clicking on the colour you want on the stage.
+To select a colour, click on the colour square in the `set pen color`{:class="blockpen"} block to make your mouse cursor turn into a pipette, and then click on the correct colour on the Stage.
 
 --- /task ---
 
@@ -41,17 +41,17 @@ end
 --- /task ---
 
 --- task ---
-Add some code to tell the sprite to draw a line on the stage if the mouse button is pressed down.
+Add some code to tell the sprite to draw a line on the Stage if the mouse button is pressed down.
 
 ![Pen sprite](images/pen-sprite.png)
 
 --- hints ---
 --- hint ---
-`If`{:class="blockcontrol"} the `mouse is down`{:class="blocksensing"}, put the `pen down`{:class="blockpen"}. `Else`{:class="blockcontrol"} put the `pen up`{:class="blockpen"}.
+`If`{:class="blockcontrol"} the `mouse is down`{:class="blocksensing"}, put the `pen down`{:class="blockpen"}, and `else`{:class="blockcontrol"}, lift the `pen up`{:class="blockpen"}.
 --- /hint ---
 
 --- hint ---
-Here are the code blocks you'll need:
+Here are the code blocks you need:
 
 ```blocks
 <mouse down?>
@@ -88,22 +88,22 @@ end
 --- /task ---
 
 --- task ---
-Test your code. You should be able to click and drag with the mouse to draw a blue line on the screen.
+Test your code. You should be able to click and drag with the mouse to draw a blue line on the Stage.
 
 ![Draw a line](images/draw-a-line.png)
 
 --- /task ---
 
-You will probably notice that a blue dot always appears in the top right corner of your stage (circled). This is because when you click the green flag to start the game, the mouse is pressed down so the pen immediately starts drawing.
+You probably see that a blue dot always appears in the top right-hand corner of the Stage (it's circled in the image above). This is because, when you click the green flag to start the game, you press the mouse down, and so the pen immediately starts drawing.
 
 --- task ---
-Add a `pen up`{:class="blockpen"} block at the start and a block to wait one second before the `forever`{:class="blockcontrol"} block to stop this from happening.
+To stop this from happening, add a `pen up`{:class="blockpen"} block at the start of the script, and a `wait one second`{:class="blockcontrol"} block above the `forever`{:class="blockcontrol"} block.
 
 ![Pen sprite](images/pen-sprite.png)
 
 ```blocks
 when flag clicked
-pen up
++ pen up
 set pen color to [#0000ff]
 clear
 set pen size to (5)
