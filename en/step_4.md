@@ -1,19 +1,21 @@
-## Moving cats
+## Make the cats move
 
-When a cat has appeared and fallen until it reaches the floor, we want it to step slowly to the right.
+Once a cat reaches the floor, it should step slowly to the right.
 
 --- task ---
-Add some code to the `when I start as a clone`{:class="blockcontrol"} section to make the cat sprite `move ten steps`{:class="blockmotion"}, and switch between the two costumes every 0.1 seconds to make it look like the cat is walking.
+Add code to the `when I start as a clone`{:class="blockcontrol"} section to make the cat sprite `move ten steps`{:class="blockmotion"}, and switch between the sprite's two costumes every 0.1 seconds to make the cat look like it's walking.
 
 ![Cat sprite](images/cat-sprite.png)
 
 --- hints ---
 --- hint ---
-The cat sprite should `move 10 steps`{:class="blockmotion"}, and `switch costume`{:class="blocklooks"} every `0.1 seconds`{:class="blockcontrol"}. This code (as well as the code to make the cat fall) should repeat `forever`{:class="blockcontrol"}.
+
+The cat sprite should `move 10 steps`{:class="blockmotion"}, and `switch costume`{:class="blocklooks"} every `0.1 seconds`{:class="blockcontrol"}. This code should repeat `forever`{:class="blockcontrol"}, just like the code to make the cat fall.
+
 --- /hint ---
 
 --- hint ---
-Here are the code blocks you'll need:
+Here are the code blocks you need:
 
 ```blocks
 move (10) steps
@@ -52,12 +54,12 @@ end
 Press the green flag and check that the cats now move along the blue platform at the bottom.
 --- /task ---
 
-You will notice that, if you draw a bridge across the gap so that the cats can get all the way to the right edge of the screen, they end up getting stuck walking into the wall.
+If you draw a bridge across the gap so that the cats can get all the way to the right side of the Stage, you can see that they end up getting stuck walking into the right wall.
 
 ![Flailing cats at the edge](images/flailing-at-edge.png)
 
 --- task ---
-Remove the forever loop you added, and instead add a different loop to make the cats only walk until they reach an edge. When a cat reaches the edge of the screen, it should disappear.
+Remove the `forever`{:class="blockcontrol"} loop, and instead add a different loop to make the cats only walk until they reach an edge. When a cat reaches the edge of the Stage, it should disappear.
 
 ![Cat sprite](images/cat-sprite.png)
 
@@ -78,20 +80,23 @@ end
 --- /task ---
 
 --- task ---
-Press the green flag and check that the cats disappear when they reach the edge of the screen.
+Press the green flag and check that the cats disappear when they reach the edge of the Stage.
 
-You might notice that the cats don't disappear properly if they fall into the hole, they just get stuck at the bottom. This is because the sprite is getting stuck trying to fall!
 --- /task ---
 
-This is the part of the code which tells the cat to keep falling until it touches blue. However, in the hole the cat will never reach blue, so it is stuck forever.
+You may notice that, if the cats fall into the hole, they don't disappear but instead get stuck at the bottom. This is because they keep trying to fall downwards.
+
+This is the part of the code that tells the cat to keep falling until it touches blue:
 
 ```blocks
 repeat until <touching color [#0000ff]?>
 end
 ```
 
+However, in the hole, the cat can never reach blue, so it is stuck forever.
+
 --- task ---
-Add more blocks to this loop to tell it to repeat until it is touching blue `or`{:class="blockoperators"} `touching the edge`{:class="blocksensing"}. This way, the sprite will stop trying to fall if it reaches the edge of the screen.
+Add more blocks to this loop so that it repeats until the cat sprite is touching blue `or`{:class="blockoperators"} `touching the edge`{:class="blocksensing"}. This way, the sprite stops trying to fall if it reaches the edge of the Stage.
 
 ![Cat sprite](images/cat-sprite.png)
 
