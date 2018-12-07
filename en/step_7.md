@@ -1,13 +1,13 @@
 ## Challenge: more obstacles
 
-The level we have created at the moment is rather easy to win. Could you make your game harder?
+At the moment, the game is rather easy to win. Can you think of ideas to you make your game harder?
 
 + Add more backgrounds with different platform designs.
 
 + Move the location of the door depending on which background is displayed.
 
-+ Add some more sprites to represent moving obstacles. Perhaps you could have roaming dogs or rotating spikes for the cats to avoid?
++ Add more sprites as moving obstacles. Perhaps you could have roaming dogs or rotating spikes the cats need to avoid?
 
-+ Only allow the player to use a fixed amount of "ink" to draw extra lines on the game. You can keep track of how much "ink" is used by creating a variable and using the timer to time how long the mouse is held down.
++ Only allow the player to use a limited amount of "ink" to draw lines in the game. You can keep track of how much "ink" is used by creating a timer variable that records how long the mouse is held down.
 
-+ Create a sprite to represent to the player how much ink they have left.
++ Create a sprite to show the player how much ink is left.
