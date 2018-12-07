@@ -1,4 +1,4 @@
-## Cloning cats
+## Clone cats
 
 You want a never-ending stream of cats that the player has to guide along the path to the exit.
 
