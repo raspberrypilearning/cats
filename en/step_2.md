@@ -1,4 +1,4 @@
-## Drawing lines
+## Draw lines
 
 --- task ---
 Open the 'CATS!' Scratch starter project.
