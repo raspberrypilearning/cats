@@ -43,7 +43,7 @@ title: What you will need
 + Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
-+ [Offline starter project](resources/cats-resources.sb){:target="_blank"}
++ [Offline starter project](http://rpf.io/p/en/cats-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -55,5 +55,5 @@ title: Additional notes for educators
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/cats/print).
 --- /no-print ---
 
-You can [find the resources for this project here](http://rpf.io/p/cats-go){:target="_blank"}.
+You can [find the solution for this project here](http://rpf.io/p/en/cats-get){:target="_blank"}.
 --- /collapse ---

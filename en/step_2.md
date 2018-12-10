@@ -3,9 +3,17 @@
 --- task ---
 Open the 'CATS!' Scratch starter project.
 
-**Online:** open the starter project at [jumpto.cc/cats-go](http://jumpto.cc/cats-go){:target="_blank"}. If you have a Scratch account, you can click on **Remix** in the top right-hand corner to save a copy of the project.
+**Online:** open the starter project at [rpf.io/cats-on](http://rpf.io/cats-on){:target="_blank"}. If you have a Scratch account, you can click on **Remix** in the top right-hand corner to save a copy of the project.
 
 **Offline:** open the [starter project](resources/cats-resources.sb2) in the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+
+--- /task ---
+
+--- task ---
+
+Add the **Pen** extension to your project.
+
+[[[generic-scratch3-add-pen-extension]]]
 
 --- /task ---
 
