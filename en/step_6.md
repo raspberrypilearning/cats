@@ -3,27 +3,27 @@
 The object of the game is to guide the cats to safety by creating a path so they can reach the door. Create a score variable to keep track of how many cats reach the door.
 
 --- task ---
-Create a variable called `score`{:class="blockdata"}.
+Create a variable called `score`{:class="block3variables"}.
 
 ![Cat sprite](images/cat-sprite.png)
 
-[[[generic-scratch-add-variable]]]
+[[[generic-scratch3-add-variable]]]
 
 --- /task ---
 
 --- task ---
-Add code to your cat sprite to add `1` to the `score`{:class="blockdata"} each time a cat reaches the door. Also set `score`{:class="blockdata"} to `0` `when the flag is clicked`{:class="blockevents"} at the start of the game.
+Add code to your cat sprite to add `1` to the `score`{:class="block3variables"} each time a cat reaches the door. Also set `score`{:class="block3variables"} to `0` `when the flag is clicked`{:class="block3events"} at the start of the game.
 
 ![Cat sprite](images/cat-sprite.png)
 
 --- hints ---
 --- hint ---
-`If`{:class="blockcontrol"} the cat is `touching the door sprite`{:class="blocksensing"}, then `add 1 to the score`{:class="blockdata"}.
+`If`{:class="block3control"} the cat is `touching the door sprite`{:class="block3sensing"}, then `add 1 to the score`{:class="block3variables"}.
 --- /hint ---
 
 --- hint ---
 Here are the new code blocks you need to add to your `when I start as a clone` script:
-```blocks
+```blocks3
 change [score v] by (1)
 
 if <> then
@@ -36,7 +36,7 @@ end
 --- hint ---
 This is what your code should look like:
 
-```blocks
+```blocks3
 when I start as a clone
 show
 repeat until <touching [edge v]?>
@@ -69,7 +69,7 @@ Add some more code so that, when a cat sprite reaches the door, the cat makes a 
 
 ![Cat sprite](images/cat-sprite.png)
 
-```blocks
+```blocks3
 play sound [meow v]
 delete this clone
 ```

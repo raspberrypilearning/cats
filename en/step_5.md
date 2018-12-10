@@ -5,19 +5,19 @@ You might notice that, if you draw a low bridge between the two platforms, or a 
 ![Cats walking through the platform](images/cat-walk-through-platform.png)
 
 --- task ---
-In the code for the cat sprite, add another loop before the `next costume`{:class="blocklooks"} block. This time, the loop should tell the cat to move upwards by `2` until it is not touching blue.
+In the code for the cat sprite, add another loop before the `next costume`{:class="block3looks"} block. This time, the loop should tell the cat to move upwards by `2` until it is not touching blue.
 
 ![Cat sprite](images/cat-sprite.png)
 
 --- hints ---
 --- hint ---
-The cat should `move up 2`{:class="blockmotion"} `repeatedly until`{:class="blockcontrol"} it is `not`{:class="blockoperators"} `touching blue`{:class="blocksensing"}.
+The cat should `move up 2`{:class="block3motion"} `repeatedly until`{:class="block3control"} it is `not`{:class="block3operators"} `touching blue`{:class="block3sensing"}.
 --- /hint ---
 
 --- hint ---
 Here are the code blocks you need:
 
-```blocks
+```blocks3
 <touching color [#0000ff]?>
 
 change y by (2)
@@ -33,7 +33,7 @@ not <>
 --- hint ---
 This is what your code should look like:
 
-```blocks
+```blocks3
 when I start as a clone
 show
 repeat until <touching [edge v]?>

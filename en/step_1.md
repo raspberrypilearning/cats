@@ -1,3 +1,9 @@
+--- no-print ---
+
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/cats-scratch2).
+
+--- /no-print ---
+
 ## Introduction
 
 In this project, you will create a game in which you need to guide cats to safety and not let any of them fall through the gaps!
@@ -31,10 +37,10 @@ title: What you will learn
 title: What you will need
 ---
 ### Hardware
-+ A computer capable of running Scratch 2.0
++ A computer capable of running Scratch 3
 
 ### Software
-+ Scratch 2.0 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 + [Offline starter project](resources/cats-resources.sb){:target="_blank"}

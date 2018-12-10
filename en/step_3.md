@@ -3,11 +3,11 @@
 You want a never-ending stream of cats that the player has to guide along the path to the exit.
 
 --- task ---
-Click on the sprite called 'Cat', and add some code to `hide`{:class="blocklooks"} the sprite, and also to `clone`{:class="blockcontrol"} it every three seconds.
+Click on the sprite called 'Cat', and add some code to `hide`{:class="block3looks"} the sprite, and also to `clone`{:class="block3control"} it every three seconds.
 
 ![Cat sprite](images/cat-sprite.png)
 
-```blocks
+```blocks3
 when flag clicked
 hide
 forever
@@ -22,19 +22,19 @@ end
 If you run the program now, nothing happens on the Stage. To check that a new Cat sprite clone is created every three seconds, make each clone appear and fall out of the sky.
 
 --- task ---
-Add code to tell the sprite that `when it starts as a clone`{:class="blockcontrol"}, it should `show`{:class="blocklooks"} itself and fall until it `touches`{:class="blocksensing"} the blue floor that is drawn on the Stage.
+Add code to tell the sprite that `when it starts as a clone`{:class="block3control"}, it should `show`{:class="block3looks"} itself and fall until it `touches`{:class="block3sensing"} the blue floor that is drawn on the Stage.
 
 ![Cat sprite](images/cat-sprite.png)
 
 --- hints ---
 --- hint ---
-`When the sprite starts as a clone`{:class="blockcontrol"}, `show`{:class="blocklooks"} the sprite. `Repeatedly`{:class="blockcontrol"} `Change`{:class="blockmotion"} the sprite's `y` coordinate by `-2`, until the sprite `touches`{:class="blocksensing"} the blue Stage.
+`When the sprite starts as a clone`{:class="block3control"}, `show`{:class="block3looks"} the sprite. `Repeatedly`{:class="block3control"} `Change`{:class="block3motion"} the sprite's `y` coordinate by `-2`, until the sprite `touches`{:class="block3sensing"} the blue Stage.
 --- /hint ---
 
 --- hint ---
 Here are the code blocks you need:
 
-```blocks
+```blocks3
 repeat until <>
 end
 
@@ -51,7 +51,7 @@ when I start as a clone
 --- hint ---
 This is what your code should look like:
 
-```blocks
+```blocks3
 when I start as a clone
 show
 repeat until <touching color [#0000ff]?>

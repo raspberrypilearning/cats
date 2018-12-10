@@ -3,21 +3,21 @@
 Once a cat reaches the floor, it should step slowly to the right.
 
 --- task ---
-Add code to the `when I start as a clone`{:class="blockcontrol"} section to make the cat sprite `move ten steps`{:class="blockmotion"}, and switch between the sprite's two costumes every 0.1 seconds to make the cat look like it's walking.
+Add code to the `when I start as a clone`{:class="block3control"} section to make the cat sprite `move ten steps`{:class="block3motion"}, and switch between the sprite's two costumes every 0.1 seconds to make the cat look like it's walking.
 
 ![Cat sprite](images/cat-sprite.png)
 
 --- hints ---
 --- hint ---
 
-The cat sprite should `move 10 steps`{:class="blockmotion"}, and `switch costume`{:class="blocklooks"} every `0.1 seconds`{:class="blockcontrol"}. This code should repeat `forever`{:class="blockcontrol"}, just like the code to make the cat fall.
+The cat sprite should `move 10 steps`{:class="block3motion"}, and `switch costume`{:class="block3looks"} every `0.1 seconds`{:class="block3control"}. This code should repeat `forever`{:class="block3control"}, just like the code to make the cat fall.
 
 --- /hint ---
 
 --- hint ---
 Here are the code blocks you need:
 
-```blocks
+```blocks3
 move (10) steps
 
 wait (0.1) secs
@@ -32,7 +32,7 @@ end
 --- hint ---
 This is what your code should look like:
 
-```blocks
+```blocks3
 when I start as a clone
 show
 forever
@@ -59,11 +59,11 @@ If you draw a bridge across the gap so that the cats can get all the way to the 
 ![Flailing cats at the edge](images/flailing-at-edge.png)
 
 --- task ---
-Remove the `forever`{:class="blockcontrol"} loop, and instead add a different loop to make the cats only walk until they reach an edge. When a cat reaches the edge of the Stage, it should disappear.
+Remove the `forever`{:class="block3control"} loop, and instead add a different loop to make the cats only walk until they reach an edge. When a cat reaches the edge of the Stage, it should disappear.
 
 ![Cat sprite](images/cat-sprite.png)
 
-```blocks
+```blocks3
 when I start as a clone
 show
 + repeat until <touching [edge v]?>
@@ -88,7 +88,7 @@ You may notice that, if the cats fall into the hole, they don't disappear but in
 
 This is the part of the code that tells the cat to keep falling until it touches blue:
 
-```blocks
+```blocks3
 repeat until <touching color [#0000ff]?>
 end
 ```
@@ -96,11 +96,11 @@ end
 However, in the hole, the cat can never reach blue, so it is stuck forever.
 
 --- task ---
-Add more blocks to this loop so that it repeats until the cat sprite is touching blue `or`{:class="blockoperators"} `touching the edge`{:class="blocksensing"}. This way, the sprite stops trying to fall if it reaches the edge of the Stage.
+Add more blocks to this loop so that it repeats until the cat sprite is touching blue `or`{:class="block3operators"} `touching the edge`{:class="block3sensing"}. This way, the sprite stops trying to fall if it reaches the edge of the Stage.
 
 ![Cat sprite](images/cat-sprite.png)
 
-```blocks
+```blocks3
 repeat until <<touching color [#0000ff]?> or <touching [edge v]?>>
 end
 ```

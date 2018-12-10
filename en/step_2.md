@@ -14,14 +14,14 @@ Click on the sprite called 'Pen', and add code to set the pen colour to the same
 
 ![Pen sprite](images/pen-sprite.png)
 
-```blocks
+```blocks3
 when flag clicked
 set pen color to [#0000ff]
 clear
 set pen size to (5)
 ```
 
-To select a colour, click on the colour square in the `set pen color`{:class="blockpen"} block to make your mouse cursor turn into a pipette, and then click on the correct colour on the Stage.
+To select a colour, click on the colour square in the `set pen color`{:class="block3extensions"} block to make your mouse cursor turn into a pipette, and then click on the correct colour on the Stage.
 
 --- /task ---
 
@@ -30,13 +30,13 @@ Add some more code to make the sprite follow the mouse pointer. Test your progra
 
 ![Pen sprite](images/pen-sprite.png)
 
-```blocks
+```blocks3
 forever
 go to [mouse pointer v]
 end
 ```
 
-[[[generic-scratch-saving]]]
+[[[generic-scratch3-saving]]]
 
 --- /task ---
 
@@ -47,13 +47,13 @@ Add some code to tell the sprite to draw a line on the Stage if the mouse button
 
 --- hints ---
 --- hint ---
-`If`{:class="blockcontrol"} the `mouse is down`{:class="blocksensing"}, put the `pen down`{:class="blockpen"}, and `else`{:class="blockcontrol"}, lift the `pen up`{:class="blockpen"}.
+`If`{:class="block3control"} the `mouse is down`{:class="block3sensing"}, put the `pen down`{:class="block3extensions"}, and `else`{:class="block3control"}, lift the `pen up`{:class="block3extensions"}.
 --- /hint ---
 
 --- hint ---
 Here are the code blocks you need:
 
-```blocks
+```blocks3
 <mouse down?>
 
 pen down
@@ -69,7 +69,7 @@ end
 --- hint ---
 This is what your code should look like:
 
-```blocks
+```blocks3
 when flag clicked
 set pen color to [#0000ff]
 clear
@@ -97,11 +97,11 @@ Test your code. You should be able to click and drag with the mouse to draw a bl
 You probably see that a blue dot always appears in the top right-hand corner of the Stage (it's circled in the image above). This is because, when you click the green flag to start the game, you press the mouse down, and so the pen immediately starts drawing.
 
 --- task ---
-To stop this from happening, add a `pen up`{:class="blockpen"} block at the start of the script, and a `wait one second`{:class="blockcontrol"} block above the `forever`{:class="blockcontrol"} block.
+To stop this from happening, add a `pen up`{:class="block3extensions"} block at the start of the script, and a `wait one second`{:class="block3control"} block above the `forever`{:class="block3control"} block.
 
 ![Pen sprite](images/pen-sprite.png)
 
-```blocks
+```blocks3
 when flag clicked
 + pen up
 set pen color to [#0000ff]
