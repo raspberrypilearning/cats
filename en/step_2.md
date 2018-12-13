@@ -11,7 +11,7 @@ Open the 'CATS!' Scratch starter project.
 
 --- task ---
 
-Add the **Pen** extension to your project.
+Add the Pen extension to your project.
 
 [[[generic-scratch3-add-pen-extension]]]
 
