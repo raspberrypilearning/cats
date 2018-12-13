@@ -13,4 +13,5 @@ steps:
 - title: Stick to the lines
 - title: Get to safety
 - title: "Challenge: more obstacles"
+  challenge: true
 - title: What next?
