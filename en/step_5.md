@@ -41,9 +41,9 @@ repeat until <touching [edge v]?>
     repeat until <touching color [#0000ff]?>
         change y by (-2)
     end
-    + repeat until <not <touching color [#0000ff]?>>
-        + change y by (2)
-    + end
++       repeat until <not <touching color [#0000ff]?>>
++       change y by (2)
++   end
     next costume
     wait (0.1) secs
 end
