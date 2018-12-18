@@ -66,7 +66,7 @@ Remove the `forever`{:class="block3control"} loop, and instead add a different l
 ```blocks3
 when I start as a clone
 show
-+ repeat until <touching [edge v]?>
++ repeat until <touching (edge v)?>
     move (10) steps
     repeat until <touching color [#0000ff]?>
         change y by (-2)
@@ -101,7 +101,7 @@ Add more blocks to this loop so that it repeats until the cat sprite is touching
 ![Cat sprite](images/cat-sprite.png)
 
 ```blocks3
-repeat until <<touching color [#0000ff]?> or <touching [edge v]?>>
+repeat until <<touching color [#0000ff]?> or <touching (edge v)?>>
 end
 ```
 --- /task ---

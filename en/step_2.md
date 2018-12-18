@@ -40,7 +40,7 @@ Add some more code to make the sprite follow the mouse pointer. Test your progra
 
 ```blocks3
 forever
-go to [mouse pointer v]
+go to (mouse pointer v)
 end
 ```
 
@@ -83,7 +83,7 @@ set pen color to [#0000ff]
 erase all
 set pen size to (5)
 forever
-go to [mouse pointer v]
+go to (mouse pointer v)
 if <mouse down?> then
 pen down
 else

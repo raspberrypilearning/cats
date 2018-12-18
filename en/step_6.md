@@ -29,7 +29,7 @@ change [score v] by (1)
 if <> then
 end
 
-<touching [Door v]?>
+<touching (Door v)?>
 ```
 --- /hint ---
 
@@ -39,7 +39,7 @@ This is what your code should look like:
 ```blocks3
 when I start as a clone
 show
-repeat until <touching [edge v]?>
+repeat until <touching (edge v)?>
     move (10) steps
     repeat until <touching color [#0000ff]?>
         change y by (-2)
@@ -49,9 +49,9 @@ repeat until <touching [edge v]?>
     end
     next costume
     wait (0.1) secs
-    + if <touching [Door v]?> then
-        + change [score v] by (1)
-    + end
++   if <touching (Door v)?> then
+        change [score v] by (1)
+    end
 end
 delete this clone
 
@@ -70,7 +70,7 @@ Add some more code so that, when a cat sprite reaches the door, the cat makes a 
 ![Cat sprite](images/cat-sprite.png)
 
 ```blocks3
-play sound [meow v]
+play sound (meow v)
 delete this clone
 ```
 --- /task ---

@@ -11,7 +11,7 @@ Click on the sprite called 'Cat', and add some code to `hide`{:class="block3look
 when flag clicked
 hide
 forever
-    create clone of [myself v]
+    create clone of (myself v)
     wait (3) secs
 end
 ```
