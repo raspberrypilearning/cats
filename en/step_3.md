@@ -12,7 +12,7 @@ when flag clicked
 hide
 forever
     create clone of (myself v)
-    wait (3) secs
+    wait (3) seconds
 end
 ```
 

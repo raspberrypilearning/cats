@@ -20,7 +20,7 @@ Here are the code blocks you need:
 ```blocks3
 move (10) steps
 
-wait (0.1) secs
+wait (0.1) seconds
 
 next costume
 
@@ -41,7 +41,7 @@ forever
         change y by (-2)
     end
     next costume
-    wait (0.1) secs
+    wait (0.1) seconds
 end
 ```
 
@@ -72,7 +72,7 @@ show
         change y by (-2)
     end
     next costume
-    wait (0.1) secs
+    wait (0.1) seconds
 end
 + delete this clone
 ```

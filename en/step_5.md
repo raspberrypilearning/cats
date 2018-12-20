@@ -45,7 +45,7 @@ repeat until <touching (edge v)?>
         change y by (2)
     end
     next costume
-    wait (0.1) secs
+    wait (0.1) seconds
 end
 delete this clone
 ```
