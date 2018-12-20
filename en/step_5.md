@@ -17,38 +17,14 @@ The cat should `move up 2`{:class="block3motion"} `repeatedly until`{:class="blo
 --- hint ---
 Here are the code blocks you need:
 
-```blocks3
-<touching color [#0000ff]?>
-
-change y by (2)
-
-repeat until <>
-end
-
-not <>
-```
+![blocks_1545308552_5346677](images/blocks_1545308552_5346677.png)
 
 --- /hint ---
 
 --- hint ---
 This is what your code should look like:
 
-```blocks3
-when I start as a clone
-show
-repeat until <touching (edge v)?>
-    move (10) steps
-    repeat until <touching color [#0000ff]?>
-        change y by (-2)
-    end
-    repeat until <not <touching color [#0000ff]?>>
-        change y by (2)
-    end
-    next costume
-    wait (0.1) seconds
-end
-delete this clone
-```
+![blocks_1545308553_6860702](images/blocks_1545308553_6860702.png)
 --- /hint ---
 
 --- /hints ---
