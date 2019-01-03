@@ -36,6 +36,7 @@ title: What you will learn
 ---
 title: What you will need
 ---
+
 ### Hardware
 + A computer capable of running Scratch 3
 

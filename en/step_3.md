@@ -7,7 +7,7 @@ Click on the sprite called 'Cat', and add some code to `hide`{:class="block3look
 
 ![Cat sprite](images/cat-sprite.png)
 
-![blocks_1545308543_543612](images/blocks_1545308543_543612.png)
+![blocks_1546523189_9430156](images/blocks_1546523189_9430156.png)
 
 --- /task ---
 
@@ -27,13 +27,13 @@ Add code to tell the sprite that `when it starts as a clone`{:class="block3contr
 --- hint ---
 Here are the code blocks you need:
 
-![blocks_1545308544_671204](images/blocks_1545308544_671204.png)
+![blocks_1546523191_525275](images/blocks_1546523191_525275.png)
 --- /hint ---
 
 --- hint ---
 This is what your code should look like:
 
-![blocks_1545308545_7902193](images/blocks_1545308545_7902193.png)
+![blocks_1546523193_1556864](images/blocks_1546523193_1556864.png)
 
 --- /hint ---
 --- /hints ---
