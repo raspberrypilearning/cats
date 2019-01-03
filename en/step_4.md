@@ -1,33 +1,69 @@
-## Cloning cats
+## Make the cats move
 
-We want to generate an infinite stream of cats that the player will guide along the path to the exit.
+Once a cat reaches the floor, it should step slowly to the right.
 
-+ Click on the sprite called **Cat**, and add some code to make it invisible, and also to clone it every three seconds.
+--- task ---
+Add code to the `when I start as a clone`{:class="block3control"} section to make the cat sprite `move ten steps`{:class="block3motion"}, and switch between the sprite's two costumes every 0.1 seconds to make the cat look like it's walking.
 
-![Clone a cat](images/clone-a-cat.png)
-
-If you run the program at the moment, nothing will happen. Let's make each cloned cat appear and fall out of the sky, so we can check that a new one is being created every three seconds.
-
-+ Add some code to tell the sprite that when it starts as a clone, it should become visible and fall until it reaches the blue floor which is drawn on the stage
+![Cat sprite](images/cat-sprite.png)
 
 --- hints ---
 --- hint ---
-`When the sprite starts as a clone`  `show` the sprite. `Repeat` this until it `touches` the blue stage. `Change` the y coordinate of the sprite by `-2`.
+
+The cat sprite should `move 10 steps`{:class="block3motion"}, and `switch costume`{:class="block3looks"} every `0.1 seconds`{:class="block3control"}. This code should repeat `forever`{:class="block3control"}, just like the code to make the cat fall.
+
 --- /hint ---
 
 --- hint ---
-Here are the code blocks you'll need:
+Here are the code blocks you need:
 
-![Drawing with the pen hint](images/falling-cat-hint.png)
+![blocks_1545308546_953475](images/blocks_1545308546_953475.png)
 --- /hint ---
 
 --- hint ---
 This is what your code should look like:
-![Drawing with the pen solution](images/falling-cat-solution.png)
+
+![blocks_1545308548_0908809](images/blocks_1545308548_0908809.png)
+
 --- /hint ---
 
 --- /hints ---
+--- /task ---
 
-When you press the green flag, you should see a new cat falling out of the sky every three seconds and landing in a big pile of overlapping cats on the blue floor at the bottom.
+--- task ---
+Press the green flag and check that the cats now move along the blue platform at the bottom.
+--- /task ---
 
-![Falling cats](images/falling-cats.png)
+If you draw a bridge across the gap so that the cats can get all the way to the right side of the Stage, you can see that they end up getting stuck walking into the right wall.
+
+![Flailing cats at the edge](images/flailing-at-edge.png)
+
+--- task ---
+Remove the `forever`{:class="block3control"} loop, and instead add a different loop to make the cats only walk until they reach an edge. When a cat reaches the edge of the Stage, it should disappear.
+
+![Cat sprite](images/cat-sprite.png)
+
+![blocks_1545308549_2374334](images/blocks_1545308549_2374334.png)
+
+--- /task ---
+
+--- task ---
+Press the green flag and check that the cats disappear when they reach the edge of the Stage.
+
+--- /task ---
+
+You may notice that, if the cats fall into the hole, they don't disappear but instead get stuck at the bottom. This is because they keep trying to fall downwards.
+
+This is the part of the code that tells the cat to keep falling until it touches blue:
+
+![blocks_1545308550_3750215](images/blocks_1545308550_3750215.png)
+
+However, in the hole, the cat can never reach blue, so it is stuck forever.
+
+--- task ---
+Add more blocks to this loop so that it repeats until the cat sprite is touching blue `or`{:class="block3operators"} `touching the edge`{:class="block3sensing"}. This way, the sprite stops trying to fall if it reaches the edge of the Stage.
+
+![Cat sprite](images/cat-sprite.png)
+
+![blocks_1545308551_4344578](images/blocks_1545308551_4344578.png)
+--- /task ---

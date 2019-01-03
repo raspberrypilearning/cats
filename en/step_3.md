@@ -1,64 +1,45 @@
-## Drawing lines
+## Clone cats
 
-+ Open the starter project
+You want a never-ending stream of cats that the player has to guide along the path to the exit.
 
---- collapse ---
----
-title: I'm using Scratch online
----
+--- task ---
+Click on the sprite called 'Cat', and add some code to `hide`{:class="block3looks"} the sprite, and also to `clone`{:class="block3control"} it every three seconds.
 
-+ Open the 'CATS!' Scratch starter project at [jumpto.cc/cats-go](http://jumpto.cc/cats-go){:target="_blank"}.
+![Cat sprite](images/cat-sprite.png)
 
-+ If you have a Scratch account, you can click on **Remix** in the top right-hand corner to save a copy of the project to your account.
+![blocks_1545308543_543612](images/blocks_1545308543_543612.png)
+
+--- /task ---
 
 
---- /collapse ---
+If you run the program now, nothing happens on the Stage. To check that a new Cat sprite clone is created every three seconds, make each clone appear and fall out of the sky.
 
---- collapse ---
----
-title: I'm using Scratch offline
----
+--- task ---
+Add code to tell the sprite that `when it starts as a clone`{:class="block3control"}, it should `show`{:class="block3looks"} itself and fall until it `touches`{:class="block3sensing"} the blue floor that is drawn on the Stage.
 
-Download the Scratch starter project at [rpf.io/cats-off](http://rpf.io/cats-off){:target="_blank"} and open it using the offline editor.
-
---- /collapse ---
-
-+ Click on the sprite called **Pen**, and add code to set the pen colour to the same blue as the obstacles on the stage. Clear the screen and set the pen size to 5.
-
-![Set pen color](images/pen-color.png)
-
-You can select a colour by clicking on the colour block (circled) to get the pipette cursor, followed by clicking on the colour you want on the stage.
-
-+ Add some more code to make the sprite follow the mouse pointer. Test your program to check that the code works.
-
-[[[generic-scratch-saving]]]
-
-+ Add some code to tell the sprite to draw a line on the stage if the mouse button is pressed down.
+![Cat sprite](images/cat-sprite.png)
 
 --- hints ---
 --- hint ---
-`If` the `mouse is down`, put the `pen down`. `Else` put the `pen up`.
+`When the sprite starts as a clone`{:class="block3control"}, `show`{:class="block3looks"} the sprite. `Repeatedly`{:class="block3control"} `Change`{:class="block3motion"} the sprite's `y` coordinate by `-2`, until the sprite `touches`{:class="block3sensing"} the blue Stage.
 --- /hint ---
 
 --- hint ---
-Here are the code blocks you'll need:
+Here are the code blocks you need:
 
-![Drawing with the pen hint](images/draw-with-pen-hint.png)
+![blocks_1545308544_671204](images/blocks_1545308544_671204.png)
 --- /hint ---
 
 --- hint ---
 This is what your code should look like:
-![Drawing with the pen solution](images/draw-with-pen-solution.png)
---- /hint ---
 
+![blocks_1545308545_7902193](images/blocks_1545308545_7902193.png)
+
+--- /hint ---
 --- /hints ---
 
-+ Test your code. You should be able to click and drag with the mouse to draw a blue line on the screen.
+--- /task ---
 
-![Draw a line](images/draw-a-line.png)
+When you click the green flag, you should see a new cat fall from the top of the Stage every three seconds. Every cat should land in a big pile of overlapping cats on the blue floor at the bottom.
 
-You will probably notice that a blue dot always appears in the top right corner of your stage (circled in red). This is because when you click the green flag to start the game, the mouse is pressed down so the pen immediately starts drawing.
-
-+ Add a block to wait one second before the `forever` block to stop this from happening.
-
-![Wait half a second](images/wait-half-second.png)
+![Falling cats](images/falling-cats.png)

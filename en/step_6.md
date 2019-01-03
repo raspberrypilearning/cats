@@ -1,28 +1,45 @@
-## Sticking to the lines
+## Get to safety
 
-When testing your game, you might notice that if you draw a low bridge between the two platforms, or a line that slopes upwards, the cats end up walking through the platform rather than on top of it!
+The object of the game is to guide the cats to safety by creating a path so they can reach the door. Create a score variable to keep track of how many cats reach the door.
 
-![Cats walking through the platform](images/cat-walk-through-platform.png)
+--- task ---
+Create a variable called `score`{:class="block3variables"}.
 
-+ In the code for the cat sprite, add another loop after the loop which makes the cat fall. This time, the loop should tell the cat to move upwards by two until it is not touching blue.
+![Cat sprite](images/cat-sprite.png)
 
-![Add code here](images/add-code-here.png)
+[[[generic-scratch3-add-variable]]]
+
+--- /task ---
+
+--- task ---
+Add code to your cat sprite to add `1` to the `score`{:class="block3variables"} each time a cat reaches the door. Also set `score`{:class="block3variables"} to `0` `when the flag is clicked`{:class="block3events"} at the start of the game.
+
+![Cat sprite](images/cat-sprite.png)
 
 --- hints ---
 --- hint ---
-The cat should`move up 2`, and this should `repeat until it is not touching blue`.
+`If`{:class="block3control"} the cat is `touching the door sprite`{:class="block3sensing"}, then `add 1 to the score`{:class="block3variables"}.
 --- /hint ---
 
 --- hint ---
-Here are the code blocks you'll need:
-![Moving up hint](images/move-up-hint.png)
+Here are the new code blocks you need to add to your `when I start as a clone` script:
+![blocks_1545308554_8498144](images/blocks_1545308554_8498144.png)
 --- /hint ---
 
 --- hint ---
 This is what your code should look like:
-![Moving up hint](images/move-up-solution.png)
+
+![blocks_1545308555_9954875](images/blocks_1545308555_9954875.png)
 --- /hint ---
 
 --- /hints ---
 
-+ Click the green flag and try drawing a line which slopes upwards. Check that your cat follows the line.
+--- /task ---
+
+--- task ---
+Add some more code so that, when a cat sprite reaches the door, the cat makes a 'meow' sound and then disappears.
+
+![Cat sprite](images/cat-sprite.png)
+
+![blocks_1545308557_2110806](images/blocks_1545308557_2110806.png)
+--- /task ---

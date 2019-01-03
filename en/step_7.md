@@ -1,30 +1,13 @@
-## Getting to safety
+## Challenge: more obstacles
 
-The object of the game is to guide the cats to safety by creating a safe path for them to reach the door. Let's make a score variable to keep track of how many cats have successfully reached the door.
+At the moment, the game is rather easy to win. Can you think of ideas to you make your game harder?
 
-+ Create a variable called `score`.
++ Add more backgrounds with different platform designs.
 
-[[[generic-scratch-add-variable]]]
++ Move the location of the door depending on which background is displayed.
 
-+ Add some code to your cat sprite to add one to the score each time a cat reaches the door. Don't forget to also set the score to zero at the start of the game.
++ Add more sprites as moving obstacles. Perhaps you could have roaming dogs or rotating spikes the cats need to avoid?
 
---- hints ---
---- hint ---
-`If` the cat is `touching the door sprite`, then `add 1 to the score`.
---- /hint ---
++ Only allow the player to use a limited amount of "ink" to draw lines in the game. You can keep track of how much "ink" is used by creating a timer variable that records how long the mouse is held down.
 
---- hint ---
-Here are the new code blocks you'll need to add:
-![Score points hint](images/score-points-hint.png)
---- /hint ---
-
---- hint ---
-This is what your code should look like:
-![Score points solution](images/score-points-solution.png)
---- /hint ---
-
---- /hints ---
-
-+ Add some more code so that a cat sprite that reaches the door makes a 'meow' sound and then disappears.
-
-![Play meow](images/play-meow.png)
++ Create a sprite to show the player how much ink is left.

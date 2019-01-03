@@ -1,62 +1,35 @@
-## Moving cats
+## Stick to the lines
 
-When a cat has appeared and fallen until it reaches the floor, we want it to step slowly to the right.
+You might notice that, if you draw a low bridge between the two platforms, or a line that slopes upwards, the cats end up walking through the platform rather than on top of it!
 
-+ Add some code to the `when I start as a clone` section to make the cat sprite move ten steps, and switch between the two costumes every 0.1 seconds to make it look like the cat is walking.
+![Cats walking through the platform](images/cat-walk-through-platform.png)
 
-![Two costumes](images/two-costumes.png)
+--- task ---
+In the code for the cat sprite, add another loop before the `next costume`{:class="block3looks"} block. This time, the loop should tell the cat to move upwards by `2` until it is not touching blue.
+
+![Cat sprite](images/cat-sprite.png)
 
 --- hints ---
 --- hint ---
-The cat sprite should `move 10 steps`, and `switch costume` every `0.1 seconds`. This code (as well as the code to make the cat fall) should repeat `forever`.
+The cat should `move up 2`{:class="block3motion"} `repeatedly until`{:class="block3control"} it is `not`{:class="block3operators"} `touching blue`{:class="block3sensing"}.
 --- /hint ---
 
 --- hint ---
-Here are the code blocks you'll need:
-![Moving cat hint](images/moving-cat-hint.png)
+Here are the code blocks you need:
+
+![blocks_1545308552_5346677](images/blocks_1545308552_5346677.png)
+
 --- /hint ---
 
 --- hint ---
 This is what your code should look like:
-![Moving cat hint](images/moving-cat-solution.png)
+
+![blocks_1545308553_6860702](images/blocks_1545308553_6860702.png)
 --- /hint ---
 
 --- /hints ---
+--- /task ---
 
-+ Press the green flag and check that the cats now move along the blue platform at the bottom.
-
-You will notice that, if you draw a bridge across the gap so that the cats can get all the way to the right edge of the screen, they end up getting stuck walking into the wall.
-
-![Flailing cats at the edge](images/flailing-at-edge.png)
-
-+ Remove the forever loop you added, and instead add a different loop to make the cats only walk until they reach an edge. When a cat reaches the edge of the screen, it should disappear.
-
---- hints ---
---- hint ---
-Remove the forever loop and replace it with a different loop which repeats `until the cats are touching the edge`. Once they reach an edge, add a block to `delete the clone`, which will make the cat disappear.
---- /hint ---
-
---- hint ---
-Here are the new code blocks you'll need to add:
-
-![Disappear at edge hint](images/disappear-at-edge-hint.png)
---- /hint ---
-
---- hint ---
-This is what your code should look like:
-![Disappear at edge solution](images/disappear-at-edge-solution.png)
---- /hint ---
-
---- /hints ---
-
-+ Press the green flag and check that the cats disappear when they reach the edge of the screen.
-
-You might notice that the cats don't disappear properly if they fall into the hole, they just get stuck at the bottom. This is because the sprite is getting stuck trying to fall!
-
-This code tells the cat to keep falling until it touches blue. However, in the hole the cat will never reach blue, so it is stuck forever.
-
-![Cats get stuck](images/cats-get-stuck.png)
-
-+ Add more blocks to this loop to tell it to repeat until it is touching blue `or touching the edge`. This way, the sprite will stop trying to fall if it reaches the edge of the screen.
-
-![Cats disappear properly at the bottom](images/disappear-at-bottom.png)
+--- task ---
+Click the green flag and try drawing a line that slopes upwards. Check that your cat follows this line.
+--- /task ---

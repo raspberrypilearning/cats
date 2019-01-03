@@ -1,9 +1,82 @@
-## What you will need
+## Draw lines
 
-### Hardware
+--- task ---
+Open the 'CATS!' Scratch starter project.
 
-+ A computer capable of running Scratch
+**Online:** open the starter project at [rpf.io/cats-on](http://rpf.io/cats-on){:target="_blank"}. If you have a Scratch account, you can click on **Remix** in the top right-hand corner to save a copy of the project.
 
-### Software
+**Offline:** open the [starter project](resources/cats-resources.sb2) in the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
-+ Scratch 2.0 (either [online](https://scratch.mit.edu/projects/editor/){:target="_blank"} or [offline](https://scratch.mit.edu/scratch2download/){:target="_blank"})
+--- /task ---
+
+--- task ---
+
+Add the Pen extension to your project.
+
+[[[generic-scratch3-add-pen-extension]]]
+
+--- /task ---
+
+--- task ---
+Click on the sprite called 'Pen', and add code to set the pen colour to the same blue as the obstacles on the Stage.
+
+![Pen sprite](images/pen-sprite.png)
+
+![blocks_1545308537_2836804](images/blocks_1545308537_2836804.png)
+
+To select a colour, click on the colour square in the `set pen color`{:class="block3extensions"} block to make your mouse cursor turn into a pipette, and then click on the correct colour on the Stage.
+
+--- /task ---
+
+--- task ---
+Add some more code to make the sprite follow the mouse pointer. Test your program to check that the code works.
+
+![Pen sprite](images/pen-sprite.png)
+
+![blocks_1545308539_1245933](images/blocks_1545308539_1245933.png)
+
+[[[generic-scratch3-saving]]]
+
+--- /task ---
+
+--- task ---
+Add some code to tell the sprite to draw a line on the Stage if the mouse button is pressed down.
+
+![Pen sprite](images/pen-sprite.png)
+
+--- hints ---
+--- hint ---
+`If`{:class="block3control"} the `mouse is down`{:class="block3sensing"}, put the `pen down`{:class="block3extensions"}, and `else`{:class="block3control"}, lift the `pen up`{:class="block3extensions"}.
+--- /hint ---
+
+--- hint ---
+Here are the code blocks you need:
+
+![blocks_1545308540_235795](images/blocks_1545308540_235795.png)
+--- /hint ---
+
+--- hint ---
+This is what your code should look like:
+
+![blocks_1545308541_3424644](images/blocks_1545308541_3424644.png)
+--- /hint ---
+
+--- /hints ---
+--- /task ---
+
+--- task ---
+Test your code. You should be able to click and drag with the mouse to draw a blue line on the Stage.
+
+![Draw a line](images/draw-a-line.png)
+
+--- /task ---
+
+You probably see that a blue dot always appears in the top right-hand corner of the Stage (it's circled in the image above). This is because, when you click the green flag to start the game, you press the mouse down, and so the pen immediately starts drawing.
+
+--- task ---
+To stop this from happening, add a `pen up`{:class="block3extensions"} block at the start of the script, and a `wait one second`{:class="block3control"} block above the `forever`{:class="block3control"} block.
+
+![Pen sprite](images/pen-sprite.png)
+
+![blocks_1545308542_4413762](images/blocks_1545308542_4413762.png)
+--- /task ---
