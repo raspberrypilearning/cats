@@ -22,7 +22,12 @@ Click on the sprite called 'Pen', and add code to set the pen colour to the same
 
 ![Pen sprite](images/pen-sprite.png)
 
-![blocks_1546523181_0339963](images/blocks_1546523181_0339963.png)
+```blocks3
+when flag clicked
+set pen color to [#0000ff]
+erase all
+set pen size to (5)
+```
 
 To select a colour, click on the colour square in the `set pen color`{:class="block3extensions"} block to make your mouse cursor turn into a pipette, and then click on the correct colour on the Stage.
 
@@ -33,7 +38,11 @@ Add some more code to make the sprite follow the mouse pointer. Test your progra
 
 ![Pen sprite](images/pen-sprite.png)
 
-![blocks_1546523183_5036154](images/blocks_1546523183_5036154.png)
+```blocks3
+forever
+go to (mouse pointer v)
+end
+```
 
 [[[generic-scratch3-saving]]]
 
@@ -52,13 +61,35 @@ Add some code to tell the sprite to draw a line on the Stage if the mouse button
 --- hint ---
 Here are the code blocks you need:
 
-![blocks_1546523185_067623](images/blocks_1546523185_067623.png)
+```blocks3
+<mouse down?>
+
+pen down
+
+pen up
+
+if <> then
+else
+end
+```
 --- /hint ---
 
 --- hint ---
 This is what your code should look like:
 
-![blocks_1546523186_657791](images/blocks_1546523186_657791.png)
+```blocks3
+when flag clicked
+set pen color to [#0000ff]
+erase all
+set pen size to (5)
+forever
+go to (mouse pointer v)
++ if <mouse down?> then
+pen down
+else
+pen up
+end
+```
 --- /hint ---
 
 --- /hints ---
@@ -78,5 +109,19 @@ To stop this from happening, add a `pen up`{:class="block3extensions"} block at 
 
 ![Pen sprite](images/pen-sprite.png)
 
-![blocks_1546523188_271263](images/blocks_1546523188_271263.png)
+```blocks3
+when flag clicked
++ pen up
+set pen color to [#0000ff]
+erase all
+set pen size to (5)
++ wait (1) seconds
+forever
+go to (mouse pointer v)
+if <mouse down?> then
+pen down
+else
+pen up
+end
+```
 --- /task ---

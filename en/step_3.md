@@ -7,7 +7,14 @@ Click on the sprite called 'Cat', and add some code to `hide`{:class="block3look
 
 ![Cat sprite](images/cat-sprite.png)
 
-![blocks_1546523189_9430156](images/blocks_1546523189_9430156.png)
+```blocks3
+when flag clicked
+hide
+forever
+    create clone of (myself v)
+    wait (3) seconds
+end
+```
 
 --- /task ---
 
@@ -27,13 +34,30 @@ Add code to tell the sprite that `when it starts as a clone`{:class="block3contr
 --- hint ---
 Here are the code blocks you need:
 
-![blocks_1546523191_525275](images/blocks_1546523191_525275.png)
+```blocks3
+repeat until <>
+end
+
+show
+
+<touching color [#0000ff]?>
+
+change y by (-2)
+
+when I start as a clone
+```
 --- /hint ---
 
 --- hint ---
 This is what your code should look like:
 
-![blocks_1546523193_1556864](images/blocks_1546523193_1556864.png)
+```blocks3
+when I start as a clone
+show
+repeat until <touching color [#0000ff]?>
+change y by (-2)
+end
+```
 
 --- /hint ---
 --- /hints ---
