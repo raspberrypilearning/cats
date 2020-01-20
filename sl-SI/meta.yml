@@ -1,0 +1,26 @@
+---
+title: MAČKE!
+hero_image: images/banner.png
+description: Ustvari igro, v kateri boš na varno vodil-a mačke, da ne padejo v luknjo
+listed: true
+copyedit: true
+version: 4.0.2
+last_tested: 2018-10-18
+steps:
+  - 
+    title: Uvod
+  - 
+    title: Nariši črte
+  - 
+    title: Podvoji mačke
+  - 
+    title: Naj se mačke premikajo
+  - 
+    title: Drži se črt
+  - 
+    title: Pojdi na varno
+  - 
+    title: "Izziv: več ovir"
+    challenge: true
+  - 
+    title: Kaj sledi?
