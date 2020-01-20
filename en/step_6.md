@@ -3,6 +3,7 @@
 The object of the game is to guide the cats to safety by creating a path so they can reach the door. Create a score variable to keep track of how many cats reach the door.
 
 --- task ---
+
 Create a variable called `score`{:class="block3variables"}.
 
 ![Cat sprite](images/cat-sprite.png)
@@ -12,17 +13,22 @@ Create a variable called `score`{:class="block3variables"}.
 --- /task ---
 
 --- task ---
+
 Add code to your cat sprite to add `1` to the `score`{:class="block3variables"} each time a cat reaches the door. Also set `score`{:class="block3variables"} to `0` `when the flag is clicked`{:class="block3events"} at the start of the game.
 
 ![Cat sprite](images/cat-sprite.png)
 
 --- hints ---
 --- hint ---
+
 `If`{:class="block3control"} the cat is `touching the door sprite`{:class="block3sensing"}, then `add 1 to the score`{:class="block3variables"}.
+
 --- /hint ---
 
 --- hint ---
+
 Here are the new code blocks you need to add to your `when I start as a clone` script:
+
 ```blocks3
 change [score v] by (1)
 
@@ -33,9 +39,11 @@ end
 
 set [score v] to (0)
 ```
+
 --- /hint ---
 
 --- hint ---
+
 This is what your code should look like:
 
 ```blocks3
@@ -60,6 +68,7 @@ delete this clone
 when flag clicked
 + set [score v] to (0)
 ```
+
 --- /hint ---
 
 --- /hints ---
@@ -67,6 +76,7 @@ when flag clicked
 --- /task ---
 
 --- task ---
+
 Add some more code so that, when a cat sprite reaches the door, the cat makes a 'meow' sound and then disappears.
 
 ![Cat sprite](images/cat-sprite.png)
@@ -75,4 +85,5 @@ Add some more code so that, when a cat sprite reaches the door, the cat makes a 
 play sound (meow v)
 delete this clone
 ```
+
 --- /task ---

@@ -5,16 +5,20 @@ You might notice that, if you draw a low bridge between the two platforms, or a 
 ![Cats walking through the platform](images/cat-walk-through-platform.png)
 
 --- task ---
+
 In the code for the cat sprite, add another loop before the `next costume`{:class="block3looks"} block. This time, the loop should tell the cat to move upwards by `2` until it is not touching blue.
 
 ![Cat sprite](images/cat-sprite.png)
 
 --- hints ---
 --- hint ---
+
 The cat should `move up 2`{:class="block3motion"} `repeatedly until`{:class="block3control"} it is `not`{:class="block3operators"} `touching blue`{:class="block3sensing"}.
+
 --- /hint ---
 
 --- hint ---
+
 Here are the code blocks you need:
 
 ```blocks3
@@ -31,6 +35,7 @@ not <>
 --- /hint ---
 
 --- hint ---
+
 This is what your code should look like:
 
 ```blocks3
@@ -49,11 +54,14 @@ repeat until <touching (edge v)?>
 end
 delete this clone
 ```
+
 --- /hint ---
 
 --- /hints ---
 --- /task ---
 
 --- task ---
+
 Click the green flag and try drawing a line that slopes upwards. Check that your cat follows this line.
+
 --- /task ---
