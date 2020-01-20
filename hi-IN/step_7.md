@@ -1,13 +1,13 @@
-## Challenge: more obstacles
+## चुनौती: अधिक बाधाएँ
 
-At the moment, the game is rather easy to win. Can you think of ideas to you make your game harder?
+फिलहाल, गेम जीतना बहुत आसान है। क्या आप अपने गेम को कठिन बनाने के लिए कुछ विचारों के बारे में सोच सकते हैं?
 
-+ Add more backgrounds with different platform designs.
++ विभिन्न प्लेटफ़ॉर्म डिज़ाइनों के साथ अधिक पृष्ठभूमियाँ जोड़ें।
 
-+ Move the location of the door depending on which background is displayed.
++ कौन सी पृष्ठभूमि प्रदर्शित होती है, उसके आधार पर दरवाजे के स्थान को बदलें।
 
-+ Add more sprites as moving obstacles. Perhaps you could have roaming dogs or rotating spikes the cats need to avoid?
++ चलती बाधाओं के रूप में और अधिक स्प्राइट जोड़ें। शायद आपके पास आवारा कुत्ते या घूमने वाली नोकदार छड़ें (स्पाइक्स) हो सकते हैं, जिनसे बिल्लियों को बचने की ज़रूरत है?
 
-+ Only allow the player to use a limited amount of "ink" to draw lines in the game. You can keep track of how much "ink" is used by creating a timer variable that records how long the mouse is held down.
++ गेम में लाइनें खींचने के लिए केवल खिलाड़ी को सीमित मात्रा में "स्याही (इंक)" का उपयोग करने की अनुमति दें। आप एक टाइमर वेरिएबल बनाकर इसका ट्रैक रख सकते हैं कि कितनी "स्याही" का उपयोग किया गया है जो यह रिकॉर्ड रखता है कि माउस को कितनी देर तक दबाए रखा गया है।
 
-+ Create a sprite to show the player how much ink is left.
++ खिलाड़ी को यह दिखाने के लिए एक स्प्राइट बनाएँ कि कितनी स्याही बची है।
