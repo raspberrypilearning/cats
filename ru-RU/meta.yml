@@ -1,0 +1,26 @@
+---
+title: КОШКИ!
+hero_image: images/banner.png
+description: Создай игру, в которой ты направишь кошек в безопасное место и не дашь им упасть в пропасти
+listed: true
+copyedit: true
+version: 4.0.2
+last_tested: 2018-10-18
+steps:
+  - 
+    title: Введение
+  - 
+    title: Рисовать линии
+  - 
+    title: Клонировать кошек
+  - 
+    title: Заставить кошек двигаться
+  - 
+    title: Придерживайся линий
+  - 
+    title: Добраться до безопасного места
+  - 
+    title: "Попробуй сам: больше препятствий"
+    challenge: true
+  - 
+    title: Что дальше?
