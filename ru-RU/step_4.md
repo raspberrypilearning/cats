@@ -1,6 +1,6 @@
-## Заставим кошек двигаться
+## Make the cats move
 
-Как только кот достигает пола, он должен медленно двигаться вправо.
+Once a cat reaches the floor, it should step slowly to the right.
 
 \--- task \---
 
@@ -19,13 +19,13 @@ The cat sprite should `move 10 steps`{:class="block3motion"}, and `switch costum
 Here are the code blocks you need:
 
 ```blocks3
-идти (10) шагов
+move (10) steps
 
-ждать (0.1) секунд
+wait (0.1) seconds
 
-следующий костюм
+next costume
 
-повторять всегда
+forever
 end
 ```
 
@@ -36,15 +36,15 @@ end
 This is what your code should look like:
 
 ```blocks3
-когда я начинаю как клон
-показаться
-+ повторять всегда 
-   идти (10) шагов
-   повторять пока не <касается цвета [#0000ff] ?> 
-      изменить y на (-2)
-   end
-   следующий костюм
-   ждать (0.1) секунд
+when I start as a clone
+show
++ forever
+    move (10) steps
+    repeat until <touching color [#0000ff]?>
+        change y by (-2)
+    end
+    next costume
+    wait (0.1) seconds
 end
 ```
 
