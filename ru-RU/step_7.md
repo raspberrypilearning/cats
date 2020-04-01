@@ -1,4 +1,4 @@
-## Попробуй сам: больше препятствий
+## Challenge: more obstacles
 
 At the moment, the game is rather easy to win. Can you think of ideas to you make your game harder?
 
