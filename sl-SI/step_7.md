@@ -1,13 +1,13 @@
-## Izziv: več ovir
+## Challenge: more obstacles
 
-Trenutno je zelo enostavno zmagati v igri. Si lahko izmisliš kakšne ideje, ki bodo igro otežile?
+At the moment, the game is rather easy to win. Can you think of ideas to you make your game harder?
 
-+ Dodaj več ozadji, z drugačno zasnovo ploščadi.
++ Add more backgrounds with different platform designs.
 
-+ Premakni položaj vrat, glede na to, katero ozadje se prikazuje.
++ Move the location of the door depending on which background is displayed.
 
-+ Dodaj več figur, ki bodo premikajoče se ovire. Lahko morda dodaš hodeče pse ali vrteče se ostre konice, ki se jim je potrebno izogibati?
++ Add more sprites as moving obstacles. Perhaps you could have roaming dogs or rotating spikes the cats need to avoid?
 
-+ Igralcu dovoli porabiti le omejeno količino "črnila" za risanje črt v igri. Porabi "črnila" lahko slediš s pomočjo spremenljivke, ki bo štela, koliko časa je pritisnjena tipka na miški.
++ Only allow the player to use a limited amount of "ink" to draw lines in the game. You can keep track of how much "ink" is used by creating a timer variable that records how long the mouse is held down.
 
-+ Ustvari figuro, ki bo prikazala količino preostalega črnila.
++ Create a sprite to show the player how much ink is left.
