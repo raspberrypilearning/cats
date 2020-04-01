@@ -1,6 +1,6 @@
-## बिल्लियों को चलाएँ
+## Make the cats move
 
-एक बार जब बिल्ली फर्श पर पहुँच जाती है, तो उसे धीरे-धीरे दाईं ओर जाना चाहिए।
+Once a cat reaches the floor, it should step slowly to the right.
 
 \--- task \---
 
