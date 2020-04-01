@@ -1,6 +1,6 @@
-## Клонировать кошек
+## Clone cats
 
-То, что ты хочешь, это бесконечный поток кошек, которых игрок должен вести к выходу.
+You want a never-ending stream of cats that the player has to guide along the path to the exit.
 
 \--- task \---
 
@@ -9,11 +9,11 @@ Click on the sprite called 'Cat', and add some code to `hide`{:class="block3look
 ![Cat sprite](images/cat-sprite.png)
 
 ```blocks3
-когда щёлкнут по зелёному флагу
-спрятаться
-повторять всегда 
-  создать клон (самого себя v)
-  ждать (3) секунд
+when flag clicked
+hide
+forever
+    create clone of (myself v)
+    wait (3) seconds
 end
 ```
 
@@ -38,16 +38,16 @@ Add code to tell the sprite that `when it starts as a clone`{:class="block3contr
 Here are the code blocks you need:
 
 ```blocks3
-повторять пока не <>
+repeat until <>
 end
 
-показаться
+show
 
-<касается цвета [#0000ff] ?>
+<touching color [#0000ff]?>
 
-изменить y на (-2)
+change y by (-2)
 
-когда я начинаю как клон
+when I start as a clone
 ```
 
 \--- /hint \---
@@ -57,10 +57,10 @@ end
 This is what your code should look like:
 
 ```blocks3
-когда я начинаю как клон
-показаться
-повторять пока не <касается цвета [#0000ff] ?> 
-  изменить y на (-2)
+when I start as a clone
+show
+repeat until <touching color [#0000ff]?>
+change y by (-2)
 end
 ```
 
