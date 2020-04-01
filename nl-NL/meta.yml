@@ -1,0 +1,18 @@
+---
+title: KATTEN!
+hero_image: images/banner.png
+description: Maak een spel waarin je katten in veiligheid brengt en voorkomt dat ze in gaten vallen
+listed: true
+copyedit: true
+version: 4.0.2
+last_tested: 2018-10-18
+steps:
+  - title: Inleiding
+  - title: Teken lijnen
+  - title: Kloon katten
+  - title: Laat de katten bewegen
+  - title: Blijf bij de lijnen
+  - title: In veiligheid komen
+  - title: "Uitdaging: meer obstakels"
+    challenge: true
+  - title: Wat kun je verder nog doen?
