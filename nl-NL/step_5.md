@@ -41,7 +41,7 @@ Dit is hoe je code eruit zou moeten zien:
 ```blocks3
 wanneer ik als kloon start
 verschijn
-herhaal tot <touching (edge v)?>
+herhaal tot <touching (rand v)?>
     neem (10) stappen
     herhaal tot <touching color [#0000ff]?>
     verander y met (-2)

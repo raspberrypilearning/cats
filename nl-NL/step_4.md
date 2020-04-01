@@ -72,7 +72,7 @@ Verwijder de `herhaal`{:class="block3control"} lus en voeg in plaats daarvan een
 ```blocks3
 wanneer ik als kloon start
 verschijn
-+ herhaal tot <touching (edge v)?>
++ herhaal tot <touching (rand v)?>
     neem (10) stappen
     herhaal tot <touching color [#0000ff]?>
         verander y met (-2)
@@ -109,7 +109,7 @@ Voeg meer blokken toe aan deze lus zodat deze wordt herhaald totdat de kat sprit
 ![Kat sprite](images/cat-sprite.png)
 
 ```blocks3
-herhaal tot <<touching color [#0000ff]?> of <touching (edge v)?>>
+herhaal tot <<touching color [#0000ff]?> of <touching (rand v)?>>
 einde
 ```
 
