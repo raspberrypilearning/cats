@@ -1,4 +1,4 @@
-## Kaj sledi?
+## What next?
 
 Try the [Flower generator](https://projects.raspberrypi.org/en/projects/flower-generator?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, where you will use custom blocks to create flower patterns.
 
