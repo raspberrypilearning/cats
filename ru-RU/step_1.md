@@ -1,14 +1,14 @@
 \--- no-print \---
 
-Это версия проекта для **Scratch 3**. Есть также [версия для Scratch 2](https://projects.raspberrypi.org/en/projects/cats-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/cats-scratch2).
 
 \--- /no-print \---
 
-## Введение
+## Introduction
 
-В этом проекте ты создашь игру, в которой тебе нужно направить кошек в безопасное место и не дать ни одной из них упасть в пропасти!
+In this project, you will create a game in which you need to guide cats to safety and not let any of them fall through the gaps!
 
-### Что ты сделаешь
+### What you will make
 
 \--- no-print \---
 
@@ -28,34 +28,34 @@ Click and drag with the mouse to draw a line with the pencil. Your goal is to st
 
 ## \--- collapse \---
 
-## title: Чему ты научишься
+## title: What you will learn
 
-+ Как использовать цикл `повторять всегда`{:class="block3control"} для постоянного генерирования движущихся кошек
-+ Как использовать цикл ` повторять пока не `{:class="block3control"}, чтобы кошки следовали за линией
-
-\--- /collapse \---
-
-## \--- collapse \---
-
-## title: Что тебе понадобится
-
-### Оборудование
-
-+ Компьютер, способный запускать Scratch 3
-
-### Программное обеспечение
-
-+ Scratch 3 ([онлайн](http://rpf.io/scratchon){:target="_ blank"} или [оффлайн](http://rpf.io/scratchoff){:target="_ blank"} версия)
-
-### Загрузки
-
-+ [Автономный стартовый проект](http://rpf.io/p/en/cats-go){: target = "_ blank"}
++ How to use a `forever`{:class="block3control"} loop to constantly generate moving cats
++ How to use a `repeat until`{:class="block3control"} loop to ensure your cats follow a line
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Дополнительные примечания для педагогов
+## title: What you will need
+
+### Hardware
+
++ A computer capable of running Scratch 3
+
+### Software
+
++ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
+
+### Downloads
+
++ [Offline starter project](http://rpf.io/p/en/cats-go){:target="_blank"}
+
+\--- /collapse \---
+
+## \--- collapse \---
+
+## title: Additional notes for educators
 
 \--- no-print \---
 
