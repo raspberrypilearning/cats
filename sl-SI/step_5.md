@@ -1,8 +1,8 @@
-## Drži se črt
+## Stick to the lines
 
-Morda opaziš, da kadar narišeš nizek most med ploščadima ali črto, ki gre navzgor, mačke hodijo skozi ploščad in ne po njej!
+You might notice that, if you draw a low bridge between the two platforms, or a line that slopes upwards, the cats end up walking through the platform rather than on top of it!
 
-![Mačke gredo skozi ploščad](images/cat-walk-through-platform.png)
+![Cats walking through the platform](images/cat-walk-through-platform.png)
 
 \--- task \---
 
@@ -21,14 +21,14 @@ The cat should `move up 2`{:class="block3motion"} `repeatedly until`{:class="blo
 Here are the code blocks you need:
 
 ```blocks3
-<se dotika barve[#0000ff]?>
+<touching color [#0000ff]?>
 
-spremeni y za (2)
+change y by (2)
 
-ponavljaj do <>
-konec
+repeat until <>
+end
 
-ne <>
+not <>
 ```
 
 \--- /hint \---
@@ -38,20 +38,20 @@ ne <>
 This is what your code should look like:
 
 ```blocks3
-ko začnem kot dvojnik
-pokaži
-ponavljaj do <se dotika (roba v) ?>
-  pojdi (10) korakov
-  ponavljaj do <se dotika barve [#0000ff] ?>
-    spremeni y za (-2)
-  end
-  ponavljaj do <ne <se dotika barve [#0000ff] ?>>
-    spremeni y za (2)
-  end
-  naslednji videz
-  počakaj (0.1) sekund
+when I start as a clone
+show
+repeat until <touching (edge v)?>
+    move (10) steps
+    repeat until <touching color [#0000ff]?>
+        change y by (-2)
+    end
+    repeat until <not <touching color [#0000ff]?>>
+        change y by (2)
+    end
+    next costume
+    wait (0.1) seconds
 end
-zbriši tega dvojnika
+delete this clone
 ```
 
 \--- /hint \---
