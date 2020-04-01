@@ -1,26 +1,26 @@
 ---
-title: MAČKE!
+title: CATS!
 hero_image: images/banner.png
-description: Ustvari igro, v kateri boš na varno vodil-a mačke, da ne padejo v luknjo
+description: Create a game in which you guide cats to safety and stop them from falling into holes
 listed: true
 copyedit: true
 version: 4.0.2
 last_tested: 2018-10-18
 steps:
   - 
-    title: Uvod
+    title: Introduction
   - 
-    title: Nariši črte
+    title: Draw lines
   - 
-    title: Podvoji mačke
+    title: Clone cats
   - 
-    title: Naj se mačke premikajo
+    title: Make the cats move
   - 
-    title: Drži se črt
+    title: Stick to the lines
   - 
-    title: Pojdi na varno
+    title: Get to safety
   - 
-    title: "Izziv: več ovir"
+    title: "Challenge: more obstacles"
     challenge: true
   - 
-    title: Kaj sledi?
+    title: What next?
