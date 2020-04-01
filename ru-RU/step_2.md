@@ -1,20 +1,20 @@
-## Draw lines
+## Нарисуй линии
 
 \--- task \---
 
-Open the 'CATS!' Scratch starter project.
+Открой стартовый проект «КОТЫ».
 
-**Online:** open the starter project at [rpf.io/cats-on](http://rpf.io/cats-on){:target="_blank"}.
+**Онлайн:** открой стартовый проект по адресу [rpf.io/cats-on](http://rpf.io/cats-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Если у тебя есть учетная запись Scratch, то ты можешь сделать копию, нажав **Ремикс**.
 
-**Offline:** open the [starter project](http://rpf.io/p/en/cats-go) in the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+**Оффлайн**: открой [стартовый проект](http://rpf.io/p/en/cats-go) в оффлайн-редакторе. Если тебе нужно скачать и установить оффлайн редактор Scratch, ты можешь найти его по адресу [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
 \--- task \---
 
-Add the Pen extension to your project.
+Добавь расширение Перо в свой проект.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -22,30 +22,30 @@ Add the Pen extension to your project.
 
 \--- task \---
 
-Click on the sprite called 'Pen', and add code to set the pen colour to the same blue as the obstacles on the Stage.
+Нажми на спрайт под названием «Перо» и добавьте код, чтобы установить цвет пера таким же синим, как и у объектов на сцене.
 
 ![Pen sprite](images/pen-sprite.png)
 
 ```blocks3
-when flag clicked
-set pen color to [#0000ff]
-erase all
-set pen size to (5)
+когда флажок установлен
+установи цвет пера на [# 0000ff]
+сотри все
+установи размер пера на (5)
 ```
 
-To select a colour, click on the colour square in the `set pen color`{:class="block3extensions"} block to make your mouse cursor turn into a pipette, and then click on the correct colour on the Stage.
+Чтобы выбрать цвет, нажми на цветовой квадрат в блоке `установить цвет для пера`{:class="block3extensions"}, чтобы курсор мыши превратился в пипетку, а затем щёлкни нужный цвет на Сцене.
 
 \--- /task \---
 
 \--- task \---
 
-Add some more code to make the sprite follow the mouse pointer. Test your program to check that the code works.
+Добавь еще немного кода, чтобы спрайт следовал за указателем мыши. Протестируй свою программу, чтобы убедиться, что код работает.
 
 ![Pen sprite](images/pen-sprite.png)
 
 ```blocks3
 forever
-go to (mouse pointer v)
+перейти на (указатель мыши v)
 end
 ```
 
@@ -55,19 +55,19 @@ end
 
 \--- task \---
 
-Add some code to tell the sprite to draw a line on the Stage if the mouse button is pressed down.
+Добавь код, чтобы cпрайт рисовал линию на Сцене, если кнопка мыши нажата.
 
 ![Pen sprite](images/pen-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-`If`{:class="block3control"} the `mouse is down`{:class="block3sensing"}, put the `pen down`{:class="block3extensions"}, and `else`{:class="block3control"}, lift the `pen up`{:class="block3extensions"}.
+`Если`{:class="block3control"} `мышь нажата`{:class="block3sensing"}, то `опустить перо`{:class="block3extensions"}, `иначе`{:class="block3control"}, `поднять перо`{:class="block3extensions"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+Вот блоки кода, которые тебе нужны:
 
 ```blocks3
 <mouse down?>
