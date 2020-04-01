@@ -1,26 +1,26 @@
 ---
-title: КОШКИ!
+title: CATS!
 hero_image: images/banner.png
-description: Создай игру, в которой ты направишь кошек в безопасное место и не дашь им упасть в пропасти
+description: Create a game in which you guide cats to safety and stop them from falling into holes
 listed: true
 copyedit: true
 version: 4.0.2
 last_tested: 2018-10-18
 steps:
   - 
-    title: Введение
+    title: Introduction
   - 
-    title: Рисовать линии
+    title: Draw lines
   - 
-    title: Клонировать кошек
+    title: Clone cats
   - 
-    title: Заставить кошек двигаться
+    title: Make the cats move
   - 
-    title: Придерживайся линий
+    title: Stick to the lines
   - 
-    title: Добраться до безопасного места
+    title: Get to safety
   - 
-    title: "Попробуй сам: больше препятствий"
+    title: "Challenge: more obstacles"
     challenge: true
   - 
-    title: Что дальше?
+    title: What next?
