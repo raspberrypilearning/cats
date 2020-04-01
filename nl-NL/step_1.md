@@ -62,7 +62,8 @@ title: Aanvullende informatie voor docenten
 
 --- no-print ---
 
-Als je dit project wilt afdrukken, gebruik dan de [printvriendelijke versie](https://projects.raspberrypi.org/nl-NL/projects/cats/print). --- /no-print ---
+Als je dit project wilt afdrukken, gebruik dan de [printvriendelijke versie](https://projects.raspberrypi.org/nl-NL/projects/cats/print).
+--- /no-print ---
 
 Je kunt het [voltooide project hier](http://rpf.io/p/nl-NL/cats-get){:target="_blank"} vinden.
 

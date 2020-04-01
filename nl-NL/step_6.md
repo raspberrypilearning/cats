@@ -65,9 +65,8 @@ herhaal tot <touching (edge v)?>
 einde
 verwijder deze kloon
 
-wanneer op de groene vlag wordt geklikt
-
-+ maak [score v] (0)
+when flag clicked
++ set [score v] to (0)
 ```
 
 --- /hint ---

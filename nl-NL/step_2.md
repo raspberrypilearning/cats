@@ -27,8 +27,8 @@ Klik op de sprite genaamd 'Pen' en voeg code toe om de penkleur in te stellen op
 ![Pen sprite](images/pen-sprite.png)
 
 ```blocks3
-wanneer op de groene vlag wordt geklikt
-maak penkleur [# 0000ff]
+when flag clicked
+maak penkleur [#0000ff]
 wis alles
 maak pendikte (5)
 ```
@@ -77,9 +77,9 @@ pen neer
 
 pen op
 
-als <> dan
-anders
-eindigen
+if <> then
+else
+end
 ```
 
 --- /hint ---
@@ -89,7 +89,7 @@ eindigen
 Dit is hoe je code eruit zou moeten zien:
 
 ```blocks3
-als op de groene vlag wordt geklikt
+when flag clicked
 maak penkleur [#0000ff]
 wis alles
 maak pendikte (5)
@@ -123,7 +123,7 @@ Om dit te voorkomen, voeg je een `pen op`{:class="block3extensions"} blok toe aa
 ![Pen sprite](images/pen-sprite.png)
 
 ```blocks3
-wanneer op groene vlag wordt geklikt
+when flag clicked
 + pen op
 maak penkleur [#0000ff]
 wis alles

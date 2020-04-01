@@ -4,7 +4,7 @@ Zodra een kat de vloer bereikt, moet hij langzaam naar rechts stappen.
 
 --- task ---
 
-Voeg code toe aan de `wanneer ik als kloon start`{:class="block3control"} sectie om de kat sprite `neem tien stappen` te laten bewegen {:class="block3motion"}, en schakel elke 0,1 seconden tussen de twee uiterlijken van de sprite om de kat eruit te laten zien alsof hij loopt.
+Voeg code toe aan de `wanneer ik als kloon start`{:class="block3control"} sectie om de kat sprite `neem tien stappen`{:class="block3motion"} te laten bewegen, en schakel elke 0,1 seconden tussen de twee uiterlijken van de sprite om de kat eruit te laten zien alsof hij loopt.
 
 ![Kat sprite](images/cat-sprite.png)
 

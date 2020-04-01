@@ -9,7 +9,7 @@ Klik op de sprite genaamd 'Cat' en voeg wat code toe om `verdwijn`{:class="block
 ![Kat sprite](images/cat-sprite.png)
 
 ```blocks3
-wanneer op groene vlag wordt geklikt
+when flag clicked
 verdwijn
 herhaal
     maak een kloon van (mijzelf v)
