@@ -1,6 +1,6 @@
-## Podvoji mačke
+## Clone cats
 
-Kar želiš, je neskočni tok mačk, ki jih mora igralec povesti vzdolž poti, do izhoda.
+You want a never-ending stream of cats that the player has to guide along the path to the exit.
 
 \--- task \---
 
@@ -38,16 +38,16 @@ Add code to tell the sprite that `when it starts as a clone`{:class="block3contr
 Here are the code blocks you need:
 
 ```blocks3
-ponavljaj do <>
-konec
+repeat until <>
+end
 
-pokaži
+show
 
-<se dotika barve [#0000ff]?>
+<touching color [#0000ff]?>
 
-spremeni y za (-2)
+change y by (-2)
 
-ko začnem kot dvojnik
+when I start as a clone
 ```
 
 \--- /hint \---
