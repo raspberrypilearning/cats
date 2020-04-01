@@ -1,26 +1,26 @@
 ---
-title: CATS!
+title: КОТЫ!
 hero_image: images/banner.png
-description: Create a game in which you guide cats to safety and stop them from falling into holes
+description: Создай игру, в которой ты поможешь котам добраться в безопасное место и не дашь им упасть в пропасть
 listed: true
 copyedit: true
 version: 4.0.2
 last_tested: 2018-10-18
 steps:
   - 
-    title: Introduction
+    title: Введение
   - 
-    title: Draw lines
+    title: Нарисуй линии
   - 
-    title: Clone cats
+    title: Клонируй котов
   - 
-    title: Make the cats move
+    title: Заставь котов двигаться
   - 
-    title: Stick to the lines
+    title: Придерживайся линий
   - 
-    title: Get to safety
+    title: Доберись до безопасного места
   - 
-    title: "Challenge: more obstacles"
+    title: "Попробуй сам: больше препятствий"
     challenge: true
   - 
-    title: What next?
+    title: Что дальше?
