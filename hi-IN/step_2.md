@@ -1,4 +1,4 @@
-## रेखाएँ खींचें
+## Draw lines
 
 \--- task \---
 
@@ -41,7 +41,7 @@ To select a colour, click on the colour square in the `set pen color`{:class="bl
 
 Add some more code to make the sprite follow the mouse pointer. Test your program to check that the code works.
 
-![पेन स्प्राइट](images/pen-sprite.png)
+![Pen sprite](images/pen-sprite.png)
 
 ```blocks3
 forever
