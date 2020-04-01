@@ -1,6 +1,6 @@
-## क्लोन बिल्लियाँ
+## Clone cats
 
-आप बिल्लियों का एक कभी न खत्म होने वाला तांता चाहते हैं जिसका खिलाड़ी को बाहर निकलने के रास्ते पर मार्गदर्शन करना होता है।
+You want a never-ending stream of cats that the player has to guide along the path to the exit.
 
 \--- task \---
 
