@@ -1,6 +1,6 @@
-## सुरक्षित रहें
+## Get to safety
 
-गेम का उद्देश्य एक रास्ता बनाकर बिल्लियों को सुरक्षा के लिए मार्गदर्शन करना है ताकि वे दरवाजे तक पहुँच सकें। दरवाजे तक कितनी बिल्लियाँ पहुँचती हैं, इस पर नज़र रखने के लिए एक स्कोर वेरिएबल बनाएँ।
+The object of the game is to guide the cats to safety by creating a path so they can reach the door. Create a score variable to keep track of how many cats reach the door.
 
 \--- task \---
 
