@@ -1,6 +1,6 @@
-## Naj se mačke premikajo
+## Make the cats move
 
-Ko se mačka dotakne tal, se mora počasi premiakti na desno.
+Once a cat reaches the floor, it should step slowly to the right.
 
 \--- task \---
 
@@ -19,14 +19,14 @@ The cat sprite should `move 10 steps`{:class="block3motion"}, and `switch costum
 Here are the code blocks you need:
 
 ```blocks3
-pojdi (19) korakov
+move (10) steps
 
-počakaj (0,1) sekund
+wait (0.1) seconds
 
-naslednji videz
+next costume
 
-ponavljaj
-konec
+forever
+end
 ```
 
 \--- /hint \---
@@ -36,15 +36,15 @@ konec
 This is what your code should look like:
 
 ```blocks3
-ko začnem kot dvojnik
-pokaži
-+ ponavljaj 
-  pojdi (10) korakov
-  ponavljaj do <se dotika barve [#0000ff] ?> 
-    spremeni y za (-2)
-  end
-  naslednji videz
-  počakaj (0.1) sekund
+when I start as a clone
+show
++ forever
+    move (10) steps
+    repeat until <touching color [#0000ff]?>
+        change y by (-2)
+    end
+    next costume
+    wait (0.1) seconds
 end
 ```
 
@@ -69,19 +69,17 @@ Remove the `forever`{:class="block3control"} loop, and instead add a different l
 ![Cat sprite](images/cat-sprite.png)
 
 ```blocks3
-ko začnem kot dvojnik
-pokaži
-+ ponavljaj do <se dotika (edge v) ?> 
-  pojdi (10) korakov
-  ponavljaj do <se dotika barve [#0000ff] ?>
-    spremeni y za (-2)
-  end
-  naslednji videz
-  počakaj (0.1) sekund
+when I start as a clone
+show
++ repeat until <touching (edge v)?>
+    move (10) steps
+    repeat until <touching color [#0000ff]?>
+        change y by (-2)
+    end
+    next costume
+    wait (0.1) seconds
 end
-+ zbriši tega dvojnika
-
--- /task ---
++ delete this clone
 ```
 
 \--- /task \---
@@ -97,8 +95,8 @@ You may notice that, if the cats fall into the hole, they don't disappear but in
 This is the part of the code that tells the cat to keep falling until it touches blue:
 
 ```blocks3
-ponavljaj do <se dotika barve [#0000ff] ?>
-konec
+repeat until <touching color [#0000ff]?>
+end
 ```
 
 However, in the hole, the cat can never reach blue, so it is stuck forever.
