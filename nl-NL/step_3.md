@@ -1,73 +1,73 @@
-## Clone cats
+## Kloon katten
 
-You want a never-ending stream of cats that the player has to guide along the path to the exit.
+Je wilt een eindeloze stroom katten die de speler langs het pad naar de uitgang moet leiden.
 
 \--- task \---
 
-Click on the sprite called 'Cat', and add some code to `hide`{:class="block3looks"} the sprite, and also to `clone`{:class="block3control"} it every three seconds.
+Klik op de sprite genaamd 'Kat' en voeg wat code toe om `{`class: "block3looks"} de sprite te verbergen, en ook om elke drie seconden een `kloon`{: class = "block3control"} van hem te maken.
 
-![Cat sprite](images/cat-sprite.png)
+![Kat sprite](images/cat-sprite.png)
 
 ```blocks3
-when flag clicked
-hide
-forever
-    create clone of (myself v)
-    wait (3) seconds
-end
+wanneer op groene vlag wordt geklikt
+verdwijn
+herhaal
+    maak een kloon van (mijzelf v)
+    wacht (3) sec.
+einde
 ```
 
 \--- /task \---
 
-If you run the program now, nothing happens on the Stage. To check that a new Cat sprite clone is created every three seconds, make each clone appear and fall out of the sky.
+Als je het programma nu uitvoert, gebeurt er niets in het speelveld. Om te controleren of er om de drie seconden een nieuwe Kat sprite kloon wordt gemaakt, laat je elke kloon verschijnen en uit de lucht vallen.
 
 \--- task \---
 
-Add code to tell the sprite that `when it starts as a clone`{:class="block3control"}, it should `show`{:class="block3looks"} itself and fall until it `touches`{:class="block3sensing"} the blue floor that is drawn on the Stage.
+Voeg code toe om de sprite te vertellen dat `wanneer ik als kloon start`{:class="block3control"}, hij moet `verschijnen`{:class="block3looks"} en vallen totdat hij de blauwe vloer `raakt`{:class="block3sensing"} die in het speelveld is getekend.
 
-![Cat sprite](images/cat-sprite.png)
+![Kat sprite](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-`When the sprite starts as a clone`{:class="block3control"}, `show`{:class="block3looks"} the sprite. `Repeatedly`{:class="block3control"} `Change`{:class="block3motion"} the sprite's `y` coordinate by `-2`, until the sprite `touches`{:class="block3sensing"} the blue Stage.
+`Wanneer ik als kloon start`{:class="block3control"}, `verschijnt`{:class="block3looks"} de sprite. `Herhaal`{:class="block3control"} `Verander`{:class="block3motion"} de `y` coördinaat van de sprite met `-2`, totdat de sprite de blauwe vloer `raakt`{:class="block3sensing"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+Dit zijn de codeblokken die je nodig hebt:
 
 ```blocks3
-repeat until <>
-end
+herhaal tot <>
+einde
 
-show
+verschijn
 
 <touching color [#0000ff]?>
 
-change y by (-2)
+verander y met (-2)
 
-when I start as a clone
+wanneer ik als kloon start
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-This is what your code should look like:
+Dit is hoe je code eruit zou moeten zien:
 
 ```blocks3
-when I start as a clone
-show
-repeat until <touching color [#0000ff]?>
-change y by (-2)
-end
+wanneer ik als kloon start
+verschijn
+herhaal tot <touching color [#0000ff]?>
+verander y met (-2)
+einde
 ```
 
 \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
-When you click the green flag, you should see a new cat fall from the top of the Stage every three seconds. Every cat should land in a big pile of overlapping cats on the blue floor at the bottom.
+Als je op de groene vlag klikt, zou je elke drie seconden een nieuwe kat van de bovenkant van het speelveld moeten zien vallen. Elke kat moet in een grote stapel overlappende katten op de blauwe bodem onderaan landen.
 
-![Falling cats](images/falling-cats.png)
+![Vallende katten](images/falling-cats.png)
