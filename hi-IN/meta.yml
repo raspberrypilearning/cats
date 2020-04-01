@@ -1,26 +1,26 @@
 ---
-title: बिल्लियाँ!
+title: CATS!
 hero_image: images/banner.png
-description: एक गेम बनाएँ जिसमें आप बिल्लियों का मार्गदर्शन करके उन्हें सुरक्षा प्रदान करते हैं और उन्हें छेदों में गिरने से रोकते हैं
+description: Create a game in which you guide cats to safety and stop them from falling into holes
 listed: true
 copyedit: true
 version: 4.0.2
 last_tested: 2018-10-18
 steps:
   - 
-    title: परिचय
+    title: Introduction
   - 
-    title: रेखाएँ खींचें
+    title: Draw lines
   - 
-    title: क्लोन बिल्लियाँ
+    title: Clone cats
   - 
-    title: बिल्लियों को चलाएँ
+    title: Make the cats move
   - 
-    title: लाइनों में रहें
+    title: Stick to the lines
   - 
-    title: सुरक्षित रहें
+    title: Get to safety
   - 
-    title: "चुनौती: अधिक बाधाएँ!"
+    title: "Challenge: more obstacles"
     challenge: true
   - 
-    title: आगे क्या?
+    title: What next?
