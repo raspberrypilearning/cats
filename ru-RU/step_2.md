@@ -1,4 +1,4 @@
-## Рисовать линии
+## Draw lines
 
 \--- task \---
 
@@ -27,10 +27,10 @@ Click on the sprite called 'Pen', and add code to set the pen colour to the same
 ![Pen sprite](images/pen-sprite.png)
 
 ```blocks3
-когда щёлкнут по зелёному флагу
-установить цвет пера [#0000ff]
-стереть всё
-установить размер пера (5)
+when flag clicked
+set pen color to [#0000ff]
+erase all
+set pen size to (5)
 ```
 
 To select a colour, click on the colour square in the `set pen color`{:class="block3extensions"} block to make your mouse cursor turn into a pipette, and then click on the correct colour on the Stage.
@@ -41,11 +41,11 @@ To select a colour, click on the colour square in the `set pen color`{:class="bl
 
 Add some more code to make the sprite follow the mouse pointer. Test your program to check that the code works.
 
-![Спрайт пера](images/pen-sprite.png)
+![Pen sprite](images/pen-sprite.png)
 
 ```blocks3
-повторять всегда 
-  перейти на (mouse pointer v)
+forever
+go to (mouse pointer v)
 end
 ```
 
@@ -70,15 +70,14 @@ Add some code to tell the sprite to draw a line on the Stage if the mouse button
 Here are the code blocks you need:
 
 ```blocks3
-<мышь нажата?>
+<mouse down?>
 
-опустить перо
+pen down
 
-поднять перо
+pen up
 
-если <> , то 
-  
-иначе
+if <> then
+else
 end
 ```
 
@@ -89,17 +88,16 @@ end
 This is what your code should look like:
 
 ```blocks3
-когда щёлкнут по зелёному флагу
-установить цвет пера [#0000ff]
-стереть всё
-установить размер пера (5)
-повторять всегда 
-  перейти на (mouse pointer v)
-  + если <мышь нажата?> , то 
-  +   опустить перо
-  + иначе 
-  +   поднять перо
-  + end
+when flag clicked
+set pen color to [#0000ff]
+erase all
+set pen size to (5)
+forever
+go to (mouse pointer v)
++ if <mouse down?> then
+pen down
+else
+pen up
 end
 ```
 
@@ -124,19 +122,18 @@ To stop this from happening, add a `pen up`{:class="block3extensions"} block at 
 ![Pen sprite](images/pen-sprite.png)
 
 ```blocks3
-когда щёлкнут по зелёному флагу
-+ поднять перо
-установить цвет пера [#0000ff]
-стереть всё
-установить размер пера (5)
-+ ждать (1) секунд
-повторять всегда 
-  перейти на (mouse pointer v)
-  если <мышь нажата?> , то 
-    опустить перо
-  иначе 
-    поднять перо
-  end
+when flag clicked
++ pen up
+set pen color to [#0000ff]
+erase all
+set pen size to (5)
++ wait (1) seconds
+forever
+go to (mouse pointer v)
+if <mouse down?> then
+pen down
+else
+pen up
 end
 ```
 
