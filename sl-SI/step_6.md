@@ -1,6 +1,6 @@
-## Pojdi na varno
+## Get to safety
 
-Cilj igre je, da mače povedeš na varno, tako da ustvariš pot po kateri lahko pridejo do vrat. Ustvari spremenljivko za točke, ki bo štela, koliko mačk pride do vrat.
+The object of the game is to guide the cats to safety by creating a path so they can reach the door. Create a score variable to keep track of how many cats reach the door.
 
 \--- task \---
 
@@ -29,14 +29,14 @@ Add code to your cat sprite to add `1` to the `score`{:class="block3variables"} 
 Here are the new code blocks you need to add to your `when I start as a clone` script:
 
 ```blocks3
-spremeni [točke v] za (1)
+change [score v] by (1)
 
-če <> potem
-konec
+if <> then
+end
 
-&lt: se dotika (Vrata v)?>
+<touching (Door v)?>
 
-nastavi [točke v] na (0)
+set [score v] to (0)
 ```
 
 \--- /hint \---
@@ -46,27 +46,27 @@ nastavi [točke v] na (0)
 This is what your code should look like:
 
 ```blocks3
-ko začnem kot dvojnik
-pokaži
-ponavljaj do <se dotika (roba v) ?>
-  pojdi (10) korakov
-  ponavljaj do <se dotika barve [#0000ff] ?> 
-    spremeni y za (-2)
-  end
-  ponavljaj do <ne <se dotika barve [#0000ff] ?>>>
-    spremeni y za (2)
-  end
-  naslednji videz
-  počakaj (0.1) sekund
-+  če <se dotika (Vrata v) ?> potem 
-    spremeni [točke v] za (1)
-  end
+when I start as a clone
+show
+repeat until <touching (edge v)?>
+    move (10) steps
+    repeat until <touching color [#0000ff]?>
+        change y by (-2)
+    end
+    repeat until <not <touching color [#0000ff]?>>
+        change y by (2)
+    end
+    next costume
+    wait (0.1) seconds
++   if <touching (Door v)?> then
+        change [score v] by (1)
+    end
 end
-zbriši tega dvojnika
+delete this clone
 
-ko je kliknjena zelena zastavica
+when flag clicked
 
-+ nastavi [točke v] na (0)
++ set [score v] to (0)
 ```
 
 \--- /hint \---
