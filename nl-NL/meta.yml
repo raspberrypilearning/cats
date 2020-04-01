@@ -1,26 +1,26 @@
 ---
-title: CATS!
+title: KATTEN!
 hero_image: images/banner.png
-description: Create a game in which you guide cats to safety and stop them from falling into holes
+description: Maak een spel waarin je katten in veiligheid brengt en voorkomt dat ze in gaten vallen
 listed: true
 copyedit: true
 version: 4.0.2
 last_tested: 2018-10-18
 steps:
   - 
-    title: Introduction
+    title: Inleiding
   - 
-    title: Draw lines
+    title: Teken lijnen
   - 
-    title: Clone cats
+    title: Kloon katten
   - 
-    title: Make the cats move
+    title: Laat de katten bewegen
   - 
-    title: Stick to the lines
+    title: Blijf bij de lijnen
   - 
-    title: Get to safety
+    title: Kom in veiligheid
   - 
-    title: "Challenge: more obstacles"
+    title: "Uitdaging: meer obstakels"
     challenge: true
   - 
-    title: What next?
+    title: Wat kun je verder nog doen?
