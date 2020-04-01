@@ -1,51 +1,51 @@
-## Make the cats move
+## Laat de katten bewegen
 
-Once a cat reaches the floor, it should step slowly to the right.
+Zodra een kat de vloer bereikt, moet hij langzaam naar rechts stappen.
 
 \--- task \---
 
-Add code to the `when I start as a clone`{:class="block3control"} section to make the cat sprite `move ten steps`{:class="block3motion"}, and switch between the sprite's two costumes every 0.1 seconds to make the cat look like it's walking.
+Voeg code toe aan de `wanneer ik als kloon start`{:class="block3control"} sectie om de kat sprite `neem tien stappen` te laten bewegen {:class="block3motion"}, en schakel elke 0,1 seconden tussen de twee uiterlijken van de sprite om de kat eruit te laten zien alsof hij loopt.
 
-![Cat sprite](images/cat-sprite.png)
+![Kat sprite](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-The cat sprite should `move 10 steps`{:class="block3motion"}, and `switch costume`{:class="block3looks"} every `0.1 seconds`{:class="block3control"}. This code should repeat `forever`{:class="block3control"}, just like the code to make the cat fall.
+De sprite van de kat moet `neem 10 stappen`{:class="block3motion"} en `volgend uiterlijk`{:class="block3looks"} elke `0.1 seconden`{:class="block3control"}. Deze code moet altijd `herhalen`{:class="block3control"}, net als de code om de kat te laten vallen.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+Dit zijn de codeblokken die je nodig hebt:
 
 ```blocks3
-move (10) steps
+neem (10) stappen
 
-wait (0.1) seconds
+wacht (0.1) sec.
 
-next costume
+volgend uiterlijk
 
-forever
-end
+herhaal
+einde
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-This is what your code should look like:
+Dit is hoe je code eruit zou moeten zien:
 
 ```blocks3
-when I start as a clone
-show
-+ forever
-    move (10) steps
-    repeat until <touching color [#0000ff]?>
-        change y by (-2)
-    end
-    next costume
-    wait (0.1) seconds
-end
+wanneer ik als kloon start
+verschijn
++ herhaal
+    neem (10) stappen
+    herhaal tot <touching color [#0000ff]?>
+        verander y met (-2)
+    einde
+    volgend uiterlijk
+    wacht (0.1) sec.
+einde
 ```
 
 \--- /hint \---
@@ -54,62 +54,62 @@ end
 
 \--- task \---
 
-Press the green flag and check that the cats now move along the blue platform at the bottom.
+Druk op de groene vlag en controleer of de katten nu langs het blauwe platform onderaan bewegen.
 
 \--- /task \---
 
-If you draw a bridge across the gap so that the cats can get all the way to the right side of the Stage, you can see that they end up getting stuck walking into the right wall.
+Als je een brug over de opening tekent, zodat de katten helemaal naar de rechterkant van het speelveld kunnen komen, kun je zien dat ze vast komen te zitten in de rechtermuur.
 
-![Flailing cats at the edge](images/flailing-at-edge.png)
+![Zwervende katten aan de rand](images/flailing-at-edge.png)
 
 \--- task \---
 
-Remove the `forever`{:class="block3control"} loop, and instead add a different loop to make the cats only walk until they reach an edge. When a cat reaches the edge of the Stage, it should disappear.
+Verwijder de `herhaal`{:class="block3control"} lus en voeg in plaats daarvan een andere lus toe om de katten alleen te laten lopen totdat ze een rand bereiken. Wanneer een kat de rand van het speelveld bereikt, moet hij verdwijnen.
 
-![Cat sprite](images/cat-sprite.png)
+![Kat sprite](images/cat-sprite.png)
 
 ```blocks3
-when I start as a clone
-show
-+ repeat until <touching (edge v)?>
-    move (10) steps
-    repeat until <touching color [#0000ff]?>
-        change y by (-2)
-    end
-    next costume
-    wait (0.1) seconds
-end
-+ delete this clone
+wanneer ik als kloon start
+verschijn
++ herhaal tot <touching (edge v)?>
+    neem (10) stappen
+    herhaal tot <touching color [#0000ff]?>
+        verander y met (-2)
+    einde
+    volgend uiterlijk
+    wacht (0.1) sec.
+einde
++ verwijder deze kloon
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Press the green flag and check that the cats disappear when they reach the edge of the Stage.
+Druk op de groene vlag en controleer dat de katten verdwijnen wanneer ze de rand van het speelveld bereiken.
 
 \--- /task \---
 
-You may notice that, if the cats fall into the hole, they don't disappear but instead get stuck at the bottom. This is because they keep trying to fall downwards.
+Je merkt misschien dat, als de katten in het gat vallen, ze niet verdwijnen maar in plaats daarvan vast komen te zitten aan de onderkant. Dit komt omdat ze blijven proberen naar beneden te vallen.
 
-This is the part of the code that tells the cat to keep falling until it touches blue:
+Dit is het deel van de code dat de kat vertelt dat hij moet blijven vallen totdat hij blauw raakt:
 
 ```blocks3
-repeat until <touching color [#0000ff]?>
-end
+herhaal tot <touching color [#0000ff]?>
+einde
 ```
 
-However, in the hole, the cat can never reach blue, so it is stuck forever.
+In het gat kan de kat echter nooit blauw bereiken, dus zit hij voor altijd vast.
 
 \--- task \---
 
-Add more blocks to this loop so that it repeats until the cat sprite is touching blue `or`{:class="block3operators"} `touching the edge`{:class="block3sensing"}. This way, the sprite stops trying to fall if it reaches the edge of the Stage.
+Voeg meer blokken toe aan deze lus zodat deze wordt herhaald totdat de kat sprite blauw raakt `of`{:class="block3operators"} `de rand raakt`{:class="block3sensing"}. Op deze manier stopt de sprite met vallen als het de rand van het speelveld bereikt.
 
-![Cat sprite](images/cat-sprite.png)
+![Kat sprite](images/cat-sprite.png)
 
 ```blocks3
-repeat until <<touching color [#0000ff]?> or <touching (edge v)?>>
-end
+herhaal tot <<touching color [#0000ff]?> of <touching (edge v)?>>
+einde
 ```
 
 \--- /task \---
