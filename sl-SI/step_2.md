@@ -1,4 +1,4 @@
-## Nariši črte
+## Draw lines
 
 \--- task \---
 
@@ -27,10 +27,10 @@ Click on the sprite called 'Pen', and add code to set the pen colour to the same
 ![Pen sprite](images/pen-sprite.png)
 
 ```blocks3
-ko je kliknjena zelena zastavica
-nastavi barvo peresa na [#0000ff]
-izbriši vse
-nastavi velikost peresa na (5)
+when flag clicked
+set pen color to [#0000ff]
+erase all
+set pen size to (5)
 ```
 
 To select a colour, click on the colour square in the `set pen color`{:class="block3extensions"} block to make your mouse cursor turn into a pipette, and then click on the correct colour on the Stage.
@@ -41,7 +41,7 @@ To select a colour, click on the colour square in the `set pen color`{:class="bl
 
 Add some more code to make the sprite follow the mouse pointer. Test your program to check that the code works.
 
-![Figura svinčnik](images/pen-sprite.png)
+![Pen sprite](images/pen-sprite.png)
 
 ```blocks3
 forever
@@ -70,15 +70,15 @@ Add some code to tell the sprite to draw a line on the Stage if the mouse button
 Here are the code blocks you need:
 
 ```blocks3
-<je miškin gumb pritisnjen?>
+<mouse down?>
 
-spusti pero
+pen down
 
-dvigni pero
+pen up
 
-če <> potem
-sicer
-konec
+if <> then
+else
+end
 ```
 
 \--- /hint \---
@@ -88,17 +88,16 @@ konec
 This is what your code should look like:
 
 ```blocks3
-ko je kliknjena zelena zastavica
-nastavi barvo peresa na [#0000ff]
-izbriši vse
-nastavi velikost peresa na (5)
-ponavljaj 
-  pojdi na (mouse pointer v)
-  + če <je miškin gumb pritisnjen?> potem 
-  +   spusti pero
-  + sicer 
-  +   dvigni pero
-  + end
+when flag clicked
+set pen color to [#0000ff]
+erase all
+set pen size to (5)
+forever
+go to (mouse pointer v)
++ if <mouse down?> then
+pen down
+else
+pen up
 end
 ```
 
@@ -123,19 +122,18 @@ To stop this from happening, add a `pen up`{:class="block3extensions"} block at 
 ![Pen sprite](images/pen-sprite.png)
 
 ```blocks3
-ko je kliknjena zelena zastavica
-+ dvigni pero
-nastavi barvo peresa na [#0000ff]
-izbriši vse
-nastavi velikost peresa na (5)
-+ počakaj (1) sekund
-ponavljaj 
-  pojdi na (mouse pointer v)
-  če <je miškin gumb pritisnjen?> potem 
-    spusti pero
-  sicer 
-    dvigni pero
-  end
+when flag clicked
++ pen up
+set pen color to [#0000ff]
+erase all
+set pen size to (5)
++ wait (1) seconds
+forever
+go to (mouse pointer v)
+if <mouse down?> then
+pen down
+else
+pen up
 end
 ```
 
