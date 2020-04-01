@@ -1,8 +1,8 @@
-## लाइनों में रहें
+## Stick to the lines
 
-आप देख सकते हैं कि, यदि आप दो प्लेटफार्मों के बीच एक नीचा पुल बनाते हैं, या ऊपर की ओर ढलान वाली एक रेखा खींचते हैं, तो बिल्लियाँ प्लेटफार्म के ऊपर चलने के बजाय उसमें से निकल कर जाती हैं!
+You might notice that, if you draw a low bridge between the two platforms, or a line that slopes upwards, the cats end up walking through the platform rather than on top of it!
 
-![प्लेटफॉर्म से चलकर जाती हुई बिल्लियाँ](images/cat-walk-through-platform.png)
+![Cats walking through the platform](images/cat-walk-through-platform.png)
 
 \--- task \---
 
