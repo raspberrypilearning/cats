@@ -1,57 +1,57 @@
-## Stick to the lines
+## Blijf bij de lijnen
 
-You might notice that, if you draw a low bridge between the two platforms, or a line that slopes upwards, the cats end up walking through the platform rather than on top of it!
+Het valt je misschien op dat, als je een lage brug tussen de twee platforms trekt, of een lijn die omhoog loopt, de katten uiteindelijk door het platform lopen in plaats van er bovenop!
 
-![Cats walking through the platform](images/cat-walk-through-platform.png)
+![Katten lopen door het platform](images/cat-walk-through-platform.png)
 
 \--- task \---
 
-In the code for the cat sprite, add another loop before the `next costume`{:class="block3looks"} block. This time, the loop should tell the cat to move upwards by `2` until it is not touching blue.
+Voeg in de code voor de kat sprite nog een lus toe vóór het `volgend uiterlijk`{:class="block3looks"} blok. Deze keer moet de lus de kat vertellen om met `2` omhoog te gaan totdat deze blauw niet raakt.
 
-![Cat sprite](images/cat-sprite.png)
+![Kat sprite](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-The cat should `move up 2`{:class="block3motion"} `repeatedly until`{:class="block3control"} it is `not`{:class="block3operators"} `touching blue`{:class="block3sensing"}.
+De kat moet `2 stappen omhoog`{:class="block3motion"} `totdat`{:class="block3control"} hij `niet`{:class="block3operators"} `blauw raakt`{:class="block3sensing"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+Dit zijn de codeblokken die je nodig hebt:
 
 ```blocks3
 <touching color [#0000ff]?>
 
-change y by (2)
+verander y met (2)
 
-repeat until <>
-end
+herhaal tot <>
+einde
 
-not <>
+niet <>
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-This is what your code should look like:
+Dit is hoe je code eruit zou moeten zien:
 
 ```blocks3
-when I start as a clone
-show
-repeat until <touching (edge v)?>
-    move (10) steps
-    repeat until <touching color [#0000ff]?>
-        change y by (-2)
-    end
-    repeat until <not <touching color [#0000ff]?>>
-        change y by (2)
-    end
-    next costume
-    wait (0.1) seconds
-end
-delete this clone
+wanneer ik als kloon start
+verschijn
+herhaal tot <touching (edge v)?>
+    neem (10) stappen
+    herhaal tot <touching color [#0000ff]?>
+    verander y met (-2)
+    einde
+    herhaal tot <not <touching color [#0000ff]?>>
+    verander y met (2)
+    einde
+    volgend uiterlijk
+    wacht (0.1) sec.
+einde
+verwijder deze kloon
 ```
 
 \--- /hint \---
@@ -60,6 +60,6 @@ delete this clone
 
 \--- task \---
 
-Click the green flag and try drawing a line that slopes upwards. Check that your cat follows this line.
+Klik op de groene vlag en probeer een lijn te tekenen die omhoog loopt. Controleer dat de kat deze lijn volgt.
 
 \--- /task \---
