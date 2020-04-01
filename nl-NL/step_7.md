@@ -1,13 +1,13 @@
-## Challenge: more obstacles
+## Uitdaging: meer obstakels
 
-At the moment, the game is rather easy to win. Can you think of ideas to you make your game harder?
+Op dit moment is het spel vrij eenvoudig om te winnen. Kun jij ideeën bedenken om je spel moeilijker te maken?
 
-+ Add more backgrounds with different platform designs.
++ Voeg meer achtergronden toe met verschillende platformontwerpen.
 
-+ Move the location of the door depending on which background is displayed.
++ Verplaats de plek van de deur afhankelijk van welke achtergrond wordt weergegeven.
 
-+ Add more sprites as moving obstacles. Perhaps you could have roaming dogs or rotating spikes the cats need to avoid?
++ Voeg meer sprites toe als bewegende obstakels. Misschien heb je zwervende honden of draaiende stekels die de katten moeten vermijden?
 
-+ Only allow the player to use a limited amount of "ink" to draw lines in the game. You can keep track of how much "ink" is used by creating a timer variable that records how long the mouse is held down.
++ Laat de speler slechts een beperkte hoeveelheid "inkt" gebruiken om lijnen in het spel te tekenen. Je kunt bijhouden hoeveel "inkt" wordt gebruikt door een klok variabele te maken die registreert hoe lang de muis wordt ingedrukt.
 
-+ Create a sprite to show the player how much ink is left.
++ Maak een sprite om de speler te laten zien hoeveel inkt er nog over is.
