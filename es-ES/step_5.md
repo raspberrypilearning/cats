@@ -18,7 +18,7 @@ The cat should `move up 2`{:class="block3motion"} `repeatedly until`{:class="blo
 
 \--- hint \---
 
-Here are the code blocks you need:
+Aquí están los bloques de código que necesitas:
 
 ```blocks3
 <touching color [#0000ff]?>
