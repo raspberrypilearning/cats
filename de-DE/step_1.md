@@ -1,18 +1,18 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/cats-scratch2).
+Dies ist die **Scratch 3** Version des Projekts. Es gibt auch eine [Scratch 2 Version des Projekts](https://projects.raspberrypi.org/en/projects/cats-scratch2).
 
 \--- /no-print \---
 
-## Introduction
+## Einleitung
 
-In this project, you will create a game in which you need to guide cats to safety and not let any of them fall through the gaps!
+In diesem Projekt erstellst du ein Spiel, in dem du Katzen in Sicherheit bringen und keine von ihnen durch die Lücken fallen lassen darfst!
 
-### What you will make
+### Was du machen wirst
 
 \--- no-print \---
 
-Click and drag with the mouse to draw a line with the pencil. Your goal is to stop the cats from falling into holes by creating a safe path to the exit.
+Klicke und ziehe mit der Maus, um mit dem Stift eine Linie zu zeichnen. Dein Ziel ist es, die Katzen davon abzuhalten, in Löcher zu fallen, indem du einen sicheren Weg zum Ausgang erschaffst.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/253667883/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -28,34 +28,34 @@ Click and drag with the mouse to draw a line with the pencil. Your goal is to st
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Was du lernen wirst
 
-+ How to use a `forever`{:class="block3control"} loop to constantly generate moving cats
-+ How to use a `repeat until`{:class="block3control"} loop to ensure your cats follow a line
++ Wie man eine `wiederhole fortlaufend`{:class="block3control"} Schleife verwendet, um ständig bewegte Katzen zu generieren
++ Wie man eine `wiederhole bis`{:class="block3control"} Schleife verwendet, um sicherzustellen, dass deine Katzen einer Linie folgen
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Was du brauchen wirst
 
 ### Hardware
 
-+ A computer capable of running Scratch 3
++ Ein Computer, auf dem Scratch 3 ausgeführt werden kann
 
 ### Software
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (entweder [online](http://rpf.io/scratchon){:target="_blank"} oder [offline](http://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 
-+ [Offline starter project](http://rpf.io/p/en/cats-go){:target="_blank"}
++ [Offline Starter Projekt](http://rpf.io/p/en/cats-go){:target="_blank"}
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: Zusätzliche Hinweise für Pädagogen
 
 \--- no-print \---
 
