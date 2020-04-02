@@ -8,13 +8,13 @@
 
 Wenn du bereits einen Scratch-Account besitzt, kannst du dir durch klicken auf **Remix** eine Kopie anlegen.
 
-**Offline**: Öffne das [Starter-Projekt](http://rpf.io/p/en/cats-go) im Offline-Editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+**Offline**: Öffne das [Starter-Projekt](http://rpf.io/p/en/cats-go) im Offline-Editor. Wenn du den Scratch-Offline-Editor herunterladen und installieren möchtest, findest du diesen unter [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
 \--- task \---
 
-Add the Pen extension to your project.
+Füge die Malstift Erweiterung zu deinem Projekt hinzu.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -22,9 +22,9 @@ Add the Pen extension to your project.
 
 \--- task \---
 
-Click on the sprite called 'Pen', and add code to set the pen colour to the same blue as the obstacles on the Stage.
+Klicke auf die Figut mit dem Namen "Stift" und füge Code hinzu, um die Stiftfarbe auf das gleiche Blau wie die Hindernisse auf der Bühne einzustellen.
 
-![Pen sprite](images/pen-sprite.png)
+![Stift Figur](images/pen-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -33,15 +33,15 @@ erase all
 set pen size to (5)
 ```
 
-To select a colour, click on the colour square in the `set pen color`{:class="block3extensions"} block to make your mouse cursor turn into a pipette, and then click on the correct colour on the Stage.
+Um eine Farbe auszuwählen, klicke auf das Farbquadrat im Block `setze Stiftfarbe auf`{:class="block3extensions"}, damit sich dein Mauszeiger in eine Pipette verwandelt, und klicke dann auf der Bühne auf die richtige Farbe.
 
 \--- /task \---
 
 \--- task \---
 
-Add some more code to make the sprite follow the mouse pointer. Test your program to check that the code works.
+Füge weiteren Code hinzu, damit die Figur dem Mauszeiger folgt. Teste dein Programm, um zu überprüfen, ob der Code funktioniert.
 
-![Pen sprite](images/pen-sprite.png)
+![Stift Figur](images/pen-sprite.png)
 
 ```blocks3
 forever
@@ -55,19 +55,19 @@ end
 
 \--- task \---
 
-Add some code to tell the sprite to draw a line on the Stage if the mouse button is pressed down.
+Füge Code hinzu, um die Figur anzuweisen, eine Linie auf der Bühne zu zeichnen, wenn die Maustaste gedrückt wird.
 
-![Pen sprite](images/pen-sprite.png)
+![Stift Figur](images/pen-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-`If`{:class="block3control"} the `mouse is down`{:class="block3sensing"}, put the `pen down`{:class="block3extensions"}, and `else`{:class="block3control"}, lift the `pen up`{:class="block3extensions"}.
+`Falls`{:class="block3control"} die `Maustaste gedrückt`{:class="block3sensing"} ist, `schalte Stift ein`{:class="block3extensions"} und `sonst`{:class="block3control"}, `schalte Stift aus`{:class="block3extensions"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+Hier sind die Codeblöcke die du brauchst:
 
 ```blocks3
 <mouse down?>
@@ -85,7 +85,7 @@ end
 
 \--- hint \---
 
-This is what your code should look like:
+So sollte dein Code aussehen:
 
 ```blocks3
 when flag clicked
@@ -107,19 +107,19 @@ end
 
 \--- task \---
 
-Test your code. You should be able to click and drag with the mouse to draw a blue line on the Stage.
+Teste deinen Code. Du solltest in der Lage sein, mit der Maus zu klicken und zu ziehen, um eine blaue Linie auf der Bühne zu zeichnen.
 
-![Draw a line](images/draw-a-line.png)
+![Zeichne eine Linie](images/draw-a-line.png)
 
 \--- /task \---
 
-You probably see that a blue dot always appears in the top right-hand corner of the Stage (it's circled in the image above). This is because, when you click the green flag to start the game, you press the mouse down, and so the pen immediately starts drawing.
+Du siehst wahrscheinlich, dass immer ein blauer Punkt in der oberen rechten Ecke der Bühne erscheint (er ist im Bild oben eingekreist). Das liegt daran, dass du beim Klicken auf die grüne Flagge, um das Spiel zu starten, die Maustaste drückst und der Stift sofort mit dem Zeichnen beginnt.
 
 \--- task \---
 
-To stop this from happening, add a `pen up`{:class="block3extensions"} block at the start of the script, and a `wait one second`{:class="block3control"} block above the `forever`{:class="block3control"} block.
+Um dies zu verhindern, füge am Anfang des Skripts einen `schalte Stift aus`{:class="block3extensions"}-Block und einen `warte 1 Sekunde`{:class="block3control"}-Block über den `wiederhole fortlaufend`{:class="block3control"} block hinzu.
 
-![Pen sprite](images/pen-sprite.png)
+![Stift Figur](images/pen-sprite.png)
 
 ```blocks3
 when flag clicked
