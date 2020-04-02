@@ -6,13 +6,13 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 ## Introduction
 
-In this project, you will create a game in which you need to guide cats to safety and not let any of them fall through the gaps!
+En este proyecto, crearás un juego en el que debes guiar a los gatos a un lugar seguro y ¡no dejar que ninguno de ellos caiga al vacío!
 
-### What you will make
+### Lo que harás
 
 \--- no-print \---
 
-Click and drag with the mouse to draw a line with the pencil. Your goal is to stop the cats from falling into holes by creating a safe path to the exit.
+Haz clic y arrastra el ratón para dibujar una línea con el lápiz. Tu objetivo es evitar que los gatos caigan en los agujeros creando un camino seguro hacia la salida.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/253667883/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -28,10 +28,10 @@ Click and drag with the mouse to draw a line with the pencil. Your goal is to st
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Lo que vas a aprender
 
-+ How to use a `forever`{:class="block3control"} loop to constantly generate moving cats
-+ How to use a `repeat until`{:class="block3control"} loop to ensure your cats follow a line
++ Cómo usar un bucle `por siempre`{: class = "block3control"} para generar constantemente gatos en movimiento
++ Cómo usar un bucle `repetir hasta`{: class = "block3control"} para asegurar que tus gatos sigan una línea
 
 \--- /collapse \---
 
@@ -41,7 +41,7 @@ Click and drag with the mouse to draw a line with the pencil. Your goal is to st
 
 ### Hardware
 
-+ A computer capable of running Scratch 3
++ Un ordenador capaz de ejecutar Scratch 3
 
 ### Software
 
