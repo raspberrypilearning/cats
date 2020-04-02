@@ -6,8 +6,8 @@ Pour le moment, le jeu est assez facile à gagner. Peux-tu trouver des idées po
 
 + Déplace l'emplacement de la porte en fonction de l'arrière-plan affiché.
 
-+ Add more sprites as moving obstacles. Perhaps you could have roaming dogs or rotating spikes the cats need to avoid?
++ Ajoute plus de sprites comme obstacles mobiles. Peut-être pourrais-tu avoir des chiens qui se baladent ou des piques rotatifs que les chats doivent éviter ?
 
-+ Only allow the player to use a limited amount of "ink" to draw lines in the game. You can keep track of how much "ink" is used by creating a timer variable that records how long the mouse is held down.
++ Permettre uniquement au joueur d'utiliser un nombre limité d' « encre » pour dessiner des lignes dans le jeu. Tu peux garder une trace de la quantité d' « encre » utilisée en créant une variable de minuterie qui enregistre la durée pendant laquelle la souris est maintenue enfoncée.
 
-+ Create a sprite to show the player how much ink is left.
++ Créer un sprite pour montrer au joueur la quantité d'encre restante.
