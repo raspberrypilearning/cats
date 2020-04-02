@@ -1,20 +1,20 @@
-## Draw lines
+## Tracer des lignes
 
 \--- task \---
 
-Open the 'CATS!' Scratch starter project.
+Ouvre le projet de démarrage Scratch « CHATS ! ».
 
-**Online:** open the starter project at [rpf.io/cats-on](http://rpf.io/cats-on){:target="_blank"}.
+**En ligne :** ouvre le projet de démarrage à [rpf.io/cats-on](http://rpf.io/cats-on){:target="_ blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Si tu as un compte Scratch, tu peux en créer une copie en cliquant sur **Remix**.
 
-**Offline:** open the [starter project](http://rpf.io/p/en/cats-go) in the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+**Hors-ligne :** ouvre le [projet de démarrage](http://rpf.io/p/en/cats-go) dans l'éditeur hors-ligne. Si tu dois télécharger et installer l'éditeur hors-ligne Scratch, tu peux le trouver à [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
 \--- task \---
 
-Add the Pen extension to your project.
+Ajoute l'extension Stylo à ton projet.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -22,7 +22,7 @@ Add the Pen extension to your project.
 
 \--- task \---
 
-Click on the sprite called 'Pen', and add code to set the pen colour to the same blue as the obstacles on the Stage.
+Clique sur le sprite appelé « Crayon » et ajoute du code pour définir la couleur du crayon sur le même bleu que les obstacles sur la scène.
 
 ![Pen sprite](images/pen-sprite.png)
 
