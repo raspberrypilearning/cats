@@ -107,17 +107,17 @@ end
 
 \--- task \---
 
-Test your code. You should be able to click and drag with the mouse to draw a blue line on the Stage.
+Test your code. Deberías poder hacer clic y arrastrar con el ratón para dibujar una línea azul en el escenario.
 
 ![Draw a line](images/draw-a-line.png)
 
 \--- /task \---
 
-You probably see that a blue dot always appears in the top right-hand corner of the Stage (it's circled in the image above). This is because, when you click the green flag to start the game, you press the mouse down, and so the pen immediately starts drawing.
+Probablemente veas que siempre aparece un punto azul en la esquina superior derecha del Escenario (está encerrado en un círculo en la imagen de arriba). Esto se debe a que, cuando haces clic en la bandera verde para iniciar el juego, presionas el ratón y el bolígrafo comienza a dibujar inmediatamente.
 
 \--- task \---
 
-To stop this from happening, add a `pen up`{:class="block3extensions"} block at the start of the script, and a `wait one second`{:class="block3control"} block above the `forever`{:class="block3control"} block.
+Para evitar que esto suceda, agrega un bloque `subir lápiz`{: class = "block3extensions"} al comienzo del script, y un bloque `esperar (1) segundos`{: class = "block3control"} sobre el bloque `por siempre`{ : clase = "block3control"}.
 
 ![Pen sprite](images/pen-sprite.png)
 
