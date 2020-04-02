@@ -1,26 +1,26 @@
 ---
-title: CATS!
+title: KATZEN!
 hero_image: images/banner.png
-description: Create a game in which you guide cats to safety and stop them from falling into holes
+description: Erstelle ein Spiel, in dem du Katzen in Sicherheit bringst und verhinderst, dass sie in Löcher fallen
 listed: true
 copyedit: true
 version: 4.0.2
 last_tested: 2018-10-18
 steps:
   - 
-    title: Introduction
+    title: Einleitung
   - 
-    title: Draw lines
+    title: Linien zeichnen
   - 
-    title: Clone cats
+    title: Katzen klonen
   - 
-    title: Make the cats move
+    title: Lass die Katzen sich bewegen
   - 
-    title: Stick to the lines
+    title: Auf der Linie bleiben
   - 
-    title: Get to safety
+    title: In Sicherheit bringen
   - 
-    title: "Challenge: more obstacles"
+    title: "Herausforderung: Mehr Hindernisse"
     challenge: true
   - 
-    title: What next?
+    title: Wie geht es weiter?
