@@ -1,22 +1,22 @@
-## Make the cats move
+## Faça os gatos se mexerem
 
-Once a cat reaches the floor, it should step slowly to the right.
+Quando um gato atinge o chão, deve pisar lentamente para a direita.
 
 \--- task \---
 
-Add code to the `when I start as a clone`{:class="block3control"} section to make the cat sprite `move ten steps`{:class="block3motion"}, and switch between the sprite's two costumes every 0.1 seconds to make the cat look like it's walking.
+Adicione código ao `quando eu começar como um clone`{: class = "block3control"} para fazer o sprite de gato `mover dez etapas`{: class = "block3motion"} e alterne entre os dois figurinos do sprite a cada 0,1 segundos para fazer o gato parecer andar.
 
-![Cat sprite](images/cat-sprite.png)
+![Sprite de gato](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-The cat sprite should `move 10 steps`{:class="block3motion"}, and `switch costume`{:class="block3looks"} every `0.1 seconds`{:class="block3control"}. This code should repeat `forever`{:class="block3control"}, just like the code to make the cat fall.
+O sprite de gato deve `mover 10 etapas`{: class = "block3motion"} e `alternar o traje`{: class = "block3looks"} a cada `0,1 segundos`{: class = "block3control"}. Este código deve repetir `para sempre`{: class = "block3control"}, assim como o código para fazer o gato cair.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+Estes são os blocos de que necessitas:
 
 ```blocks3
 move (10) steps
@@ -33,7 +33,7 @@ end
 
 \--- hint \---
 
-This is what your code should look like:
+Este é o aspeto que o teu código deve ter:
 
 ```blocks3
 when I start as a clone
@@ -54,19 +54,19 @@ end
 
 \--- task \---
 
-Press the green flag and check that the cats now move along the blue platform at the bottom.
+Pressione a bandeira verde e verifique se os gatos agora se movem ao longo da plataforma azul na parte inferior.
 
 \--- /task \---
 
-If you draw a bridge across the gap so that the cats can get all the way to the right side of the Stage, you can see that they end up getting stuck walking into the right wall.
+Se você desenhar uma ponte através da abertura para que os gatos possam chegar até o lado direito do Palco, poderá ver que eles acabam ficando presos andando na parede direita.
 
-![Flailing cats at the edge](images/flailing-at-edge.png)
+![Gatos agitados na borda](images/flailing-at-edge.png)
 
 \--- task \---
 
-Remove the `forever`{:class="block3control"} loop, and instead add a different loop to make the cats only walk until they reach an edge. When a cat reaches the edge of the Stage, it should disappear.
+Remova o loop `para sempre`{: class = "block3control"} e adicione um loop diferente para fazer com que os gatos andem apenas até atingirem uma borda. Quando um gato atinge a borda do palco, ele deve desaparecer.
 
-![Cat sprite](images/cat-sprite.png)
+![Sprite de gato](images/cat-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -86,26 +86,26 @@ end
 
 \--- task \---
 
-Press the green flag and check that the cats disappear when they reach the edge of the Stage.
+Pressione a bandeira verde e verifique se os gatos desaparecem quando atingem a borda do palco.
 
 \--- /task \---
 
-You may notice that, if the cats fall into the hole, they don't disappear but instead get stuck at the bottom. This is because they keep trying to fall downwards.
+Você pode perceber que, se os gatos caem no buraco, eles não desaparecem, mas ficam presos no fundo. Isso ocorre porque eles continuam tentando cair para baixo.
 
-This is the part of the code that tells the cat to keep falling until it touches blue:
+Esta é a parte do código que diz ao gato para continuar caindo até tocar em azul:
 
 ```blocks3
 repeat until <touching color [#0000ff]?>
 end
 ```
 
-However, in the hole, the cat can never reach blue, so it is stuck forever.
+No entanto, no buraco, o gato nunca pode chegar ao azul, por isso fica preso para sempre.
 
 \--- task \---
 
-Add more blocks to this loop so that it repeats until the cat sprite is touching blue `or`{:class="block3operators"} `touching the edge`{:class="block3sensing"}. This way, the sprite stops trying to fall if it reaches the edge of the Stage.
+Adicione mais blocos a esse loop para que ele repita até o sprite de gato tocar em azul `ou`{: class = "block3operators"} `tocando na borda`{: class = "block3sensing"}. Dessa forma, o sprite para de tentar cair se atingir a borda do Palco.
 
-![Cat sprite](images/cat-sprite.png)
+![Sprite de gato](images/cat-sprite.png)
 
 ```blocks3
 repeat until <<touching color [#0000ff]?> or <touching (edge v)?>>
