@@ -1,14 +1,14 @@
-## Draw lines
+## Linien zeichnen
 
 \--- task \---
 
-Open the 'CATS!' Scratch starter project.
+Öffne das "KATZEN!" Scratch Starter Projekt.
 
-**Online:** open the starter project at [rpf.io/cats-on](http://rpf.io/cats-on){:target="_blank"}.
+**Online:** Öffne das Starter-Projekt [rpf.io/cats-on](http://rpf.io/cats-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Wenn du bereits einen Scratch-Account besitzt, kannst du dir durch klicken auf **Remix** eine Kopie anlegen.
 
-**Offline:** open the [starter project](http://rpf.io/p/en/cats-go) in the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+**Offline**: Öffne das [Starter-Projekt](http://rpf.io/p/en/cats-go) im Offline-Editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
