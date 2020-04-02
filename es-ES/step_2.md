@@ -8,13 +8,13 @@ Open the 'CATS!' Scratch starter project.
 
 If you have a Scratch account you can make a copy by clicking **Remix**.
 
-**Sin conexión**: abre el [proyecto de inicio](http://rpf.io/p/en/cats-go) en el editor sin conexión. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+**Sin conexión**: abre el [proyecto de inicio](http://rpf.io/p/en/cats-go) en el editor sin conexión. Si necesitas descargar e instalar el editor sin conexión de Scratch, puedes encontrarlo en [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
 \--- task \---
 
-Add the Pen extension to your project.
+Añade la extensión Lápiz a tu proyecto. (Nota: Añadir extensiones es la última opción del selector de bloques, se encuentra debajo de Mis Bloques).
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -22,7 +22,7 @@ Add the Pen extension to your project.
 
 \--- task \---
 
-Click on the sprite called 'Pen', and add code to set the pen colour to the same blue as the obstacles on the Stage.
+Haz clic en el objeto llamado 'Lápiz' y agrega el código para establecer el color del lápiz en el mismo azul que los obstáculos en el Escenario.
 
 ![Pen sprite](images/pen-sprite.png)
 
