@@ -1,6 +1,6 @@
-## Make the cats move
+## Fai muovere i gatti
 
-Once a cat reaches the floor, it should step slowly to the right.
+Una volta che un gatto raggiunge il pavimento, dovrebbe spostarsi lentamente verso destra.
 
 \--- task \---
 
