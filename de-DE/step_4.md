@@ -58,7 +58,7 @@ Drücke die grüne Flagge und überprüfe, ob sich die Katzen jetzt entlang der 
 
 \--- /task \---
 
-If you draw a bridge across the gap so that the cats can get all the way to the right side of the Stage, you can see that they end up getting stuck walking into the right wall.
+Wenn du eine Brücke über die Lücke zeichnest, damit die Katzen bis zur rechten Seite der Bühne gelangen können, wirst du sehen, dass sie beim Laufen in die rechte Wand stecken bleiben.
 
 ![Strampelnde Katzen am Rand](images/flailing-at-edge.png)
 
