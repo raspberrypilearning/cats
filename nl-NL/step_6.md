@@ -34,7 +34,7 @@ change [score v] by (1)
 if <> then
 end
 
-<0>
+<touching (Door v)?>
 
 set [score v] to (0)
 ```

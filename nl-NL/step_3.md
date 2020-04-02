@@ -4,7 +4,7 @@ Je wilt een eindeloze stroom katten die de speler langs het pad naar de uitgang 
 
 --- task ---
 
-Klik op de sprite genaamd 'Kat' en voeg wat code toe om de sprite te laten `verdwijnen`{class:="block3looks"}, en ook om er elke drie seconden een `kloon`{:class="block3control"} van te maken.
+Klik op de sprite genaamd 'Kat' en voeg wat code toe om de sprite te laten `verdwijnen`{:class="block3looks"}, en ook om er elke drie seconden een `kloon`{:class="block3control"} van te maken.
 
 ![Kat sprite](images/cat-sprite.png)
 

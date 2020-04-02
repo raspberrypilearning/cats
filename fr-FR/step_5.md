@@ -12,7 +12,7 @@ Dans le code du sprite chat, ajoute une autre boucle avant le bloc `costume suiv
 
 --- hints --- --- hint ---
 
-Le chat devrait `monter de 2`{:class="block3motion"} `de manière répétée jusqu'à ce qu'il`{:class="block3control"} `ne`` touche pas le bleu` {:class="block3operators"}{:class="block3sensing"}.
+Le chat devrait `monter de 2`{:class="block3motion"} `de manière répétée jusqu'à ce qu'il`{:class="block3control"} `ne`{:class="block3operators"} `touche pas le bleu`{:class="block3sensing"}.
 
 --- /hint ---
 
