@@ -24,7 +24,7 @@ Ajoute l'extension Stylo à ton projet.
 
 Clique sur le sprite appelé « Crayon » et ajoute du code pour définir la couleur du crayon sur le même bleu que les obstacles sur la scène.
 
-![Pen sprite](images/pen-sprite.png)
+![Sprite Crayon](images/pen-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -33,15 +33,15 @@ erase all
 set pen size to (5)
 ```
 
-To select a colour, click on the colour square in the `set pen color`{:class="block3extensions"} block to make your mouse cursor turn into a pipette, and then click on the correct colour on the Stage.
+Pour sélectionner une couleur, clique sur le carré de couleur dans le bloc `mettre la couleur du stylo à`{:class="block3extensions"} pour que le curseur de ta souris se transforme en pipette, puis clique sur la bonne couleur sur la scène.
 
 \--- /task \---
 
 \--- task \---
 
-Add some more code to make the sprite follow the mouse pointer. Test your program to check that the code works.
+Ajoute un peu plus de code pour que le sprite suive le pointeur de la souris. Teste ton programme pour vérifier que le code fonctionne.
 
-![Pen sprite](images/pen-sprite.png)
+![Sprite Crayon](images/pen-sprite.png)
 
 ```blocks3
 forever
@@ -55,19 +55,19 @@ end
 
 \--- task \---
 
-Add some code to tell the sprite to draw a line on the Stage if the mouse button is pressed down.
+Ajoute du code pour dire au sprite de tracer une ligne sur la scène si le bouton de la souris est enfoncé.
 
-![Pen sprite](images/pen-sprite.png)
+![Sprite Crayon](images/pen-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-`If`{:class="block3control"} the `mouse is down`{:class="block3sensing"}, put the `pen down`{:class="block3extensions"}, and `else`{:class="block3control"}, lift the `pen up`{:class="block3extensions"}.
+`si`{:class="block3control"} `souris pressée ?`{:class="block3sensing"}, `stylo en position d'écriture`{:class="block3extensions"}, et `sinon`{:class=" block3control"}, `relever le stylo`{:class="block3extensions"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+Voici les blocs dont tu as besoin :
 
 ```blocks3
 <mouse down?>
@@ -85,7 +85,7 @@ end
 
 \--- hint \---
 
-This is what your code should look like:
+Voici à quoi ton code devrait ressembler :
 
 ```blocks3
 when flag clicked
@@ -107,19 +107,19 @@ end
 
 \--- task \---
 
-Test your code. You should be able to click and drag with the mouse to draw a blue line on the Stage.
+Teste ton code. Tu devrais pouvoir cliquer et faire glisser la souris pour tracer une ligne bleue sur la scène.
 
-![Draw a line](images/draw-a-line.png)
+![Tracer une ligne](images/draw-a-line.png)
 
 \--- /task \---
 
-You probably see that a blue dot always appears in the top right-hand corner of the Stage (it's circled in the image above). This is because, when you click the green flag to start the game, you press the mouse down, and so the pen immediately starts drawing.
+Tu vois probablement qu'un point bleu apparaît toujours dans le coin supérieur droit de la scène (il est entouré dans l'image ci-dessus). C'est parce que lorsque tu cliques sur le drapeau vert pour démarrer le jeu, tu appuies sur la souris, et donc le stylo commence immédiatement à dessiner.
 
 \--- task \---
 
-To stop this from happening, add a `pen up`{:class="block3extensions"} block at the start of the script, and a `wait one second`{:class="block3control"} block above the `forever`{:class="block3control"} block.
+Pour éviter que cela ne se produise, ajoute un bloc `relever le stylo`{:class="block3extensions"} au début du script et un bloc `attendre une seconde`{:class="block3control"} au-dessus du bloc `répéter indéfiniment`{:class="block3control"}.
 
-![Pen sprite](images/pen-sprite.png)
+![Sprite Crayon](images/pen-sprite.png)
 
 ```blocks3
 when flag clicked
