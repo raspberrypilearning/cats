@@ -1,24 +1,24 @@
-## Stick to the lines
+## Respecter les lignes
 
-You might notice that, if you draw a low bridge between the two platforms, or a line that slopes upwards, the cats end up walking through the platform rather than on top of it!
+Tu pourras remarquer que, si tu traces un pont bas entre les deux plateformes, ou une ligne qui est inclinée vers le haut, les chats finissent par se promener à travers la plate-forme plutôt que par dessus !
 
-![Cats walking through the platform](images/cat-walk-through-platform.png)
+![Chats qui traversent la plate-forme](images/cat-walk-through-platform.png)
 
 \--- task \---
 
-In the code for the cat sprite, add another loop before the `next costume`{:class="block3looks"} block. This time, the loop should tell the cat to move upwards by `2` until it is not touching blue.
+Dans le code du sprite chat, ajoute une autre boucle avant le bloc `costume suivant`{:class="block3looks"}. Cette fois, la boucle devrait dire au chat de se déplacer vers le haut par `2` jusqu'à ce qu'il ne touche pas le bleu.
 
-![Cat sprite](images/cat-sprite.png)
+![Sprite Chat](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-The cat should `move up 2`{:class="block3motion"} `repeatedly until`{:class="block3control"} it is `not`{:class="block3operators"} `touching blue`{:class="block3sensing"}.
+Le chat devrait `monter de 2`{:class="block3motion"} `de manière répétée jusqu'à ce qu'il`{:class="block3control"} `ne`` touche pas le bleu` {:class="block3operators"}{:class="block3sensing"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+Voici les blocs dont tu as besoin :
 
 ```blocks3
 <touching color [#0000ff]?>
@@ -35,7 +35,7 @@ not <>
 
 \--- hint \---
 
-This is what your code should look like:
+Voici à quoi ton code devrait ressembler :
 
 ```blocks3
 when I start as a clone
@@ -60,6 +60,6 @@ delete this clone
 
 \--- task \---
 
-Click the green flag and try drawing a line that slopes upwards. Check that your cat follows this line.
+Clique sur le drapeau vert et essaie de dessiner une ligne qui est inclinée vers le haut. Vérifie que ton chat suit cette ligne.
 
 \--- /task \---
