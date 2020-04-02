@@ -1,18 +1,18 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/cats-scratch2).
+Esta é a versão **Scratch 3** do projeto. Existe também uma versão [Scratch 2 do projeto](https://projects.raspberrypi.org/en/projects/cats-scratch2).
 
 \--- /no-print \---
 
-## Introduction
+## Introdução
 
-In this project, you will create a game in which you need to guide cats to safety and not let any of them fall through the gaps!
+Neste projeto, vais criar um jogo no qual é necessário guiar os gatos para um lugar seguro e não deixar que nenhum deles caia nas aberturas!
 
-### What you will make
+### O que é que vais fazer
 
 \--- no-print \---
 
-Click and drag with the mouse to draw a line with the pencil. Your goal is to stop the cats from falling into holes by creating a safe path to the exit.
+Clica e arrasta com o rato para desenhar uma linha com o lápis. O teu objetivo é impedir que os gatos caiam nas aberturas, criando um caminho seguro até à saída.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/253667883/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -22,45 +22,45 @@ Click and drag with the mouse to draw a line with the pencil. Your goal is to st
 
 \--- print-only \---
 
-![Cats finished](images/cats-finished.png)
+![Gatos terminados](images/cats-finished.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: O que vais aprender
 
-+ How to use a `forever`{:class="block3control"} loop to constantly generate moving cats
-+ How to use a `repeat until`{:class="block3control"} loop to ensure your cats follow a line
++ Como usar um loop `para sempre`{: class = "block3control"} para gerar constantemente gatos em movimento
++ Como usar uma repetição `até`{: class = "block3control"} para garantir que os teus gatos seguem uma linha
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Do que é que vais necessitar
 
 ### Hardware
 
-+ A computer capable of running Scratch 3
++ Um computador com capacidade para executar o Scratch 3
 
 ### Software
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (ou [online](http://rpf.io/scratchon){:target="_ blank"} ou [offline](http://rpf.io/scratchoff){:target="_ blank"})
 
 ### Downloads
 
-+ [Offline starter project](http://rpf.io/p/en/cats-go){:target="_blank"}
++ [ Projeto inicial offline ](http://rpf.io/p/en/cats-go) {: target = "_ blank"}
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: Notas adicionais para educadores
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/cats/print). \--- /no-print \---
+Se necessitar imprimir este projeto, por favor utilize a [versão para impressão](https://projects.raspberrypi.org/en/projects/cats/print). \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/cats-get){:target="_blank"}.
+Pode encontrar o [projeto concluído aqui](http://rpf.io/p/en/cats-get){: target = "_ blank"}.
 
 \--- /collapse \---
