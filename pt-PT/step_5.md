@@ -1,24 +1,24 @@
-## Stick to the lines
+## Aderir à linhas
 
-You might notice that, if you draw a low bridge between the two platforms, or a line that slopes upwards, the cats end up walking through the platform rather than on top of it!
+Podes já ter notado que, se desenhares uma ponte baixa entre as duas plataformas, ou uma linha que inclina para cima, os gatos acabam por caminhar através da plataforma e não por cima dela!
 
-![Cats walking through the platform](images/cat-walk-through-platform.png)
+![Gatos a andar na plataforma](images/cat-walk-through-platform.png)
 
 \--- task \---
 
-In the code for the cat sprite, add another loop before the `next costume`{:class="block3looks"} block. This time, the loop should tell the cat to move upwards by `2` until it is not touching blue.
+No código do ator gato, adiciona outro ciclo antes do bloco `passa para o teu próximo traje` {: class = "block3looks"}. Desta vez, o ciclo deve dizer ao gato para subir ` 2 ` até não estar a tocar na cor azul.
 
-![Cat sprite](images/cat-sprite.png)
+![Ator gato](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-The cat should `move up 2`{:class="block3motion"} `repeatedly until`{:class="block3control"} it is `not`{:class="block3operators"} `touching blue`{:class="block3sensing"}.
+O gato deve ` subir 2 ` {: class = "block3motion"} ` até ` {: class = "block3control"} ` não estar a ` {: class = "block3operators"} ` tocar na cor azul ` {: class = "block3sensing"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+Estes são os blocos de que necessitas:
 
 ```blocks3
 <touching color [#0000ff]?>
@@ -35,7 +35,7 @@ not <>
 
 \--- hint \---
 
-This is what your code should look like:
+Este é o aspeto que o teu código deve ter:
 
 ```blocks3
 when I start as a clone
@@ -60,6 +60,6 @@ delete this clone
 
 \--- task \---
 
-Click the green flag and try drawing a line that slopes upwards. Check that your cat follows this line.
+Clica na bandeira verde e tenta desenhar uma linha inclinada para cima. Verifica se o teu gato segue a linha.
 
 \--- /task \---
