@@ -14,6 +14,6 @@ Drücke `f` um ein paar Blumen zu zeichnen oder `r`, um viele zufällige Blumen 
 
 \--- print-only \---
 
-![random flowers](images/flower-random.png)
+![zufällige Blumen](images/flower-random.png)
 
 \--- /print-only \---
