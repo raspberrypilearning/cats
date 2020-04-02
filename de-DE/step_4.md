@@ -1,22 +1,22 @@
-## Make the cats move
+## Lass die Katzen sich bewegen
 
-Once a cat reaches the floor, it should step slowly to the right.
+Sobald eine Katze den Boden erreicht, sollte sie langsam nach rechts gehen.
 
 \--- task \---
 
-Add code to the `when I start as a clone`{:class="block3control"} section to make the cat sprite `move ten steps`{:class="block3motion"}, and switch between the sprite's two costumes every 0.1 seconds to make the cat look like it's walking.
+Füge dem `wenn ich als Klon entstehe`{:class="block3control"}-Teil Code hinzu, damit die Katzenfigur `zehn Schritte geht`{:class="block3motion"} und alle 0,1 Sekunden zwischen den beiden Kostümen der Figur wechselt damit die Katze so aussieht, als würde sie laufen.
 
 ![Cat sprite](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-The cat sprite should `move 10 steps`{:class="block3motion"}, and `switch costume`{:class="block3looks"} every `0.1 seconds`{:class="block3control"}. This code should repeat `forever`{:class="block3control"}, just like the code to make the cat fall.
+Die Katzenfigur sollte `10 Schritte gehen`{:class="block3motion"} und alle `0,1 Sekunden`{:class="block3control"} `das Kostüm wechseln`{:class="block3looks"}. Dieser Code sollte `fortlaufend wiederholt`{:class="block3control"} werden, genau wie der Code, der die Katze fallen lässt.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+Hier sind die Codeblöcke die du brauchst:
 
 ```blocks3
 move (10) steps
@@ -33,7 +33,7 @@ end
 
 \--- hint \---
 
-This is what your code should look like:
+So sollte dein Code aussehen:
 
 ```blocks3
 when I start as a clone
@@ -54,7 +54,7 @@ end
 
 \--- task \---
 
-Press the green flag and check that the cats now move along the blue platform at the bottom.
+Drücke die grüne Flagge und überprüfe, ob sich die Katzen jetzt entlang der blauen Plattform am unteren Rand bewegen.
 
 \--- /task \---
 
