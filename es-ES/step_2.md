@@ -61,7 +61,7 @@ Agrega algo de código para indicarle al objeto que dibuje una línea en el esce
 
 \--- hints \--- \--- hint \---
 
-`Si`{:class="block3control"} el `ratón está pulsado`{:class="block3sensing"}, pon el`lápiz abajo`{:class="block3extensions"}, y `sino`{:class="block3control"}, levanta el`lápiz hacia arriba`{:class="block3extensions"}.
+`Si`{:class="block3control"} el `ratón está pulsado`{:class="block3sensing"}, pon el `lápiz abajo`{:class="block3extensions"}, y `sino`{:class="block3control"}, levanta el `lápiz hacia arriba`{:class="block3extensions"}.
 
 \--- /hint \---
 
