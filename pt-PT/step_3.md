@@ -1,12 +1,12 @@
-## Clone cats
+## Clonar gatos
 
-You want a never-ending stream of cats that the player has to guide along the path to the exit.
+Você quer um fluxo interminável de gatos que o jogador precisa orientar ao longo do caminho até a saída.
 
 \--- task \---
 
-Click on the sprite called 'Cat', and add some code to `hide`{:class="block3looks"} the sprite, and also to `clone`{:class="block3control"} it every three seconds.
+Clique no sprite chamado 'Cat' e adicione algum código ao `hide`{: class = "block3looks"} do sprite, e também ao `clone`{: class = "block3control"} a cada três segundos.
 
-![Cat sprite](images/cat-sprite.png)
+![Sprite de gato](images/cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -19,23 +19,23 @@ end
 
 \--- /task \---
 
-If you run the program now, nothing happens on the Stage. To check that a new Cat sprite clone is created every three seconds, make each clone appear and fall out of the sky.
+Se você executar o programa agora, nada acontece no palco. Para verificar se um novo clone de sprite Cat é criado a cada três segundos, faça com que cada clone apareça e caia do céu.
 
 \--- task \---
 
-Add code to tell the sprite that `when it starts as a clone`{:class="block3control"}, it should `show`{:class="block3looks"} itself and fall until it `touches`{:class="block3sensing"} the blue floor that is drawn on the Stage.
+Adicione código para dizer ao sprite que `quando ele começa como um clone`{: class = "block3control"}, deve- `show de`{: class = "block3looks"}-se e cair até que ele `toques`{: class =" block3sensing "} o piso azul desenhado no palco.
 
-![Cat sprite](images/cat-sprite.png)
+![Sprite de gato](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-`When the sprite starts as a clone`{:class="block3control"}, `show`{:class="block3looks"} the sprite. `Repeatedly`{:class="block3control"} `Change`{:class="block3motion"} the sprite's `y` coordinate by `-2`, until the sprite `touches`{:class="block3sensing"} the blue Stage.
+`Quando o sprite começa como um clone`{: class = "block3control"}, `mostra`{: class = "block3looks"} o sprite. `Repetidamente`{: class = "block3control"} `Altere`{: class = "block3motion"} as coordenadas `e` do sprite por `-2`, até o sprite `tocar`{: class = "block3sensing"} no azul Palco.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+Estes são os blocos de que necessitas:
 
 ```blocks3
 repeat until <>
@@ -54,7 +54,7 @@ when I start as a clone
 
 \--- hint \---
 
-This is what your code should look like:
+Este é o aspeto que o teu código deve ter:
 
 ```blocks3
 when I start as a clone
@@ -68,6 +68,6 @@ end
 
 \--- /task \---
 
-When you click the green flag, you should see a new cat fall from the top of the Stage every three seconds. Every cat should land in a big pile of overlapping cats on the blue floor at the bottom.
+Ao clicar na bandeira verde, você verá um novo gato cair do topo do palco a cada três segundos. Todo gato deve pousar em uma grande pilha de gatos sobrepostos no chão azul na parte inferior.
 
-![Falling cats](images/falling-cats.png)
+![Gatos caindo](images/falling-cats.png)
