@@ -1,20 +1,20 @@
-## Draw lines
+## Desenhar linhas
 
 \--- task \---
 
-Open the 'CATS!' Scratch starter project.
+Abre o 'GATOS!' Projeto Scratch inicial.
 
-**Online:** open the starter project at [rpf.io/cats-on](http://rpf.io/cats-on){:target="_blank"}.
+**Online:** abre o projeto inicial em [rpf.io/cats-on](http://rpf.io/cats-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Se tiveres uma 'conta Scratch' podes fazer uma cópia ao clicares **Remix**.
 
-**Offline:** open the [starter project](http://rpf.io/p/en/cats-go) in the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+**Off-line:** abre o [projeto inicial](http://rpf.io/p/en/cats-go) no editor off-line. Se necessitares de descarregar e instalar o editor offline do Scratch, podes encontrá-lo em [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
 \--- task \---
 
-Add the Pen extension to your project.
+Adiciona a extensão "caneta" ao teu projeto.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -22,9 +22,9 @@ Add the Pen extension to your project.
 
 \--- task \---
 
-Click on the sprite called 'Pen', and add code to set the pen colour to the same blue as the obstacles on the Stage.
+Clica no ator chamado 'Lápis' e adiciona-lhe código para definir a cor do lápis para o mesmo azul dos obstáculos no palco.
 
-![Pen sprite](images/pen-sprite.png)
+![Caneta sprite](images/pen-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -33,15 +33,15 @@ erase all
 set pen size to (5)
 ```
 
-To select a colour, click on the colour square in the `set pen color`{:class="block3extensions"} block to make your mouse cursor turn into a pipette, and then click on the correct colour on the Stage.
+Para selecionar uma cor, clica no quadrado de cores no bloco `set pen color`{: class = "block3extensions"} para transformar o cursor do rato numa pipeta e clica na cor correta no palco.
 
 \--- /task \---
 
 \--- task \---
 
-Add some more code to make the sprite follow the mouse pointer. Test your program to check that the code works.
+Adiciona um pouco mais de código para obrigar o ator a seguir o ponteiro do rato. Testa o teu programa para verificar se o código está a funcionar.
 
-![Pen sprite](images/pen-sprite.png)
+![Caneta sprite](images/pen-sprite.png)
 
 ```blocks3
 forever
@@ -55,19 +55,19 @@ end
 
 \--- task \---
 
-Add some code to tell the sprite to draw a line on the Stage if the mouse button is pressed down.
+Adiciona mais algum código para que o ator desenhe uma linha no palco quando o botão do rato for pressionado.
 
-![Pen sprite](images/pen-sprite.png)
+![Caneta sprite](images/pen-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-`If`{:class="block3control"} the `mouse is down`{:class="block3sensing"}, put the `pen down`{:class="block3extensions"}, and `else`{:class="block3control"}, lift the `pen up`{:class="block3extensions"}.
+`Se`{: class = "block3control"} o mouse `estiver pressionado`{: class = "block3sensing"}, coloque a caneta `pressionada`{: class = "block3extensions"} e mais `outras`{: class = " block3control "}, levante a caneta `cima`{: class =" block3extensions "}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+Estes são os blocos de que necessitas:
 
 ```blocks3
 <mouse down?>
@@ -85,7 +85,7 @@ end
 
 \--- hint \---
 
-This is what your code should look like:
+Este é o aspeto que o teu código deve ter:
 
 ```blocks3
 when flag clicked
@@ -107,19 +107,19 @@ end
 
 \--- task \---
 
-Test your code. You should be able to click and drag with the mouse to draw a blue line on the Stage.
+Testa o teu código. Você poderá clicar e arrastar com o mouse para desenhar uma linha azul no palco.
 
-![Draw a line](images/draw-a-line.png)
+![Desenhe uma linha](images/draw-a-line.png)
 
 \--- /task \---
 
-You probably see that a blue dot always appears in the top right-hand corner of the Stage (it's circled in the image above). This is because, when you click the green flag to start the game, you press the mouse down, and so the pen immediately starts drawing.
+Você provavelmente vê que um ponto azul sempre aparece no canto superior direito do palco (está circulado na imagem acima). Isso ocorre porque, quando você clica na bandeira verde para iniciar o jogo, pressiona o mouse e a caneta começa a desenhar imediatamente.
 
 \--- task \---
 
-To stop this from happening, add a `pen up`{:class="block3extensions"} block at the start of the script, and a `wait one second`{:class="block3control"} block above the `forever`{:class="block3control"} block.
+Para impedir que isso aconteça, adicione um bloco `caneta <code> {`: class = "block3extensions"} no início do script e `espere um segundo`{: class = "block3control"} acima dos `para sempre`{ : class = "block3control"} bloco.
 
-![Pen sprite](images/pen-sprite.png)
+![Caneta sprite](images/pen-sprite.png)
 
 ```blocks3
 when flag clicked
