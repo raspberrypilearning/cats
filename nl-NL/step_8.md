@@ -1,6 +1,6 @@
 ## Wat kun je verder nog doen?
 
-Probeer het project [Bloemen generator](https://projects.raspberrypi.org/en/projects/flower-generator?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), waar je aangepaste blokken gebruikt om bloempatronen te maken.
+Probeer het project [Bloem generator](https://projects.raspberrypi.org/en/projects/flower-generator?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), waar je aangepaste blokken gebruikt om bloempatronen te maken.
 
 \--- no-print \---
 
