@@ -1,24 +1,24 @@
-## Stick to the lines
+## Auf der Linie bleiben
 
-You might notice that, if you draw a low bridge between the two platforms, or a line that slopes upwards, the cats end up walking through the platform rather than on top of it!
+Du wirst vielleicht bemerken, dass wenn du eine niedrige Brücke zwischen den beiden Plattformen zeichnest oder eine Linie, die nach oben läuft, die Katzen eher durch die Plattform laufen als auf ihr!
 
-![Cats walking through the platform](images/cat-walk-through-platform.png)
+![Katzen, die durch die Plattform laufen](images/cat-walk-through-platform.png)
 
 \--- task \---
 
-In the code for the cat sprite, add another loop before the `next costume`{:class="block3looks"} block. This time, the loop should tell the cat to move upwards by `2` until it is not touching blue.
+Füge im Code für die Katzenfigur eine weitere Schleife vor dem `nächsten Kostüm`{:class="block3looks"}-Block hinzu. Dieses Mal sollte die Schleife die Katze anweisen, sich um `2` nach oben zu bewegen, bis sie kein blau mehr berührt.
 
-![Cat sprite](images/cat-sprite.png)
+![Katzen Figur](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-The cat should `move up 2`{:class="block3motion"} `repeatedly until`{:class="block3control"} it is `not`{:class="block3operators"} `touching blue`{:class="block3sensing"}.
+Die Katze sollte sich `wiederholt`{:class="block3control"} `um 2 Schritte nach oben`{:class="block3motion"} bewegen `bis`{:class="block3control"} sie `nicht`{:class="block3operators"} `Blau berührt`{:class="block3sensing"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+Hier sind die Codeblöcke die du brauchst:
 
 ```blocks3
 <touching color [#0000ff]?>
@@ -35,7 +35,7 @@ not <>
 
 \--- hint \---
 
-This is what your code should look like:
+So sollte dein Code aussehen:
 
 ```blocks3
 when I start as a clone
@@ -60,6 +60,6 @@ delete this clone
 
 \--- task \---
 
-Click the green flag and try drawing a line that slopes upwards. Check that your cat follows this line.
+Klicke auf die grüne Fahne und versuche eine Linie zu zeichnen, die nach oben ansteigt. Überprüfe, ob deine Katze dieser Linie folgt.
 
 \--- /task \---
