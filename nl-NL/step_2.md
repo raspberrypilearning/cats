@@ -2,13 +2,13 @@
 
 --- task ---
 
-Open het 'KATTEN!' Scratch starter project.
+Open het 'CATS!' Scratch startproject.
 
-**Online:** open het starter project op [rpf.io/cats-on](http://rpf.io/cats-on){:target="_ blank"}.
+**Online:** open het startproject op [rpf.io/cats-on](http://rpf.io/cats-on){:target="_ blank"}.
 
 Als je een Scratch account hebt, kun je een kopie maken door op **Remix** te klikken.
 
-**Offline:** open het [starter project](http://rpf.io/p/nl-NL/cats-go) in de offline editor. Als je de Scratch offline editor wilt downloaden en installeren dan kan je die vinden op [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+**Offline:** open het [startproject](http://rpf.io/p/nl-NL/cats-go) in de offline editor. Als je de Scratch offline editor wilt downloaden en installeren dan kan je die vinden op [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
 --- /task ---
 
@@ -28,9 +28,9 @@ Klik op de sprite genaamd 'Pen' en voeg code toe om de penkleur in te stellen op
 
 ```blocks3
 when flag clicked
-maak penkleur [#0000ff]
-wis alles
-maak pendikte (5)
+set pen color to [#0000ff]
+erase all
+set pen size to (5)
 ```
 
 Om een kleur te selecteren, klik je op het kleurenvierkant in het blok `maak penkleur`{:class="block3extensions"} om je muiscursor in een pipet te veranderen en vervolgens klik je op de juiste kleur in het speelveld.
@@ -44,9 +44,9 @@ Voeg nog wat code toe om de sprite de muisaanwijzer te laten volgen. Test je pro
 ![Pen sprite](images/pen-sprite.png)
 
 ```blocks3
-herhaal
-ga naar (muisaanwijzer v)
-einde
+forever
+go to (mouse pointer v)
+end
 ```
 
 [[[generic-scratch3-saving]]]
@@ -59,8 +59,7 @@ Voeg wat code toe om de sprite te vertellen een lijn in het speelveld te tekenen
 
 ![Pen sprite](images/pen-sprite.png)
 
---- hints ---
- --- hint ---
+--- hints --- --- hint ---
 
 `Als`{:class="block3control"} de `muis ingedrukt is`{:class="block3sensing"}, zet de `pen neer`{:class="block3extensions"} en `anders`{:class="block3control"}, til de `pen op`{:class="block3extensions"}.
 
@@ -73,9 +72,9 @@ Dit zijn de codeblokken die je nodig hebt:
 ```blocks3
 <mouse down?>
 
-pen neer
+pen down
 
-pen op
+pen up
 
 if <> then
 else
@@ -90,16 +89,16 @@ Dit is hoe je code eruit zou moeten zien:
 
 ```blocks3
 when flag clicked
-maak penkleur [#0000ff]
-wis alles
-maak pendikte (5)
-herhaal
-ga naar (muisaanwijzer v)
-+ als <mouse down?> dan
-pen neer
-anders
-pen op
-einde
+set pen color to [#0000ff]
+erase all
+set pen size to (5)
+forever
+go to (mouse pointer v)
++ if <mouse down?> then
+pen down
+else
+pen up
+end
 ```
 
 --- /hint ---
@@ -124,18 +123,18 @@ Om dit te voorkomen, voeg je een `pen op`{:class="block3extensions"} blok toe aa
 
 ```blocks3
 when flag clicked
-+ pen op
-maak penkleur [#0000ff]
-wis alles
-maak pendikte (5)
-+ wacht (1) sec.
-herhaal
-ga naar (muisaanwijzer v)
-als <mouse down?> dan
-pen neer
-anders
-pen op
-einde
++ pen up
+set pen color to [#0000ff]
+erase all
+set pen size to (5)
++ wait (1) seconds
+forever
+go to (mouse pointer v)
+if <mouse down?> then
+pen down
+else
+pen up
+end
 ```
 
 --- /task ---

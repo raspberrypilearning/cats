@@ -10,8 +10,7 @@ Voeg in de code voor de kat sprite nog een lus toe vóór het `volgend uiterlijk
 
 ![Kat sprite](images/cat-sprite.png)
 
---- hints ---
- --- hint ---
+--- hints --- --- hint ---
 
 De kat moet `2 stappen omhoog`{:class="block3motion"} `totdat`{:class="block3control"} hij `niet`{:class="block3operators"} `blauw raakt`{:class="block3sensing"}.
 
@@ -24,12 +23,12 @@ Dit zijn de codeblokken die je nodig hebt:
 ```blocks3
 <touching color [#0000ff]?>
 
-verander y met (2)
+change y by (2)
 
-herhaal tot <>
-einde
+repeat until <>
+end
 
-niet <>
+not <>
 ```
 
 --- /hint ---
@@ -39,20 +38,20 @@ niet <>
 Dit is hoe je code eruit zou moeten zien:
 
 ```blocks3
-wanneer ik als kloon start
-verschijn
-herhaal tot <touching (rand v)?>
-    neem (10) stappen
-    herhaal tot <touching color [#0000ff]?>
-    verander y met (-2)
-    einde
-    herhaal tot <not <touching color [#0000ff]?>>
-    verander y met (2)
-    einde
-    volgend uiterlijk
-    wacht (0.1) sec.
-einde
-verwijder deze kloon
+when I start as a clone
+show
+repeat until <touching (edge v)?>
+    move (10) steps
+    repeat until <touching color [#0000ff]?>
+        change y by (-2)
+    end
+    repeat until <not <touching color [#0000ff]?>>
+        change y by (2)
+    end
+    next costume
+    wait (0.1) seconds
+end
+delete this clone
 ```
 
 --- /hint ---

@@ -18,8 +18,7 @@ Voeg code toe aan de kat sprite om `1` toe te voegen aan de `score`{:class="bloc
 
 ![Kat sprite](images/cat-sprite.png)
 
---- hints ---
- --- hint ---
+--- hints --- --- hint ---
 
 `Als`{:class="block3control"} de kat `de deur sprite raakt`{:class="block3sensing"}, verander dan de `score met 1`{:class="block3variables"}.
 
@@ -30,14 +29,14 @@ Voeg code toe aan de kat sprite om `1` toe te voegen aan de `score`{:class="bloc
 Hier zijn de nieuwe codeblokken die je aan het `wanneer ik als kloon start` script toe moet voegen:
 
 ```blocks3
-verander [score v] met (1)
+change [score v] by (1)
 
-als <> dan
-einde
+if <> then
+end
 
-<touching (Door v)?>
+<0>
 
-maak [score v] (0)
+set [score v] to (0)
 ```
 
 --- /hint ---
@@ -47,23 +46,23 @@ maak [score v] (0)
 Dit is hoe je code eruit zou moeten zien:
 
 ```blocks3
-wanneer ik als kloon start
-verschijn
-herhaal tot <touching (rand v)?>
-    neem (10) stappen
-    herhaal tot <touching color [#0000ff]?>
-        verander y met (-2)
-    einde
-    herhaal tot <not <touching color [#0000ff]?>>
-        verander y met (2)
-    einde
-    volgend uiterlijk
-    wacht (0.1) sec.
-+ als <touching (Door v)?> dan
-        verander [score v] met (1)
-    einde
-einde
-verwijder deze kloon
+when I start as a clone
+show
+repeat until <touching (edge v)?>
+    move (10) steps
+    repeat until <touching color [#0000ff]?>
+        change y by (-2)
+    end
+    repeat until <not <touching color [#0000ff]?>>
+        change y by (2)
+    end
+    next costume
+    wait (0.1) seconds
++   if <touching (Door v)?> then
+        change [score v] by (1)
+    end
+end
+delete this clone
 
 when flag clicked
 + set [score v] to (0)
@@ -82,8 +81,8 @@ Voeg nog wat code toe zodat, wanneer een kat sprite de deur bereikt, de kat een 
 ![Cat sprite](images/cat-sprite.png)
 
 ```blocks3
-start geluid (meow v)
-verwijder deze kloon
+play sound (meow v)
+delete this clone
 ```
 
 --- /task ---

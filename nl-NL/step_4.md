@@ -4,12 +4,11 @@ Zodra een kat de vloer bereikt, moet hij langzaam naar rechts stappen.
 
 --- task ---
 
-Voeg code toe aan de `wanneer ik als kloon start`{:class="block3control"} sectie om de kat sprite `neem tien stappen`{:class="block3motion"} te laten bewegen, en schakel elke 0,1 seconden tussen de twee uiterlijken van de sprite om de kat eruit te laten zien alsof hij loopt.
+Voeg code toe aan de `wanneer ik als kloon start`{:class="block3control"} sectie om de kat sprite `tien stappen te laten nemen`{:class="block3motion"}, en schakel elke 0,1 seconden tussen de twee uiterlijken van de sprite om de kat eruit te laten zien alsof hij loopt.
 
 ![Kat sprite](images/cat-sprite.png)
 
---- hints ---
- --- hint ---
+--- hints --- --- hint ---
 
 De sprite van de kat moet `neem 10 stappen`{:class="block3motion"} en `volgend uiterlijk`{:class="block3looks"} elke `0.1 seconden`{:class="block3control"}. Deze code moet altijd `herhalen`{:class="block3control"}, net als de code om de kat te laten vallen.
 
@@ -20,14 +19,14 @@ De sprite van de kat moet `neem 10 stappen`{:class="block3motion"} en `volgend u
 Dit zijn de codeblokken die je nodig hebt:
 
 ```blocks3
-neem (10) stappen
+move (10) steps
 
-wacht (0.1) sec.
+wait (0.1) seconds
 
-volgend uiterlijk
+next costume
 
-herhaal
-einde
+forever
+end
 ```
 
 --- /hint ---
@@ -37,16 +36,16 @@ einde
 Dit is hoe je code eruit zou moeten zien:
 
 ```blocks3
-wanneer ik als kloon start
-verschijn
-+ herhaal
-    neem (10) stappen
-    herhaal tot <touching color [#0000ff]?>
-        verander y met (-2)
-    einde
-    volgend uiterlijk
-    wacht (0.1) sec.
-einde
+when I start as a clone
+show
++ forever
+    move (10) steps
+    repeat until <touching color [#0000ff]?>
+        change y by (-2)
+    end
+    next costume
+    wait (0.1) seconds
+end
 ```
 
 --- /hint ---
@@ -70,17 +69,17 @@ Verwijder de `herhaal`{:class="block3control"} lus en voeg in plaats daarvan een
 ![Kat sprite](images/cat-sprite.png)
 
 ```blocks3
-wanneer ik als kloon start
-verschijn
-+ herhaal tot <touching (rand v)?>
-    neem (10) stappen
-    herhaal tot <touching color [#0000ff]?>
-        verander y met (-2)
-    einde
-    volgend uiterlijk
-    wacht (0.1) sec.
-einde
-+ verwijder deze kloon
+when I start as a clone
+show
++ repeat until <touching (edge v)?>
+    move (10) steps
+    repeat until <touching color [#0000ff]?>
+        change y by (-2)
+    end
+    next costume
+    wait (0.1) seconds
+end
++ delete this clone
 ```
 
 --- /task ---
@@ -96,8 +95,8 @@ Je merkt misschien dat, als de katten in het gat vallen, ze niet verdwijnen maar
 Dit is het deel van de code dat de kat vertelt dat hij moet blijven vallen totdat hij blauw raakt:
 
 ```blocks3
-herhaal tot <touching color [#0000ff]?>
-einde
+repeat until <touching color [#0000ff]?>
+end
 ```
 
 In het gat kan de kat echter nooit blauw bereiken, dus zit hij voor altijd vast.
@@ -109,8 +108,8 @@ Voeg meer blokken toe aan deze lus zodat deze wordt herhaald totdat de kat sprit
 ![Kat sprite](images/cat-sprite.png)
 
 ```blocks3
-herhaal tot <<touching color [#0000ff]?> of <touching (rand v)?>>
-einde
+repeat until <<touching color [#0000ff]?> or <touching (edge v)?>>
+end
 ```
 
 --- /task ---
