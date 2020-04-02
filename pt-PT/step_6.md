@@ -1,12 +1,12 @@
-## Get to safety
+## Alcançar a segurança
 
-The object of the game is to guide the cats to safety by creating a path so they can reach the door. Create a score variable to keep track of how many cats reach the door.
+O objetivo do jogo é guiar os gatos para a segurança, criando um caminho para que eles possam alcançar a porta. Cria uma variável de pontuação para controlar quantos gatos chegam à porta.
 
 \--- task \---
 
-Create a variable called `score`{:class="block3variables"}.
+Cria uma nova variável chamada `pontuação`{:class="block3variables"}.
 
-![Cat sprite](images/cat-sprite.png)
+![Ator gato](images/cat-sprite.png)
 
 [[[generic-scratch3-add-variable]]]
 
@@ -14,19 +14,19 @@ Create a variable called `score`{:class="block3variables"}.
 
 \--- task \---
 
-Add code to your cat sprite to add `1` to the `score`{:class="block3variables"} each time a cat reaches the door. Also set `score`{:class="block3variables"} to `0` `when the flag is clicked`{:class="block3events"} at the start of the game.
+Adiciona código ao teu ator de gato para adicionar ` 1 ` à `pontuação` {: class = "block3variables"} de cada vez que um gato chega à porta. Define também a `pontuação` {: class = "block3variables"} como ` 0 ` `quando alguém clicar a bandeira ` {: class = "block3events"} no início do jogo.
 
-![Cat sprite](images/cat-sprite.png)
+![Ator gato](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-`If`{:class="block3control"} the cat is `touching the door sprite`{:class="block3sensing"}, then `add 1 to the score`{:class="block3variables"}.
+` Se ` {: class = "block3control"} o gato está ` a tocar no ator porta ` {: class = "block3sensing"}, então, ` adiciona a pontuação o valor 1 ` {: class = "block3variables"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the new code blocks you need to add to your `when I start as a clone` script:
+Estes são os novos blocos de código que necessitas adicionar ao teu comando ` quando fores criado como um clone `:
 
 ```blocks3
 change [score v] by (1)
@@ -43,7 +43,7 @@ set [score v] to (0)
 
 \--- hint \---
 
-This is what your code should look like:
+Este é o aspeto que o teu código deve ter:
 
 ```blocks3
 when I start as a clone
@@ -77,9 +77,9 @@ when flag clicked
 
 \--- task \---
 
-Add some more code so that, when a cat sprite reaches the door, the cat makes a 'meow' sound and then disappears.
+Acrescenta um pouco mais de código para que se oiça miar sempre que um ator gato chega à porta, e depois então desapareça.
 
-![Cat sprite](images/cat-sprite.png)
+![Ator gato](images/cat-sprite.png)
 
 ```blocks3
 play sound (meow v)
