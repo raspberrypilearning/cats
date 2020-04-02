@@ -1,13 +1,13 @@
-## Challenge: more obstacles
+## Herausforderung: Mehr Hindernisse
 
-At the moment, the game is rather easy to win. Can you think of ideas to you make your game harder?
+Im Moment ist das Spiel ziemlich einfach zu gewinnen. Kannst du dir Ideen vorstellen, die dein Spiel schwieriger machen?
 
-+ Add more backgrounds with different platform designs.
++ Füge weitere Hintergründe mit unterschiedlichen Plattformdesigns hinzu.
 
-+ Move the location of the door depending on which background is displayed.
++ Verschiebe die Position der Tür, je nachdem welcher Hintergrund angezeigt wird.
 
-+ Add more sprites as moving obstacles. Perhaps you could have roaming dogs or rotating spikes the cats need to avoid?
++ Füge mehr Figuren als bewegliche Hindernisse hinzu. Vielleicht kanns du streunende Hunde oder drehende Dornen hinzufügen, die die Katzen umgehen müssen?
 
-+ Only allow the player to use a limited amount of "ink" to draw lines in the game. You can keep track of how much "ink" is used by creating a timer variable that records how long the mouse is held down.
++ Erlaube dem Spieler nur eine begrenzte Menge "Tinte" zu verwenden, um Linien im Spiel zu zeichnen. Du kannst den Überblick behalten, wie viel "Tinte" verwendet wird, indem du eine Timer-Variable erstellest, die aufzeichnet wie lange die Maus gedrückt wird.
 
-+ Create a sprite to show the player how much ink is left.
++ Erstelle eine Figur, um dem Spieler zu zeigen, wie viel Tinte noch übrig ist.
