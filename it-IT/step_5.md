@@ -1,24 +1,24 @@
-## Stick to the lines
+## Aderisci alle linee
 
-You might notice that, if you draw a low bridge between the two platforms, or a line that slopes upwards, the cats end up walking through the platform rather than on top of it!
+Potresti notare che, se disegni un ponte basso tra le due piattaforme, o una linea che va verso l'alto, i gatti finiscono per camminare attraverso la piattaforma anziché su di essa!
 
-![Cats walking through the platform](images/cat-walk-through-platform.png)
+![Gatti che camminano attraverso la piattaforma](images/cat-walk-through-platform.png)
 
 \--- task \---
 
-In the code for the cat sprite, add another loop before the `next costume`{:class="block3looks"} block. This time, the loop should tell the cat to move upwards by `2` until it is not touching blue.
+Nel codice per lo sprite del gatto, aggiungi un altro ciclo prima del blocco `passa la costume seguente`{:class="block3looks"}. Stavolta, il ciclo dovrebbe dire al gatto di muoversi verso l'alto di `2`fino a quando non tocca il blu.
 
-![Cat sprite](images/cat-sprite.png)
+![Sprite gatto](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-The cat should `move up 2`{:class="block3motion"} `repeatedly until`{:class="block3control"} it is `not`{:class="block3operators"} `touching blue`{:class="block3sensing"}.
+Il gatto dovrebbe `spostarsi verso l'alto di 2`{:class="block3motion"} `ripetutamente fino a che`{:class="block3control"} `non`{:class="block3operators"} `tocca il blu`{:class="block3sensing"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+Ecco i blocchi di codice che ti servono:
 
 ```blocks3
 <touching color [#0000ff]?>
@@ -35,7 +35,7 @@ not <>
 
 \--- hint \---
 
-This is what your code should look like:
+Ecco come dovrebbe apparire il tuo codice:
 
 ```blocks3
 when I start as a clone
@@ -60,6 +60,6 @@ delete this clone
 
 \--- task \---
 
-Click the green flag and try drawing a line that slopes upwards. Check that your cat follows this line.
+Fai clic sulla bandiera verde e prova a tracciare una linea che si inclina verso l'alto. Controlla che il tuo gatto segua questa linea.
 
 \--- /task \---
