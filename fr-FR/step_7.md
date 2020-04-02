@@ -1,10 +1,10 @@
-## Challenge: more obstacles
+## Défi : plus d'obstacles
 
-At the moment, the game is rather easy to win. Can you think of ideas to you make your game harder?
+Pour le moment, le jeu est assez facile à gagner. Peux-tu trouver des idées pour rendre ton jeu plus difficile ?
 
-+ Add more backgrounds with different platform designs.
++ Ajoute plus d'arrière-plans avec différentes conceptions de plateforme.
 
-+ Move the location of the door depending on which background is displayed.
++ Déplace l'emplacement de la porte en fonction de l'arrière-plan affiché.
 
 + Add more sprites as moving obstacles. Perhaps you could have roaming dogs or rotating spikes the cats need to avoid?
 
