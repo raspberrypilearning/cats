@@ -4,17 +4,17 @@ Je wilt een eindeloze stroom katten die de speler langs het pad naar de uitgang 
 
 --- task ---
 
-Klik op de sprite genaamd 'Cat' en voeg wat code toe om `verdwijn`{:class="block3looks"} de sprite te verbergen, en ook om elke drie seconden een `kloon`{:class="block3control"} van hem te maken.
+Klik op de sprite genaamd 'Kat' en voeg wat code toe om de sprite te laten `verdwijnen`{:class="block3looks"}, en ook om er elke drie seconden een `kloon`{:class="block3control"} van te maken.
 
 ![Kat sprite](images/cat-sprite.png)
 
 ```blocks3
 when flag clicked
-verdwijn
-herhaal
-    maak een kloon van (mijzelf v)
-    wacht (3) sec.
-einde
+hide
+forever
+    create clone of (myself v)
+    wait (3) seconds
+end
 ```
 
 --- /task ---
@@ -27,8 +27,7 @@ Voeg code toe om de sprite te vertellen dat `wanneer ik als kloon start`{:class=
 
 ![Kat sprite](images/cat-sprite.png)
 
---- hints ---
- --- hint ---
+--- hints --- --- hint ---
 
 `Wanneer ik als kloon start`{:class="block3control"}, `verschijnt`{:class="block3looks"} de sprite. `Herhaal`{:class="block3control"} `Verander`{:class="block3motion"} de `y` coördinaat van de sprite met `-2`, totdat de sprite de blauwe vloer `raakt`{:class="block3sensing"}.
 
@@ -39,16 +38,16 @@ Voeg code toe om de sprite te vertellen dat `wanneer ik als kloon start`{:class=
 Dit zijn de codeblokken die je nodig hebt:
 
 ```blocks3
-herhaal tot <>
-einde
+repeat until <>
+end
 
-verschijn
+show
 
 <touching color [#0000ff]?>
 
-verander y met (-2)
+change y by (-2)
 
-wanneer ik als kloon start
+when I start as a clone
 ```
 
 --- /hint ---
@@ -58,14 +57,14 @@ wanneer ik als kloon start
 Dit is hoe je code eruit zou moeten zien:
 
 ```blocks3
-wanneer ik als kloon start
-verschijn
-herhaal tot <touching color [#0000ff]?>
-verander y met (-2)
-einde
+when I start as a clone
+show
+repeat until <touching color [#0000ff]?>
+change y by (-2)
+end
 ```
 
---- /hint ------ /hints ---
+--- /hint --- --- /hints ---
 
 --- /task ---
 

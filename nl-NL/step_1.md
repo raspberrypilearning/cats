@@ -1,6 +1,6 @@
 --- no-print ---
 
-Dit is de **Scratch 3** versie van het project. Er is ook een [Scratch 2 versie van dit project](https://projects.raspberrypi.org/nl-NL/projects/cats-scratch2).
+Dit is de **Scratch 3** versie van het project. Er is ook een [Scratch 2 versie van dit project](https://projects.raspberrypi.org/en/projects/cats-scratch2).
 
 --- /no-print ---
 
@@ -30,7 +30,6 @@ Klik en sleep met de muis om een lijn met het potlood te tekenen. Je doel is te 
 ---
 title: Wat ga je leren
 ---
-
 + Hoe een `herhaal`{:class="block3control"} lus te gebruiken om constant bewegende katten te genereren
 + Hoe een `herhaal tot`{:class="block3control"} lus te gebruiken om ervoor te zorgen dat de katten een lijn volgen
 
@@ -40,7 +39,6 @@ title: Wat ga je leren
 ---
 title: Wat heb je nodig
 ---
-
 ### Hardware
 
 + Een computer die Scratch 3 kan uitvoeren
@@ -51,7 +49,7 @@ title: Wat heb je nodig
 
 ### Downloads
 
-+ [Offline startproject](http://rpf.io/p/nl-NL/cats-go){:target="_blank"}
++ [ Offline startproject ](http://rpf.io/p/nl-NL/cats-go){:target="_ blank"}
 
 --- /collapse ---
 
@@ -59,12 +57,10 @@ title: Wat heb je nodig
 ---
 title: Aanvullende informatie voor docenten
 ---
-
 --- no-print ---
 
-Als je dit project wilt afdrukken, gebruik dan de [printvriendelijke versie](https://projects.raspberrypi.org/nl-NL/projects/cats/print).
---- /no-print ---
+Als je dit project wilt afdrukken, gebruik dan de [printvriendelijke versie](https://projects.raspberrypi.org/nl-NL/projects/cats/print). --- /no-print ---
 
-Je kunt het [voltooide project hier](http://rpf.io/p/nl-NL/cats-get){:target="_blank"} vinden.
+Je kunt het [voltooide project hier](http://rpf.io/p/nl-NL/cats-get)"{:target="_blank"} vinden.
 
 --- /collapse ---

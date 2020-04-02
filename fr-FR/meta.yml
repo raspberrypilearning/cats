@@ -1,0 +1,18 @@
+---
+title: CHATS !
+hero_image: images/banner.png
+description: Crée un jeu dans lequel tu guides les chats en sécurité et les empêches de tomber dans des trous
+listed: true
+copyedit: true
+version: 4.0.2
+last_tested: 2018-10-18
+steps:
+  - title: Introduction
+  - title: Tracer des lignes
+  - title: Cloner les chats
+  - title: Faire bouger les chats
+  - title: Respecter les lignes
+  - title: Mettons-nous à l'abri
+  - title: "Défi : plus d'obstacles"
+    challenge: true
+  - title: Et ensuite ?
