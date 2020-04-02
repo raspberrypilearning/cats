@@ -1,12 +1,12 @@
-## Clone cats
+## Katzen klonen
 
-You want a never-ending stream of cats that the player has to guide along the path to the exit.
+Du möchtest einen endlosen Strom von Katzen, die der Spieler auf den Weg zum Ausgang führen muss.
 
 \--- task \---
 
-Click on the sprite called 'Cat', and add some code to `hide`{:class="block3looks"} the sprite, and also to `clone`{:class="block3control"} it every three seconds.
+Klicke auf die Figur namens 'Katze' und füge Code hinzu um sie zu `verstecken`{:class="block3looks"} und um sie alle drei Sekunden zu `klonen`{:class="block3control"}.
 
-![Cat sprite](images/cat-sprite.png)
+![Katzen Figur](images/cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -19,23 +19,23 @@ end
 
 \--- /task \---
 
-If you run the program now, nothing happens on the Stage. To check that a new Cat sprite clone is created every three seconds, make each clone appear and fall out of the sky.
+Wenn du das Programm jetzt ausführst, passiert auf der Bühne nichts. Um zu überprüfen, ob alle drei Sekunden ein neuer Katzen-Figur-Klon erstellt wird, lasse jeden Klon erscheinen und vom Himmel fallen.
 
 \--- task \---
 
-Add code to tell the sprite that `when it starts as a clone`{:class="block3control"}, it should `show`{:class="block3looks"} itself and fall until it `touches`{:class="block3sensing"} the blue floor that is drawn on the Stage.
+Füge Code hinzu, um der Figur mitzuteilen, dass sie, `wenn sie als Klon entsteht`{:class="block3control"}, sich selbst `zeigen`{:class="block3looks"} und fallen soll, bis sie den blauen Boden `berührt`{:class="block3sensing"}, der auf der Bühne gezeichnet wird.
 
-![Cat sprite](images/cat-sprite.png)
+![Katzen Figur](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-`When the sprite starts as a clone`{:class="block3control"}, `show`{:class="block3looks"} the sprite. `Repeatedly`{:class="block3control"} `Change`{:class="block3motion"} the sprite's `y` coordinate by `-2`, until the sprite `touches`{:class="block3sensing"} the blue Stage.
+`Wenn die Figur als Klon entsteht`{:class="block3control"}, `zeige`{:"block3looks"} die Figur. `Ändere`{:class="block3motion"} die `y`-Koordinate der Figur `wiederholt`{:class="block3control"} um `-2`, bis die Figur die blaue Bühne `berührt`{:class="block3sensing"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+Hier sind die Codeblöcke die du brauchst:
 
 ```blocks3
 repeat until <>
@@ -54,7 +54,7 @@ when I start as a clone
 
 \--- hint \---
 
-This is what your code should look like:
+So sollte dein Code aussehen:
 
 ```blocks3
 when I start as a clone
@@ -68,6 +68,6 @@ end
 
 \--- /task \---
 
-When you click the green flag, you should see a new cat fall from the top of the Stage every three seconds. Every cat should land in a big pile of overlapping cats on the blue floor at the bottom.
+Wenn du auf die grüne Flagge klickst, sollte alle drei Sekunden eine neue Katze vom oberen Rand der Bühne fallen. Jede Katze sollte in einem großen Haufen überlappender Katzen auf dem blauen Boden unten landen.
 
-![Falling cats](images/falling-cats.png)
+![Fallende Katzen](images/falling-cats.png)
