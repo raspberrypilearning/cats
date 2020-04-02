@@ -6,7 +6,7 @@ Sobald eine Katze den Boden erreicht, sollte sie langsam nach rechts gehen.
 
 Füge dem `wenn ich als Klon entstehe`{:class="block3control"}-Teil Code hinzu, damit die Katzenfigur `zehn Schritte geht`{:class="block3motion"} und alle 0,1 Sekunden zwischen den beiden Kostümen der Figur wechselt damit die Katze so aussieht, als würde sie laufen.
 
-![Cat sprite](images/cat-sprite.png)
+![Katzen Figur](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
@@ -60,13 +60,13 @@ Drücke die grüne Flagge und überprüfe, ob sich die Katzen jetzt entlang der 
 
 If you draw a bridge across the gap so that the cats can get all the way to the right side of the Stage, you can see that they end up getting stuck walking into the right wall.
 
-![Flailing cats at the edge](images/flailing-at-edge.png)
+![Strampelnde Katzen am Rand](images/flailing-at-edge.png)
 
 \--- task \---
 
-Remove the `forever`{:class="block3control"} loop, and instead add a different loop to make the cats only walk until they reach an edge. When a cat reaches the edge of the Stage, it should disappear.
+Entferne die `fortlaufend`{:class="block3control"}- Schleife und füge stattdessen eine andere Schleife ein, damit die Katzen nur so lange laufen, bis sie eine Kante erreichen. Wenn eine Katze den Bühnenrand erreicht, sollte sie verschwinden.
 
-![Cat sprite](images/cat-sprite.png)
+![Katzen Figur](images/cat-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -86,26 +86,26 @@ end
 
 \--- task \---
 
-Press the green flag and check that the cats disappear when they reach the edge of the Stage.
+Drücke die grüne Flagge und überprüfe, ob die Katzen verschwinden, wenn sie den Bühnenrand erreichen.
 
 \--- /task \---
 
-You may notice that, if the cats fall into the hole, they don't disappear but instead get stuck at the bottom. This is because they keep trying to fall downwards.
+Du hast vielleicht bemerkt, dass die Katzen, wenn sie in das Loch fallen, nicht verschwinden, sondern am Boden stecken bleiben. Dies liegt daran, dass sie immer wieder versuchen, nach unten zu fallen.
 
-This is the part of the code that tells the cat to keep falling until it touches blue:
+Das ist der Teil des Codes, der der Katze sagt, dass sie weiter fallen soll, bis sie blau berührt:
 
 ```blocks3
 repeat until <touching color [#0000ff]?>
 end
 ```
 
-However, in the hole, the cat can never reach blue, so it is stuck forever.
+In dem Loch kann die Katze jedoch niemals blau erreichen, so sitzt sie für immer fest.
 
 \--- task \---
 
-Add more blocks to this loop so that it repeats until the cat sprite is touching blue `or`{:class="block3operators"} `touching the edge`{:class="block3sensing"}. This way, the sprite stops trying to fall if it reaches the edge of the Stage.
+Füge dieser Schleife weitere Blöcke hinzu, sodass sie wiederholt wird, bis die Katzenfigur etwas blaues berührt `oder`{:class="block3operators"} sie den `Rand berührt`{:class="block3sensing"}. Auf diese Weise versucht die Figur nicht mehr zu fallen, wenn sie den Rand der Bühne erreicht.
 
-![Cat sprite](images/cat-sprite.png)
+![Katzen Figur](images/cat-sprite.png)
 
 ```blocks3
 repeat until <<touching color [#0000ff]?> or <touching (edge v)?>>
