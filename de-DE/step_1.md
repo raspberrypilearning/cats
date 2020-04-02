@@ -22,7 +22,7 @@ Klicke und ziehe mit der Maus, um mit dem Stift eine Linie zu zeichnen. Dein Zie
 
 \--- print-only \---
 
-![Cats finished](images/cats-finished.png)
+![Katzen fertig](images/cats-finished.png)
 
 \--- /print-only \---
 
@@ -59,8 +59,8 @@ Klicke und ziehe mit der Maus, um mit dem Stift eine Linie zu zeichnen. Dein Zie
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/cats/print). \--- /no-print \---
+Falls du dieses Projekt ausdrucken musst, verwende bitte die [druckfreundliche Version](https://projects.raspberrypi.org/en/projects/cats/print). \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/cats-get){:target="_blank"}.
+Du findest das [fertige Projekt hier](http://rpf.io/p/en/cats-get){:target="_blank"}.
 
 \--- /collapse \---
