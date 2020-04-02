@@ -14,7 +14,7 @@ If you have a Scratch account you can make a copy by clicking **Remix**.
 
 \--- task \---
 
-Añade la extensión Lápiz a tu proyecto. (Nota: Añadir extensiones es la última opción del selector de bloques, se encuentra debajo de Mis Bloques).
+Añade la extensión Lápiz a tu proyecto.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -33,13 +33,13 @@ erase all
 set pen size to (5)
 ```
 
-To select a colour, click on the colour square in the `set pen color`{:class="block3extensions"} block to make your mouse cursor turn into a pipette, and then click on the correct colour on the Stage.
+Para seleccionar un color, haz clic en el cuadrado de color en el bloque `fijar color de lápiz a`{: class = "block3extensions"} para hacer que el cursor del ratón se convierta en una pipeta, y luego haz clic en el color correcto en el Escenario.
 
 \--- /task \---
 
 \--- task \---
 
-Add some more code to make the sprite follow the mouse pointer. Test your program to check that the code works.
+Agrega un poco más de código para que el objeto siga al puntero del ratón. Prueba tu programa para verificar que el código funcione.
 
 ![Pen sprite](images/pen-sprite.png)
 
@@ -55,7 +55,7 @@ end
 
 \--- task \---
 
-Add some code to tell the sprite to draw a line on the Stage if the mouse button is pressed down.
+Agrega algo de código para indicarle al objeto que dibuje una línea en el escenario si se presiona el botón del ratón.
 
 ![Pen sprite](images/pen-sprite.png)
 
