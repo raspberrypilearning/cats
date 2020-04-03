@@ -39,7 +39,7 @@ set pen size to (5)
 
 \--- task \---
 
-Add some more code to make the sprite follow the mouse pointer. プログラムをテストして、コードがうまく動くかどうかをたしかめます。
+スプライトをマウスポインターに追いていかせるために、さらにコードを入れます。 プログラムをテストして、コードがうまく動くかどうかをたしかめます。
 
 ![ペンスプライト](images/pen-sprite.png)
 
