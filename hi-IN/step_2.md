@@ -14,7 +14,7 @@
 
 \--- task \---
 
-Add the Pen extension to your project.
+अपने परियोजना में पेन एक्सटेंशन जोड़ें।
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -22,9 +22,9 @@ Add the Pen extension to your project.
 
 \--- task \---
 
-Click on the sprite called 'Pen', and add code to set the pen colour to the same blue as the obstacles on the Stage.
+'पेन' नामक sprite पर क्लिक करें, और स्टेज पर मौजूद बाधाओं के समान पेन का रंग नीला सेट करने के लिए कोड जोड़ें।
 
-![Pen sprite](images/pen-sprite.png)
+![पेन स्प्राइट](images/pen-sprite.png)
 
 ```blocks3
 when flag clicked
