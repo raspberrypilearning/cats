@@ -1,12 +1,12 @@
-## Make the cats move
+## 고양이가 움직이도록 만들기
 
-Once a cat reaches the floor, it should step slowly to the right.
+고양이가 바닥에 닿으면 천천히 오른쪽으로 움직여야 합니다.
 
 \--- task \---
 
 Add code to the `when I start as a clone`{:class="block3control"} section to make the cat sprite `move ten steps`{:class="block3motion"}, and switch between the sprite's two costumes every 0.1 seconds to make the cat look like it's walking.
 
-![Cat sprite](images/cat-sprite.png)
+![고양이 스프라이트](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
@@ -16,7 +16,7 @@ The cat sprite should `move 10 steps`{:class="block3motion"}, and `switch costum
 
 \--- hint \---
 
-Here are the code blocks you need:
+필요한 코드 블록은 다음과 같습니다.
 
 ```blocks3
 move (10) steps
@@ -33,7 +33,7 @@ end
 
 \--- hint \---
 
-This is what your code should look like:
+다음과 같은 코드를 추가해야 합니다:
 
 ```blocks3
 when I start as a clone
@@ -58,15 +58,15 @@ Press the green flag and check that the cats now move along the blue platform at
 
 \--- /task \---
 
-If you draw a bridge across the gap so that the cats can get all the way to the right side of the Stage, you can see that they end up getting stuck walking into the right wall.
+고양이가 스테이지의 오른쪽까지 갈 수 있도록 간격 사이에 다리를 그리면 고양이가 오른쪽 벽에서 더이상 걷지 못하는 것을 볼 수 있습니다.
 
-![Flailing cats at the edge](images/flailing-at-edge.png)
+![가장자리에 버벅이는 고양이](images/flailing-at-edge.png)
 
 \--- task \---
 
 Remove the `forever`{:class="block3control"} loop, and instead add a different loop to make the cats only walk until they reach an edge. When a cat reaches the edge of the Stage, it should disappear.
 
-![Cat sprite](images/cat-sprite.png)
+![고양이 스프라이트](images/cat-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -90,7 +90,7 @@ Press the green flag and check that the cats disappear when they reach the edge 
 
 \--- /task \---
 
-You may notice that, if the cats fall into the hole, they don't disappear but instead get stuck at the bottom. This is because they keep trying to fall downwards.
+고양이가 구멍에 빠지면 사라지지 않고 대신 바닥에 붙어있는 것을 알 수 있습니다. This is because they keep trying to fall downwards.
 
 This is the part of the code that tells the cat to keep falling until it touches blue:
 
@@ -105,7 +105,7 @@ However, in the hole, the cat can never reach blue, so it is stuck forever.
 
 Add more blocks to this loop so that it repeats until the cat sprite is touching blue `or`{:class="block3operators"} `touching the edge`{:class="block3sensing"}. This way, the sprite stops trying to fall if it reaches the edge of the Stage.
 
-![Cat sprite](images/cat-sprite.png)
+![고양이 스프라이트](images/cat-sprite.png)
 
 ```blocks3
 repeat until <<touching color [#0000ff]?> or <touching (edge v)?>>
