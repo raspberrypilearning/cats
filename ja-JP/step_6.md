@@ -1,6 +1,6 @@
-## Get to safety
+## 安全な場所へ
 
-The object of the game is to guide the cats to safety by creating a path so they can reach the door. Create a score variable to keep track of how many cats reach the door.
+ゲームの目的は、ネコがドアに着けるように道を作って安全な場所へみちびくことです。 Create a score variable to keep track of how many cats reach the door.
 
 \--- task \---
 
