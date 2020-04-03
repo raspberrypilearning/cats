@@ -1,26 +1,26 @@
 ---
-title: CATS!
+title: قطط!
 hero_image: images/banner.png
-description: Create a game in which you guide cats to safety and stop them from falling into holes
+description: قم بإنشاء لعبة توجه فيها القطط إلى الأمان وتمنعها من السقوط في الحفر
 listed: true
 copyedit: true
 version: 4.0.2
 last_tested: 2018-10-18
 steps:
   - 
-    title: Introduction
+    title: المقدمة
   - 
-    title: Draw lines
+    title: رسم الخطوط
   - 
-    title: Clone cats
+    title: استنساخ القطط
   - 
-    title: Make the cats move
+    title: تحريك القطط
   - 
-    title: Stick to the lines
+    title: الالتزام بالخطوط
   - 
-    title: Get to safety
+    title: الوصول إلى بر الأمان
   - 
-    title: "Challenge: more obstacles"
+    title: "التحدي: مزيد من العوائق"
     challenge: true
   - 
-    title: What next?
+    title: ما التالي؟
