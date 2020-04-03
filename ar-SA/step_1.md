@@ -22,7 +22,7 @@
 
 \--- print-only \---
 
-![Cats finished](images/cats-finished.png)
+![انتهت القطط](images/cats-finished.png)
 
 \--- /print-only \---
 
@@ -30,37 +30,37 @@
 
 ## title: ما الذي ستتعلمه
 
-+ How to use a `forever`{:class="block3control"} loop to constantly generate moving cats
-+ How to use a `repeat until`{:class="block3control"} loop to ensure your cats follow a line
++ كيفية استخدام حلقة { `كرّر باستمرار`{: class = "block3control"} لتوليد قطط متحركة باستمرار
++ كيفية استخدام حلقة `كرّر حتى`{: class = "block3control"} لضمان أن القطط التي أنشأتها تتبع خطاً
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: ما ستحتاج إليه
 
 ### Hardware
 
-+ A computer capable of running Scratch 3
++ جهاز كمبيوتر يدعم تشغيل برنامج Scratch 3
 
-### Software
+### البرامج
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ برنامج Scratch 3 (سواء أكان [عبر الإنترنت](http://rpf.io/scratchon){:target="_blank"} أو [دون اتصال بالإنترنت](http://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### للتحميل
 
-+ [Offline starter project](http://rpf.io/p/en/cats-go){:target="_blank"}
++ [للبدء بالمشروع دون الاتصال بالانترنت](http://rpf.io/p/en/cats-go){:target="_blank"}
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: ملاحظات إضافية للمعلمين
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/cats/print). \--- /no-print \---
+إذا كنت بحاجة إلى طباعة هذا المشروع، فيُرجى استخدام [النسخة المخصصة للطباعة](https://projects.raspberrypi.org/en/projects/cats/print). \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/cats-get){:target="_blank"}.
+يمكنك الحصول على [المشروع كاملاً من هنا](http://rpf.io/p/en/cats-get){:target="_blank"}.
 
 \--- /collapse \---
