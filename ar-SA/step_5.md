@@ -1,24 +1,24 @@
-## Stick to the lines
+## الالتزام بالخطوط
 
-You might notice that, if you draw a low bridge between the two platforms, or a line that slopes upwards, the cats end up walking through the platform rather than on top of it!
+قد تلاحظ أنه عند رسم جسر منخفض بين المنصتين، أو خط منحدر نحو الأعلى، ستقوم القطط بالمشي عبر المنصات الزرقاء بدلاً من المشي فوقها!
 
-![Cats walking through the platform](images/cat-walk-through-platform.png)
+![القطط تمشي عبر المنصة](images/cat-walk-through-platform.png)
 
 \--- task \---
 
-In the code for the cat sprite, add another loop before the `next costume`{:class="block3looks"} block. This time, the loop should tell the cat to move upwards by `2` until it is not touching blue.
+في التعليمات البرمجية الخاصة بكائن القط، أضف حلقة تكرار جديدة قبل كتلة `المظهر التالي`{:class="block3looks"}. هذه المرة، يجب أن تقوم هذه الحلقة بجعل القط يتحرك إلى الأعلى بمقدار `2` إلى أن لا يكون ملامساً للون الأزرق.
 
-![Cat sprite](images/cat-sprite.png)
+![كائن القط](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-The cat should `move up 2`{:class="block3motion"} `repeatedly until`{:class="block3control"} it is `not`{:class="block3operators"} `touching blue`{:class="block3sensing"}.
+يجب على القط أن `يتحرك للأعلى بمقدار 2`{:class="block3motion"} `بشكل متكرر حتى`{:class="block3control"} يصبح `لا`{:class="block3operators"} `ملامساً للأزرق`{:class="block3sensing"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+هنا التعليمات البرمجية التي ستحتاج اليها:
 
 ```blocks3
 <touching color [#0000ff]?>
@@ -35,7 +35,7 @@ not <>
 
 \--- hint \---
 
-This is what your code should look like:
+و هذا ما يجب أن تبدو عليه التعليمات البرمجية الخاصة بك:
 
 ```blocks3
 when I start as a clone
@@ -60,6 +60,6 @@ delete this clone
 
 \--- task \---
 
-Click the green flag and try drawing a line that slopes upwards. Check that your cat follows this line.
+انقر على العلم الأخضر وحاول رسم خط ينحدر إلى الأعلى. تحقق من أن القط يتبع هذا الخط.
 
 \--- /task \---
