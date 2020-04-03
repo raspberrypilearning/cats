@@ -12,7 +12,7 @@
 
 \--- no-print \---
 
-Click and drag with the mouse to draw a line with the pencil. Your goal is to stop the cats from falling into holes by creating a safe path to the exit.
+마우스로 클릭하고 드래그하여 연필로 선을 그립니다. 출구로 가는 고양이가 구멍에 빠지지 않는 안전한 길을 만드는 것이 당신의 목표입니다.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/253667883/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -28,10 +28,10 @@ Click and drag with the mouse to draw a line with the pencil. Your goal is to st
 
 ## \--- collapse \---
 
-## 배우게 될 것
+## title: What you will learn
 
-+ How to use a `forever`{:class="block3control"} loop to constantly generate moving cats
-+ How to use a `repeat until`{:class="block3control"} loop to ensure your cats follow a line
++ 움직이는 고양이를 계속 만들어내기 위해 `무한 반복하기`{:class="block3control"} 루프를 사용하는 방법
++ 고양이가 줄을 따라가게 하기 위해 `( )번 반복하기`{:class="block3control"} 루프를 사용하는 방법
 
 \--- /collapse \---
 
@@ -55,12 +55,12 @@ Click and drag with the mouse to draw a line with the pencil. Your goal is to st
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: 교육자를 위한 추가 정보
 
 \--- no-print \---
 
 이 프로젝트를 인쇄하려면, [프린트용 버전](https://projects.raspberrypi.org/en/projects/cats/print)을 사용하십시오. \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/cats-get){:target="_blank"}.
+[여기서](http://rpf.io/p/en/cats-get){:target="_blank"} 완료된 프로젝트를 확인할 수 있습니다.
 
 \--- /collapse \---
