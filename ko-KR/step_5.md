@@ -1,14 +1,14 @@
-## Stick to the lines
+## 선 따라가기
 
 You might notice that, if you draw a low bridge between the two platforms, or a line that slopes upwards, the cats end up walking through the platform rather than on top of it!
 
-![Cats walking through the platform](images/cat-walk-through-platform.png)
+![플랫폼을 통과해 걷는 고양이](images/cat-walk-through-platform.png)
 
 \--- task \---
 
-In the code for the cat sprite, add another loop before the `next costume`{:class="block3looks"} block. This time, the loop should tell the cat to move upwards by `2` until it is not touching blue.
+In the code for the cat sprite, add another loop before the `next costume`{:class="block3looks"} block. 이번에는 루프가 고양이에게 파란색에 닿지 않을 때까지 `2`만큼 위쪽으로 이동하라고 지시해야 합니다.
 
-![Cat sprite](images/cat-sprite.png)
+![고양이 스프라이트](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
@@ -18,7 +18,7 @@ The cat should `move up 2`{:class="block3motion"} `repeatedly until`{:class="blo
 
 \--- hint \---
 
-Here are the code blocks you need:
+필요한 코드 블록은 다음과 같습니다.
 
 ```blocks3
 <touching color [#0000ff]?>
@@ -35,7 +35,7 @@ not <>
 
 \--- hint \---
 
-This is what your code should look like:
+다음과 같은 코드를 추가해야 합니다:
 
 ```blocks3
 when I start as a clone
@@ -60,6 +60,6 @@ delete this clone
 
 \--- task \---
 
-Click the green flag and try drawing a line that slopes upwards. Check that your cat follows this line.
+초록색 깃발을 클릭하고 위쪽으로 기울어진 선을 그려보십시오. 고양이가 이 선을 따라가는지 확인하십시오.
 
 \--- /task \---
