@@ -1,20 +1,20 @@
-## Draw lines
+## رسم الخطوط
 
 \--- task \---
 
-Open the 'CATS!' Scratch starter project.
+افتح مشروع سكراتش المبدئي "القطط!".
 
-**Online:** open the starter project at [rpf.io/cats-on](http://rpf.io/cats-on){:target="_blank"}.
+**بالاتصال بالانترنت:** افتح المشروع المبدئي من هنا [rpf.io/cats-on](http://rpf.io/cats-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+اذا كنت تملك حساب على منصة سكراتش (Scratch) فيمكنك عمل نسخة بالنقر على **Remix**.
 
-**Offline:** open the [starter project](http://rpf.io/p/en/cats-go) in the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+**دون اتصال بالانترنت:** افتح [المشروع المبدئي](http://rpf.io/p/en/cats-go) عبر المحرر الموجود على جهازك. اذا تحتاج تنزيل وتنصيب برنامج السكراتش Scratch على جهازك الشخصي، ستجده في [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
 \--- task \---
 
-Add the Pen extension to your project.
+أضف ملحق القلم لمشروعك.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -22,9 +22,9 @@ Add the Pen extension to your project.
 
 \--- task \---
 
-Click on the sprite called 'Pen', and add code to set the pen colour to the same blue as the obstacles on the Stage.
+انقر على الكائن المسمى 'القلم'، وأضف تعليمة برمجية لتعيين لون القلم إلى نفس اللون الأزرق كالعقبات على المنصة.
 
-![Pen sprite](images/pen-sprite.png)
+![كائن القلم](images/pen-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -33,15 +33,15 @@ erase all
 set pen size to (5)
 ```
 
-To select a colour, click on the colour square in the `set pen color`{:class="block3extensions"} block to make your mouse cursor turn into a pipette, and then click on the correct colour on the Stage.
+لتحديد لون، انقر فوق مربع اللون في كتلة `تعيين لون القلم`{: class = "block3extensions"} لتحويل مؤشر الماوس إلى انبوب، ثم انقر فوق اللون الصحيح في المنصة.
 
 \--- /task \---
 
 \--- task \---
 
-Add some more code to make the sprite follow the mouse pointer. Test your program to check that the code works.
+قم بإضافة المزيد من التعليمات البرمجية لجعل الكائن بتبع مؤشر الماوس. اختبر برنامجك للتحقق من عمل البرنامج.
 
-![Pen sprite](images/pen-sprite.png)
+![كائن القلم](images/pen-sprite.png)
 
 ```blocks3
 forever
@@ -55,19 +55,19 @@ end
 
 \--- task \---
 
-Add some code to tell the sprite to draw a line on the Stage if the mouse button is pressed down.
+أضف بعض التعليمات البرمجية لجعل الكائنات ترسم خط على المنصة إذا تم الضغط على زر الماوس.
 
-![Pen sprite](images/pen-sprite.png)
+![كائن القلم](images/pen-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-`If`{:class="block3control"} the `mouse is down`{:class="block3sensing"}, put the `pen down`{:class="block3extensions"}, and `else`{:class="block3control"}, lift the `pen up`{:class="block3extensions"}.
+`إذا`{:class="block3control"} كان `زر الفأرة مضغوط`{:class="block3sensing"}, `أنزل القلم`{:class="block3extensions"}, and `وإلا`{:class="block3control"}, `ارفع القلم`{:class="block3extensions"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+هنا التعليمات البرمجية التي ستحتاج اليها:
 
 ```blocks3
 <mouse down?>
@@ -85,7 +85,7 @@ end
 
 \--- hint \---
 
-This is what your code should look like:
+و هذا ما يجب أن تبدو عليه التعليمات البرمجية الخاصة بك:
 
 ```blocks3
 when flag clicked
@@ -107,19 +107,19 @@ end
 
 \--- task \---
 
-Test your code. You should be able to click and drag with the mouse to draw a blue line on the Stage.
+اختبر مشروعك. يجب أن تكون قادرًا على النقر والسحب بالماوس لرسم خط أزرق على المنصة.
 
-![Draw a line](images/draw-a-line.png)
+![ارسم خطاً](images/draw-a-line.png)
 
 \--- /task \---
 
-You probably see that a blue dot always appears in the top right-hand corner of the Stage (it's circled in the image above). This is because, when you click the green flag to start the game, you press the mouse down, and so the pen immediately starts drawing.
+ربما ستظهر نقطة رزقاء بشكل دائم في الزاوية العلوية اليمنى من المنصة (النقطة المحاطة بدائرة في الصورة). هذا لأنه عندما تنقر على العلم الأخضر لبدء اللعبة، فإنك قمت بالضغط على زر الماوس، وبالتالي يبدأ القلم في الرسم على الفور.
 
 \--- task \---
 
-To stop this from happening, add a `pen up`{:class="block3extensions"} block at the start of the script, and a `wait one second`{:class="block3control"} block above the `forever`{:class="block3control"} block.
+لمنع حدوث ذلك، أضف كتلة `ارفع القلم`{:class="block3extensions"} في بداية البرنامج، وكتلة `انتظر 1 ثانية`{:class="block3control"} قبل كتلة `كرّر باستمرار`{:class="block3control"}.
 
-![Pen sprite](images/pen-sprite.png)
+![كائن القلم](images/pen-sprite.png)
 
 ```blocks3
 when flag clicked
