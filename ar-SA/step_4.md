@@ -1,22 +1,22 @@
-## Make the cats move
+## تحريك القطط
 
-Once a cat reaches the floor, it should step slowly to the right.
+بمجرد أن تصل القطة إلى الأرض، يجب أن تتحرك ببطء إلى اليمين.
 
 \--- task \---
 
-Add code to the `when I start as a clone`{:class="block3control"} section to make the cat sprite `move ten steps`{:class="block3motion"}, and switch between the sprite's two costumes every 0.1 seconds to make the cat look like it's walking.
+أضف تعليمات برمجية إلى جزء `عندما أبدأ كنسخة`{:class="block3control"} لتجعل كائن القط `يتحرك عشر خطوات`{:class="block3motion"}، وقم بالتبديل بين مظهري الكائن كل 0.1 ثانية لجعل القط يبدو وكأنه يمشي.
 
-![Cat sprite](images/cat-sprite.png)
+![كائن القط](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-The cat sprite should `move 10 steps`{:class="block3motion"}, and `switch costume`{:class="block3looks"} every `0.1 seconds`{:class="block3control"}. This code should repeat `forever`{:class="block3control"}, just like the code to make the cat fall.
+يجب على كائن القط أن `يتحرك 10 خطوات`{:class="block3motion"}، و`يبدل المظهر`{:class="block3looks"} كل `0.1 ثانية`{:class="block3control"}. هذه التعليمات يجب أن يتم تكرارها `باستمرار`{:class="block3control"}، تماماً مثل التعليمات التي تجعل القطط تتساقط.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+هنا التعليمات البرمجية التي ستحتاج اليها:
 
 ```blocks3
 move (10) steps
@@ -33,7 +33,7 @@ end
 
 \--- hint \---
 
-This is what your code should look like:
+و هذا ما يجب أن تبدو عليه التعليمات البرمجية الخاصة بك:
 
 ```blocks3
 when I start as a clone
@@ -54,19 +54,19 @@ end
 
 \--- task \---
 
-Press the green flag and check that the cats now move along the blue platform at the bottom.
+اضغط على العلم الأخضر وتحقق من أن القطط تتحرك الآن على طول المنصة الزرقاء في الأسفل.
 
 \--- /task \---
 
-If you draw a bridge across the gap so that the cats can get all the way to the right side of the Stage, you can see that they end up getting stuck walking into the right wall.
+إذا قمت برسم جسر عبر الفجوة بحيث تتمكن القطط من الوصول إلى الجانب الأيمن من المنصة، يمكنك أن ترى أنها ستنتهي في النهاية بالسير داخل الجدار الأيمن.
 
-![Flailing cats at the edge](images/flailing-at-edge.png)
+![القطط المتدفقة على الحافة](images/flailing-at-edge.png)
 
 \--- task \---
 
-Remove the `forever`{:class="block3control"} loop, and instead add a different loop to make the cats only walk until they reach an edge. When a cat reaches the edge of the Stage, it should disappear.
+احذف حلقة `كرر باستمرار`{:class="block3control"}، وأضف بدلاً منها حلقة تكرار مختلفة تجعل القطط تستمر في المشي حتى تصل إلى أحد الحواف. عندما يصل القط إلى حافة المنصة، يجب أن يختفي.
 
-![Cat sprite](images/cat-sprite.png)
+![كائن القط](images/cat-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -86,26 +86,26 @@ end
 
 \--- task \---
 
-Press the green flag and check that the cats disappear when they reach the edge of the Stage.
+اضغط على العلم الأخضر وتحقق من اختفاء القطط عند وصولها إلى حافة المنصة.
 
 \--- /task \---
 
-You may notice that, if the cats fall into the hole, they don't disappear but instead get stuck at the bottom. This is because they keep trying to fall downwards.
+ستلاحظ أنه إذا سقطت القطط في الحفرة، فإنها لا تختفي بل ستظل عالقة في القاع. وهذا لأنها ستستمر بمحاولة السقوط إلى الأسفل.
 
-This is the part of the code that tells the cat to keep falling until it touches blue:
+هذا هو الجزء من التعليمات البرمجية الذي يطلب من القط الاستمرار في السقوط حتى تلامس اللون الأزرق:
 
 ```blocks3
 repeat until <touching color [#0000ff]?>
 end
 ```
 
-However, in the hole, the cat can never reach blue, so it is stuck forever.
+مع ذلك، عند السقوط في الحفرة، لن يتمكن القط من بلوغ المنصة الرزقاء، لذلك سيكون عالقاً إلى الأبد.
 
 \--- task \---
 
-Add more blocks to this loop so that it repeats until the cat sprite is touching blue `or`{:class="block3operators"} `touching the edge`{:class="block3sensing"}. This way, the sprite stops trying to fall if it reaches the edge of the Stage.
+أضف المزيد من الكتل البرمجية إلى هذه الحلقة بحيث يتم تكرارها حتى يلامس كائن القط المنصة الزرقاء `أو`{:class="block3operators"} `يلامس الحافة`{:class="block3sensing"}. بهذه الطريقة، سيتوقف القط عن محاولة السقوط عند الوصول إلى حافة المنصة.
 
-![Cat sprite](images/cat-sprite.png)
+![كائن القط](images/cat-sprite.png)
 
 ```blocks3
 repeat until <<touching color [#0000ff]?> or <touching (edge v)?>>
