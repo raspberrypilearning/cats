@@ -12,13 +12,13 @@
 
 \--- hints \--- \--- hint \---
 
-The cat should `move up 2`{:class="block3motion"} `repeatedly until`{:class="block3control"} it is `not`{:class="block3operators"} `touching blue`{:class="block3sensing"}.
+`青色に触れた`{:class="block3sensing"}じょうたい`ではなく`{:class="block3operators"}なるまで、ネコは`2つ上に動く`{:class="block3motion"}のを`繰り返す`{:class="block3control}必要があります。
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+必要なコードブロックは次のとおりです。
 
 ```blocks3
 <touching color [#0000ff]?>
@@ -60,6 +60,6 @@ delete this clone
 
 \--- task \---
 
-Click the green flag and try drawing a line that slopes upwards. Check that your cat follows this line.
+緑の旗をクリックして、上向きの線をかいてみましょう。 猫がこの線にそっていくことをたしかめましょう。
 
 \--- /task \---
