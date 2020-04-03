@@ -117,7 +117,7 @@ end
 
 \--- task \---
 
-To stop this from happening, add a `pen up`{:class="block3extensions"} block at the start of the script, and a `wait one second`{:class="block3control"} block above the `forever`{:class="block3control"} block.
+これをふせぐには、スクリプトの先頭に `ペンを上げる`{:class = "block3extensions"}ブロックを追加し、 `ずっと`{:class = "block3control"}ブロックの上に`1秒待つ`{:class = "block3control"}ブロックを追加します。
 
 ![ペンスプライト](images/pen-sprite.png)
 
