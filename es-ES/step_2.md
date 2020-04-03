@@ -88,16 +88,17 @@ end
 Así es como debería verse tu código:
 
 ```blocks3
-when flag clicked
-set pen color to [#0000ff]
-erase all
-set pen size to (5)
-forever
-go to (mouse pointer v)
-+ if <mouse down?> then
-pen down
-else
-pen up
+al presionar bandera verde
+fijar color de lápiz a [#0000ff]
+borrar todo
+fijar tamaño de lápiz a (5)
+por siempre 
+ir a (puntero del ratón v)
+si <mouse down?> entonces 
+bajar lápiz
+si no 
+subir lápiz
+end
 end
 ```
 
@@ -122,18 +123,18 @@ Para evitar que esto suceda, agrega un bloque `subir lápiz`{: class = "block3ex
 ![Objeto lápiz](images/pen-sprite.png)
 
 ```blocks3
-when flag clicked
-+ pen up
-set pen color to [#0000ff]
-erase all
-set pen size to (5)
-+ wait (1) seconds
-forever
-go to (mouse pointer v)
-if <mouse down?> then
-pen down
-else
-pen up
+al presionar bandera verde
++ subir lápiz
+fijar color de lápiz a [#0000ff]
+borrar todo
+fijar tamaño de lápiz a (5)
++ esperar (1) segundos
+por siempre 
+ir a (puntero del ratón v)
+si <mouse down?> entonces 
+bajar lápiz
+si no 
+subir lápiz
 end
 ```
 
