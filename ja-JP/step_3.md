@@ -1,4 +1,4 @@
-## Clone cats
+## ネコのクローンを作る
 
 You want a never-ending stream of cats that the player has to guide along the path to the exit.
 
@@ -6,7 +6,7 @@ You want a never-ending stream of cats that the player has to guide along the pa
 
 Click on the sprite called 'Cat', and add some code to `hide`{:class="block3looks"} the sprite, and also to `clone`{:class="block3control"} it every three seconds.
 
-![Cat sprite](images/cat-sprite.png)
+![ネコのスプライト](images/cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -25,7 +25,7 @@ If you run the program now, nothing happens on the Stage. To check that a new Ca
 
 Add code to tell the sprite that `when it starts as a clone`{:class="block3control"}, it should `show`{:class="block3looks"} itself and fall until it `touches`{:class="block3sensing"} the blue floor that is drawn on the Stage.
 
-![Cat sprite](images/cat-sprite.png)
+![ネコのスプライト](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
@@ -70,4 +70,4 @@ end
 
 When you click the green flag, you should see a new cat fall from the top of the Stage every three seconds. Every cat should land in a big pile of overlapping cats on the blue floor at the bottom.
 
-![Falling cats](images/falling-cats.png)
+![落ちるネコ](images/falling-cats.png)
