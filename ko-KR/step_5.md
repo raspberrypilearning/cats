@@ -1,18 +1,18 @@
 ## 선 따라가기
 
-You might notice that, if you draw a low bridge between the two platforms, or a line that slopes upwards, the cats end up walking through the platform rather than on top of it!
+두 플랫폼 사이에 낮은 다리나 위로 경사져 있는 선을 그리면 고양이들은 선 위에 올라가기 보다는 플랫폼을 통과해 걷게 된다는 것을 볼 수도 있을 것입니다!
 
 ![플랫폼을 통과해 걷는 고양이](images/cat-walk-through-platform.png)
 
 \--- task \---
 
-In the code for the cat sprite, add another loop before the `next costume`{:class="block3looks"} block. 이번에는 루프가 고양이에게 파란색에 닿지 않을 때까지 `2`만큼 위쪽으로 이동하라고 지시해야 합니다.
+고양이 스프라이트의 코드에 `다음 모양으로 바꾸기`{:class="block3looks"} 블록 앞에 루프를 하나 추가합니다. 이번에는 루프가 고양이에게 파란색에 닿지 않을 때까지 `2`만큼 위쪽으로 이동하라고 지시해야 합니다.
 
 ![고양이 스프라이트](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-The cat should `move up 2`{:class="block3motion"} `repeatedly until`{:class="block3control"} it is `not`{:class="block3operators"} `touching blue`{:class="block3sensing"}.
+고양이 스프라이트는 `파란색에 닿았는가`{:class="block3sensing"} `가 아니다`{:class="block3operators"} 일때까지 `y 좌표를 2만큼 바꾸기`{:class="block3motion"}를 `반복합니다`{:class="block3control"}.
 
 \--- /hint \---
 
