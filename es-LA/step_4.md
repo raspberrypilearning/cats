@@ -36,15 +36,15 @@ end
 Así es como debería verse tu código:
 
 ```blocks3
-when I start as a clone
-show
-+ forever
-    move (10) steps
-    repeat until <touching color [#0000ff]?>
-        change y by (-2)
-    end
-    next costume
-    wait (0.1) seconds
+al comenzar como clon
+mostrar
++ por siempre 
+  mover (10) pasos
+  repetir hasta que <touching color [#0000ff]?> 
+    cambiar y a (-2)
+  end
+  siguiente disfraz
+  esperar (0.1) segundos
 end
 ```
 
