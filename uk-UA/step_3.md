@@ -1,12 +1,12 @@
 ## Клонування котів
 
-You want a never-ending stream of cats that the player has to guide along the path to the exit.
+Тобі потрібен нескінченний потік котів, яких гравець повинен скеровувати вздовж шляху до виходу.
 
 \--- task \---
 
-Click on the sprite called 'Cat', and add some code to `hide`{:class="block3looks"} the sprite, and also to `clone`{:class="block3control"} it every three seconds.
+Клацніи спрайт під назвою "Кіт" і додай код, щоб `сховати`{:class="block3looks"} спрайт, а також `створювати клон`{:class="block3control"} кожні три секунди.
 
-![Cat sprite](images/cat-sprite.png)
+![Спрайт "Кіт"](images/cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -19,23 +19,23 @@ end
 
 \--- /task \---
 
-If you run the program now, nothing happens on the Stage. To check that a new Cat sprite clone is created every three seconds, make each clone appear and fall out of the sky.
+Якщо ти зараз запустиш програму, на сцені нічого не відбуватиметься. Щоб перевірити, чи створюється новий клон із спрайту "Кіт" кожні три секунди, зроби так, щоб кожен клон з’являвся вгорі й падав вниз із неба.
 
 \--- task \---
 
-Add code to tell the sprite that `when it starts as a clone`{:class="block3control"}, it should `show`{:class="block3looks"} itself and fall until it `touches`{:class="block3sensing"} the blue floor that is drawn on the Stage.
+Додай код до спрайту, щоб `коли він починав як клон`{:class="block3control"}, він мав `показатися`{:class="block3looks"} і падати доки не `торкнеться`{:class="block3sensing"} синьої підлоги, яка зображена на сцені.
 
-![Cat sprite](images/cat-sprite.png)
+![Спрайт "Кіт"](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-`When the sprite starts as a clone`{:class="block3control"}, `show`{:class="block3looks"} the sprite. `Repeatedly`{:class="block3control"} `Change`{:class="block3motion"} the sprite's `y` coordinate by `-2`, until the sprite `touches`{:class="block3sensing"} the blue Stage.
+`Коли спрайт починає як клон`{:class="block3control"}, `показати`{:class="block3looks"} спрайт. `Повторити`{:class="block3control"} `зміну`{:class="block3motion"} значення координати `y` спрайта на `-2`, поки він не `торкнеться`{:class="block3sensing"} на синьої частини сцени.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+Тобі будуть потрібні наступні блоки коду:
 
 ```blocks3
 repeat until <>
@@ -54,7 +54,7 @@ when I start as a clone
 
 \--- hint \---
 
-This is what your code should look like:
+Ось як має виглядати твій код:
 
 ```blocks3
 when I start as a clone
@@ -68,6 +68,6 @@ end
 
 \--- /task \---
 
-When you click the green flag, you should see a new cat fall from the top of the Stage every three seconds. Every cat should land in a big pile of overlapping cats on the blue floor at the bottom.
+Після натискання на зелений прапорець, ти маєш побачити, як новий кіт падає з верхньої частини сцени кожні три секунди. Кожен кіт повинен приземлитися у велику купу котів на блакитній підлозі внизу.
 
-![Falling cats](images/falling-cats.png)
+![Падаючі коти](images/falling-cats.png)
