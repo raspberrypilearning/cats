@@ -1,12 +1,12 @@
-## Clone cats
+## استنساخ القطط
 
-You want a never-ending stream of cats that the player has to guide along the path to the exit.
+ستحتاج تدفق لا ينتهي من القطط التي يجب على اللاعب توجيهها على طول المسار إلى المخرج.
 
 \--- task \---
 
-Click on the sprite called 'Cat', and add some code to `hide`{:class="block3looks"} the sprite, and also to `clone`{:class="block3control"} it every three seconds.
+انقر على الكائن المسمى 'Cat'، وأضف بعض التعليمات البرمجية لـ `إخفاء`{:class="block3looks"} الكائن، وأيضاً لـ `نسخها`{:class="block3looks"} كل ثلاث ثوان.
 
-![Cat sprite](images/cat-sprite.png)
+![كائن القط](images/cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -19,23 +19,23 @@ end
 
 \--- /task \---
 
-If you run the program now, nothing happens on the Stage. To check that a new Cat sprite clone is created every three seconds, make each clone appear and fall out of the sky.
+إذا قمت بتشغيل البرنامج الآن، فلن يحدث شيء على المنصة. للتأكد من إنشاء نسخة من كائن القط كل ثلاث ثوان، اجعل كل كائن يظهر ويسقط من السماء.
 
 \--- task \---
 
-Add code to tell the sprite that `when it starts as a clone`{:class="block3control"}, it should `show`{:class="block3looks"} itself and fall until it `touches`{:class="block3sensing"} the blue floor that is drawn on the Stage.
+أضف كتلة برمجية لإخبار الكائن أنه `عندما تبدأ نسخة منه`{:class="block3control"}، يجب أن أن `تظهر`{:class="block3looks"} نفسها وتسقط حتى `تلامس`{:class="block3sensing"} الأرضية الزرقاء المرسومة على المنصة.
 
-![Cat sprite](images/cat-sprite.png)
+![كائن القط](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-`When the sprite starts as a clone`{:class="block3control"}, `show`{:class="block3looks"} the sprite. `Repeatedly`{:class="block3control"} `Change`{:class="block3motion"} the sprite's `y` coordinate by `-2`, until the sprite `touches`{:class="block3sensing"} the blue Stage.
+`عندما يبدأ الكائن كنسخة`{:class="block3control"}, `أظهر`{:class="block3looks"} الكائن. `غير`{:class="block3motion"} الموضع `ص` للكائن `بشكل متكرر`{:class="block3control"} بمقدار `-2` حتى `يلامس`{:class="block3sensing"} الكائن المنصة الرزرقاء.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+هنا التعليمات البرمجية التي ستحتاج اليها:
 
 ```blocks3
 repeat until <>
@@ -54,7 +54,7 @@ when I start as a clone
 
 \--- hint \---
 
-This is what your code should look like:
+و هذا ما يجب أن تبدو عليه التعليمات البرمجية الخاصة بك:
 
 ```blocks3
 when I start as a clone
@@ -68,6 +68,6 @@ end
 
 \--- /task \---
 
-When you click the green flag, you should see a new cat fall from the top of the Stage every three seconds. Every cat should land in a big pile of overlapping cats on the blue floor at the bottom.
+عندما تنقر على العلم الأخضر، يجب أن ترى قطة جديدة تسقط من أعلى المسرح كل ثلاث ثوانٍ. يجب أن تهبط كل قطة في كومة كبيرة من القطط المتداخلة على الأرضية الزرقاء في الأسفل.
 
-![Falling cats](images/falling-cats.png)
+![القطط المتساقطة](images/falling-cats.png)
