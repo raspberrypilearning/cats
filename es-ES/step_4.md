@@ -36,15 +36,15 @@ end
 Así es como debería verse tu código:
 
 ```blocks3
-when I start as a clone
-show
-+ forever
-    move (10) steps
-    repeat until <touching color [#0000ff]?>
-        change y by (-2)
-    end
-    next costume
-    wait (0.1) seconds
+al comenzar como clon
+mostrar
++ por siempre 
+mover (10) pasos
+repetir hasta que <touching color [#0000ff]?> 
+cambiar y a (-2)
+end
+siguiente disfraz
+esperar (0.1) segundos
 end
 ```
 
@@ -69,17 +69,17 @@ Elimina el bucle `por siempre`{:class="block3control"} y, en su lugar, añade un
 ![Objeto Gato](images/cat-sprite.png)
 
 ```blocks3
-when I start as a clone
-show
-+ repeat until <touching (edge v)?>
-    move (10) steps
-    repeat until <touching color [#0000ff]?>
-        change y by (-2)
-    end
-    next costume
-    wait (0.1) seconds
+al comenzar como clon
+mostrar
++ repetir hasta que <touching (edge v)?> 
+mover (10) pasos
+repetir hasta que <touching color [#0000ff]?> 
+cambiar y a (-2)
 end
-+ delete this clone
+siguiente disfraz
+esperar (0.1) segundos
+end
++ eliminar este clon
 ```
 
 \--- /task \---
@@ -95,7 +95,7 @@ Date cuenta de que, si los gatos caen en el agujero, no desaparecen, sino que se
 Esta es la parte del código que le dice al gato que siga cayendo hasta que toque el color azul:
 
 ```blocks3
-repeat until <touching color [#0000ff]?>
+repetir hasta que <touching color [#0000ff]?>
 end
 ```
 
@@ -108,7 +108,7 @@ Agrega más bloques a este bucle para que se repita hasta que el objeto Gato toq
 ![Objeto Gato](images/cat-sprite.png)
 
 ```blocks3
-repeat until <<touching color [#0000ff]?> or <touching (edge v)?>>
+repetir hasta que <<touching color [#0000ff]?> o <touching (edge v)?>>
 end
 ```
 
