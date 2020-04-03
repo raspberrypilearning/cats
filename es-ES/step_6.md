@@ -46,27 +46,26 @@ dar a [puntuación v] el valor (0)
 Así es como debería verse tu código:
 
 ```blocks3
-when I start as a clone
-show
-repeat until <touching (edge v)?>
-    move (10) steps
-    repeat until <touching color [#0000ff]?>
-        change y by (-2)
-    end
-    repeat until <not <touching color [#0000ff]?>>
-        change y by (2)
-    end
-    next costume
-    wait (0.1) seconds
-+   if <touching (Door v)?> then
-        change [score v] by (1)
-    end
+al comenzar como clon
+mostrar
+repetir hasta que <touching (edge v)?> 
+mover (10) pasos
+repetir hasta que <touching color [#0000ff]?> 
+cambiar y a (-2)
 end
-delete this clone
+repetir hasta que <not <touching color [#0000ff]?>> 
+cambiar y a (2)
+end
+siguiente disfraz
+esperar (0.1) segundos
++ si <touching (Door v)?> entonces 
+cambiar [puntuación v] por (1)
+end
+end
+eliminar este clon
 
-when flag clicked
-
-+ set [score v] to (0)
+al presionar bandera verde
++ dar a [puntuación v] el valor (0)
 ```
 
 \--- /hint \---
