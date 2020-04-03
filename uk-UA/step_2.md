@@ -1,20 +1,20 @@
-## Draw lines
+## Малювання ліній
 
 \--- task \---
 
-Open the 'CATS!' Scratch starter project.
+Відкрий початковий проєкт "КОТИ!" у Скретч.
 
-**Online:** open the starter project at [rpf.io/cats-on](http://rpf.io/cats-on){:target="_blank"}.
+**Онлайн:** відкрий стартовий проєкт на [rpf.io/cats-on](http://rpf.io/cats-on){:target="_ blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Якщо у тебе є обліковий запис Скретч, то ти можеш зробити його копію, натиснувши **Ремікс**.
 
-**Offline:** open the [starter project](http://rpf.io/p/en/cats-go) in the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+**Офлайн:** відкрий [початковий проєкт](http://rpf.io/p/en/cats-go) в офлайн-редакторі. Якщо тобі треба завантажити та встановити офлайн-редактор Скретч, то ти можеш його знайти на [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
 \--- task \---
 
-Add the Pen extension to your project.
+Додай розширення Олівець до свого проєкту.
 
 [[[generic-scratch3-add-pen-extension]]]
 
