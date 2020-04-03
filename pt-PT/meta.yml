@@ -1,0 +1,18 @@
+---
+title: GATOS!
+hero_image: images/banner.png
+description: Cria um jogo em que guias gatos para a segurança e impedes que eles caiam em buracos
+listed: true
+copyedit: true
+version: 4.0.2
+last_tested: 2018-10-18
+steps:
+  - title: Introdução
+  - title: Desenhar linhas
+  - title: Clonar gatos
+  - title: Faça os gatos se mexerem
+  - title: Aderir às linhas
+  - title: Alcançar a segurança
+  - title: "Desafio: mais obstáculos"
+    challenge: true
+  - title: O que se segue?
