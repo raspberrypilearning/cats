@@ -9,11 +9,11 @@ Haz clic en el objeto llamado 'Gato' y agrega un código para `esconder`{:class=
 ![Objeto Gato](images/cat-sprite.png)
 
 ```blocks3
-when flag clicked
-hide
-forever
-    create clone of (myself v)
-    wait (3) seconds
+al presionar bandera verde
+esconder
+por siempre 
+  crear clon de (mí mismo v)
+  esperar (3) segundos
 end
 ```
 
