@@ -1,12 +1,12 @@
-## Get to safety
+## الوصول إلى بر الأمان
 
-The object of the game is to guide the cats to safety by creating a path so they can reach the door. Create a score variable to keep track of how many cats reach the door.
+الهدف من اللعبة هو توجيه القطط نحو الأمان عن طريق إنشاء مسار حتى يمكنها الوصول إلى الباب. أنشئ متغير نتيجة لتسجيل كم قط استطاع الوصول إلى الباب.
 
 \--- task \---
 
-Create a variable called `score`{:class="block3variables"}.
+أنشئ متغيراً يدعى `النتيجة`{:class="block3variables"}.
 
-![Cat sprite](images/cat-sprite.png)
+![كائن القط](images/cat-sprite.png)
 
 [[[generic-scratch3-add-variable]]]
 
@@ -14,19 +14,19 @@ Create a variable called `score`{:class="block3variables"}.
 
 \--- task \---
 
-Add code to your cat sprite to add `1` to the `score`{:class="block3variables"} each time a cat reaches the door. Also set `score`{:class="block3variables"} to `0` `when the flag is clicked`{:class="block3events"} at the start of the game.
+أضف تعليمات برمجية لكائن القط لإضافة `1` إلى `النتيجة`{:class="block3variables"} كل مرة يصل قط إلى الباب. أيضاً اجعل `النتيجة`{:class="block3variables"} تساوي `0` عند `النقر على العلم الأخضر`{:class="block3events"} في بداية اللعبة.
 
-![Cat sprite](images/cat-sprite.png)
+![كائن القط](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-`If`{:class="block3control"} the cat is `touching the door sprite`{:class="block3sensing"}, then `add 1 to the score`{:class="block3variables"}.
+`إذا`{:class="block3control"} كان القط `يلامس كائن الباب`{:class="block3sensing"}، عندها `أضف 1 إلى النتيجة`{:class="block3variables"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the new code blocks you need to add to your `when I start as a clone` script:
+فيما يلي كتل التعليمات البرمجية الجديدة التي تحتاج إلى إضافتها إلى جزء `عندما أبدأ كنسخة`:
 
 ```blocks3
 change [score v] by (1)
@@ -43,7 +43,7 @@ set [score v] to (0)
 
 \--- hint \---
 
-This is what your code should look like:
+و هذا ما يجب أن تبدو عليه التعليمات البرمجية الخاصة بك:
 
 ```blocks3
 when I start as a clone
@@ -77,9 +77,9 @@ when flag clicked
 
 \--- task \---
 
-Add some more code so that, when a cat sprite reaches the door, the cat makes a 'meow' sound and then disappears.
+أضف المزيد من التعليمات البرمجية بحيث عندما يصل كائن القط إلى الباب، يصدر القط صوت مواء 'mewo' ويختفي بعدها.
 
-![Cat sprite](images/cat-sprite.png)
+![كائن القط](images/cat-sprite.png)
 
 ```blocks3
 play sound (meow v)
