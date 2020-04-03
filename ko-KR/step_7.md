@@ -1,13 +1,13 @@
-## Challenge: more obstacles
+## 도전 과제: 더 많은 장애물
 
-At the moment, the game is rather easy to win. Can you think of ideas to you make your game harder?
+현재 게임은 이기기 쉽습니다. 게임을 더 어렵게 만들 아이디어들을 생각해 봅시다.
 
-+ Add more backgrounds with different platform designs.
++ 다른 모양의 플랫폼을 가진 더 많은 배경을 만들기.
 
-+ Move the location of the door depending on which background is displayed.
++ 표시되는 배경에 따라 문의 위치를 이동시키기.
 
-+ Add more sprites as moving obstacles. Perhaps you could have roaming dogs or rotating spikes the cats need to avoid?
++ 움직이는 장애물인 더 많은 스프라이트를 추가하기. 당신은 고양이가 피해야 할 이동하는 개나 회전하는 가시를 추가할 수도 있습니다.
 
-+ Only allow the player to use a limited amount of "ink" to draw lines in the game. You can keep track of how much "ink" is used by creating a timer variable that records how long the mouse is held down.
++ 플레이어가 제한된 양의 "잉크"를 사용하여 게임에서 선을 그리도록 하기. 마우스를 누르고있는 시간을 기록하는 타이머 변수를 만들어 "잉크"가 얼마나 사용되는지 추적 할 수 있습니다.
 
-+ Create a sprite to show the player how much ink is left.
++ 남은 잉크 량을 플레이어에게 표시하는 스프라이트를 만듭니다.
