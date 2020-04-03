@@ -6,7 +6,7 @@ You want a never-ending stream of cats that the player has to guide along the pa
 
 Click on the sprite called 'Cat', and add some code to `hide`{:class="block3looks"} the sprite, and also to `clone`{:class="block3control"} it every three seconds.
 
-![Cat sprite](images/cat-sprite.png)
+![고양이 스프라이트](images/cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -35,7 +35,7 @@ Add code to tell the sprite that `when it starts as a clone`{:class="block3contr
 
 \--- hint \---
 
-Here are the code blocks you need:
+필요한 코드 블록은 다음과 같습니다.
 
 ```blocks3
 repeat until <>
@@ -54,7 +54,7 @@ when I start as a clone
 
 \--- hint \---
 
-This is what your code should look like:
+다음과 같은 코드를 추가해야 합니다:
 
 ```blocks3
 when I start as a clone
@@ -68,6 +68,6 @@ end
 
 \--- /task \---
 
-When you click the green flag, you should see a new cat fall from the top of the Stage every three seconds. Every cat should land in a big pile of overlapping cats on the blue floor at the bottom.
+초록색 깃발을 클릭하면 3 초마다 새 고양이가 스테이지 상단에서 떨어집니다. 모든 고양이는 바닥에있는 파란색 바닥에 겹치는 고양이의 큰 더미에 착륙해야합니다.
 
-![Falling cats](images/falling-cats.png)
+![떨어지는 고양이](images/falling-cats.png)
