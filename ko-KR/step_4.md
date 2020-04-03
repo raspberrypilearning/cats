@@ -4,13 +4,13 @@
 
 \--- task \---
 
-Add code to the `when I start as a clone`{:class="block3control"} section to make the cat sprite `move ten steps`{:class="block3motion"}, and switch between the sprite's two costumes every 0.1 seconds to make the cat look like it's walking.
+코드의 `복제되었을때`{:class="block3control"} 부분에 고양이 스프라이트가 0.1초 마다 `10만큼 움직이기`{:class="block3motion"}와 다음 모양으로 바꾸기를 하여 걸어가는 것처럼 보이도록 코드를 추가합니다.
 
 ![고양이 스프라이트](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-The cat sprite should `move 10 steps`{:class="block3motion"}, and `switch costume`{:class="block3looks"} every `0.1 seconds`{:class="block3control"}. This code should repeat `forever`{:class="block3control"}, just like the code to make the cat fall.
+고양이 스프라이트는 `0.1초`{:class="block3control"} 마다 `10만큼 움직이기`{:class="block3motion"}하고 `다음 모양으로 바꾸기`{:class="block3looks"}를 해야 합니다. 이 코드는 고양이를 떨어트리는 코드와 마찬가지로 `무한 반복하기`{: class = "block3control"} 해야 합니다.
 
 \--- /hint \---
 
@@ -54,7 +54,7 @@ end
 
 \--- task \---
 
-Press the green flag and check that the cats now move along the blue platform at the bottom.
+녹색 깃발을 누르고 고양이가 바닥의 파란색 플랫폼을 따라 움직이는지 확인하십시오.
 
 \--- /task \---
 
@@ -64,7 +64,7 @@ Press the green flag and check that the cats now move along the blue platform at
 
 \--- task \---
 
-Remove the `forever`{:class="block3control"} loop, and instead add a different loop to make the cats only walk until they reach an edge. When a cat reaches the edge of the Stage, it should disappear.
+`무한 반복하기`{: class = "block3control"} 루프를 제거하고 대신 다른 루프를 추가하여 고양이가 가장자리에 도달할 때까지만 걸어가도록 합니다. 고양이가 스테이지 가장자리에 도달하면 사라져야 합니다.
 
 ![고양이 스프라이트](images/cat-sprite.png)
 
@@ -86,24 +86,24 @@ end
 
 \--- task \---
 
-Press the green flag and check that the cats disappear when they reach the edge of the Stage.
+녹색 깃발을 누르고 고양이가 스테이지 가장자리에 닿으면 사라지는지 확인하십시오.
 
 \--- /task \---
 
-고양이가 구멍에 빠지면 사라지지 않고 대신 바닥에 붙어있는 것을 알 수 있습니다. This is because they keep trying to fall downwards.
+고양이가 구멍에 빠지면 사라지지 않고 대신 바닥에 붙어있는 것을 알 수 있습니다. 이는 고양이가 계속 아래로 떨어지려고 하기 때문입니다.
 
-This is the part of the code that tells the cat to keep falling until it touches blue:
+이것은 고양이가 파란색에 닿을 때까지 계속 떨어지도록 지시하는 코드의 일부입니다.
 
 ```blocks3
 repeat until <touching color [#0000ff]?>
 end
 ```
 
-However, in the hole, the cat can never reach blue, so it is stuck forever.
+그러나 구멍에서 고양이는 결코 파란색에 도달 할 수 없으므로 영원히 붙어 있습니다.
 
 \--- task \---
 
-Add more blocks to this loop so that it repeats until the cat sprite is touching blue `or`{:class="block3operators"} `touching the edge`{:class="block3sensing"}. This way, the sprite stops trying to fall if it reaches the edge of the Stage.
+고양이 스프라이트가 파란색 `또는`{: class = "block3operators"} `벽에 닿았는가`{: class = "block3sensing"}까지 반복되도록 이 루프에 블록을 더 추가하십시오. 이렇게 하면 스프라이트가 벽에 도달하면 떨어지려고 하지 않습니다.
 
 ![고양이 스프라이트](images/cat-sprite.png)
 
