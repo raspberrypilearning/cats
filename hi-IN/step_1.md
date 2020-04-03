@@ -1,18 +1,18 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/cats-scratch2).
+यह इस प्रोजेक्ट का **Scratch 3** संस्करण है। [इस प्रोजेक्ट का Scratch 2 संस्करण](https://projects.raspberrypi.org/en/projects/cats-scratch2) भी है।
 
 \--- /no-print \---
 
-## Introduction
+## परिचय
 
-In this project, you will create a game in which you need to guide cats to safety and not let any of them fall through the gaps!
+इस प्रोजेक्ट में, आप एक गेम बनाएँगे जिसमें आपको बिल्लियों को सुरक्षा की ओर मार्गदर्शन करने की जरुरत होगी और उनमें से किसी को भी खाली जगहों में गिरने नहीं देना होगा!
 
-### What you will make
+### आप क्या बनाओगे
 
 \--- no-print \---
 
-Click and drag with the mouse to draw a line with the pencil. Your goal is to stop the cats from falling into holes by creating a safe path to the exit.
+पेंसिल के साथ एक रेखा खींचने के लिए माउस से क्लिक करें और खींचें। आपका लक्ष्य बिल्लियों को बाहर निकलने के लिए एक सुरक्षित मार्ग बनाकर उन्हें छेदों में गिरने से रोकना है।
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/253667883/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -28,34 +28,34 @@ Click and drag with the mouse to draw a line with the pencil. Your goal is to st
 
 ## \--- collapse \---
 
-## title: What you will learn
+## शीर्षक: आप क्या सीखेंगे
 
-+ How to use a `forever`{:class="block3control"} loop to constantly generate moving cats
-+ How to use a `repeat until`{:class="block3control"} loop to ensure your cats follow a line
-
-\--- /collapse \---
-
-## \--- collapse \---
-
-## title: What you will need
-
-### Hardware
-
-+ A computer capable of running Scratch 3
-
-### Software
-
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
-
-### Downloads
-
-+ [Offline starter project](http://rpf.io/p/en/cats-go){:target="_blank"}
++ चलती बिल्लियों को लगातार उत्पन्न करने के लिए `forever`{:class="block3control"} लूप का उपयोग कैसे करें
++ `repeat until`{:class="block3control"} लूप का उपयोग कैसे करके आप यह सुनिश्चित कर सके कि आपकी बिल्लियाँ एक लाइन में चलती रहे
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## शीर्षक: आपको किन चीज़ों की आवश्यकता होगी
+
+### हार्डवेयर
+
++ Scratch 3 चलाने में सक्षम एक कंप्यूटर
+
+### सॉफ्टवेयर
+
++ Scratch 3 (या तो [ऑनलाइन](http://rpf.io/scratchon){:target="_blank"} या [ऑफलाइन](http://rpf.io/scratchoff){:target="_blank"})
+
+### डाउनलोड
+
++ [ऑफलाइन स्टार्टर प्रोजेक्ट](http://rpf.io/p/en/cats-go){:target="_blank"}
+
+\--- /collapse \---
+
+## \--- collapse \---
+
+## शीर्षक: शिक्षकों के लिए अतिरिक्त टिप्पणियाँ
 
 \--- no-print \---
 
