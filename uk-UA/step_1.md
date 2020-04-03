@@ -1,10 +1,10 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/cats-scratch2).
+Це — версія проєкту для **Скретч 3**. Також існує проєкт для [Скретч 2](https://projects.raspberrypi.org/en/projects/cats-scratch2).
 
 \--- /no-print \---
 
-## Introduction
+## Вступ
 
 In this project, you will create a game in which you need to guide cats to safety and not let any of them fall through the gaps!
 
@@ -55,7 +55,7 @@ Click and drag with the mouse to draw a line with the pencil. Your goal is to st
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: Додаткові примітки для викладачів
 
 \--- no-print \---
 
