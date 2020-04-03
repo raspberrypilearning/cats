@@ -82,8 +82,8 @@ Añade un poco más de código para que, cuando el objeto Gato llegue a la puert
 ![Objeto Gato](images/cat-sprite.png)
 
 ```blocks3
-play sound (meow v)
-delete this clone
+iniciar sonido (meow v)
+eliminar este clon
 ```
 
 \--- /task \---
