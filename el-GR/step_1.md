@@ -1,18 +1,18 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/cats-scratch2).
+Αυτή είναι η έκδοση **Scratch 3** του έργου. Υπάρχει επίσης η [έκδοση Scratch 2 του έργου](https://projects.raspberrypi.org/en/projects/cats-scratch2).
 
 \--- /no-print \---
 
-## Introduction
+## Εισαγωγή
 
-In this project, you will create a game in which you need to guide cats to safety and not let any of them fall through the gaps!
+Σε αυτό το έργο, θα δημιουργήσεις ένα παιχνίδι στο οποίο θα πρέπει να καθοδηγείς τις γάτες στην ασφάλεια και να μην αφήσεις καμία από αυτές να πέσει στις τρύπες!
 
-### What you will make
+### Τι θα φτιάξεις
 
 \--- no-print \---
 
-Click and drag with the mouse to draw a line with the pencil. Your goal is to stop the cats from falling into holes by creating a safe path to the exit.
+Κάνε κλικ και σύρε με το ποντίκι για να σχεδιάσεις μια γραμμή με το μολύβι. Ο στόχος σου είναι να μην αφήνεις τις γάτες να πέφτουν σε τρύπες δημιουργώντας μια ασφαλή διαδρομή προς την έξοδο.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/253667883/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -22,45 +22,45 @@ Click and drag with the mouse to draw a line with the pencil. Your goal is to st
 
 \--- print-only \---
 
-![Cats finished](images/cats-finished.png)
+![Οι γάτες ολοκληρωμένες](images/cats-finished.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Τι θα μάθεις
 
-+ How to use a `forever`{:class="block3control"} loop to constantly generate moving cats
-+ How to use a `repeat until`{:class="block3control"} loop to ensure your cats follow a line
-
-\--- /collapse \---
-
-## \--- collapse \---
-
-## title: What you will need
-
-### Hardware
-
-+ A computer capable of running Scratch 3
-
-### Software
-
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
-
-### Downloads
-
-+ [Offline starter project](http://rpf.io/p/en/cats-go){:target="_blank"}
++ Πώς να χρησιμοποιήσεις ένα βρόχο `για πάντα`{:class="block3control"} για να δημιουργείς συνεχώς κινούμενες γάτες
++ Πώς να χρησιμοποιήσεις ένα βρόχο `επανέλαβε έως`{:class="block3control"} για να διασφαλίσεις ότι οι γάτες σου ακολουθούν μια γραμμή
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: Τι θα χρειαστείς
+
+### Υλικό (Hardware)
+
++ Ένας υπολογιστής ικανός να τρέχει το Scratch 3
+
+### Λογισμικό
+
++ Scratch 3 (είτε [online](http://rpf.io/scratchon){:target="_blank"} είτε [offline](http://rpf.io/scratchoff){:target="_blank"})
+
+### Λήψεις
+
++ [Αρχικό έργο εκτός σύνδεσης](http://rpf.io/p/en/cats-go){:target="_ blank"}
+
+\--- /collapse \---
+
+## \--- collapse \---
+
+## title: Πρόσθετες σημειώσεις για εκπαιδευτικούς
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/cats/print). \--- /no-print \---
+Αν χρειαστεί να εκτυπώσεις αυτό το έργο, παρακαλούμε να χρησιμοποιήσεις την [εκτυπώσιμη](https://projects.raspberrypi.org/en/projects/cats/print) έκδοση. \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/cats-get){:target="_blank"}.
+Μπορείς να βρεις [το ολοκληρωμένο έργο εδώ](http://rpf.io/p/en/cats-get){:target="_blank"}.
 
 \--- /collapse \---
