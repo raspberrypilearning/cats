@@ -14,6 +14,6 @@ Press `f` to draw a few flowers, or `r` to draw lots of random flowers, or `p` t
 
 \--- print-only \---
 
-![random flowers](images/flower-random.png)
+![flores aleatorias](images/flower-random.png)
 
 \--- /print-only \---
