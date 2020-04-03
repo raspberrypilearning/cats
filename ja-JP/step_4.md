@@ -1,22 +1,22 @@
-## Make the cats move
+## ネコを動かす
 
-Once a cat reaches the floor, it should step slowly to the right.
+ネコが床に着くと、ゆっくりと右に歩きます。
 
 \--- task \---
 
-Add code to the `when I start as a clone`{:class="block3control"} section to make the cat sprite `move ten steps`{:class="block3motion"}, and switch between the sprite's two costumes every 0.1 seconds to make the cat look like it's walking.
+`クローンされたとき`{:class="block3control"}のセクションに、ネコのスプライトを`10歩動かし`{:class="block3motion"}、0.1秒ごとに2つのコスチュームを切りかえるようにコードを入れます。
 
-![Cat sprite](images/cat-sprite.png)
+![ネコのスプライト](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-The cat sprite should `move 10 steps`{:class="block3motion"}, and `switch costume`{:class="block3looks"} every `0.1 seconds`{:class="block3control"}. This code should repeat `forever`{:class="block3control"}, just like the code to make the cat fall.
+ネコは`10歩動き`{:class="block3motion"}、`0.1秒`{:class="block3control"}ごとに`コスチュームを切りかえます`{:class="block3looks"}。 このコードは、ネコを落とすコードと同じように、 `ずっと`{:class="block3control"}くり返す必要があります。
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+必要なコードブロックは次のとおりです。
 
 ```blocks3
 move (10) steps
@@ -33,7 +33,7 @@ end
 
 \--- hint \---
 
-This is what your code should look like:
+コードは次のようになります。
 
 ```blocks3
 when I start as a clone
@@ -54,19 +54,19 @@ end
 
 \--- task \---
 
-Press the green flag and check that the cats now move along the blue platform at the bottom.
+緑の旗をおして、ネコが青いゆかにそって動くことをたしかめます。
 
 \--- /task \---
 
-If you draw a bridge across the gap so that the cats can get all the way to the right side of the Stage, you can see that they end up getting stuck walking into the right wall.
+ネコがステージの右がわにちゃんとたどり着けるようにあなの上に橋をかくと、ネコが右のかべで行きづまってしまいます。
 
-![Flailing cats at the edge](images/flailing-at-edge.png)
+![端で行き詰っているネコ](images/flailing-at-edge.png)
 
 \--- task \---
 
-Remove the `forever`{:class="block3control"} loop, and instead add a different loop to make the cats only walk until they reach an edge. When a cat reaches the edge of the Stage, it should disappear.
+`ずっと`{:class="block3control"}ループを削除 (さくじょ) し、代わりにちがうループを入れて、ネコがはしに着くまで歩くようにします。 When a cat reaches the edge of the Stage, it should disappear.
 
-![Cat sprite](images/cat-sprite.png)
+![ネコのスプライト](images/cat-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -105,7 +105,7 @@ However, in the hole, the cat can never reach blue, so it is stuck forever.
 
 Add more blocks to this loop so that it repeats until the cat sprite is touching blue `or`{:class="block3operators"} `touching the edge`{:class="block3sensing"}. This way, the sprite stops trying to fall if it reaches the edge of the Stage.
 
-![Cat sprite](images/cat-sprite.png)
+![ネコのスプライト](images/cat-sprite.png)
 
 ```blocks3
 repeat until <<touching color [#0000ff]?> or <touching (edge v)?>>
