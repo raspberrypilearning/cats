@@ -4,7 +4,7 @@
 
 \--- task \---
 
-Create a variable called `score`{:class="block3variables"}.
+먼저, `점수`{:class="block3variables"}라는 이름의 변수를 추가 해 보세요.
 
 ![고양이 스프라이트](images/cat-sprite.png)
 
@@ -14,19 +14,19 @@ Create a variable called `score`{:class="block3variables"}.
 
 \--- task \---
 
-Add code to your cat sprite to add `1` to the `score`{:class="block3variables"} each time a cat reaches the door. Also set `score`{:class="block3variables"} to `0` `when the flag is clicked`{:class="block3events"} at the start of the game.
+고양이가 문에 닿을 때마다 `1`을 `점수`{:class="block3variables"}에 더하는 코드를 고양이 스프라이트에 추가합니다. 또 `점수`{:class="block3variables"}를 `깃발을 클릭했을 때`{:class="block3events"} `0`으로 바꾸게 합니다.
 
 ![고양이 스프라이트](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-`If`{:class="block3control"} the cat is `touching the door sprite`{:class="block3sensing"}, then `add 1 to the score`{:class="block3variables"}.
+`만약`{:class="block3control"} 고양이가 `문에 닿았는가?`{:class="block3sensing"}라면 `점수에 1을 더한다`{:class="block3variables"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the new code blocks you need to add to your `when I start as a clone` script:
+이것은 `복제되었을 때` 스크립트에 추가할 코드 블럭들 입니다.
 
 ```blocks3
 change [score v] by (1)
