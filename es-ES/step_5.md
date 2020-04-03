@@ -1,18 +1,18 @@
-## Stick to the lines
+## Pegarse a las líneas
 
-You might notice that, if you draw a low bridge between the two platforms, or a line that slopes upwards, the cats end up walking through the platform rather than on top of it!
+Te habrás dado cuenta que, si dibujas un puente más bajo entre las dos plataformas, o una línea que se inclina hacia arriba, ¡los gatos terminan caminando a través de la plataforma en lugar de por encima!
 
-![Cats walking through the platform](images/cat-walk-through-platform.png)
+![Gatos caminando por la plataforma](images/cat-walk-through-platform.png)
 
 \--- task \---
 
-In the code for the cat sprite, add another loop before the `next costume`{:class="block3looks"} block. This time, the loop should tell the cat to move upwards by `2` until it is not touching blue.
+En el código para el objeto "Gato", añade otro bucle antes del bloque `siguiente disfraz`{:class="block3looks"}. Esta vez, el bucle debería indicarle al gato que se mueva hacia arriba por `2` hasta que no esté tocando el color azul.
 
-![Cat sprite](images/cat-sprite.png)
+![Objeto Gato](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-The cat should `move up 2`{:class="block3motion"} `repeatedly until`{:class="block3control"} it is `not`{:class="block3operators"} `touching blue`{:class="block3sensing"}.
+El gato debería `moverse 2 hacia arriba`{:class="block3motion"} `repetir hasta que`{:class="block3control"} `no`{:class="block3operators"} `toque el color azul`{:class="block3sensing"}.
 
 \--- /hint \---
 
@@ -35,7 +35,7 @@ not <>
 
 \--- hint \---
 
-This is what your code should look like:
+Así es como debería verse tu código:
 
 ```blocks3
 when I start as a clone
@@ -60,6 +60,6 @@ delete this clone
 
 \--- task \---
 
-Click the green flag and try drawing a line that slopes upwards. Check that your cat follows this line.
+Haz click en la bandera verde e intenta dibujar una línea que se incline hacia arriba. Comprueba que tu gato sigue esta línea.
 
 \--- /task \---
