@@ -4,11 +4,11 @@
 
 스크래치 스타터 프로젝트 'CATS!'를 여십시오.
 
-**Online:** open the starter project at [rpf.io/cats-on](http://rpf.io/cats-on){:target="_blank"}.
+** 온라인:** [rpf.io/cats-on](http://rpf.io/cats-on){:target="_blank"}에서 새로운 스타터 프로젝트 열기.
 
 스크래치 계정이 있는 경우 **Remix**을 클릭하여 사본을 만들 수 있습니다.
 
-**오프라인:** 오프라인 편집기에서 [스타터 프로젝트](http://rpf.io/p/en/cats-go)를 엽니다. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+**오프라인:** 오프라인 편집기에서 [스타터 프로젝트](http://rpf.io/p/en/cats-go)를 엽니다. 스크래치 오프라인 에디터를 다운로드 받아야 하는 경우, [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}에서 다운 받을 수 있습니다.
 
 \--- /task \---
 
@@ -33,7 +33,7 @@ erase all
 set pen size to (5)
 ```
 
-To select a colour, click on the colour square in the `set pen color`{:class="block3extensions"} block to make your mouse cursor turn into a pipette, and then click on the correct colour on the Stage.
+색상을 선택하려면 `펜 색깔을 ~로 정하기`{: class = "block3extensions"} 블록에서 색깔 사각형을 클릭하여 마우스 커서를 스포이트로 만든 다음 스테이지에서 적절한 색상을 클릭하십시오.
 
 \--- /task \---
 
@@ -61,7 +61,7 @@ end
 
 \--- hints \--- \--- hint \---
 
-`If`{:class="block3control"} the `mouse is down`{:class="block3sensing"}, put the `pen down`{:class="block3extensions"}, and `else`{:class="block3control"}, lift the `pen up`{:class="block3extensions"}.
+`만약`{:class="block3control"} `마우스를 클릭했는가`{:class="block3sensing"}라면 `펜 내리기`{:class="block3extensions"}, `아니면`{:class="block3control"}, `펜 올리기`{:class="block3extensions"} 를 수행합니다.
 
 \--- /hint \---
 
@@ -117,7 +117,7 @@ end
 
 \--- task \---
 
-To stop this from happening, add a `pen up`{:class="block3extensions"} block at the start of the script, and a `wait one second`{:class="block3control"} block above the `forever`{:class="block3control"} block.
+이 문제를 해결하기 위해서는 `펜 올리기`{:class="block3extensions"} 블록과 `1초 기다리기`{:class="block3control"} 블록을 `무한 반복하기`{:class="block3control"} 블록 위의 스크립트 시작 부분에 추가합니다.
 
 ![펜 스프라이트](images/pen-sprite.png)
 
