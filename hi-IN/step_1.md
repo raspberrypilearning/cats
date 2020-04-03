@@ -59,8 +59,8 @@
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/cats/print). \--- /no-print \---
+यदि आप इस प्रोजेक्ट को प्रिंट करने की जरुरत है, तो कृपया [प्रिंटर अनुकूल संस्करण](https://projects.raspberrypi.org/en/projects/cats/print) का उपयोग करें। \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/cats-get){:target="_blank"}.
+आप [यहां पूरे प्रोजेक्ट](http://rpf.io/p/en/cats-get){:target="_blank"} को देख सकते हैं ।
 
 \--- /collapse \---
