@@ -14,59 +14,58 @@ Crea una nueva variable llamada `puntuación`{:class="block3variables"}.
 
 \--- task \---
 
-Añade código a tu objeto Gato para agregar `1` a la `puntuación`{:class="block3variables"} cada vez que un gato llegue a la puerta. Also set `score`{:class="block3variables"} to `0` `when the flag is clicked`{:class="block3events"} at the start of the game.
+Añade código a tu objeto Gato para agregar `1` a la `puntuación`{:class="block3variables"} cada vez que un gato llegue a la puerta. También establece `puntuación`{:class="block3variables"} a `0`` cuando se haga clic en la bandera`{:class="block3events"} al inicio de la partida.
 
-![Cat sprite](images/cat-sprite.png)
+![Objeto Gato](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-`If`{:class="block3control"} the cat is `touching the door sprite`{:class="block3sensing"}, then `add 1 to the score`{:class="block3variables"}.
+`Si`{:class="block3control"} el gato está `tocando el objeto Puerta`{:class="block3sensing"}, entonces `suma 1 a la puntuación`{:class="block3variables"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the new code blocks you need to add to your `when I start as a clone` script:
+Aquí están los nuevos bloques de código que necesitas agregar a tu programa de `al comenzar como clon`:
 
 ```blocks3
-change [score v] by (1)
+sumar a [puntuación v] (1)
 
-if <> then
+si <> entonces
 end
 
 <touching (Door v)?>
 
-set [score v] to (0)
+dar a [puntuación v] el valor (0)
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-This is what your code should look like:
+Así es como debería verse tu código:
 
 ```blocks3
-when I start as a clone
-show
-repeat until <touching (edge v)?>
-    move (10) steps
-    repeat until <touching color [#0000ff]?>
-        change y by (-2)
-    end
-    repeat until <not <touching color [#0000ff]?>>
-        change y by (2)
-    end
-    next costume
-    wait (0.1) seconds
-+   if <touching (Door v)?> then
-        change [score v] by (1)
-    end
+al comenzar como clon
+mostrar
+repetir hasta que <touching (edge v)?> 
+mover (10) pasos
+repetir hasta que <touching color [#0000ff]?> 
+cambiar y a (-2)
 end
-delete this clone
+repetir hasta que <not <touching color [#0000ff]?>> 
+cambiar y a (2)
+end
+siguiente disfraz
+esperar (0.1) segundos
++ si <touching (Door v)?> entonces 
+cambiar [puntuación v] por (1)
+end
+end
+eliminar este clon
 
-when flag clicked
-
-+ set [score v] to (0)
+al presionar bandera
++ dar a [puntuación v] el valor (0)
 ```
 
 \--- /hint \---
@@ -77,13 +76,13 @@ when flag clicked
 
 \--- task \---
 
-Add some more code so that, when a cat sprite reaches the door, the cat makes a 'meow' sound and then disappears.
+Añade un poco más de código para que, cuando el objeto Gato llegue a la puerta, haga un sonido 'meow', es decir, maulle, y luego desaparezca.
 
-![Cat sprite](images/cat-sprite.png)
+![Objeto Gato](images/cat-sprite.png)
 
 ```blocks3
-play sound (meow v)
-delete this clone
+iniciar sonido (meow v)
+eliminar este clon
 ```
 
 \--- /task \---
