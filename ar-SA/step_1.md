@@ -1,18 +1,18 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/cats-scratch2).
+هذا هو إصدار ** Scratch 3 ** من المشروع. هناك أيضًا [ إصدار Scratch 2 للمشروع](https://projects.raspberrypi.org/en/projects/cats-scratch2).
 
 \--- /no-print \---
 
-## Introduction
+## المقدمة
 
-In this project, you will create a game in which you need to guide cats to safety and not let any of them fall through the gaps!
+في هذا المشروع، ستقوم بإنشاء لعبة تحتاج فيها إلى توجيه القطط إلى بر الأمان وعدم السماح لأي منها بالوقوع في الحفر!
 
-### What you will make
+### ما الذي ستصنعه
 
 \--- no-print \---
 
-Click and drag with the mouse to draw a line with the pencil. Your goal is to stop the cats from falling into holes by creating a safe path to the exit.
+انقر واسحب بالماوس لرسم خط بالقلم الرصاص. هدفك هو منع القطط من السقوط في الحفر عن طريق إنشاء مسار آمن للخروج.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/253667883/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -28,7 +28,7 @@ Click and drag with the mouse to draw a line with the pencil. Your goal is to st
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: ما الذي ستتعلمه
 
 + How to use a `forever`{:class="block3control"} loop to constantly generate moving cats
 + How to use a `repeat until`{:class="block3control"} loop to ensure your cats follow a line
