@@ -67,7 +67,7 @@ end
 
 \--- hint \---
 
-Here are the code blocks you need:
+Εδώ είναι τα μπλοκ κώδικα που χρειάζεσαι:
 
 ```blocks3
 <mouse down?>
@@ -117,9 +117,9 @@ end
 
 \--- task \---
 
-To stop this from happening, add a `pen up`{:class="block3extensions"} block at the start of the script, and a `wait one second`{:class="block3control"} block above the `forever`{:class="block3control"} block.
+Για να μην αφήσεις να συμβεί αυτό, πρόσθεσε ένα μπλοκ `πένα πάνω`{:class="block3extensions"} κατά την έναρξη του σεναρίου, και ένα μπλοκ `περίμενε ένα δευτερόλεπτο`{:class="block3control"} πάνω από το μπλοκ `για πάντα`{:class="block3control"}.
 
-![Pen sprite](images/pen-sprite.png)
+![Αντικείμενο στυλό](images/pen-sprite.png)
 
 ```blocks3
 when flag clicked
