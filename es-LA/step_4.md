@@ -16,7 +16,7 @@ The cat sprite should `move 10 steps`{:class="block3motion"}, and `switch costum
 
 \--- hint \---
 
-Here are the code blocks you need:
+Aquí están los bloques de código que necesitas:
 
 ```blocks3
 move (10) steps
@@ -33,7 +33,7 @@ end
 
 \--- hint \---
 
-This is what your code should look like:
+Así es como debería verse tu código:
 
 ```blocks3
 when I start as a clone
