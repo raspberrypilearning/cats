@@ -1,12 +1,12 @@
-## Get to safety
+## Llegar a un lugar seguro
 
-The object of the game is to guide the cats to safety by creating a path so they can reach the door. Create a score variable to keep track of how many cats reach the door.
+El objetivo del juego es guiar a los gatos a un lugar seguro creando un camino para que puedan llegar a la puerta. Crea una variable de puntuación para registrar cuántos gatos llegan a la puerta.
 
 \--- task \---
 
-Create a variable called `score`{:class="block3variables"}.
+Crea una nueva variable llamada `puntuación`{:class="block3variables"}.
 
-![Cat sprite](images/cat-sprite.png)
+![Objeto Gato](images/cat-sprite.png)
 
 [[[generic-scratch3-add-variable]]]
 
@@ -14,7 +14,7 @@ Create a variable called `score`{:class="block3variables"}.
 
 \--- task \---
 
-Add code to your cat sprite to add `1` to the `score`{:class="block3variables"} each time a cat reaches the door. Also set `score`{:class="block3variables"} to `0` `when the flag is clicked`{:class="block3events"} at the start of the game.
+Añade código a tu objeto Gato para agregar `1` a la `puntuación`{:class="block3variables"} cada vez que un gato llegue a la puerta. Also set `score`{:class="block3variables"} to `0` `when the flag is clicked`{:class="block3events"} at the start of the game.
 
 ![Cat sprite](images/cat-sprite.png)
 
