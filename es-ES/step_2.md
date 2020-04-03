@@ -2,11 +2,11 @@
 
 \--- task \---
 
-Open the 'CATS!' Scratch starter project.
+Abre el proyecto de inicio de Scratch '¡GATOS!'.
 
-**Online:** open the starter project at [rpf.io/cats-on](http://rpf.io/cats-on){:target="_blank"}.
+**En línea:** abre el proyecto de inicio en [rpf.io/cats-on](http://rpf.io/cats-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Si tienes una cuenta de Scratch puedes hacer una copia haciendo clic en **Reinventar**.
 
 **Sin conexión**: abre el [proyecto de inicio](http://rpf.io/p/en/cats-go) en el editor sin conexión. Si necesitas descargar e instalar el editor sin conexión de Scratch, puedes encontrarlo en [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
@@ -24,7 +24,7 @@ Añade la extensión Lápiz a tu proyecto.
 
 Haz clic en el objeto llamado 'Lápiz' y agrega el código para establecer el color del lápiz en el mismo azul que los obstáculos en el Escenario.
 
-![Pen sprite](images/pen-sprite.png)
+![Objeto lápiz](images/pen-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -41,7 +41,7 @@ Para seleccionar un color, haz clic en el cuadrado de color en el bloque `fijar 
 
 Agrega un poco más de código para que el objeto siga al puntero del ratón. Prueba tu programa para verificar que el código funcione.
 
-![Pen sprite](images/pen-sprite.png)
+![Objeto lápiz](images/pen-sprite.png)
 
 ```blocks3
 forever
@@ -57,7 +57,7 @@ end
 
 Agrega algo de código para indicarle al objeto que dibuje una línea en el escenario si se presiona el botón del ratón.
 
-![Pen sprite](images/pen-sprite.png)
+![Objeto lápiz](images/pen-sprite.png)
 
 \--- hints \--- \--- hint \---
 
@@ -67,7 +67,7 @@ Agrega algo de código para indicarle al objeto que dibuje una línea en el esce
 
 \--- hint \---
 
-Here are the code blocks you need:
+Aquí están los bloques de código que necesitas:
 
 ```blocks3
 <mouse down?>
@@ -85,7 +85,7 @@ end
 
 \--- hint \---
 
-This is what your code should look like:
+Así es como debería verse tu código:
 
 ```blocks3
 when flag clicked
@@ -107,9 +107,9 @@ end
 
 \--- task \---
 
-Test your code. Deberías poder hacer clic y arrastrar con el ratón para dibujar una línea azul en el escenario.
+Prueba tu código. Deberías poder hacer clic y arrastrar con el ratón para dibujar una línea azul en el escenario.
 
-![Draw a line](images/draw-a-line.png)
+![Dibuja una línea](images/draw-a-line.png)
 
 \--- /task \---
 
@@ -119,7 +119,7 @@ Probablemente veas que siempre aparece un punto azul en la esquina superior dere
 
 Para evitar que esto suceda, agrega un bloque `subir lápiz`{: class = "block3extensions"} al comienzo del script, y un bloque `esperar (1) segundos`{: class = "block3control"} sobre el bloque `por siempre`{ : clase = "block3control"}.
 
-![Pen sprite](images/pen-sprite.png)
+![Objeto lápiz](images/pen-sprite.png)
 
 ```blocks3
 when flag clicked
