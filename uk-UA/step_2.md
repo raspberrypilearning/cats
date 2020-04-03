@@ -22,9 +22,9 @@
 
 \--- task \---
 
-Click on the sprite called 'Pen', and add code to set the pen colour to the same blue as the obstacles on the Stage.
+Клацни на спрайт з назвою "Олівець" та додай код, щоб встановити колір того ж відтінку синього, що й перешкоди на сцені.
 
-![Pen sprite](images/pen-sprite.png)
+![Спрайт олівець](images/pen-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -33,15 +33,15 @@ erase all
 set pen size to (5)
 ```
 
-To select a colour, click on the colour square in the `set pen color`{:class="block3extensions"} block to make your mouse cursor turn into a pipette, and then click on the correct colour on the Stage.
+Щоб вибрати колір, натисни на кольоровий квадрат у `надати олівцю колір`{:class="block3extensions"}, та вибери піпетку, а потім натисни нею на потрібний колір на сцені.
 
 \--- /task \---
 
 \--- task \---
 
-Add some more code to make the sprite follow the mouse pointer. Test your program to check that the code works.
+Додай ще деякий код, щоб спрайт рухався за вказівником миші. Протестуй свою програму, для перевірки правильності коду.
 
-![Pen sprite](images/pen-sprite.png)
+![Спрайт олівець](images/pen-sprite.png)
 
 ```blocks3
 forever
@@ -55,19 +55,19 @@ end
 
 \--- task \---
 
-Add some code to tell the sprite to draw a line on the Stage if the mouse button is pressed down.
+Додай код, щоб спрайт міг намалювати лінії на сцені, якщо натиснута кнопка миші.
 
-![Pen sprite](images/pen-sprite.png)
+![Спрайт олівець](images/pen-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-`If`{:class="block3control"} the `mouse is down`{:class="block3sensing"}, put the `pen down`{:class="block3extensions"}, and `else`{:class="block3control"}, lift the `pen up`{:class="block3extensions"}.
+`Якщо`{:class="block3control"} `мишку натиснуто?`{:class="block3sensing"}, то `опустити олівець`{:class="block3extensions"} `інакше`{:class="block3control"}, ` підняти олівець`{:class="block3extensions"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+Ось необхідні тобі блоки коду:
 
 ```blocks3
 <mouse down?>
@@ -85,7 +85,7 @@ end
 
 \--- hint \---
 
-This is what your code should look like:
+Ось як має виглядати твій код:
 
 ```blocks3
 when flag clicked
@@ -107,19 +107,19 @@ end
 
 \--- task \---
 
-Test your code. You should be able to click and drag with the mouse to draw a blue line on the Stage.
+Протестуй свій код. Ти повинен (-на) мати можливість клікнути й перетягнути мишку, для малювання лінії на сцені.
 
-![Draw a line](images/draw-a-line.png)
+![Намалювати лінію](images/draw-a-line.png)
 
 \--- /task \---
 
-You probably see that a blue dot always appears in the top right-hand corner of the Stage (it's circled in the image above). This is because, when you click the green flag to start the game, you press the mouse down, and so the pen immediately starts drawing.
+Напевно, ти бачиш, що синя крапка завжди з’являється у верхньому правому куті сцени (це проілюстровано на зображенні зверху). Це тому, що, коли ти натискаєш зелений прапорець, щоб почати гру, ти натискаєш кнопку миші, і олівець негайно починає малювати.
 
 \--- task \---
 
-To stop this from happening, add a `pen up`{:class="block3extensions"} block at the start of the script, and a `wait one second`{:class="block3control"} block above the `forever`{:class="block3control"} block.
+Щоб цього уникнути додай блок `підняти олівець`{:class="block3extensions"} на початку скрипта, а `чекати 1 секунд`{:class="block3control"} перед блоком `завжди`{:class="block3control"}.
 
-![Pen sprite](images/pen-sprite.png)
+![Спрайт олівець](images/pen-sprite.png)
 
 ```blocks3
 when flag clicked
