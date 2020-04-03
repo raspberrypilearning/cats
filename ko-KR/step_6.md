@@ -1,12 +1,12 @@
-## Get to safety
+## 안전 확보
 
-The object of the game is to guide the cats to safety by creating a path so they can reach the door. Create a score variable to keep track of how many cats reach the door.
+이 게임의 목표는 고양이가 문에 도달 할 수 있도록 경로를 만들어 고양이를 안전하게 안내하는 것입니다. 문에 도달하는 고양이 수를 세는 점수 변수를 만듭니다.
 
 \--- task \---
 
 Create a variable called `score`{:class="block3variables"}.
 
-![Cat sprite](images/cat-sprite.png)
+![고양이 스프라이트](images/cat-sprite.png)
 
 [[[generic-scratch3-add-variable]]]
 
@@ -16,7 +16,7 @@ Create a variable called `score`{:class="block3variables"}.
 
 Add code to your cat sprite to add `1` to the `score`{:class="block3variables"} each time a cat reaches the door. Also set `score`{:class="block3variables"} to `0` `when the flag is clicked`{:class="block3events"} at the start of the game.
 
-![Cat sprite](images/cat-sprite.png)
+![고양이 스프라이트](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
@@ -43,7 +43,7 @@ set [score v] to (0)
 
 \--- hint \---
 
-This is what your code should look like:
+다음과 같은 코드를 추가해야 합니다:
 
 ```blocks3
 when I start as a clone
@@ -77,9 +77,9 @@ when flag clicked
 
 \--- task \---
 
-Add some more code so that, when a cat sprite reaches the door, the cat makes a 'meow' sound and then disappears.
+고양이 스프라이트가 문에 도달하면 고양이가 'meow'소리를 내고 사라지도록 코드를 더 추가하십시오.
 
-![Cat sprite](images/cat-sprite.png)
+![고양이 스프라이트](images/cat-sprite.png)
 
 ```blocks3
 play sound (meow v)
