@@ -68,6 +68,6 @@ end
 
 \--- /task \---
 
-緑の旗をクリックすると、3秒ごとに新しいネコがステージの上部から落ちてきます。 Every cat should land in a big pile of overlapping cats on the blue floor at the bottom.
+緑の旗をクリックすると、3秒ごとに新しいネコがステージの上部から落ちてきます。 すべてのネコは、青いゆかにある、重なっている大きなネコの山にちゃくりくするはずです。
 
 ![落ちるネコ](images/falling-cats.png)
