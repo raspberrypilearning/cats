@@ -6,13 +6,13 @@
 
 ## Вступ
 
-In this project, you will create a game in which you need to guide cats to safety and not let any of them fall through the gaps!
+У цьому проєкті ти створиш гру, в якій треба проводити котів у безпечне місце та не давати їм потрапити у прірву!
 
-### What you will make
+### Що ти зробиш
 
 \--- no-print \---
 
-Click and drag with the mouse to draw a line with the pencil. Your goal is to stop the cats from falling into holes by creating a safe path to the exit.
+Клікни та перетягни мишкою так, щоб намалювати лінію олівцем. Твоя мета — не дати котам потрапити у прірву, створивши безпечний шлях до виходу.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/253667883/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -22,34 +22,34 @@ Click and drag with the mouse to draw a line with the pencil. Your goal is to st
 
 \--- print-only \---
 
-![Cats finished](images/cats-finished.png)
+![Завершений проєкт "Коти"](images/cats-finished.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Чого ти навчишся
 
-+ How to use a `forever`{:class="block3control"} loop to constantly generate moving cats
-+ How to use a `repeat until`{:class="block3control"} loop to ensure your cats follow a line
++ Як використовувати циклом `завжди`{:class="block3control"} для постійного генерування рухомих котів
++ Як використовувати цикл `повторити до`{:class="block3control"}, щоб твої спрайти дотримувалися лінії
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Що тобі знадобиться
 
-### Hardware
+### Обладнання
 
-+ A computer capable of running Scratch 3
++ Комп'ютер, що підтримує Scratch 3
 
-### Software
+### Програмне забезпечення
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Скретч 3 (або [онлайн](http://rpf.io/scratchon){:target="_ blank"}, або [офлайн](http://rpf.io/scratchoff){:target="_ blank"})
 
-### Downloads
+### Завантаження
 
-+ [Offline starter project](http://rpf.io/p/en/cats-go){:target="_blank"}
++ [Стартовий офлайн-шаблон проєкта](http://rpf.io/p/en/cats-go){:target="_ blank"}
 
 \--- /collapse \---
 
@@ -59,8 +59,8 @@ Click and drag with the mouse to draw a line with the pencil. Your goal is to st
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/cats/print). \--- /no-print \---
+Якщо вам потрібно роздрукувати цей проєкт, будь ласка, скористайтеся [версією для друку](https://projects.raspberrypi.org/en/projects/cats/print). \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/cats-get){:target="_blank"}.
+Ви можете знайти [завершений проєкт тут](http://rpf.io/p/en/cats-get){:target="_ blank"}.
 
 \--- /collapse \---
