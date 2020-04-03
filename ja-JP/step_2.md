@@ -55,13 +55,13 @@ end
 
 \--- task \---
 
-Add some code to tell the sprite to draw a line on the Stage if the mouse button is pressed down.
+スプライトに、マウスボタンがおされた時にステージ上に線をかくようにめいれいするコードを入れます。
 
 ![ペンスプライト](images/pen-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-`If`{:class="block3control"} the `mouse is down`{:class="block3sensing"}, put the `pen down`{:class="block3extensions"}, and `else`{:class="block3control"}, lift the `pen up`{:class="block3extensions"}.
+`もし`{:class = "block3control"}`マウスが押された`{:class = "block3sensing"} (おされた) なら、 `ペンを下ろす`{:class = "block3extensions"}、`でなければ`{:class=block3control "}`ペンを上げる`{:class =" block3extensions "}。
 
 \--- /hint \---
 
@@ -113,7 +113,7 @@ end
 
 \--- /task \---
 
-You probably see that a blue dot always appears in the top right-hand corner of the Stage (it's circled in the image above). This is because, when you click the green flag to start the game, you press the mouse down, and so the pen immediately starts drawing.
+ステージの右上にいつも青い点が出てくると思います (上の画像 ((がぞう)) では丸でかこまれています)。 これは、緑の旗 (はた) をクリックしてゲームを始めるときにマウスボタンをおすので、すぐにペンがかき始めるからです。
 
 \--- task \---
 
