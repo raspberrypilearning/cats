@@ -1,24 +1,24 @@
-## Stick to the lines
+## Ακολούθησε τις γραμμές
 
-You might notice that, if you draw a low bridge between the two platforms, or a line that slopes upwards, the cats end up walking through the platform rather than on top of it!
+Ίσως παρατηρήσεις ότι, αν σχεδιάσεις μια χαμηλή γέφυρα ανάμεσα στις δύο πλατφόρμες ή μια γραμμή που κλίνει προς τα πάνω, οι γάτες καταλήγουν να βαδίζουν στην πλατφόρμα και όχι πάνω από αυτές!
 
-![Cats walking through the platform](images/cat-walk-through-platform.png)
+![Οι γάτες που περπατούν μέσω της πλατφόρμας](images/cat-walk-through-platform.png)
 
 \--- task \---
 
-In the code for the cat sprite, add another loop before the `next costume`{:class="block3looks"} block. This time, the loop should tell the cat to move upwards by `2` until it is not touching blue.
+Στον κώδικα για το αντικείμενο γάτας, πρόσθεσε άλλον ένα βρόχο πριν από το μπλοκ `επόμενη ενδυμασία`{:class="block3looks"}. Αυτή τη φορά, ο βρόχος θα πει στη γάτα να κινηθεί προς τα πάνω κατά `2` έως ότου δεν αγγίζει το μπλε.
 
-![Cat sprite](images/cat-sprite.png)
+![Αντικείμενο γάτας](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-The cat should `move up 2`{:class="block3motion"} `repeatedly until`{:class="block3control"} it is `not`{:class="block3operators"} `touching blue`{:class="block3sensing"}.
+Η γάτα θα πρέπει να `κινηθεί προς τα πάνω κατά 2`{:class="block3motion"} `επανειλημμένα μέχρι`{:class="block3control"} να `μην`{:class="block3operators"} `αγγίζει μπλε`{:class="block3sensing "}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+Εδώ είναι τα μπλοκ κώδικα που χρειάζεσαι:
 
 ```blocks3
 <touching color [#0000ff]?>
@@ -35,7 +35,7 @@ not <>
 
 \--- hint \---
 
-This is what your code should look like:
+Έτσι πρέπει να μοιάζει ο κώδικας:
 
 ```blocks3
 when I start as a clone
@@ -60,6 +60,6 @@ delete this clone
 
 \--- task \---
 
-Click the green flag and try drawing a line that slopes upwards. Check that your cat follows this line.
+Κάνε κλικ στην πράσινη σημαία και δοκίμασε να σχεδιάσεις μια γραμμή που να κλίνει προς τα πάνω. Έλεγξε ότι η γάτα σου ακολουθεί αυτή τη γραμμή.
 
 \--- /task \---
