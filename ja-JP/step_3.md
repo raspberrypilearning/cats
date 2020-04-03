@@ -1,10 +1,10 @@
 ## ネコのクローンを作る
 
-You want a never-ending stream of cats that the player has to guide along the path to the exit.
+ゲームには、プレイヤーが出口までの道にそってあんないする、つぎつぎと出てくるネコが必要です。
 
 \--- task \---
 
-Click on the sprite called 'Cat', and add some code to `hide`{:class="block3looks"} the sprite, and also to `clone`{:class="block3control"} it every three seconds.
+「ネコ」というスプライトをクリックします。`隠す`{:class="block3looks"} (かくす) ブロックをスプライトに追加し、さらに3秒ごとにスプライトの`クローンを作る`{:class="block3looks"}。
 
 ![ネコのスプライト](images/cat-sprite.png)
 
@@ -19,7 +19,7 @@ end
 
 \--- /task \---
 
-If you run the program now, nothing happens on the Stage. To check that a new Cat sprite clone is created every three seconds, make each clone appear and fall out of the sky.
+ここでプログラムを実行しても、ステージでは何も起こりません。 To check that a new Cat sprite clone is created every three seconds, make each clone appear and fall out of the sky.
 
 \--- task \---
 
