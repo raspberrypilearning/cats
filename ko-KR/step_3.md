@@ -1,4 +1,4 @@
-## Clone cats
+## 고양이 복제하기
 
 You want a never-ending stream of cats that the player has to guide along the path to the exit.
 
@@ -19,7 +19,7 @@ end
 
 \--- /task \---
 
-If you run the program now, nothing happens on the Stage. To check that a new Cat sprite clone is created every three seconds, make each clone appear and fall out of the sky.
+지금 프로그램을 실행하면 스테이지에서 아무 일도 일어나지 않습니다. To check that a new Cat sprite clone is created every three seconds, make each clone appear and fall out of the sky.
 
 \--- task \---
 
