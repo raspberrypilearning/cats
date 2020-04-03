@@ -1,20 +1,20 @@
-## Draw lines
+## Dibuja líneas
 
 \--- task \---
 
-Open the 'CATS!' Scratch starter project.
+Abre el proyecto de inicio de Scratch '¡GATOS!'.
 
-**Online:** open the starter project at [rpf.io/cats-on](http://rpf.io/cats-on){:target="_blank"}.
+**En línea:** abre el proyecto de inicio en [rpf.io/cats-on](http://rpf.io/cats-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Si tienes una cuenta de Scratch, puedes hacer una copia haciendo clic en ** Remix **.
 
-**Offline:** open the [starter project](http://rpf.io/p/en/cats-go) in the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+**Sin conexión**: abre el [proyecto de inicio](http://rpf.io/p/en/cats-go) en el editor sin conexión. Si necesitas descargar e instalar el editor offline de Scratch, puedes encontrarlo en [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
 \--- task \---
 
-Add the Pen extension to your project.
+Añade la extensión Lápiz a tu proyecto.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -22,30 +22,30 @@ Add the Pen extension to your project.
 
 \--- task \---
 
-Click on the sprite called 'Pen', and add code to set the pen colour to the same blue as the obstacles on the Stage.
+Haz clic en el objeto llamado 'Lápiz' y agrega el código para establecer el color del lápiz en el mismo azul que los obstáculos en el Escenario.
 
-![Pen sprite](images/pen-sprite.png)
+![Objeto lápiz](images/pen-sprite.png)
 
 ```blocks3
-when flag clicked
-set pen color to [#0000ff]
-erase all
-set pen size to (5)
+al presionar la bandera
+fijar el color del lápiz a [#0000ff]
+borrar todo
+fijar tamaño del lápiz a (5)
 ```
 
-To select a colour, click on the colour square in the `set pen color`{:class="block3extensions"} block to make your mouse cursor turn into a pipette, and then click on the correct colour on the Stage.
+Para seleccionar un color, haz clic en el cuadro de color del bloque `fijar color del lápiz`{:class="block3extensions"} para hacer que el cursor del ratón se convierta en una pipeta, y luego haz clic en el color correcto en el escenario.
 
 \--- /task \---
 
 \--- task \---
 
-Add some more code to make the sprite follow the mouse pointer. Test your program to check that the code works.
+Añade un poco más de código para hacer que el objeto siga el puntero del ratón. Prueba tu programa para verificar que el código funcione.
 
-![Pen sprite](images/pen-sprite.png)
+![Objeto lápiz](images/pen-sprite.png)
 
 ```blocks3
-forever
-go to (mouse pointer v)
+por siempre 
+ir a (puntero del ratón v)
 end
 ```
 
@@ -55,29 +55,29 @@ end
 
 \--- task \---
 
-Add some code to tell the sprite to draw a line on the Stage if the mouse button is pressed down.
+Agrega algo de código para indicarle al objeto que dibuje una línea en el escenario si se presiona el botón del ratón.
 
-![Pen sprite](images/pen-sprite.png)
+![Objeto lápiz](images/pen-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-`If`{:class="block3control"} the `mouse is down`{:class="block3sensing"}, put the `pen down`{:class="block3extensions"}, and `else`{:class="block3control"}, lift the `pen up`{:class="block3extensions"}.
+`Si`{:class="block3control"} el `ratón está pulsado`{:class="block3sensing"}, pon el `lápiz abajo`{:class="block3extensions"}, y `si no`{:class="block3control"}, levanta el `lápiz`{:class="block3extensions"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+Aquí están los bloques de código que necesitas:
 
 ```blocks3
 <mouse down?>
 
-pen down
+bajar lápiz
 
-pen up
+subir lápiz
 
-if <> then
-else
+si <> entonces
+si no
 end
 ```
 
@@ -85,19 +85,19 @@ end
 
 \--- hint \---
 
-This is what your code should look like:
+Así es como debería verse tu código:
 
 ```blocks3
-when flag clicked
-set pen color to [#0000ff]
-erase all
-set pen size to (5)
-forever
-go to (mouse pointer v)
-+ if <mouse down?> then
-pen down
-else
-pen up
+al presionar bandera
+fijar color de lápiz a [#0000ff]
+borrar todo
+fijar tamaño de lápiz a (5)
+por siempre 
+ir a (puntero del ratón v)
+si <mouse down?> entonces 
+bajar lápiz
+si no 
+subir lápiz
 end
 ```
 
@@ -107,19 +107,19 @@ end
 
 \--- task \---
 
-Test your code. You should be able to click and drag with the mouse to draw a blue line on the Stage.
+Prueba tu código. Deberías poder hacer clic y arrastrar con el ratón para dibujar una línea azul en el escenario.
 
-![Draw a line](images/draw-a-line.png)
+![Dibuja una línea](images/draw-a-line.png)
 
 \--- /task \---
 
-You probably see that a blue dot always appears in the top right-hand corner of the Stage (it's circled in the image above). This is because, when you click the green flag to start the game, you press the mouse down, and so the pen immediately starts drawing.
+Probablemente veas que siempre aparece un punto azul en la esquina superior derecha del Escenario (está encerrado en un círculo en la imagen de arriba). Esto se debe a que, cuando haces clic en la bandera verde para iniciar el juego, presionas el ratón y el bolígrafo comienza a dibujar inmediatamente.
 
 \--- task \---
 
-To stop this from happening, add a `pen up`{:class="block3extensions"} block at the start of the script, and a `wait one second`{:class="block3control"} block above the `forever`{:class="block3control"} block.
+Para evitar que esto suceda, agrega un bloque `subir lápiz`{:class = "block3extensions"} al comienzo del script, y un bloque `esperar un segundo`{: class = "block3control"} sobre el bloque `por siempre`{: clase = "block3control"}.
 
-![Pen sprite](images/pen-sprite.png)
+![Objeto lápiz](images/pen-sprite.png)
 
 ```blocks3
 when flag clicked
