@@ -64,7 +64,7 @@ end
 
 \--- task \---
 
-`ずっと`{:class="block3control"}ループを削除 (さくじょ) し、代わりにちがうループを入れて、ネコがはしに着くまで歩くようにします。 When a cat reaches the edge of the Stage, it should disappear.
+`ずっと`{:class="block3control"}ループを削除 (さくじょ) し、代わりにちがうループを入れて、ネコが端 (はし) に着くまで歩くようにします。 ネコがステージの端に着くと、ネコは消えます。
 
 ![ネコのスプライト](images/cat-sprite.png)
 
@@ -86,24 +86,24 @@ end
 
 \--- task \---
 
-Press the green flag and check that the cats disappear when they reach the edge of the Stage.
+緑の旗をおして、ネコがステージの端に着いたときに消えることをたしかめます。
 
 \--- /task \---
 
-You may notice that, if the cats fall into the hole, they don't disappear but instead get stuck at the bottom. This is because they keep trying to fall downwards.
+ネコがあなに落ちた場合、消えるのではなく、あなのそこで動けなくなることに気づいたと思います。 これは、ネコが下に落ちつづけようとしているためです。
 
-This is the part of the code that tells the cat to keep falling until it touches blue:
+このコードが、ネコに青に触れるまで落ちつづけるようににめいれいしています。
 
 ```blocks3
 repeat until <touching color [#0000ff]?>
 end
 ```
 
-However, in the hole, the cat can never reach blue, so it is stuck forever.
+しかし、あなの中ではネコは青に触れることはないので、ずっと行きづまっています。
 
 \--- task \---
 
-Add more blocks to this loop so that it repeats until the cat sprite is touching blue `or`{:class="block3operators"} `touching the edge`{:class="block3sensing"}. This way, the sprite stops trying to fall if it reaches the edge of the Stage.
+このループにさらにブロックを入れて、ネコのスプライトが青に触れるか、`または`{:class="block3operators"}`端に触れる`{:class="block3sensing"}までくり返すようにします。 こうすることで、スプライトがステージの端に着くと、スプライトは落ちるのをやめます。
 
 ![ネコのスプライト](images/cat-sprite.png)
 
