@@ -1,26 +1,26 @@
 ---
-title: CATS!
+title: ネコ！
 hero_image: images/banner.png
-description: Create a game in which you guide cats to safety and stop them from falling into holes
+description: 猫を安全にみちびき、穴に落ちないようにするゲームを作る
 listed: true
 copyedit: true
 version: 4.0.2
 last_tested: 2018-10-18
 steps:
   - 
-    title: Introduction
+    title: はじめに
   - 
-    title: Draw lines
+    title: 線をかく
   - 
-    title: Clone cats
+    title: ネコのクローンを作る
   - 
-    title: Make the cats move
+    title: ネコを動かす
   - 
-    title: Stick to the lines
+    title: 線にそわせる
   - 
-    title: Get to safety
+    title: 安全な場所へ
   - 
-    title: "Challenge: more obstacles"
+    title: "チャレンジ: しょうがいぶつをふやす"
     challenge: true
   - 
-    title: What next?
+    title: 次は何をしましょうか？
