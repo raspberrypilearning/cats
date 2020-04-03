@@ -4,7 +4,7 @@ Tu quieres un flujo interminable de gatos que el jugador deba guiar a lo largo d
 
 \--- task \---
 
-Click on the sprite called 'Cat', and add some code to `hide`{:class="block3looks"} the sprite, and also to `clone`{:class="block3control"} it every three seconds.
+Haz clic en el objeto llamado 'Gato' y agrega un código para `esconder`{:class="block3looks"} el objeto, y también para `clonar`{:class="block3control"} cada tres segundos.
 
 ![Objeto Gato](images/cat-sprite.png)
 
@@ -68,6 +68,6 @@ end
 
 \--- /task \---
 
-When you click the green flag, you should see a new cat fall from the top of the Stage every three seconds. Every cat should land in a big pile of overlapping cats on the blue floor at the bottom.
+Cuando hagas clic en la bandera verde, deberías ver un nuevo gato caer desde la parte superior del escenario cada tres segundos. Cada gato debe aterrizar en una gran pila de gatos superpuestos en el suelo azul de la parte inferior.
 
-![Falling cats](images/falling-cats.png)
+![Gatos que caen](images/falling-cats.png)
