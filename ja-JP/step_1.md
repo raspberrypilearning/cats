@@ -1,18 +1,18 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/cats-scratch2).
+これはプロジェクトの**Scratch 3**バージョンです。 [Scratch 2バージョンのプロジェクト](https://projects.raspberrypi.org/en/projects/cats-scratch2)もあります。
 
 \--- /no-print \---
 
-## Introduction
+## はじめに
 
-In this project, you will create a game in which you need to guide cats to safety and not let any of them fall through the gaps!
+このプロジェクトでは、ネコを安全にあんないして、あなにネコを落とさないようにするゲームを作ります。
 
-### What you will make
+### 作るもの
 
 \--- no-print \---
 
-Click and drag with the mouse to draw a line with the pencil. Your goal is to stop the cats from falling into holes by creating a safe path to the exit.
+ペンで線を引くには、マウスでクリックしてドラッグします。 このゲームの目的は、出口への安全な道を作ってネコが穴に落ちるのをふせぐことです。
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/253667883/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -22,40 +22,40 @@ Click and drag with the mouse to draw a line with the pencil. Your goal is to st
 
 \--- print-only \---
 
-![Cats finished](images/cats-finished.png)
+![ネコ！完成版](images/cats-finished.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: 学ぶこと
 
-+ How to use a `forever`{:class="block3control"} loop to constantly generate moving cats
-+ How to use a `repeat until`{:class="block3control"} loop to ensure your cats follow a line
-
-\--- /collapse \---
-
-## \--- collapse \---
-
-## title: What you will need
-
-### Hardware
-
-+ A computer capable of running Scratch 3
-
-### Software
-
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
-
-### Downloads
-
-+ [Offline starter project](http://rpf.io/p/en/cats-go){:target="_blank"}
++ ネコをずっと動かすために、`ずっと`{:class="block3control"}ループを使う
++ ネコがきちんと線をたどるように、 `まで繰り返す`{:class="block3control"} (くりかえす) ループを使う
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: 必要 (ひつよう) なもの
+
+### ハードウェア
+
++ Scratch 3を実行できるコンピュータ
+
+### ソフトウェア
+
++ Scratch 3 ([オンライン](http://rpf.io/scratchon){:target="_blank"}または[オフライン](http://rpf.io/scratchoff){:target="_blank"})
+
+### ダウンロード
+
++ [基本 (きほん) のプロジェクト (オフライン)](http://rpf.io/p/en/cats-go){:target="_blank"}
+
+\--- /collapse \---
+
+## \--- collapse \---
+
+## title: 教育者向けの追加メモ
 
 \--- no-print \---
 
