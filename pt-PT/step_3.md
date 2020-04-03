@@ -30,7 +30,7 @@ Adicione código para dizer ao sprite que `quando ele começa como um clone`{:cl
 --- hints ---
  --- hint ---
 
-`Quando o sprite começa como um clone`{:class="block3control"}, `mostra`{:class="block3looks"} o sprite. `Repetidamente`{:class="block3control"} `Altere`{:class="block3motion"} as coordenadas `e` do sprite por `-2`, até o sprite `tocar`{:class="block3sensing"} no azul Palco.
+`Quando o sprite começa como um clone`{:class="block3control"}, `mostra`{:class="block3looks"} o sprite. `Repetidamente`{:class="block3control"} `Altere`{:class="block3motion"} as coordenadas `y` do sprite por `-2`, até o sprite `tocar`{:class="block3sensing"} no azul Palco.
 
 --- /hint ---
 

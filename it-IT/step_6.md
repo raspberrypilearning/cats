@@ -30,14 +30,14 @@ Aggiungi il codice al tuo sprite del gatto per aggiungere `1` al `punteggio`{:cl
 Ecco i nuovi blocchi di codice che devi aggiungere al tuo script `quando vengo clonato`:
 
 ```blocks3
-change [score v] by (1)
+change [punteggio v] by (1)
 
 if <> then
 end
 
-<touching (Door v)?>
+<touching (Porta v)?>
 
-set [score v] to (0)
+set [punteggio v] to (0)
 ```
 
 --- /hint ---
@@ -59,15 +59,14 @@ repeat until <touching (edge v)?>
     end
     next costume
     wait (0.1) seconds
-+   if <touching (Door v)?> then
-        change [score v] by (1)
++   if <touching (Porta v)?> then
+        change [punteggio v] by (1)
     end
 end
 delete this clone
 
 when flag clicked
-
-+ set [score v] to (0)
++ set [punteggio v] to (0)
 ```
 
 --- /hint ---

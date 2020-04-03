@@ -30,14 +30,14 @@ Adiciona código ao teu ator de gato para adicionar `1` à `pontuação`{:class=
 Estes são os novos blocos de código que necessitas adicionar ao teu comando `quando fores criado como um clone`:
 
 ```blocks3
-change [score v] by (1)
+change [pontuação v] by (1)
 
 if <> then
 end
 
-<touching (Door v)?>
+<touching (Porta v)?>
 
-set [score v] to (0)
+set [pontuação v] to (0)
 ```
 
 --- /hint ---
@@ -59,15 +59,14 @@ repeat until <touching (edge v)?>
     end
     next costume
     wait (0.1) seconds
-+   if <touching (Door v)?> then
-        change [score v] by (1)
++   if <touching (Porta v)?> then
+        change [pontuação v] by (1)
     end
 end
 delete this clone
 
 when flag clicked
-
-+ set [score v] to (0)
++ set [pontuação v] to (0)
 ```
 
 --- /hint ---

@@ -23,7 +23,7 @@ Se esegui il programma ora, non accade nulla sullo Stage. Per verificare che ogn
 
 --- task ---
 
-Aggiungi del codice per dire allo sprite che `quando viene clonato`{:class="block3control"}, dovrebbe `mostrare`{:class="block3looks"} lo sprite e cadere finché non `tocca`{:class=block3sensing"} il pavimento blu disegnato sullo Stage.
+Aggiungi del codice per dire allo sprite che `quando viene clonato`{:class="block3control"}, dovrebbe `mostrare`{:class="block3looks"} lo sprite e cadere finché non `tocca`{:class="block3sensing"} il pavimento blu disegnato sullo Stage.
 
 ![Sprite gatto](images/cat-sprite.png)
 

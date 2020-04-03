@@ -30,14 +30,14 @@
 Εδώ είναι τα νέα μπλοκ κώδικα που πρέπει να προσθέσεις στο μέρος του προγράμματος `όταν ξεκινώ ως κλώνος`:
 
 ```blocks3
-change [score v] by (1)
+change [βαθμολογία v] by (1)
 
 if <> then
 end
 
-<touching (Door v)?>
+<touching (Πόρτα v)?>
 
-set [score v] to (0)
+set [βαθμολογία v] to (0)
 ```
 
 --- /hint ---
@@ -59,15 +59,14 @@ repeat until <touching (edge v)?>
     end
     next costume
     wait (0.1) seconds
-+   if <touching (Door v)?> then
-        change [score v] by (1)
++   if <touching (Πόρτα v)?> then
+        change [βαθμολογία v] by (1)
     end
 end
 delete this clone
 
 when flag clicked
-
-+ set [score v] to (0)
++ set [βαθμολογία v] to (0)
 ```
 
 --- /hint ---
