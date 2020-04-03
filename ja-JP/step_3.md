@@ -23,13 +23,13 @@ end
 
 \--- task \---
 
-Add code to tell the sprite that `when it starts as a clone`{:class="block3control"}, it should `show`{:class="block3looks"} itself and fall until it `touches`{:class="block3sensing"} the blue floor that is drawn on the Stage.
+スプライトが`クローンされたとき`{:class="block3control"}、 `表示`{:class="block3looks"}します。スプライトがステージにかかれた青いゆかに`触れる`{:class="block3sensing"} (ふれる) まで落ちるようにコードを入れます。
 
 ![ネコのスプライト](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-`When the sprite starts as a clone`{:class="block3control"}, `show`{:class="block3looks"} the sprite. `Repeatedly`{:class="block3control"} `Change`{:class="block3motion"} the sprite's `y` coordinate by `-2`, until the sprite `touches`{:class="block3sensing"} the blue Stage.
+スプライトが`クローンされたとき`{:class="block3control"}、 `表示`{:class="block3looks"}します。 `Repeatedly`{:class="block3control"} `Change`{:class="block3motion"} the sprite's `y` coordinate by `-2`, until the sprite `touches`{:class="block3sensing"} the blue Stage.
 
 \--- /hint \---
 
