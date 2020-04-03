@@ -1,26 +1,26 @@
 ---
-title: CATS!
+title: ΓΑΤΕΣ!
 hero_image: images/banner.png
-description: Create a game in which you guide cats to safety and stop them from falling into holes
+description: Δημιούργησε ένα παιχνίδι στο οποίο καθοδηγείς τις γάτες στην ασφάλεια και μην τις αφήνεις να πέσουν σε τρύπες
 listed: true
 copyedit: true
 version: 4.0.2
 last_tested: 2018-10-18
 steps:
   - 
-    title: Introduction
+    title: Εισαγωγή
   - 
-    title: Draw lines
+    title: Ζωγράφισε γραμμές
   - 
-    title: Clone cats
+    title: Κλωνοποίησε τις γάτες
   - 
-    title: Make the cats move
+    title: Κάνε τις γάτες να κινηθούν
   - 
-    title: Stick to the lines
+    title: Ακολούθησε τις γραμμές
   - 
-    title: Get to safety
+    title: Οδήγησέ τες στην ασφάλεια
   - 
-    title: "Challenge: more obstacles"
+    title: "Πρόκληση: περισσότερα εμπόδια"
     challenge: true
   - 
-    title: What next?
+    title: Τι υπάρχει στη συνέχεια;
