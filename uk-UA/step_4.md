@@ -6,7 +6,7 @@
 
 Додай код до секції `коли я починаю як клон`{:class="block3control"}, щоб змусити спрайт кота `переміщатися на 10 кроків`{:class="block3motion"} і перемикатися між двома своїми образами кожні 0.1 секунди, щоб кіт виглядав так, ніби він йде.
 
-![Cat sprite](images/cat-sprite.png)
+![Спрайт "Кіт"](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
@@ -58,15 +58,15 @@ end
 
 \--- /task \---
 
-Якщо намалювати міст через прірву, щоб коти могли дістатися до правої сторони сцени, ти можеш бачити, що вони в кінцевому підсумку застрягли біля правого краю сцени.
+Якщо намалювати міст через прірву, щоб коти могли дістатися до правої сторони сцени, ти можеш бачити, що вони в кінцевому підсумку застрягають біля правого краю сцени.
 
 ![Коти на краю](images/flailing-at-edge.png)
 
 \--- task \---
 
-Remove the `forever`{:class="block3control"} loop, and instead add a different loop to make the cats only walk until they reach an edge. Коли кіт досягає краю сцени, він повинен зникнути.
+Видали цикл `завжди`{:class="block3control"} і замість нього додай інший цикл, щоб змусити котів ходити лише до того, як вони досягають краю. Коли кіт досягає краю сцени, він повинен зникнути.
 
-![Cat sprite](images/cat-sprite.png)
+![Спрайт "Кіт"](images/cat-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -86,11 +86,11 @@ end
 
 \--- task \---
 
-Press the green flag and check that the cats disappear when they reach the edge of the Stage.
+Натисни зелений прапорець і перевір, чи зникають коти, коли досягають краю сцени.
 
 \--- /task \---
 
-You may notice that, if the cats fall into the hole, they don't disappear but instead get stuck at the bottom. This is because they keep trying to fall downwards.
+Ти можеш помітити, що коли коти потрапляють у прірву, вони не зникають, а натомість застрягають внизу. Це тому, що вони намагаються продовжувати падати вниз.
 
 Це частина коду, яка каже котові продовжувати падати доки не торкнеться синього кольору:
 
@@ -103,9 +103,9 @@ end
 
 \--- task \---
 
-Add more blocks to this loop so that it repeats until the cat sprite is touching blue `or`{:class="block3operators"} `touching the edge`{:class="block3sensing"}. This way, the sprite stops trying to fall if it reaches the edge of the Stage.
+Додай більше блоків до цього циклу так, щоб він повторювався, поки спрайт кота не торкнеться синього `або`{:class="block3operators"} не `торкнеться межі`{:class="block3sensing"}. Таким чином, спрайт зупиняє падіння, коли він досягає краю сцени.
 
-![Cat sprite](images/cat-sprite.png)
+![Спрайт "Кіт"](images/cat-sprite.png)
 
 ```blocks3
 repeat until <<touching color [#0000ff]?> or <touching (edge v)?>>
