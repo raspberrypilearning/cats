@@ -1,20 +1,20 @@
-## Draw lines
+## 線をかく
 
 \--- task \---
 
-Open the 'CATS!' Scratch starter project.
+「ネコ！」という基本の Scratch プロジェクトを開きます。
 
-**Online:** open the starter project at [rpf.io/cats-on](http://rpf.io/cats-on){:target="_blank"}.
+**オンライン:** [rpf.io/cats-on](http://rpf.io/cats-on){:target="_blank"}から基本のプロジェクトを開きます。
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Scratch アカウントを持っている場合、 **リミックス**をクリックしてプロジェクトをコピーできます。
 
-**Offline:** open the [starter project](http://rpf.io/p/en/cats-go) in the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+**オフライン:** オフラインエディターで [基本のプロジェクト](http://rpf.io/p/en/cats-go)を開きます。 [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}から、Scratch オフラインエディターのダウンロードとインストールができます。
 
 \--- /task \---
 
 \--- task \---
 
-Add the Pen extension to your project.
+プロジェクトにペン拡張機能 (かくちょうきのう) を追加 (ついか) します。
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -22,9 +22,9 @@ Add the Pen extension to your project.
 
 \--- task \---
 
-Click on the sprite called 'Pen', and add code to set the pen colour to the same blue as the obstacles on the Stage.
+「ペン」というスプライトをクリックし、ペンの色をステージにあるしょうがいぶつと同じ青色にするコードを入れます。
 
-![Pen sprite](images/pen-sprite.png)
+![ペンスプライト](images/pen-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -33,15 +33,15 @@ erase all
 set pen size to (5)
 ```
 
-To select a colour, click on the colour square in the `set pen color`{:class="block3extensions"} block to make your mouse cursor turn into a pipette, and then click on the correct colour on the Stage.
+色を選択 (せんたく) するには、 `ペンの色を〜にする`{:class = "block3extensions"}ブロックの色の四角をクリックし、マウスカーソルをピペットにかえ、ステージで正しい色をクリックします。
 
 \--- /task \---
 
 \--- task \---
 
-Add some more code to make the sprite follow the mouse pointer. Test your program to check that the code works.
+Add some more code to make the sprite follow the mouse pointer. プログラムをテストして、コードがうまく動くかどうかをたしかめます。
 
-![Pen sprite](images/pen-sprite.png)
+![ペンスプライト](images/pen-sprite.png)
 
 ```blocks3
 forever
@@ -57,7 +57,7 @@ end
 
 Add some code to tell the sprite to draw a line on the Stage if the mouse button is pressed down.
 
-![Pen sprite](images/pen-sprite.png)
+![ペンスプライト](images/pen-sprite.png)
 
 \--- hints \--- \--- hint \---
 
@@ -67,7 +67,7 @@ Add some code to tell the sprite to draw a line on the Stage if the mouse button
 
 \--- hint \---
 
-Here are the code blocks you need:
+必要なコードブロックは次のとおりです。
 
 ```blocks3
 <mouse down?>
@@ -85,7 +85,7 @@ end
 
 \--- hint \---
 
-This is what your code should look like:
+コードは次のようになります。
 
 ```blocks3
 when flag clicked
@@ -107,9 +107,9 @@ end
 
 \--- task \---
 
-Test your code. You should be able to click and drag with the mouse to draw a blue line on the Stage.
+コードをテストしましょう。 マウスでクリックしてドラッグすると、ステージに青い線をかくことができるはずです。
 
-![Draw a line](images/draw-a-line.png)
+![線を描く](images/draw-a-line.png)
 
 \--- /task \---
 
@@ -119,7 +119,7 @@ You probably see that a blue dot always appears in the top right-hand corner of 
 
 To stop this from happening, add a `pen up`{:class="block3extensions"} block at the start of the script, and a `wait one second`{:class="block3control"} block above the `forever`{:class="block3control"} block.
 
-![Pen sprite](images/pen-sprite.png)
+![ペンスプライト](images/pen-sprite.png)
 
 ```blocks3
 when flag clicked
