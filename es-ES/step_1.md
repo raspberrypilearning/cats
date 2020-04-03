@@ -1,10 +1,10 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/cats-scratch2).
+Esta es una versión de **Scratch 3** del proyecto. También hay una [versión del proyecto en Scratch 2](https://projects.raspberrypi.org/en/projects/cats-scratch2).
 
 \--- /no-print \---
 
-## Introduction
+## Introducción
 
 En este proyecto, crearás un juego en el que debes guiar a los gatos a un lugar seguro y ¡no dejar que ninguno de ellos caiga al vacío!
 
@@ -22,7 +22,7 @@ Haz clic y arrastra el ratón para dibujar una línea con el lápiz. Tu objetivo
 
 \--- print-only \---
 
-![Cats finished](images/cats-finished.png)
+![Gatos terminados](images/cats-finished.png)
 
 \--- /print-only \---
 
@@ -37,7 +37,7 @@ Haz clic y arrastra el ratón para dibujar una línea con el lápiz. Tu objetivo
 
 ## \--- collapse \---
 
-## title: What you will need
+## título: Lo que vas a necesitar
 
 ### Hardware
 
@@ -45,22 +45,22 @@ Haz clic y arrastra el ratón para dibujar una línea con el lápiz. Tu objetivo
 
 ### Software
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (ya sea [en línea](http://rpf.io/scratchon){:target="_blank"} u [sin conexión](http://rpf.io/scratchoff) {:target="_blank"})
 
-### Downloads
+### Descargas
 
-+ [Offline starter project](http://rpf.io/p/en/cats-go){:target="_blank"}
++ [Proyecto inicial sin conexión](http://rpf.io/p/en/cats-go){:target="_blank"}
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## título: Información adicional para educadores
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/cats/print). \--- /no-print \---
+Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://projects.raspberrypi.org/en/projects/cats/print). \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/cats-get){:target="_blank"}.
+Puedes [encontrar el proyecto completo aquí](http://rpf.io/p/en/cats-get){:target ="_blank"}.
 
 \--- /collapse \---
