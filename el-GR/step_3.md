@@ -1,12 +1,12 @@
-## Clone cats
+## Κλωνοποίησε τις γάτες
 
-You want a never-ending stream of cats that the player has to guide along the path to the exit.
+Θέλεις μία ασταμάτητη ροή από γάτες που ο παίκτης πρέπει να καθοδηγήσει κατά μήκος του μονοπατιού προς την έξοδο.
 
 \--- task \---
 
-Click on the sprite called 'Cat', and add some code to `hide`{:class="block3looks"} the sprite, and also to `clone`{:class="block3control"} it every three seconds.
+Κάνε κλικ στο αντικείμενο που ονομάζεται 'γάτα', και πρόσθεσε λίγο κώδικα για `απόκρυψη`{:class="block3looks"} του αντικειμένου, αλλά και για `κλωνοποίηση`{:class="block3control"} κάθε τρία δευτερόλεπτα.
 
-![Cat sprite](images/cat-sprite.png)
+![Αντικείμενο γάτας](images/cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -19,23 +19,23 @@ end
 
 \--- /task \---
 
-If you run the program now, nothing happens on the Stage. To check that a new Cat sprite clone is created every three seconds, make each clone appear and fall out of the sky.
+Αν εκτελέσεις το πρόγραμμα τώρα, τίποτα δεν συμβαίνει στη σκηνή. Για να ελέγξεις ότι ένας νέος κλώνος αντικειμένου γάτας δημιουργείται κάθε τρία δευτερόλεπτα, κάνε κάθε κλώνο να εμφανίζεται και να πέφτει από τον ουρανό.
 
 \--- task \---
 
-Add code to tell the sprite that `when it starts as a clone`{:class="block3control"}, it should `show`{:class="block3looks"} itself and fall until it `touches`{:class="block3sensing"} the blue floor that is drawn on the Stage.
+Πρόσθεσε κώδικα για να πεις στο αντικείμενο ότι `όταν αρχίζει ως ένας κλώνος`{:class="block3control"}, θα πρέπει να `εμφανιστεί`{:class="block3looks"} και να πέσει μέχρι να `αγγίξει`{:class="block3sensing"} το μπλε πάτωμα που είναι σχεδιασμένο στη σκηνή.
 
-![Cat sprite](images/cat-sprite.png)
+![Αντικείμενο γάτας](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-`When the sprite starts as a clone`{:class="block3control"}, `show`{:class="block3looks"} the sprite. `Repeatedly`{:class="block3control"} `Change`{:class="block3motion"} the sprite's `y` coordinate by `-2`, until the sprite `touches`{:class="block3sensing"} the blue Stage.
+`Όταν το αντικείμενο ξεκινάει ως κλώνος`{:class="block3control"}, `εμφάνισε`{:class="block3looks"} το αντικείμενο. `Επανειλημμένα`{:class="block3control"} `Άλλαξε`{:class="block3motion"} την`y` συντεταγμένη του αντικειμένου κατά `-2`, μέχρι το αντικείμενο να `αγγίξει`{:class="block3sensing"} το μπλε δάπεδο.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+Εδώ είναι τα μπλοκ κώδικα που χρειάζεσαι:
 
 ```blocks3
 repeat until <>
@@ -54,7 +54,7 @@ when I start as a clone
 
 \--- hint \---
 
-This is what your code should look like:
+Έτσι πρέπει να μοιάζει ο κώδικας:
 
 ```blocks3
 when I start as a clone
@@ -68,6 +68,6 @@ end
 
 \--- /task \---
 
-When you click the green flag, you should see a new cat fall from the top of the Stage every three seconds. Every cat should land in a big pile of overlapping cats on the blue floor at the bottom.
+Όταν κάνεις κλικ στην πράσινη σημαία, θα πρέπει να δεις μια νέα γάτα να πέφτει από την κορυφή της σκηνής κάθε τρία δευτερόλεπτα. Κάθε γάτα θα προσγειωθεί σε ένα μεγάλο σωρό από γάτες στο μπλε δάπεδο στο κάτω μέρος.
 
-![Falling cats](images/falling-cats.png)
+![Γάτες που πέφτουν](images/falling-cats.png)
