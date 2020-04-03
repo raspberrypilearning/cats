@@ -19,13 +19,13 @@ El objeto Gato debe `moverse 10 pasos`{:class="block3motion"}, y `cambiar el dis
 Aquí están los bloques de código que necesitas:
 
 ```blocks3
-move (10) steps
+mover (10) pasos
 
-wait (0.1) seconds
+esperar (0.1) segundos
 
-next costume
+siguiente disfraz
 
-forever
+por siempre
 end
 ```
 
