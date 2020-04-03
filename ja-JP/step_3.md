@@ -29,13 +29,13 @@ end
 
 \--- hints \--- \--- hint \---
 
-スプライトが`クローンされたとき`{:class="block3control"}、 `表示`{:class="block3looks"}します。 `Repeatedly`{:class="block3control"} `Change`{:class="block3motion"} the sprite's `y` coordinate by `-2`, until the sprite `touches`{:class="block3sensing"} the blue Stage.
+スプライトが`クローンされたとき`{:class="block3control"}、 `表示`{:class="block3looks"}します。 ステージの青い部分に`触れる`{:class="block3sensing"}まで、スプライトの`y`座標 (ざひょう) を`-2`ずつ`繰り返し`{:class="block3control"} (くりかえし) `変え`{:class="block3motion"} (かえ) ます。
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+必要なコードブロックは次のとおりです。
 
 ```blocks3
 repeat until <>
@@ -54,7 +54,7 @@ when I start as a clone
 
 \--- hint \---
 
-This is what your code should look like:
+コードは次のようになります。
 
 ```blocks3
 when I start as a clone
@@ -68,6 +68,6 @@ end
 
 \--- /task \---
 
-When you click the green flag, you should see a new cat fall from the top of the Stage every three seconds. Every cat should land in a big pile of overlapping cats on the blue floor at the bottom.
+緑の旗をクリックすると、3秒ごとに新しいネコがステージの上部から落ちてきます。 Every cat should land in a big pile of overlapping cats on the blue floor at the bottom.
 
 ![落ちるネコ](images/falling-cats.png)
