@@ -119,7 +119,7 @@ You probably see that a blue dot always appears in the top right-hand corner of 
 
 To stop this from happening, add a `pen up`{:class="block3extensions"} block at the start of the script, and a `wait one second`{:class="block3control"} block above the `forever`{:class="block3control"} block.
 
-![Pen sprite](images/pen-sprite.png)
+![पेन स्प्राइट](images/pen-sprite.png)
 
 ```blocks3
 when flag clicked
