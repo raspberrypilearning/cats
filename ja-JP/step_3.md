@@ -19,7 +19,7 @@ end
 
 \--- /task \---
 
-ここでプログラムを実行しても、ステージでは何も起こりません。 To check that a new Cat sprite clone is created every three seconds, make each clone appear and fall out of the sky.
+ここでプログラムを実行しても、ステージでは何も起こりません。 3秒ごとに新しいネコのスプライトのクローンが作られているのをたしかめるには、クローンをそれぞれ表示 (ひょうじ) して空から落ちるようにします。
 
 \--- task \---
 
