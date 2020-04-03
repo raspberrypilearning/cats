@@ -1,26 +1,26 @@
 ---
-title: CATS!
+title: 고양이들!
 hero_image: images/banner.png
-description: Create a game in which you guide cats to safety and stop them from falling into holes
+description: 고양이가 구멍에 빠지지 않도록 안전한 길로 안내하는 게임을 만드십시오.
 listed: true
 copyedit: true
 version: 4.0.2
 last_tested: 2018-10-18
 steps:
   - 
-    title: Introduction
+    title: 소개
   - 
-    title: Draw lines
+    title: 선 그리기
   - 
-    title: Clone cats
+    title: 고양이 복제하기
   - 
-    title: Make the cats move
+    title: 고양이가 움직이도록 만들기
   - 
-    title: Stick to the lines
+    title: 선 따라가기
   - 
-    title: Get to safety
+    title: 안전 확보
   - 
-    title: "Challenge: more obstacles"
+    title: "도전 과제: 더 많은 장애물"
     challenge: true
   - 
-    title: What next?
+    title: 더 나아가기
