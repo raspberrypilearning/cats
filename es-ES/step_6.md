@@ -26,7 +26,7 @@ Añade código a tu objeto Gato para añadir `1` a la `puntuación`{:class="bloc
 
 \--- hint \---
 
-Here are the new code blocks you need to add to your `when I start as a clone` script:
+Aquí están los nuevos bloques de código que necesitas agregar a tu programa de `al comenzar como clon`:
 
 ```blocks3
 change [score v] by (1)
@@ -43,7 +43,7 @@ set [score v] to (0)
 
 \--- hint \---
 
-This is what your code should look like:
+Así es como debería verse tu código:
 
 ```blocks3
 when I start as a clone
@@ -77,9 +77,9 @@ when flag clicked
 
 \--- task \---
 
-Add some more code so that, when a cat sprite reaches the door, the cat makes a 'meow' sound and then disappears.
+Añade un poco más de código para que, cuando el objeto Gato llegue a la puerta, haga un sonido 'meow', es decir, maulle, y luego desaparezca.
 
-![Cat sprite](images/cat-sprite.png)
+![Objeto Gato](images/cat-sprite.png)
 
 ```blocks3
 play sound (meow v)
