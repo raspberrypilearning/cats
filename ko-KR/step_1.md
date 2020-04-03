@@ -22,13 +22,13 @@
 
 \--- print-only \---
 
-![Cats finished](images/cats-finished.png)
+![완성된 '고양이'](images/cats-finished.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: 배우게 될 것
 
 + 움직이는 고양이를 계속 만들어내기 위해 `무한 반복하기`{:class="block3control"} 루프를 사용하는 방법
 + 고양이가 줄을 따라가게 하기 위해 `( )번 반복하기`{:class="block3control"} 루프를 사용하는 방법
@@ -37,7 +37,7 @@
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: 준비물
 
 ### 하드웨어
 
