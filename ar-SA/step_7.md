@@ -1,13 +1,13 @@
-## Challenge: more obstacles
+## التحدي: عوائق أخرى
 
-At the moment, the game is rather easy to win. Can you think of ideas to you make your game harder?
+في الوقت الحالي، من السهل جداً الفوز باللعبة. هل بإمكانك إيجاد بعض الأفكار لجعل الفوز باللعبة أصعب؟
 
-+ Add more backgrounds with different platform designs.
++ أضف المزيد من الخلفيات مع تصاميم مختلفة للمنصات.
 
-+ Move the location of the door depending on which background is displayed.
++ غير موضع الباب اعتماداً على الخلفية التي يتم إظهارها.
 
-+ Add more sprites as moving obstacles. Perhaps you could have roaming dogs or rotating spikes the cats need to avoid?
++ أضف المزيد من الكائنات كعوائق متحركة. ربما تستطيع إضافة كلاب متجولة أو مسامير يجب على القطط أن تتجنبها؟
 
-+ Only allow the player to use a limited amount of "ink" to draw lines in the game. You can keep track of how much "ink" is used by creating a timer variable that records how long the mouse is held down.
++ اسمح للاعب باستخدام كمية محددة من "الحبر" لرسم الخطوط في اللعبة. يمكن أن تقوم بتسجيل كمية "الحبر" التي تم استخدامها عن طريق إنشاء متغير يقوم بتسجيل كم من الوقت تم إبقاء زر الماوس مضغوطاً.
 
-+ Create a sprite to show the player how much ink is left.
++ أنشئ كائن ليعرض للاعب كم تبقى لديه من الحبر.
