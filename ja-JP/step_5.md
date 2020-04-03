@@ -1,14 +1,14 @@
 ## 線にそわせる
 
-You might notice that, if you draw a low bridge between the two platforms, or a line that slopes upwards, the cats end up walking through the platform rather than on top of it!
+2つの足場の間に低い橋または上向きの線をかくと、足場の上ではなく中を歩いてしまうことに気づいたと思います。
 
-![Cats walking through the platform](images/cat-walk-through-platform.png)
+![足場の中を歩くネコ](images/cat-walk-through-platform.png)
 
 \--- task \---
 
-In the code for the cat sprite, add another loop before the `next costume`{:class="block3looks"} block. This time, the loop should tell the cat to move upwards by `2` until it is not touching blue.
+ネコのスプライトのコードの`次のコスチュームにする`{:class="block3looks"}ブロックの前に別のループを追加します。 今度は、ループで猫が青色に触れなくなるまで`2`ずつ上がるようにしなければなりません。
 
-![Cat sprite](images/cat-sprite.png)
+![ネコのスプライト](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
@@ -35,7 +35,7 @@ not <>
 
 \--- hint \---
 
-This is what your code should look like:
+コードは次のようになります。
 
 ```blocks3
 when I start as a clone
