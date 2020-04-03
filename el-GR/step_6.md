@@ -1,12 +1,12 @@
-## Get to safety
+## Οδήγησέ τους στην ασφάλεια
 
-The object of the game is to guide the cats to safety by creating a path so they can reach the door. Create a score variable to keep track of how many cats reach the door.
+Το αντικείμενο του παιχνιδιού είναι να καθοδηγήσεις τις γάτες στην ασφάλεια δημιουργώντας ένα μονοπάτι ώστε να φτάσουν στην πόρτα. Δημιούργησε μια μεταβλητή βαθμολογίας για να παρακολουθείς πόσες γάτες φτάνουν στην πόρτα.
 
 \--- task \---
 
-Create a variable called `score`{:class="block3variables"}.
+Δημιούργησε μια μεταβλητή με το όνομα `βαθμολογία`{:class="block3variables"}.
 
-![Cat sprite](images/cat-sprite.png)
+![Αντικείμενο γάτας](images/cat-sprite.png)
 
 [[[generic-scratch3-add-variable]]]
 
@@ -14,19 +14,19 @@ Create a variable called `score`{:class="block3variables"}.
 
 \--- task \---
 
-Add code to your cat sprite to add `1` to the `score`{:class="block3variables"} each time a cat reaches the door. Also set `score`{:class="block3variables"} to `0` `when the flag is clicked`{:class="block3events"} at the start of the game.
+Πρόσθεσε κώδικα στο αντικείμενο της γάτας σου για να προσθέσεις `1` στη `βαθμολογία`{:class="block3variables"} κάθε φορά που μια γάτα φτάνει στην πόρτα. Επίσης, όρισε τη `βαθμολογία`{:class="block3variables"} στην τιμή `0` `όταν πατηθεί η σημαία`{:class="block3events"} στην αρχή του παιχνιδιού.
 
-![Cat sprite](images/cat-sprite.png)
+![Αντικείμενο γάτας](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-`If`{:class="block3control"} the cat is `touching the door sprite`{:class="block3sensing"}, then `add 1 to the score`{:class="block3variables"}.
+`Αν`{:class="block3control"} η γάτα `αγγίξει το αντικείμενο της πόρτας`{:class="block3sensing"}, τότε `πρόσθεσε 1 στη βαθμολογία`{:class="block3variables"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the new code blocks you need to add to your `when I start as a clone` script:
+Εδώ είναι τα νέα μπλοκ κώδικα που πρέπει να προσθέσεις στο μέρος του προγράμματος `όταν ξεκινώ ως κλώνος`:
 
 ```blocks3
 change [score v] by (1)
@@ -43,7 +43,7 @@ set [score v] to (0)
 
 \--- hint \---
 
-This is what your code should look like:
+Έτσι πρέπει να μοιάζει ο κώδικας:
 
 ```blocks3
 when I start as a clone
@@ -77,9 +77,9 @@ when flag clicked
 
 \--- task \---
 
-Add some more code so that, when a cat sprite reaches the door, the cat makes a 'meow' sound and then disappears.
+Πρόσθεσε κι άλλο κώδικα έτσι ώστε, όταν ένα αντικείμενο γάτας φτάσει στην πόρτα, η γάτα κάνει έναν ήχο «νιάου» και στη συνέχεια εξαφανίζεται.
 
-![Cat sprite](images/cat-sprite.png)
+![Αντικείμενο γάτας](images/cat-sprite.png)
 
 ```blocks3
 play sound (meow v)
