@@ -1,20 +1,20 @@
-## Draw lines
+## Ζωγράφισε γραμμές
 
 \--- task \---
 
-Open the 'CATS!' Scratch starter project.
+Άνοιξε το έργο Scratch "ΓΑΤΕΣ!".
 
-**Online:** open the starter project at [rpf.io/cats-on](http://rpf.io/cats-on){:target="_blank"}.
+**Online:** άνοιξε το αρχικό έργο στο [rpf.io/cats-on](http://rpf.io/cats-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Αν έχεις λογαριασμό Scratch μπορείς να δημιουργήσεις ένα αντίγραφο κάνοντας κλικ στο **Ανάμειξη**.
 
-**Offline:** open the [starter project](http://rpf.io/p/en/cats-go) in the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+**Offline**: άνοιξε το [αρχικό έργο](http://rpf.io/p/en/cats-go) στον επεξεργαστή εκτός σύνδεσης. Αν χρειαστεί να κατεβάσεις και να εγκαταστήσεις τον offline editor για το Scratch, μπορείς να το βρεις στο [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
 \--- task \---
 
-Add the Pen extension to your project.
+Πρόσθεσε την επέκταση πένας στο έργο σου.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -22,9 +22,9 @@ Add the Pen extension to your project.
 
 \--- task \---
 
-Click on the sprite called 'Pen', and add code to set the pen colour to the same blue as the obstacles on the Stage.
+Κάνε κλικ στο αντικείμενο που ονομάζεται 'Pen' και πρόσθεσε τον κώδικα για να ρυθμίσεις το χρώμα του στυλό στο ίδιο μπλε με τα εμπόδια στη σκηνή.
 
-![Pen sprite](images/pen-sprite.png)
+![Αντικείμενο στυλό](images/pen-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -33,15 +33,15 @@ erase all
 set pen size to (5)
 ```
 
-To select a colour, click on the colour square in the `set pen color`{:class="block3extensions"} block to make your mouse cursor turn into a pipette, and then click on the correct colour on the Stage.
+Για να επιλέξεις ένα χρώμα, κάνε κλικ στο τετράγωνο χρώματος στο μπλοκ `επέλεξε χρώμα στυλό`{:class="block3extensions"} για να κάνεις τον δείκτη του ποντικιού σου να μοιάζει με σταγονόμετρο, και στη συνέχεια κάνε κλικ στο σωστό χρώμα στη σκηνή.
 
 \--- /task \---
 
 \--- task \---
 
-Add some more code to make the sprite follow the mouse pointer. Test your program to check that the code works.
+Πρόσθεσε κάποιο άλλο κωδικό για να κάνεις το αντικείμενο να ακολουθεί τον δείκτη του ποντικιού. Δοκίμασε το πρόγραμμά σου για να ελέγξεις ότι ο κώδικας λειτουργεί.
 
-![Pen sprite](images/pen-sprite.png)
+![Αντικείμενο στυλό](images/pen-sprite.png)
 
 ```blocks3
 forever
@@ -55,13 +55,13 @@ end
 
 \--- task \---
 
-Add some code to tell the sprite to draw a line on the Stage if the mouse button is pressed down.
+Πρόσθεσε κώδικα για να πεις στο αντικείμενο να σχεδιάσει μια γραμμή στη σκηνή αν πατηθεί το κουμπί του ποντικιού.
 
-![Pen sprite](images/pen-sprite.png)
+![Αντικείμενο στυλό](images/pen-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-`If`{:class="block3control"} the `mouse is down`{:class="block3sensing"}, put the `pen down`{:class="block3extensions"}, and `else`{:class="block3control"}, lift the `pen up`{:class="block3extensions"}.
+`Αν`{:class="block3control"} το `ποντίκι είναι κάτω`{:class="block3sensing"}, τοποθέτησε το `στυλό κάτω`{:class="block3extensions"}, και `αλλιώς`{:class="block3control"}, σήκωσε το `στυλό πάνω`{:class=" block3extensions"}.
 
 \--- /hint \---
 
@@ -85,7 +85,7 @@ end
 
 \--- hint \---
 
-This is what your code should look like:
+Έτσι πρέπει να μοιάζει ο κώδικας:
 
 ```blocks3
 when flag clicked
@@ -107,13 +107,13 @@ end
 
 \--- task \---
 
-Test your code. You should be able to click and drag with the mouse to draw a blue line on the Stage.
+Δοκίμασε τον κώδικά σου. Θα πρέπει να μπορείτε να κάνεις κλικ και να σύρεις με το ποντίκι για να σχεδιάσεις μια μπλε γραμμή στη σκηνή.
 
-![Draw a line](images/draw-a-line.png)
+![Ζωγράφισε μια γραμμή](images/draw-a-line.png)
 
 \--- /task \---
 
-You probably see that a blue dot always appears in the top right-hand corner of the Stage (it's circled in the image above). This is because, when you click the green flag to start the game, you press the mouse down, and so the pen immediately starts drawing.
+Πιθανότατα να δεις ότι μια μπλε κουκκίδα εμφανίζεται πάντα στην πάνω δεξιά γωνία της σκηνής (είναι κυκλωμένη στην εικόνα παραπάνω). Αυτό συμβαίνει επειδή, όταν κάνεις κλικ στην πράσινη σημαία για να ξεκινήσεις το παιχνίδι, πατάς το ποντίκι κάτω και έτσι το στυλό αρχίζει αμέσως να σχεδιάζει.
 
 \--- task \---
 
