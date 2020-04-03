@@ -38,16 +38,16 @@ Añade código para decirle al objeto que `cuando se inicie como un clon`{:class
 Aquí están los bloques de código que necesitas:
 
 ```blocks3
-repeat until <>
+repetir hasta que <>
 end
 
-show
+mostrar
 
 <touching color [#0000ff]?>
 
-change y by (-2)
+cambia y a (-2)
 
-when I start as a clone
+al comenzar como clon
 ```
 
 \--- /hint \---
@@ -57,10 +57,10 @@ when I start as a clone
 Así es como debería verse tu código:
 
 ```blocks3
-when I start as a clone
-show
-repeat until <touching color [#0000ff]?>
-change y by (-2)
+al comenzar como clon
+mostrar
+repetir hasta que <touching color [#0000ff]?> 
+sumar a y (-2)
 end
 ```
 
