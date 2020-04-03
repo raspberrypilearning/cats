@@ -72,12 +72,12 @@ Aquí están los bloques de código que necesitas:
 ```blocks3
 <mouse down?>
 
-pen down
+bajar lápiz
 
-pen up
+subir lápiz
 
-if <> then
-else
+si <> entonces
+si no
 end
 ```
 
