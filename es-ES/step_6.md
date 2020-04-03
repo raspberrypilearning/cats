@@ -29,14 +29,14 @@ Añade código a tu objeto Gato para añadir `1` a la `puntuación`{:class="bloc
 Aquí están los nuevos bloques de código que necesitas agregar a tu programa de `al comenzar como clon`:
 
 ```blocks3
-change [score v] by (1)
+sumar a [puntuación v] (1)
 
-if <> then
+si <> entonces
 end
 
 <touching (Door v)?>
 
-set [score v] to (0)
+dar a [puntuación v] el valor (0)
 ```
 
 \--- /hint \---
