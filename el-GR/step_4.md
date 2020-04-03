@@ -1,22 +1,22 @@
-## Make the cats move
+## Κάνε τις γάτες να κινηθούν
 
-Once a cat reaches the floor, it should step slowly to the right.
+Μόλις μια γάτα φτάσει στο πάτωμα, θα πρέπει να περπατήσει αργά προς τα δεξιά.
 
 \--- task \---
 
-Add code to the `when I start as a clone`{:class="block3control"} section to make the cat sprite `move ten steps`{:class="block3motion"}, and switch between the sprite's two costumes every 0.1 seconds to make the cat look like it's walking.
+Πρόσθεσε τον κώδικα στο τμήμα `κατά την εκκίνηση ως κλώνος`{:class="block3control"} για να κάνεις το αντικείμενο της γάτας `να κινηθεί δέκα βήματα`{:class="block3motion"} και να εναλλάσσεις ανάμεσα στις δύο ενδυμασίες του αντικειμένου κάθε 0,1 δευτερόλεπτα ώστε να κάνει τη γάτα να μοιάζει σαν να περπατάει.
 
-![Cat sprite](images/cat-sprite.png)
+![Αντικείμενο γάτας](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-The cat sprite should `move 10 steps`{:class="block3motion"}, and `switch costume`{:class="block3looks"} every `0.1 seconds`{:class="block3control"}. This code should repeat `forever`{:class="block3control"}, just like the code to make the cat fall.
+Το αντικείμενο της γάτας θα πρέπει να `κινείται 10 βήματα`{:class="block3motion"}, και να `αλλάζει ενδυμασία`{:class="block3looks"} κάθε `0,1 δευτερόλεπτα`{:class="block3control"}. Αυτός ο κώδικας θα πρέπει να επαναλαμβάνεται `για πάντα`{:class="block3control"}, ακριβώς όπως και ο κώδικας που κάνει τη γάτα να πέφτει.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+Εδώ είναι τα μπλοκ κώδικα που χρειάζεσαι:
 
 ```blocks3
 move (10) steps
@@ -33,7 +33,7 @@ end
 
 \--- hint \---
 
-This is what your code should look like:
+Έτσι πρέπει να μοιάζει ο κώδικας:
 
 ```blocks3
 when I start as a clone
@@ -54,19 +54,19 @@ end
 
 \--- task \---
 
-Press the green flag and check that the cats now move along the blue platform at the bottom.
+Πάτησε την πράσινη σημαία και έλεγξε ότι οι γάτες κινούνται τώρα κατά μήκος της μπλε πλατφόρμας στο κάτω μέρος.
 
 \--- /task \---
 
-If you draw a bridge across the gap so that the cats can get all the way to the right side of the Stage, you can see that they end up getting stuck walking into the right wall.
+Εάν σχεδιάσεις μια γέφυρα στο κενό, έτσι ώστε οι γάτες να μπορούν να φτάσουν μέχρι τη δεξιά πλευρά της σκηνής, μπορείς να δεις ότι καταλήγουν να κολλήσουν ενώ περπατάνε προς τον δεξί τοίχο.
 
-![Flailing cats at the edge](images/flailing-at-edge.png)
+![Γάτες που έχουν συγκεντρωθεί στην άκρη](images/flailing-at-edge.png)
 
 \--- task \---
 
-Remove the `forever`{:class="block3control"} loop, and instead add a different loop to make the cats only walk until they reach an edge. When a cat reaches the edge of the Stage, it should disappear.
+Αφαίρεσε το βρόχο `για πάντα`{:class="block3control"} και πρόσθεσε ένα διαφορετικό βρόχο για να κάνεις τις γάτες να περπατούν μόνο μέχρι να φτάσουν σε μια άκρη. Όταν μια γάτα φτάσει στην άκρη της σκηνής, θα εξαφανιστεί.
 
-![Cat sprite](images/cat-sprite.png)
+![Αντικείμενο γάτας](images/cat-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -86,26 +86,26 @@ end
 
 \--- task \---
 
-Press the green flag and check that the cats disappear when they reach the edge of the Stage.
+Πάτησε την πράσινη σημαία και έλεγξε ότι οι γάτες εξαφανίζονται όταν φτάσουν στην άκρη της σκηνής.
 
 \--- /task \---
 
-You may notice that, if the cats fall into the hole, they don't disappear but instead get stuck at the bottom. This is because they keep trying to fall downwards.
+Μπορεί να παρατηρήσεις ότι, αν οι γάτες πέσουν στην τρύπα, δεν εξαφανίζονται αλλά αντίθετα μαζεύονται στο κάτω μέρος. Αυτό συμβαίνει επειδή συνεχίζουν να προσπαθούν να πέσουν προς τα κάτω.
 
-This is the part of the code that tells the cat to keep falling until it touches blue:
+Αυτό είναι το μέρος του κώδικα που λέει στη γάτα να συνεχίζει να πέφτει μέχρι να αγγίξει μπλε:
 
 ```blocks3
 repeat until <touching color [#0000ff]?>
 end
 ```
 
-However, in the hole, the cat can never reach blue, so it is stuck forever.
+Ωστόσο, στην τρύπα, η γάτα δεν μπορεί ποτέ να φτάσει σε μπλε χρώμα, οπότε κολλάει για πάντα.
 
 \--- task \---
 
-Add more blocks to this loop so that it repeats until the cat sprite is touching blue `or`{:class="block3operators"} `touching the edge`{:class="block3sensing"}. This way, the sprite stops trying to fall if it reaches the edge of the Stage.
+Πρόσθεσε περισσότερα μπλοκ σε αυτόν τον βρόχο, έτσι ώστε να επαναλαμβάνεται έως ότου αγγίξει το μπλε χρώμα `ή`{:class="block3operators"} `να αγγίξει την άκρη`{:class="block3sensing"}. Με αυτόν τον τρόπο, το αντικείμενο σταματά να προσπαθεί να πέσει αν φτάσει στην άκρη της σκηνής.
 
-![Cat sprite](images/cat-sprite.png)
+![Αντικείμενο γάτας](images/cat-sprite.png)
 
 ```blocks3
 repeat until <<touching color [#0000ff]?> or <touching (edge v)?>>
