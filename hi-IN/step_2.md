@@ -33,15 +33,15 @@ erase all
 set pen size to (5)
 ```
 
-To select a colour, click on the colour square in the `set pen color`{:class="block3extensions"} block to make your mouse cursor turn into a pipette, and then click on the correct colour on the Stage.
+किसी रंग को चुनने के लिए, `set pen color`{:class="block3extensions"} ब्लॉक में रंग वर्ग पर क्लिक करके आपके माउस कर्सर को पिपेट (नलिका) में बदलें, और फिर स्टेज पर सही रंग पर क्लिक करें।
 
 \--- /task \---
 
 \--- task \---
 
-Add some more code to make the sprite follow the mouse pointer. Test your program to check that the code works.
+स्प्राइट द्वारा माउस पॉइंटर का अनुसरण करने के लिए कुछ और कोड जोड़ें। कोड काम करता है यह जाँचने के लिए अपने प्रोग्राम का परीक्षण करें।
 
-![Pen sprite](images/pen-sprite.png)
+![पेन स्प्राइट](images/pen-sprite.png)
 
 ```blocks3
 forever
@@ -57,7 +57,7 @@ end
 
 Add some code to tell the sprite to draw a line on the Stage if the mouse button is pressed down.
 
-![Pen sprite](images/pen-sprite.png)
+![पेन स्प्राइट](images/pen-sprite.png)
 
 \--- hints \--- \--- hint \---
 
@@ -67,7 +67,7 @@ Add some code to tell the sprite to draw a line on the Stage if the mouse button
 
 \--- hint \---
 
-Here are the code blocks you need:
+यहाँ मौजूद कोड ब्लॉक की आपको जरुरत पड़ेगी:
 
 ```blocks3
 <mouse down?>
@@ -107,9 +107,9 @@ end
 
 \--- task \---
 
-Test your code. You should be able to click and drag with the mouse to draw a blue line on the Stage.
+अपने कोड का परीक्षण करें। You should be able to click and drag with the mouse to draw a blue line on the Stage.
 
-![Draw a line](images/draw-a-line.png)
+![एक रेखा खींचें](images/draw-a-line.png)
 
 \--- /task \---
 
