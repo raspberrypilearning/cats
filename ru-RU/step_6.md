@@ -47,23 +47,23 @@ end
 Вот как должен выглядеть твой код:
 
 ```blocks3
-когда я начинаю как клон
-показаться
-повторять пока не <touching (edge v)?> 
-  идти (10) шагов
-  повторять пока не <touching color [#0000ff]?> 
-    изменить y на (-2)
-  end
-  повторять пока не <not <touching color [#0000ff]?>>
-    изменить y на (2)
-  end
-  следующий костюм
-  ждать (0.1) секунд
-  + если <touching (Дверь v)?>, то 
-    изменить [счёт v] на (1)
-  end
+when I start as a clone
+show
+repeat until <touching (edge v)?>
+    move (10) steps
+    repeat until <touching color [#0000ff]?>
+        change y by (-2)
+    end
+    repeat until <not <touching color [#0000ff]?>>
+        change y by (2)
+    end
+    next costume
+    wait (0.1) seconds
++   if <touching (Дверь v)?> then
+        change [счёт v] by (1)
+    end
 end
-удалить клон
+delete this clone
 
 когда щёлкнут по зелёному флагу
 +задать [счёт v] значение (0)

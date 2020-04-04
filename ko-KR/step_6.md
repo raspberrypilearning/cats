@@ -30,14 +30,14 @@
 이것은 `복제되었을 때` 스크립트에 추가할 코드 블럭들 입니다.
 
 ```blocks3
-change [score v] by (1)
+change [점수 v] by (1)
 
 if <> then
 end
 
 <touching (문 v)?>
 
-set [score v] to (0)
+set [점수 v] to (0)
 ```
 
 --- /hint ---
@@ -60,13 +60,13 @@ repeat until <touching (edge v)?>
     next costume
     wait (0.1) seconds
 +   if <touching (문 v)?> then
-        change [score v] by (1)
+        change [점수 v] by (1)
     end
 end
 delete this clone
 
 when flag clicked
-+ set [score v] to (0)
++ set [점수 v] to (0)
 ```
 
 --- /hint ---

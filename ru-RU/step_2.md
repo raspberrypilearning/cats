@@ -27,10 +27,10 @@
 ![Спрайт пера](images/pen-sprite.png)
 
 ```blocks3
-когда флажок установлен
-установи цвет пера на [# 0000ff]
-сотри все
-установи размер пера на (5)
+when flag clicked
+set pen color to [#0000ff]
+erase all
+set pen size to (5)
 ```
 
 Чтобы выбрать цвет, нажми на цветовой квадрат в блоке `установить цвет для пера`{:class="block3extensions"}, чтобы курсор мыши превратился в пипетку, а затем щёлкни нужный цвет на Сцене.
@@ -45,7 +45,7 @@
 
 ```blocks3
 forever
-перейти на (указатель мыши v)
+go to (mouse pointer v)
 end
 ```
 
@@ -73,12 +73,12 @@ end
 ```blocks3
 <mouse down?>
 
-опустить перо
+pen down
 
-поднять перо
+pen up
 
-если <>, то 
-иначе
+if <> then
+else
 end
 ```
 
@@ -89,17 +89,16 @@ end
 Вот как должен выглядеть твой код:
 
 ```blocks3
-когда щёлкнут по зелёному флагу
-установить цвет пера [#0000ff]
-стереть всё
-установить размер пера (5)
-повторять всегда 
- перейти на (указатель мыши v)
- + если <mouse down?>, то 
- опустить перо
- иначе 
- поднять перо
- end
+when flag clicked
+set pen color to [#0000ff]
+erase all
+set pen size to (5)
+forever
+go to (mouse pointer v)
++ if <mouse down?> then
+pen down
+else
+pen up
 end
 ```
 
@@ -124,19 +123,18 @@ end
 ![Спрайт пера](images/pen-sprite.png)
 
 ```blocks3
-когда щёлкнут по зелёному флагу
-+ поднять перо
-установить цвет пера [#0000ff]
-стереть всё
-установить размер пера (5)
-+ ждать (1) секунд
-повторять всегда 
- перейти на (указатель мыши v)
- если <mouse down?>, то 
- опустить перо
- иначе 
- поднять перо
- end
+when flag clicked
++ pen up
+set pen color to [#0000ff]
+erase all
+set pen size to (5)
++ wait (1) seconds
+forever
+go to (mouse pointer v)
+if <mouse down?> then
+pen down
+else
+pen up
 end
 ```
 
