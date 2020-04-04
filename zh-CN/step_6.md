@@ -1,4 +1,4 @@
-## Get to safety
+## 让猫保持安全
 
 The object of the game is to guide the cats to safety by creating a path so they can reach the door. Create a score variable to keep track of how many cats reach the door.
 
