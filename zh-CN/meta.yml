@@ -12,15 +12,15 @@ steps:
   - 
     title: 画线
   - 
-    title: Clone cats
+    title: 克隆猫咪
   - 
-    title: Make the cats move
+    title: 让猫咪动起来
   - 
-    title: Stick to the lines
+    title: 让猫咪走直线
   - 
-    title: Get to safety
+    title: 让猫咪保持安全
   - 
-    title: "Challenge: more obstacles"
+    title: "挑战：更多的障碍"
     challenge: true
   - 
-    title: What next?
+    title: 接下来呢？
