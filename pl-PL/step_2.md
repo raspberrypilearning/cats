@@ -1,20 +1,20 @@
-## Draw lines
+## Narysuj linie
 
 \--- task \---
 
-Open the 'CATS!' Scratch starter project.
+Otwórz startowy projekt Scratch "KOTY!".
 
-**Online:** open the starter project at [rpf.io/cats-on](http://rpf.io/cats-on){:target="_blank"}.
+**Online:** otwórz projekt początkowy Scratch na stronie [rpf.io/cats-on](http://rpf.io/cats-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Jeśli posiadasz konto Scratch, możesz utworzyć kopie poprzez kliknięcie **Remix**.
 
-**Offline:** open the [starter project](http://rpf.io/p/en/cats-go) in the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+**Offline:** otwórz [projekt startowy](http://rpf.io/p/en/cats-go) w edytorze offline. Jeśli musisz pobrać i zainstalować edytor Scratcha, znajdziesz go na stronie [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
 \--- task \---
 
-Add the Pen extension to your project.
+Dodaj rozszerzenie pióra do swojego projektu.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -22,9 +22,9 @@ Add the Pen extension to your project.
 
 \--- task \---
 
-Click on the sprite called 'Pen', and add code to set the pen colour to the same blue as the obstacles on the Stage.
+Kliknij na duszka o nazwie 'ołówek' i dodaj kod, aby ustawić kolor pióra na ten sam niebieski co przeszkody na scenie.
 
-![Pen sprite](images/pen-sprite.png)
+![Duszek ołówka](images/pen-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -33,15 +33,15 @@ erase all
 set pen size to (5)
 ```
 
-To select a colour, click on the colour square in the `set pen color`{:class="block3extensions"} block to make your mouse cursor turn into a pipette, and then click on the correct colour on the Stage.
+Aby wybrać kolor, kliknij kwadrat koloru w bloku `ustaw kolor pióra`{: class = "block3extensions"}, aby kursor myszy zmienił się w pipetę, a następnie kliknij odpowiedni kolor na stole montażowym.
 
 \--- /task \---
 
 \--- task \---
 
-Add some more code to make the sprite follow the mouse pointer. Test your program to check that the code works.
+Dodaj trochę kodu, aby duszek podążał za wskaźnikiem myszy. Przetestuj swój program, aby sprawdzić, czy kod działa.
 
-![Pen sprite](images/pen-sprite.png)
+![Duszek ołówka](images/pen-sprite.png)
 
 ```blocks3
 forever
@@ -55,19 +55,19 @@ end
 
 \--- task \---
 
-Add some code to tell the sprite to draw a line on the Stage if the mouse button is pressed down.
+Dodaj kod, aby powiedzieć duszkowi, aby narysował linię na scenie, jeśli przycisk myszy jest wciśnięty.
 
-![Pen sprite](images/pen-sprite.png)
+![Duszek ołówka](images/pen-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-`If`{:class="block3control"} the `mouse is down`{:class="block3sensing"}, put the `pen down`{:class="block3extensions"}, and `else`{:class="block3control"}, lift the `pen up`{:class="block3extensions"}.
+`Jeśli`{:class="block3control"} `kliknięto myszką?`{:class="block3sensing"}, to`przyłóż pisak`{:class="block3extensions"}, `w przeciwnym razie`{:class="block3control"}, `podnieś pisak`{:class="block3extensions"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+Oto potrzebne bloki kodu:
 
 ```blocks3
 <mouse down?>
@@ -85,7 +85,7 @@ end
 
 \--- hint \---
 
-This is what your code should look like:
+Tak powinien wyglądać Twój kod:
 
 ```blocks3
 when flag clicked
@@ -107,19 +107,19 @@ end
 
 \--- task \---
 
-Test your code. You should be able to click and drag with the mouse to draw a blue line on the Stage.
+Przetestuj swój kod. Powinieneś być w stanie kliknąć i przeciągnąć myszką, aby narysować niebieską linię na scenie.
 
-![Draw a line](images/draw-a-line.png)
+![Narysuj linię](images/draw-a-line.png)
 
 \--- /task \---
 
-You probably see that a blue dot always appears in the top right-hand corner of the Stage (it's circled in the image above). This is because, when you click the green flag to start the game, you press the mouse down, and so the pen immediately starts drawing.
+Prawdopodobnie widzisz, że niebieska kropka zawsze pojawia się w prawym górnym rogu sceny (jest zakreślona na obrazku powyżej). Dzieje się tak, ponieważ gdy klikniesz zieloną flagę, aby rozpocząć grę, naciskasz myszkę w dół, a więc długopis natychmiast zaczyna rysować.
 
 \--- task \---
 
-To stop this from happening, add a `pen up`{:class="block3extensions"} block at the start of the script, and a `wait one second`{:class="block3control"} block above the `forever`{:class="block3control"} block.
+Aby temu zapobiec zdarzeniom, dodać bloczek `podnieś pisak`{:class="block3extensions"} bloku na początku skryptu i bloczek `czekaj 1 sekund`{:class="block3control"} powyżej bloczka `zawsze`{:class="block3control"}.
 
-![Pen sprite](images/pen-sprite.png)
+![Duszek ołówka](images/pen-sprite.png)
 
 ```blocks3
 when flag clicked
