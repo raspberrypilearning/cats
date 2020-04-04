@@ -1,31 +1,31 @@
-## Stick to the lines
+## Придерживайся линий
 
-You might notice that, if you draw a low bridge between the two platforms, or a line that slopes upwards, the cats end up walking through the platform rather than on top of it!
+Ты можешь заметить, что если нарисовать низкий мост между двумя платформами, или линию, наклоненную наверх, то коты в конце концов будут ходить через платформу, а не по ней!
 
-![Cats walking through the platform](images/cat-walk-through-platform.png)
+![Коты проходят по платформе](images/cat-walk-through-platform.png)
 
 \--- task \---
 
-In the code for the cat sprite, add another loop before the `next costume`{:class="block3looks"} block. This time, the loop should tell the cat to move upwards by `2` until it is not touching blue.
+В коде для спрайта кота добавь еще один цикл перед блоком `следующий костюм`{:class="block3looks"}. На этот раз цикл должен сказать коту двигаться вверх на `2` пока он не коснётся синего цвета.
 
-![Cat sprite](images/cat-sprite.png)
+![Спрайт кота](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-The cat should `move up 2`{:class="block3motion"} `repeatedly until`{:class="block3control"} it is `not`{:class="block3operators"} `touching blue`{:class="block3sensing"}.
+Кот должен `подняться на 2`{:class="block3motion"} `повторяя пока `{:class="block3control"} он `не`{:class="block3operators"} `коснётся синего цвета`{:class="block3sensing"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+Вот блоки кода, которые тебе нужны:
 
 ```blocks3
 <touching color [#0000ff]?>
 
-change y by (2)
+изменить y на (2)
 
-repeat until <>
+повторять пока не <>
 end
 
 not <>
@@ -35,23 +35,23 @@ not <>
 
 \--- hint \---
 
-This is what your code should look like:
+Вот как должен выглядеть твой код:
 
 ```blocks3
-when I start as a clone
-show
-repeat until <touching (edge v)?>
-    move (10) steps
-    repeat until <touching color [#0000ff]?>
-        change y by (-2)
-    end
-    repeat until <not <touching color [#0000ff]?>>
-        change y by (2)
-    end
-    next costume
-    wait (0.1) seconds
+когда я начинаю как клон
+показаться
+повторять пока не <touching (edge v)?> 
+  идти (10) шагов
+  повторять пока не <touching color [#0000ff]?> 
+    изменить y на (-2)
+  end
+  повторять пока не <not <touching color [#0000ff]?>>
+    изменить y на (2)
+  end
+  следующий костюм
+  ждать (0.1) секунд
 end
-delete this clone
+удалить клон
 ```
 
 \--- /hint \---
@@ -60,6 +60,6 @@ delete this clone
 
 \--- task \---
 
-Click the green flag and try drawing a line that slopes upwards. Check that your cat follows this line.
+Нажми на зелёный флаг и попробуй нарисовать линию, которая идёт вверх. Убедись, что твой кот следует этой линии.
 
 \--- /task \---
