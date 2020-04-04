@@ -4,13 +4,13 @@
 
 \--- task \---
 
-`クローンされたとき`{:class="block3control"}のセクションに、ネコのスプライトを`10歩動かし`{:class="block3motion"}、0.1秒ごとに2つのコスチュームを切りかえるようにコードを入れます。
+`クローンされたとき`{:class="block3control"}のセクションに、ネコのスプライトを`10歩動かし`{:class="block3motion"}、0.1秒ごとに2つのコスチュームを切りかえるようにコードを追加します。
 
 ![ネコのスプライト](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-ネコは`10歩動き`{:class="block3motion"}、`0.1秒`{:class="block3control"}ごとに`コスチュームを切りかえます`{:class="block3looks"}。 このコードは、ネコを落とすコードと同じように、 `ずっと`{:class="block3control"}くり返す必要があります。
+ネコは`10歩動き`{:class="block3motion"}、`0.1秒`{:class="block3control"}ごとに`コスチュームを切りかえます`{:class="block3looks"}。 このコードは、ネコを落とすコードと同じように、 `ずっと`{:class="block3control"}繰り返す必要があります。
 
 \--- /hint \---
 
@@ -103,7 +103,7 @@ end
 
 \--- task \---
 
-このループにさらにブロックを入れて、ネコのスプライトが青に触れるか、`または`{:class="block3operators"}`端に触れる`{:class="block3sensing"}まで繰り返すようにします。 こうすることで、スプライトがステージの端に着くと、スプライトは落ちるのをやめます。
+このループにさらにブロックを追加して、ネコのスプライトが青に触れるか、`または`{:class="block3operators"}`端に触れる`{:class="block3sensing"}まで繰り返すようにします。 こうすることで、スプライトがステージの端に着くと、スプライトは落ちるのをやめます。
 
 ![ネコのスプライト](images/cat-sprite.png)
 
