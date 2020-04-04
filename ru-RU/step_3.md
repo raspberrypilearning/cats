@@ -1,12 +1,12 @@
-## Clone cats
+## Клонируй котов
 
-You want a never-ending stream of cats that the player has to guide along the path to the exit.
+То, что ты хочешь, это бесконечный поток котов, которых игрок должен вести к выходу.
 
 \--- task \---
 
-Click on the sprite called 'Cat', and add some code to `hide`{:class="block3looks"} the sprite, and also to `clone`{:class="block3control"} it every three seconds.
+Нажми на спрайт с именем «Кот‎» и добавь код `cпрятаться`{:class="block3looks"} в спрайт, а также `клонировать`{:class="block3control"} каждые три секунды.
 
-![Cat sprite](images/cat-sprite.png)
+![Спрайт кота](images/cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -19,23 +19,23 @@ end
 
 \--- /task \---
 
-If you run the program now, nothing happens on the Stage. To check that a new Cat sprite clone is created every three seconds, make each clone appear and fall out of the sky.
+Если ты запустишь программу сейчас, на сцене ничего не произойдет. Чтобы проверить, что новый клон спрайта Кот создается каждые три секунды, сделай так, чтобы каждый клон появлялся и падал с неба.
 
 \--- task \---
 
-Add code to tell the sprite that `when it starts as a clone`{:class="block3control"}, it should `show`{:class="block3looks"} itself and fall until it `touches`{:class="block3sensing"} the blue floor that is drawn on the Stage.
+Добавь это код, чтобы сказать спрайту `когда я начинаю как клон`{:class="block3control"}, он должен `показаться`{:class="block3looks"} и падать пока не `касается`{:class="block3sensing"} синего пола, нарисованного на Сцене.
 
-![Cat sprite](images/cat-sprite.png)
+![Спрайт кота](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-`When the sprite starts as a clone`{:class="block3control"}, `show`{:class="block3looks"} the sprite. `Repeatedly`{:class="block3control"} `Change`{:class="block3motion"} the sprite's `y` coordinate by `-2`, until the sprite `touches`{:class="block3sensing"} the blue Stage.
+`когда я начинаю как клон`{:class="block3control"}, `покажи`{:class="block3looks"} спрайт. `Повторно`{:class="block3control"} `изменять`{:class="block3motion"} координату `y` спрайта на `-2`, пока спрайт не `коснется`{:class="block3sensing"} синей Сцены.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+Вот блоки кода, которые тебе нужны:
 
 ```blocks3
 repeat until <>
@@ -54,7 +54,7 @@ when I start as a clone
 
 \--- hint \---
 
-This is what your code should look like:
+Вот как должен выглядеть твой код:
 
 ```blocks3
 when I start as a clone
