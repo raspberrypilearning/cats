@@ -1,6 +1,6 @@
 ## Respecter les lignes
 
-Tu pourras remarquer que, si tu traces un pont bas entre les deux plateformes, ou une ligne qui est inclinée vers le haut, les chats finissent par se promener à travers la plate-forme plutôt que par dessus !
+Tu pourras remarquer que, si tu traces un pont plus bas entre les deux plateformes, ou une ligne qui est inclinée vers le haut, les chats finissent par se promener à travers la plate-forme plutôt que par dessus !
 
 ![Chats qui traversent la plate-forme](images/cat-walk-through-platform.png)
 
