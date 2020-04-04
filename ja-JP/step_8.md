@@ -1,6 +1,6 @@
 ## 次は何をしましょうか？
 
-[花もよう](https://projects.raspberrypi.org/en/projects/flower-generator?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects)プロジェクトをやってみましょう。花のもようを作るためのにカスタムブロックを使います。
+[花](https://projects.raspberrypi.org/en/projects/flower-generator?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects)プロジェクトをやってみましょう。花のもようを作るためにカスタムブロックを使います。
 
 \--- no-print \---
 
