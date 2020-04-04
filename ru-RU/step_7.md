@@ -1,13 +1,13 @@
-## Challenge: more obstacles
+## Задача: больше препятствий
 
-At the moment, the game is rather easy to win. Can you think of ideas to you make your game harder?
+На данный момент в игре довольно легко выиграть. Может у тебя есть идеи, как сделать игру сложнее?
 
-+ Add more backgrounds with different platform designs.
++ Добавь больше фонов с различными видами платформы.
 
-+ Move the location of the door depending on which background is displayed.
++ Перемещать расположение двери в зависимости от того, какой фон отображается.
 
-+ Add more sprites as moving obstacles. Perhaps you could have roaming dogs or rotating spikes the cats need to avoid?
++ Добавь больше спрайтов в качестве движущихся препятствий. Возможно, у тебя могут быть бродящие собаки или вращающиеся шипы, которых коты должны избегать?
 
-+ Only allow the player to use a limited amount of "ink" to draw lines in the game. You can keep track of how much "ink" is used by creating a timer variable that records how long the mouse is held down.
++ Разрешить игроку использовать ограниченное количество «чернил» для рисования линий в игре. Ты можешь отслеживать, сколько «чернил» используется, создав переменную таймера, которая записывает, как долго удерживается мышь.
 
-+ Create a sprite to show the player how much ink is left.
++ Создайте спрайт, чтобы показать игроку, сколько осталось чернил.
