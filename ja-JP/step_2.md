@@ -61,7 +61,7 @@ end
 
 \--- hints \--- \--- hint \---
 
-`もし`{:class = "block3control"}`マウスが押された`{:class = "block3sensing"} (おされた) なら、 `ペンを下ろす`{:class = "block3extensions"}、`でなければ`{:class=block3control "}`ペンを上げる`{:class =" block3extensions "}。
+`もし`{:class="block3control"}`マウスが押された`{:class="block3sensing"} (おされた) なら、 `ペンを下ろし`{:class="block3extensions"}、`でなければ`{:class="block3control"}`ペンを上げます`{:class="block3extensions"}。
 
 \--- /hint \---
 
@@ -109,7 +109,7 @@ end
 
 コードをテストしましょう。 マウスでクリックしてドラッグすると、ステージに青い線をかくことができるはずです。
 
-![線を描く](images/draw-a-line.png)
+![線をかく](images/draw-a-line.png)
 
 \--- /task \---
 
