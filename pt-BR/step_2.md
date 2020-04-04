@@ -1,20 +1,20 @@
-## Draw lines
+## Desenhar linhas
 
 \--- task \---
 
-Open the 'CATS!' Scratch starter project.
+Abra o projeto inicial Scratch 'GATOS!'.
 
-**Online:** open the starter project at [rpf.io/cats-on](http://rpf.io/cats-on){:target="_blank"}.
+**Online:** Abra o projeto inicial em [ rpf.io/cats-on ](http://rpf.io/cats-on){: target="_ blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Se você tiver uma conta Scratch, você pode fazer uma cópia clicando em **Remix**.
 
-**Offline:** open the [starter project](http://rpf.io/p/en/cats-go) in the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+**Offline:** Abra o [projeto inicial](http://rpf.io/p/en/cats-go) no editor offline. Se você precisar baixar e instalar o editor offline do Scratch, você pode encontrá-lo em [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
 \--- task \---
 
-Add the Pen extension to your project.
+Adicione a extensão Caneta ao seu projeto.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -22,15 +22,15 @@ Add the Pen extension to your project.
 
 \--- task \---
 
-Click on the sprite called 'Pen', and add code to set the pen colour to the same blue as the obstacles on the Stage.
+Clique no ator chamado 'Caneta' e adicione um código para definir a cor da caneta para o mesmo azul dos obstáculos no palco.
 
 ![Pen sprite](images/pen-sprite.png)
 
 ```blocks3
-when flag clicked
-set pen color to [#0000ff]
-erase all
-set pen size to (5)
+quando bandeira verde for clicado
+mude a cor da caneta para [#0000ff]
+apague tudo
+adicione (5) ao tamanho da caneta
 ```
 
 To select a colour, click on the colour square in the `set pen color`{:class="block3extensions"} block to make your mouse cursor turn into a pipette, and then click on the correct colour on the Stage.
