@@ -1,24 +1,24 @@
-## Stick to the lines
+## Переміщення по поверхні
 
-You might notice that, if you draw a low bridge between the two platforms, or a line that slopes upwards, the cats end up walking through the platform rather than on top of it!
+Ти можеш помітити, що якщо намалювати низький міст між двома платформами або висхідну лінію, то коти будуть йти крізь платформу, а не по ній!
 
-![Cats walking through the platform](images/cat-walk-through-platform.png)
+![Коти, які проходять крізь платформу](images/cat-walk-through-platform.png)
 
 \--- task \---
 
-In the code for the cat sprite, add another loop before the `next costume`{:class="block3looks"} block. This time, the loop should tell the cat to move upwards by `2` until it is not touching blue.
+У код для спрайта кота, додай ще один цикл перед `наступний образ`{:class="block3looks"}. На цей раз, цикл повинен сказати котові рухатися вгору на `2` доки він не торкнеться синього.
 
-![Cat sprite](images/cat-sprite.png)
+![Спрайт "Кіт"](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-The cat should `move up 2`{:class="block3motion"} `repeatedly until`{:class="block3control"} it is `not`{:class="block3operators"} `touching blue`{:class="block3sensing"}.
+Кіт повинен `повторити`{:class="block3control"} `зміну у на 2`{:class="block3motion"} поки `не`{:class="block3operators"} `торкнеться синього кольору`{:class="block3sensing"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+Тобі будуть потрібні наступні блоки коду:
 
 ```blocks3
 <touching color [#0000ff]?>
@@ -35,7 +35,7 @@ not <>
 
 \--- hint \---
 
-This is what your code should look like:
+Ось як має виглядати твій код:
 
 ```blocks3
 when I start as a clone
@@ -60,6 +60,6 @@ delete this clone
 
 \--- task \---
 
-Click the green flag and try drawing a line that slopes upwards. Check that your cat follows this line.
+Натисніть на зелений прапорець і спробуй намалювати висхідну лінію. Перевір чи твій кіт іде по цій лінії.
 
 \--- /task \---
