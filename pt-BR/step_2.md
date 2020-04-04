@@ -24,7 +24,7 @@ Adicione a extensão Caneta ao seu projeto.
 
 Clique no ator chamado 'Caneta' e adicione um código para definir a cor da caneta para o mesmo azul dos obstáculos no palco.
 
-![Pen sprite](images/pen-sprite.png)
+![ator Caneta](images/pen-sprite.png)
 
 ```blocks3
 quando bandeira verde for clicado
@@ -41,7 +41,7 @@ Para selecionar uma cor, clique no quadrado de cores no bloco `mude a cor da can
 
 Adicione um pouco mais de código para fazer o ator seguir o ponteiro do mouse. Teste seu programa para verificar se o código funciona.
 
-![Pen sprite](images/pen-sprite.png)
+![ator Caneta](images/pen-sprite.png)
 
 ```blocks3
 sempre
@@ -57,7 +57,7 @@ fim
 
 Adicione algum código para dizer ao ator para desenhar uma linha no palco se o botão do mouse for pressionado.
 
-![Pen sprite](images/pen-sprite.png)
+![ator Caneta](images/pen-sprite.png)
 
 \--- hints \--- \--- hint \---
 
@@ -72,33 +72,33 @@ Aqui estão os blocos de código que você precisa:
 ```blocks3
 <mouse down?>
 
-pen down
+use a caneta
 
-pen up
+levante a caneta
 
-if <> then
-else
-end
+se <> então
+senão
+fim
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-This is what your code should look like:
+É assim que seu código deve parecer:
 
 ```blocks3
-when flag clicked
-set pen color to [#0000ff]
-erase all
-set pen size to (5)
-forever
-go to (mouse pointer v)
-+ if <mouse down?> then
-pen down
-else
-pen up
-end
+quando bandeira verde for clicado
+mude a cor da caneta para [#0000ff]
+apague tudo
+adicione (5) ao tamanho da caneta
+sempre
+vá para (ponteiro do mouse v)
++ se <mouse down?> então
+use a caneta
+senão
+levante a caneta
+fim
 ```
 
 \--- /hint \---
@@ -107,34 +107,34 @@ end
 
 \--- task \---
 
-Test your code. You should be able to click and drag with the mouse to draw a blue line on the Stage.
+Teste seu código. Você poderá clicar e arrastar com o mouse para desenhar uma linha azul no palco.
 
 ![Draw a line](images/draw-a-line.png)
 
 \--- /task \---
 
-You probably see that a blue dot always appears in the top right-hand corner of the Stage (it's circled in the image above). This is because, when you click the green flag to start the game, you press the mouse down, and so the pen immediately starts drawing.
+Você provavelmente vê que um ponto azul sempre aparece no canto superior direito do palco (está circulado na imagem acima). Isso ocorre porque, quando você clica na bandeira verde para iniciar o jogo, pressiona o mouse e a caneta começa a desenhar imediatamente.
 
 \--- task \---
 
-To stop this from happening, add a `pen up`{:class="block3extensions"} block at the start of the script, and a `wait one second`{:class="block3control"} block above the `forever`{:class="block3control"} block.
+Para impedir que isso aconteça, adicione um bloco `levante a caneta` {:class="block3extensions"} no início do script e um bloco `espere um segundo`{:class="block3control"} acima do bloco `sempre`{:class="block3control"}.
 
 ![Pen sprite](images/pen-sprite.png)
 
 ```blocks3
-when flag clicked
-+ pen up
-set pen color to [#0000ff]
-erase all
-set pen size to (5)
-+ wait (1) seconds
-forever
-go to (mouse pointer v)
-if <mouse down?> then
-pen down
-else
-pen up
-end
+quando bandeira verde for clicado
++ levante a caneta
+mude a cor da caneta para [#0000ff]
+apague tudo
+adicione (5) ao tamanho da caneta
++ espere(1) seg
+sempre
+vá para (ponteiro do mouse v)
+se <mouse down?> então
+use a caneta
+senão
+levante a caneta
+fim
 ```
 
 \--- /task \---
