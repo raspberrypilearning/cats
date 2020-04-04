@@ -109,7 +109,7 @@ fim
 
 Teste seu código. Você poderá clicar e arrastar com o mouse para desenhar uma linha azul no palco.
 
-![Draw a line](images/draw-a-line.png)
+![Desenhe uma linha](images/draw-a-line.png)
 
 \--- /task \---
 
@@ -119,7 +119,7 @@ Você provavelmente vê que um ponto azul sempre aparece no canto superior direi
 
 Para impedir que isso aconteça, adicione um bloco `levante a caneta` {:class="block3extensions"} no início do script e um bloco `espere um segundo`{:class="block3control"} acima do bloco `sempre`{:class="block3control"}.
 
-![Pen sprite](images/pen-sprite.png)
+![ator Caneta](images/pen-sprite.png)
 
 ```blocks3
 quando bandeira verde for clicado
