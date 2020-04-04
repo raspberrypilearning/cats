@@ -1,12 +1,12 @@
-## Clone cats
+## Klonowanie kotów
 
-You want a never-ending stream of cats that the player has to guide along the path to the exit.
+Chcesz niekończący się strumień kotów, które gracz musi prowadzić wzdłuż ścieżki do wyjścia.
 
 \--- task \---
 
-Click on the sprite called 'Cat', and add some code to `hide`{:class="block3looks"} the sprite, and also to `clone`{:class="block3control"} it every three seconds.
+Kliknij duszka o nazwie „Duszek1” i dodaj kod `ukryj`{:class="block3looks"} do duszka, a także do `utwórz klona z siebie`{:class="block3control"} co trzy sekundy.
 
-![Cat sprite](images/cat-sprite.png)
+![Duszek1 - duszek kota](images/cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -19,23 +19,23 @@ end
 
 \--- /task \---
 
-If you run the program now, nothing happens on the Stage. To check that a new Cat sprite clone is created every three seconds, make each clone appear and fall out of the sky.
+Jeśli teraz uruchamiasz program, nic się nie stanie na scenie. Aby sprawdzić, czy nowy klon Duszka1 jest tworzony co trzy sekundy, spraw, aby każdy klon pojawiał się i spadał z nieba.
 
 \--- task \---
 
-Add code to tell the sprite that `when it starts as a clone`{:class="block3control"}, it should `show`{:class="block3looks"} itself and fall until it `touches`{:class="block3sensing"} the blue floor that is drawn on the Stage.
+Dodaj kod, aby poinformować duszka, że `gdy zaczyna się jako klon`{:class="block3control"}, powinien się `pokazać`{:class="block3looks"} i spadać, aż będzie `dotykać`{:class=" block3sensing"} niebieską podłogę narysowaną na scenie.
 
-![Cat sprite](images/cat-sprite.png)
+![Duszek1 - duszek kota](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-`When the sprite starts as a clone`{:class="block3control"}, `show`{:class="block3looks"} the sprite. `Repeatedly`{:class="block3control"} `Change`{:class="block3motion"} the sprite's `y` coordinate by `-2`, until the sprite `touches`{:class="block3sensing"} the blue Stage.
+`Kiedy duszek zaczyna jako klon`{:class="block3control"}, `pokazują`{:class="block3looks"} duszka. `Powtarzaj`{:class="block3control"} `Zmień`{:class="block3motion"} Współrzędną `y` duszka o `-2`, aż duszek będzie `dotykać`{:class="block3sensing"} niebieskiej sceny.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+Oto potrzebne bloki kodu:
 
 ```blocks3
 repeat until <>
@@ -54,7 +54,7 @@ when I start as a clone
 
 \--- hint \---
 
-This is what your code should look like:
+Tak powinien wyglądać Twój kod:
 
 ```blocks3
 when I start as a clone
@@ -68,6 +68,6 @@ end
 
 \--- /task \---
 
-When you click the green flag, you should see a new cat fall from the top of the Stage every three seconds. Every cat should land in a big pile of overlapping cats on the blue floor at the bottom.
+Kiedy klikniesz zieloną flagę, co trzy sekundy powinien wypaść nowy kot ze szczytu sceny. Każdy kot powinien wylądować na dużym stosie nachodzących na siebie kotów na niebieskiej podłodze u dołu.
 
-![Falling cats](images/falling-cats.png)
+![Spadające koty](images/falling-cats.png)
