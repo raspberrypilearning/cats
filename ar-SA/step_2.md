@@ -4,7 +4,7 @@
 
 افتح مشروع سكراتش المبدئي "القطط!".
 
-**بالاتصال بالانترنت:** افتح المشروع المبدئي من هنا [scratch.mit.edu/projects/382693982(https://scratch.mit.edu/projects/382693982){:target="_blank"}.
+**بالاتصال بالانترنت:** افتح المشروع المبدئي من هنا [scratch.mit.edu/projects/382693982](https://scratch.mit.edu/projects/382693982){:target="_blank"}.
 
 اذا كنت تملك حساب على منصة سكراتش (Scratch) فيمكنك عمل نسخة بالنقر على **مزج**.
 

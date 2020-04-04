@@ -24,7 +24,7 @@ Aquí están los bloques de código que necesitas:
 ```blocks3
 <touching color [#0000ff]?>
 
-cambiar y a (2)
+change y by (-2)
 
 repetir hasta que <>
 end
@@ -44,10 +44,10 @@ mostrar
 repetir hasta que <touching (edge v)?> 
 mover (10) pasos
 repetir hasta que <touching color [#0000ff]?> 
-cambiar y a (-2)
+change y by (-2)
 end
 repetir hasta que <not <touching color [#0000ff]?>> 
-cambiar y a (2)
+change y by (-2)
 end
 siguiente disfraz
 esperar (0.1) segundos

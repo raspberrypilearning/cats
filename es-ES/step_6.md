@@ -52,15 +52,15 @@ mostrar
 repetir hasta que <touching (edge v)?> 
 mover (10) pasos
 repetir hasta que <touching color [#0000ff]?> 
-cambiar y a (-2)
+change y by (-2)
 end
 repetir hasta que <not <touching color [#0000ff]?>> 
-cambiar y a (2)
+change y by (-2)
 end
 siguiente disfraz
 esperar (0.1) segundos
 + si <touching (Puerta v)?> entonces 
-cambiar [puntuación v] por (1)
+change [puntuación v] by (1)
 end
 end
 eliminar este clon

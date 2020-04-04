@@ -46,7 +46,7 @@ mostrar
 
 <touching color [#0000ff]?>
 
-cambia y a (-2)
+change y by (-2)
 
 al comenzar como clon
 ```
