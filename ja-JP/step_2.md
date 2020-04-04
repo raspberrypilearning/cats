@@ -117,7 +117,7 @@ end
 
 \--- task \---
 
-これをふせぐには、スクリプトの先頭に `ペンを上げる`{:class = "block3extensions"}ブロックを追加し、 `ずっと`{:class = "block3control"}ブロックの上に`1秒待つ`{:class = "block3control"}ブロックを追加します。
+これをふせぐには、スクリプトの先頭に `ペンを上げる`{:class="block3extensions"}ブロックを追加し、 `ずっと`{:class="block3control"}ブロックの上に`1秒待つ`{:class="block3control"}ブロックを追加します。
 
 ![ペンスプライト](images/pen-sprite.png)
 
