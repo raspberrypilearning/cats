@@ -1,10 +1,10 @@
-## What next?
+## Co dalej?
 
-Try the [Flower generator](https://projects.raspberrypi.org/en/projects/flower-generator?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, where you will use custom blocks to create flower patterns.
+Wypróbuj projekt [generator kwiatów](https://projects.raspberrypi.org/en/projects/flower-generator?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), w którym będziesz używać własnych bloków do tworzenia kwiecistych wzorów.
 
 \--- no-print \---
 
-Press `f` to draw a few flowers, or `r` to draw lots of random flowers, or `p` to draw a flower pattern.
+Naciśnij `f` aby narysować kilka kwiatów, lub `r` aby narysować wiele losowych kwiatów, lub `p` aby narysować kwiecisty wzór.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/253355932/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -14,6 +14,6 @@ Press `f` to draw a few flowers, or `r` to draw lots of random flowers, or `p` t
 
 \--- print-only \---
 
-![random flowers](images/flower-random.png)
+![losowe kwiaty](images/flower-random.png)
 
 \--- /print-only \---
