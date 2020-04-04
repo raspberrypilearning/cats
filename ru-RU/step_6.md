@@ -1,12 +1,12 @@
-## Get to safety
+## Доберись до безопасного места
 
-The object of the game is to guide the cats to safety by creating a path so they can reach the door. Create a score variable to keep track of how many cats reach the door.
+Цель игры состоит в том, чтобы направить котов в безопасное место, создав для них путь, чтобы они могли добраться до двери. Создай переменную для счёта, чтобы отслеживать, сколько котов достигает двери.
 
 \--- task \---
 
-Create a variable called `score`{:class="block3variables"}.
+Создай новую переменную с именем `счёт`{:class="block3variables"}.
 
-![Cat sprite](images/cat-sprite.png)
+![Спрайт кота](images/cat-sprite.png)
 
 [[[generic-scratch3-add-variable]]]
 
@@ -14,59 +14,59 @@ Create a variable called `score`{:class="block3variables"}.
 
 \--- task \---
 
-Add code to your cat sprite to add `1` to the `score`{:class="block3variables"} each time a cat reaches the door. Also set `score`{:class="block3variables"} to `0` `when the flag is clicked`{:class="block3events"} at the start of the game.
+Добавь код к спрайту кота, чтобы увеличивать `счёт`{:class="block3variables"} на `1` каждый раз, когда кот достигает двери. Также установи `счёт`{:class="block3variables"} равным `0` `когда зелёный флаг нажат`{:class="block3events"} в начале игры.
 
-![Cat sprite](images/cat-sprite.png)
+![Спрайт кота](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-`If`{:class="block3control"} the cat is `touching the door sprite`{:class="block3sensing"}, then `add 1 to the score`{:class="block3variables"}.
+`Если`{:class="block3control"} кот `касается спрайта двери`{:class="block3sensing"}, тогда `добавить 1 к счёту`{:class="block3variables"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the new code blocks you need to add to your `when I start as a clone` script:
+Вот новые блоки кода, которые нужно добавить в блок `когда я начинаю как клон`:
 
 ```blocks3
-change [score v] by (1)
+изменить [счёт v] на (1)
 
-if <> then
+если <>, то
 end
 
 <touching (Door v)?>
 
-set [score v] to (0)
+задать [счёт v] значение (0)
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-This is what your code should look like:
+Вот как должен выглядеть твой код:
 
 ```blocks3
-when I start as a clone
-show
-repeat until <touching (edge v)?>
-    move (10) steps
-    repeat until <touching color [#0000ff]?>
-        change y by (-2)
-    end
-    repeat until <not <touching color [#0000ff]?>>
-        change y by (2)
-    end
-    next costume
-    wait (0.1) seconds
-+   if <touching (Door v)?> then
-        change [score v] by (1)
-    end
+когда я начинаю как клон
+показаться
+повторять пока не <touching (edge v)?> 
+  идти (10) шагов
+  повторять пока не <touching color [#0000ff]?> 
+    изменить y на (-2)
+  end
+  повторять пока не <not <touching color [#0000ff]?>>
+    изменить y на (2)
+  end
+  следующий костюм
+  ждать (0.1) секунд
+  + если <touching (Door v)?>, то 
+    изменить [счет v] на (1)
+  end
 end
-delete this clone
+удалить клон
 
-when flag clicked
+когда щёлкнут по зелёному флагу
 
-+ set [score v] to (0)
+задать [счет v] значение (0)
 ```
 
 \--- /hint \---
@@ -77,13 +77,13 @@ when flag clicked
 
 \--- task \---
 
-Add some more code so that, when a cat sprite reaches the door, the cat makes a 'meow' sound and then disappears.
+Добавь ещё немного кода, чтобы, когда спрайт кота достигает двери, он издавала «мяу», а затем исчезал.
 
-![Cat sprite](images/cat-sprite.png)
+![Спрайт кота](images/cat-sprite.png)
 
 ```blocks3
-play sound (meow v)
-delete this clone
+включить звук (мяу v)
+удалить клон
 ```
 
 \--- /task \---
