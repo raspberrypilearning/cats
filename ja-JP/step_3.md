@@ -23,7 +23,7 @@ end
 
 \--- task \---
 
-スプライトが`クローンされたとき`{:class="block3control"}、 `表示します`{:class="block3looks"}。スプライトがステージにかかれた青いゆかに`触れる`{:class="block3sensing"} (ふれる) まで落ちるようにコードを入れます。
+スプライトが`クローンされたとき`{:class="block3control"}、 `表示します`{:class="block3looks"}。スプライトがステージにかかれた青いゆかに`触れる`{:class="block3sensing"} (ふれる) まで落ちるようにコードを追加します。
 
 ![ネコのスプライト](images/cat-sprite.png)
 
