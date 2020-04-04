@@ -117,7 +117,7 @@ end
 
 \--- task \---
 
-Щоб цього уникнути додай блок `підняти олівець`{:class="block3extensions"} на початку скрипта, а `чекати 1 секунд`{:class="block3control"} перед блоком `завжди`{:class="block3control"}.
+Щоб цього уникнути додай блок `підняти олівець`{:class="block3extensions"} на початку скрипта, а `чекати 1 секунд`{:class="block3control"} – перед блоком `завжди`{:class="block3control"}.
 
 ![Спрайт олівець](images/pen-sprite.png)
 
