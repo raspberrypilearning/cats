@@ -1,35 +1,35 @@
-## Clone cats
+## Clonar gatos
 
-You want a never-ending stream of cats that the player has to guide along the path to the exit.
+Você quer um fluxo interminável de gatos que o jogador precisa guiar ao longo do caminho até a saída.
 
 \--- task \---
 
-Click on the sprite called 'Cat', and add some code to `hide`{:class="block3looks"} the sprite, and also to `clone`{:class="block3control"} it every three seconds.
+Clique no ator chamado 'Gato' e adicione algum código para que se `esconda`{:class="block3looks"} o ator, e também para `crie clone de ()`{:class="block3control"} a cada três segundos.
 
 ![Cat sprite](images/cat-sprite.png)
 
 ```blocks3
-when flag clicked
-hide
-forever
-    create clone of (myself v)
-    wait (3) seconds
-end
+quando bandeira verde for clicado
+esconda
+sempre
+    crie clone de (este ator v)
+    espere (3) seg
+fim
 ```
 
 \--- /task \---
 
-If you run the program now, nothing happens on the Stage. To check that a new Cat sprite clone is created every three seconds, make each clone appear and fall out of the sky.
+Se você executar o programa agora, nada acontece no palco. Para verificar se um novo clone do ator Gato é criado a cada três segundos, faça com que cada clone apareça e caia do céu.
 
 \--- task \---
 
-Add code to tell the sprite that `when it starts as a clone`{:class="block3control"}, it should `show`{:class="block3looks"} itself and fall until it `touches`{:class="block3sensing"} the blue floor that is drawn on the Stage.
+Adicione código para dizer ao ator que `quando eu começar como um clone`{:class="block3control"}, ele se `mostre`{:class="block3looks"} e caia até que ele `toque`{:class="block3sensing"} o chão azul desenhado no palco.
 
 ![Cat sprite](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-`When the sprite starts as a clone`{:class="block3control"}, `show`{:class="block3looks"} the sprite. `Repeatedly`{:class="block3control"} `Change`{:class="block3motion"} the sprite's `y` coordinate by `-2`, until the sprite `touches`{:class="block3sensing"} the blue Stage.
+`quando eu começar como um clone`{:class="block3control"}, `mostre`{:class="block3looks"} o ator. `Repeatedly`{:class="block3control"} `Change`{:class="block3motion"} the sprite's `y` coordinate by `-2`, until the sprite `touches`{:class="block3sensing"} the blue Stage.
 
 \--- /hint \---
 
