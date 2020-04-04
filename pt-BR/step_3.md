@@ -6,7 +6,7 @@ Você quer um fluxo interminável de gatos que o jogador precisa guiar ao longo 
 
 Clique no ator chamado 'Gato' e adicione algum código para que se `esconda`{:class="block3looks"} o ator, e também para `crie clone de ()`{:class="block3control"} a cada três segundos.
 
-![Cat sprite](images/cat-sprite.png)
+![ator Gato](images/cat-sprite.png)
 
 ```blocks3
 quando bandeira verde for clicado
@@ -25,49 +25,49 @@ Se você executar o programa agora, nada acontece no palco. Para verificar se um
 
 Adicione código para dizer ao ator que `quando eu começar como um clone`{:class="block3control"}, ele se `mostre`{:class="block3looks"} e caia até que ele `toque`{:class="block3sensing"} o chão azul desenhado no palco.
 
-![Cat sprite](images/cat-sprite.png)
+![ator Gato](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-`quando eu começar como um clone`{:class="block3control"}, `mostre`{:class="block3looks"} o ator. `Repeatedly`{:class="block3control"} `Change`{:class="block3motion"} the sprite's `y` coordinate by `-2`, until the sprite `touches`{:class="block3sensing"} the blue Stage.
+`quando eu começar como um clone`{:class="block3control"}, `mostre`{:class="block3looks"} o ator. `Repetidamente`{:class="block3control"} `Adicione`{:class="block3motion"} a coordenada `y` do ator por `-2`, até o ator `tocar`{:class="block3sensing"} no palco azul.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+Aqui estão os blocos de código que você precisa:
 
 ```blocks3
-repeat until <>
-end
+repita até que <>
+fim
 
-show
+mostre
 
 <touching color [#0000ff]?>
 
-change y by (-2)
+adicione (-2) a y
 
-when I start as a clone
+quando eu começar como um clone
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-This is what your code should look like:
+É assim que seu código deve parecer:
 
 ```blocks3
-when I start as a clone
-show
-repeat until <touching color [#0000ff]?>
-change y by (-2)
-end
+quando eu começar como um clone
+mostre
+repita até que <touching color [#0000ff]?>
+adicione (-2) a y
+fim
 ```
 
 \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
-When you click the green flag, you should see a new cat fall from the top of the Stage every three seconds. Every cat should land in a big pile of overlapping cats on the blue floor at the bottom.
+Ao clicar na bandeira verde, você verá um novo gato cair do topo do palco a cada três segundos. Todo gato deve pousar em uma grande pilha de gatos sobrepostos no chão azul na parte inferior.
 
-![Falling cats](images/falling-cats.png)
+![Gatos caindo](images/falling-cats.png)
