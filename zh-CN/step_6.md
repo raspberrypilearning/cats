@@ -1,12 +1,12 @@
 ## 让猫保持安全
 
-The object of the game is to guide the cats to safety by creating a path so they can reach the door. Create a score variable to keep track of how many cats reach the door.
+游戏的目标是通过绘制一条路径引导猫咪保持安全，这样他们就可以到达门型出口。 创建一个 分数 变量以跟踪有多少只猫到达了门口。
 
 \--- task \---
 
-Create a variable called `score`{:class="block3variables"}.
+创建一个新的名为 `分数`{:class="block3variables"} 的变量
 
-![Cat sprite](images/cat-sprite.png)
+![猫咪精灵](images/cat-sprite.png)
 
 [[[generic-scratch3-add-variable]]]
 
@@ -14,19 +14,19 @@ Create a variable called `score`{:class="block3variables"}.
 
 \--- task \---
 
-Add code to your cat sprite to add `1` to the `score`{:class="block3variables"} each time a cat reaches the door. Also set `score`{:class="block3variables"} to `0` `when the flag is clicked`{:class="block3events"} at the start of the game.
+添加代码，每次当有猫咪到达门口时，将`分数`{:class="block3variables"} 增加 `1`{:class="block3variables"}。 同时在 `当绿旗被点击`{:class="block3variables"} 将 `分数`{:class="block3variables"} 设为 `0`{:class="block3variables"} 。
 
-![Cat sprite](images/cat-sprite.png)
+![猫咪精灵](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-`If`{:class="block3control"} the cat is `touching the door sprite`{:class="block3sensing"}, then `add 1 to the score`{:class="block3variables"}.
+`如果`{:class="block3variables"} 猫咪精灵 `碰到门`{:class="block3variables"}，`将 分数 增加 1`{:class="block3variables"}。
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the new code blocks you need to add to your `when I start as a clone` script:
+下面是你需要添加到`当作为克隆体启动时` 代码块的代码：
 
 ```blocks3
 change [score v] by (1)
@@ -43,7 +43,7 @@ set [score v] to (0)
 
 \--- hint \---
 
-This is what your code should look like:
+你的代码应该是这样的：
 
 ```blocks3
 when I start as a clone
@@ -77,9 +77,9 @@ when flag clicked
 
 \--- task \---
 
-Add some more code so that, when a cat sprite reaches the door, the cat makes a 'meow' sound and then disappears.
+添加更多代码，以便当猫咪精灵到达门口时，发出 “meow” 的声音，然后消失。
 
-![Cat sprite](images/cat-sprite.png)
+![猫咪精灵](images/cat-sprite.png)
 
 ```blocks3
 play sound (meow v)
