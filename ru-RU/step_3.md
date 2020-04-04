@@ -9,11 +9,11 @@
 ![Спрайт кота](images/cat-sprite.png)
 
 ```blocks3
-when flag clicked
-hide
-forever
-    create clone of (myself v)
-    wait (3) seconds
+когда щёлкнут по зелёному флагу
+спрятаться
+повторять всегда 
+  создать клон (самого себя v)
+  ждать (3) секунд
 end
 ```
 
@@ -38,16 +38,16 @@ end
 Вот блоки кода, которые тебе нужны:
 
 ```blocks3
-repeat until <>
+повторять пока не <>
 end
 
-show
+показаться
 
 <touching color [#0000ff]?>
 
-change y by (-2)
+изменить y на (-2)
 
-when I start as a clone
+когда я начинаю как клон
 ```
 
 \--- /hint \---
@@ -57,10 +57,10 @@ when I start as a clone
 Вот как должен выглядеть твой код:
 
 ```blocks3
-when I start as a clone
-show
-repeat until <touching color [#0000ff]?>
-change y by (-2)
+когда я начинаю как клон
+показаться
+повторять пока не <touching color [#0000ff]?>
+ изменить y на (-2)
 end
 ```
 
@@ -68,6 +68,6 @@ end
 
 \--- /task \---
 
-When you click the green flag, you should see a new cat fall from the top of the Stage every three seconds. Every cat should land in a big pile of overlapping cats on the blue floor at the bottom.
+Когда ты нажмёшь на зелёный флаг, ты должен увидеть, что новый кот падает сверху Сцены каждые 3 секунды. Каждый кот должен приземлиться в большой толпе других котов на синем полу внизу.
 
-![Falling cats](images/falling-cats.png)
+![Падающие кошки](images/falling-cats.png)
