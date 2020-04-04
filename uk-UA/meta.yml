@@ -1,0 +1,18 @@
+---
+title: КОТИ!
+hero_image: images/banner.png
+description: Створи гру, в якій ти проводиш котів у безпечне місце та не даєш їм потрапити у прірву
+listed: true
+copyedit: true
+version: 4.0.2
+last_tested: 2018-10-18
+steps:
+  - title: Вступ
+  - title: Малювання ліній
+  - title: Клонування котів
+  - title: Коти, що рухаються
+  - title: Переміщення по поверхні
+  - title: Шлях до безпечного місця
+  - title: "Завдання: більше перешкод"
+    challenge: true
+  - title: Що далі?

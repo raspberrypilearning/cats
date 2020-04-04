@@ -1,0 +1,18 @@
+---
+title: KOTY!
+hero_image: images/banner.png
+description: Stwórz grę, w której poprowadzisz koty w bezpieczne miejsce i powstrzymasz je przed wpadnięciem do dziury
+listed: true
+copyedit: true
+version: 4.0.2
+last_tested: 2018-10-18
+steps:
+  - title: Wprowadzenie
+  - title: Narysuj linie
+  - title: Klonowanie kotów
+  - title: Spraw, aby koty poruszały się
+  - title: Trzymaj się linii
+  - title: Dostań się w bezpieczne miejsce
+  - title: "Wyzwanie: więcej przeszkód"
+    challenge: true
+  - title: Co dalej?

@@ -1,0 +1,18 @@
+---
+title: КОТЫ!
+hero_image: images/banner.png
+description: Создай игру, в которой ты поможешь котам добраться в безопасное место и не дашь им упасть в пропасть
+listed: true
+copyedit: true
+version: 4.0.2
+last_tested: 2018-10-18
+steps:
+  - title: Введение
+  - title: Нарисуй линии
+  - title: Клонируй котов
+  - title: Заставь котов двигаться
+  - title: Придерживайся линий
+  - title: Доберись до безопасного места
+  - title: "Задача: больше препятствий"
+    challenge: true
+  - title: Что дальше?
