@@ -24,7 +24,7 @@
 
 Нажми на спрайт под названием «Перо» и добавьте код, чтобы установить цвет пера таким же синим, как и у объектов на сцене.
 
-![Pen sprite](images/pen-sprite.png)
+![Спрайт пера](images/pen-sprite.png)
 
 ```blocks3
 когда флажок установлен
@@ -41,7 +41,7 @@
 
 Добавь еще немного кода, чтобы спрайт следовал за указателем мыши. Протестируй свою программу, чтобы убедиться, что код работает.
 
-![Pen sprite](images/pen-sprite.png)
+![Спрайт пера](images/pen-sprite.png)
 
 ```blocks3
 forever
@@ -57,7 +57,7 @@ end
 
 Добавь код, чтобы cпрайт рисовал линию на Сцене, если кнопка мыши нажата.
 
-![Pen sprite](images/pen-sprite.png)
+![Спрайт пера](images/pen-sprite.png)
 
 \--- hints \--- \--- hint \---
 
@@ -72,12 +72,12 @@ end
 ```blocks3
 <mouse down?>
 
-pen down
+опустить перо
 
-pen up
+поднять перо
 
-if <> then
-else
+если <>, то 
+иначе
 end
 ```
 
@@ -85,7 +85,7 @@ end
 
 \--- hint \---
 
-This is what your code should look like:
+Вот как должен выглядеть твой код:
 
 ```blocks3
 when flag clicked
@@ -107,19 +107,19 @@ end
 
 \--- task \---
 
-Test your code. You should be able to click and drag with the mouse to draw a blue line on the Stage.
+Проверь свою программу. Ты должен иметь возможность нажать и перемещать мышку, чтобы нарисовать синюю линию на Сцене.
 
-![Draw a line](images/draw-a-line.png)
+![Рисовать линию](images/draw-a-line.png)
 
 \--- /task \---
 
-You probably see that a blue dot always appears in the top right-hand corner of the Stage (it's circled in the image above). This is because, when you click the green flag to start the game, you press the mouse down, and so the pen immediately starts drawing.
+Ты, вероятно, видишь, что в правом верхнем углу Сцены всегда появляется синяя точка (обведено на рисунке выше). Это потому, что, когда ты нажимаешь на зелёный флажок, чтобы начать игру, ты нажимаешь кнопку мыши, и поэтому перо сразу начинает рисовать.
 
 \--- task \---
 
-To stop this from happening, add a `pen up`{:class="block3extensions"} block at the start of the script, and a `wait one second`{:class="block3control"} block above the `forever`{:class="block3control"} block.
+Чтобы это перестало происходить, добавь блок `поднять перо`{:class="block3extensions"} в начало своего кода и блок `ждать 1 секунд`{:class="block3control"} перед блоком `всегда`{:class="block3control"}.
 
-![Pen sprite](images/pen-sprite.png)
+![Спрайт пера](images/pen-sprite.png)
 
 ```blocks3
 when flag clicked
