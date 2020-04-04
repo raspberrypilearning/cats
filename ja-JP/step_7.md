@@ -1,6 +1,6 @@
-## Challenge: more obstacles
+## チャレンジ: しょうがいぶつをふやす
 
-At the moment, the game is rather easy to win. Can you think of ideas to you make your game harder?
+今のところ、このゲームはかんたんです。 ゲームをむずかしくするアイデアはありますか？
 
 + Add more backgrounds with different platform designs.
 
