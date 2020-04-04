@@ -1,22 +1,22 @@
-## Make the cats move
+## 让猫咪动起来
 
-Once a cat reaches the floor, it should step slowly to the right.
+一旦猫咪到达地面，它就应慢慢向右边走。
 
 \--- task \---
 
-Add code to the `when I start as a clone`{:class="block3control"} section to make the cat sprite `move ten steps`{:class="block3motion"}, and switch between the sprite's two costumes every 0.1 seconds to make the cat look like it's walking.
+添加代码到 `当作为克隆体启动时`{:class="block3control"} ，使猫咪精灵 `移动 10 步`{:class="block3control"} 并且 每隔 0.1 秒在猫咪精灵的两个造型之间切换，来让猫咪看起来像在走路。
 
-![Cat sprite](images/cat-sprite.png)
+![猫咪精灵](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-The cat sprite should `move 10 steps`{:class="block3motion"}, and `switch costume`{:class="block3looks"} every `0.1 seconds`{:class="block3control"}. This code should repeat `forever`{:class="block3control"}, just like the code to make the cat fall.
+猫咪精灵应该 `移动 10 步`{:class="block3motion"} 并且每 `0.1秒`{:class="block3motion"} 切换 `下一个造型`{:class="block3motion"} 。 这个代码应该和猫咪下落的代码一样在 `重复执行`{:class="block3control"}积木块里。
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+以下是你需要的代码块：
 
 ```blocks3
 move (10) steps
@@ -33,7 +33,7 @@ end
 
 \--- hint \---
 
-This is what your code should look like:
+你的代码应该是这样的：
 
 ```blocks3
 when I start as a clone
@@ -54,19 +54,19 @@ end
 
 \--- task \---
 
-Press the green flag and check that the cats now move along the blue platform at the bottom.
+按下绿色小旗标志，然后检查猫现在是否沿着底部的蓝色平台移动。
 
 \--- /task \---
 
-If you draw a bridge across the gap so that the cats can get all the way to the right side of the Stage, you can see that they end up getting stuck walking into the right wall.
+如果您在间隙上通过画线架起一座桥，来让猫咪可以一直走到舞台的右侧，您会发现它们最终被困在右墙中。
 
-![Flailing cats at the edge](images/flailing-at-edge.png)
+![在边缘挣扎的猫咪](images/flailing-at-edge.png)
 
 \--- task \---
 
-Remove the `forever`{:class="block3control"} loop, and instead add a different loop to make the cats only walk until they reach an edge. When a cat reaches the edge of the Stage, it should disappear.
+删除 `重复执行` {：class =“ block3control”} 循环，替换为一个 重复执行直到碰到舞台边缘 的循环积木块。 当猫咪到达舞台边缘时，它应该消失。
 
-![Cat sprite](images/cat-sprite.png)
+![猫咪精灵](images/cat-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -86,26 +86,26 @@ end
 
 \--- task \---
 
-Press the green flag and check that the cats disappear when they reach the edge of the Stage.
+按下绿色小旗标志，并检查猫咪到达舞台边缘时是否消失。
 
 \--- /task \---
 
-You may notice that, if the cats fall into the hole, they don't disappear but instead get stuck at the bottom. This is because they keep trying to fall downwards.
+您可能会注意到，如果猫掉入洞中，它们不会消失，而会卡在底部。 这是因为他们不断试图向下下滑。
 
-This is the part of the code that tells the cat to keep falling until it touches blue:
+这是代码的一部分，它告诉猫继续跌落，直到它碰到蓝色：
 
 ```blocks3
 repeat until <touching color [#0000ff]?>
 end
 ```
 
-However, in the hole, the cat can never reach blue, so it is stuck forever.
+但是，在洞中，猫永远无法到达蓝色，因此它会一直被卡住。
 
 \--- task \---
 
-Add more blocks to this loop so that it repeats until the cat sprite is touching blue `or`{:class="block3operators"} `touching the edge`{:class="block3sensing"}. This way, the sprite stops trying to fall if it reaches the edge of the Stage.
+向此循环添加更多块，重复执行直到碰到颜色蓝色 `或`{:class="block3operators"}, `碰到舞台边缘`{:class="block3sensing"}。 这样，如果精灵到达舞台的边缘，它将停止尝试掉落。
 
-![Cat sprite](images/cat-sprite.png)
+![猫咪精灵](images/cat-sprite.png)
 
 ```blocks3
 repeat until <<touching color [#0000ff]?> or <touching (edge v)?>>
