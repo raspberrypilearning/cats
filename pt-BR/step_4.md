@@ -1,51 +1,51 @@
-## Make the cats move
+## Faça os gatos se moverem
 
-Once a cat reaches the floor, it should step slowly to the right.
+Uma vez que o gato chega ao chão, deve avançar lentamente para a direita.
 
 \--- task \---
 
-Add code to the `when I start as a clone`{:class="block3control"} section to make the cat sprite `move ten steps`{:class="block3motion"}, and switch between the sprite's two costumes every 0.1 seconds to make the cat look like it's walking.
+Adicione código à seção `quando eu começar como um clone`{:class="block3control"} para fazer com que o ator Gato se `mova 10 passos`{:class="block3motion"}, e alterne entre as duas fantasias do ator a cada 0,1 segundos para fazer o gato parecer andar.
 
 ![Cat sprite](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-The cat sprite should `move 10 steps`{:class="block3motion"}, and `switch costume`{:class="block3looks"} every `0.1 seconds`{:class="block3control"}. This code should repeat `forever`{:class="block3control"}, just like the code to make the cat fall.
+O ator Gato deve `mover 10 passos`{:class="block3motion"} e `mude para a fantasia ()`{:class="block3looks"} a cada `0,1 segundos`{:class="block3control"}. Este código deve repetir `sempre`{:class="block3control"}, assim como o código para fazer o gato cair.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+Aqui estão os blocos de código que você precisa:
 
 ```blocks3
-move (10) steps
+mova (10) passos
 
-wait (0.1) seconds
+espere(0.1) seg
 
-next costume
+próxima fantasia
 
-forever
-end
+sempre
+fim
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-This is what your code should look like:
+É assim que seu código deve parecer:
 
 ```blocks3
-when I start as a clone
-show
-+ forever
-    move (10) steps
-    repeat until <touching color [#0000ff]?>
-        change y by (-2)
-    end
-    next costume
-    wait (0.1) seconds
-end
+quando eu começar como um clone
+mostre
++ sempre
+    mova (10) passos
+    repita até que <touching color [#0000ff]?>
+        adicione (-2) a y
+    fim
+    próxima fantasia
+    espere(0.1) seg.
+fim
 ```
 
 \--- /hint \---
@@ -54,7 +54,7 @@ end
 
 \--- task \---
 
-Press the green flag and check that the cats now move along the blue platform at the bottom.
+Pressione a bandeira verde e verifique se os gatos agora se movem ao longo da plataforma azul na parte inferior.
 
 \--- /task \---
 
