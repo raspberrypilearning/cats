@@ -1,20 +1,20 @@
-## Draw lines
+## 画线
 
 \--- task \---
 
-Open the 'CATS!' Scratch starter project.
+打开“猫！”的初始项目。
 
-**Online:** open the starter project at [rpf.io/cats-on](http://rpf.io/cats-on){:target="_blank"}.
+**在线版本:** 从这里 [rpf.io/cats-on](http://rpf.io/cats-on){:target ="_ blank"} 打开初始项目。
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+如果您有 Scratch 帐户，可以单击 **改编** 复制这个项目。
 
-**Offline:** open the [starter project](http://rpf.io/p/en/cats-go) in the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+**离线版本:** 在离线编辑器中打开 [初始项目](http://rpf.io/p/en/cats-go)。 如果您需要下载并安装 Scratch 离线编辑器，可以点击链接获取[rpf.io/scratchoff](http://rpf.io/scratchoff) {:target="_blank"}。
 
 \--- /task \---
 
 \--- task \---
 
-Add the Pen extension to your project.
+将 pen 扩展库添加到项目中。
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -22,9 +22,9 @@ Add the Pen extension to your project.
 
 \--- task \---
 
-Click on the sprite called 'Pen', and add code to set the pen colour to the same blue as the obstacles on the Stage.
+单击名为 “笔” 的精灵，然后添加代码将笔的颜色设置为与舞台上的障碍物相同的蓝色。
 
-![Pen sprite](images/pen-sprite.png)
+![笔精灵](images/pen-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -33,15 +33,15 @@ erase all
 set pen size to (5)
 ```
 
-To select a colour, click on the colour square in the `set pen color`{:class="block3extensions"} block to make your mouse cursor turn into a pipette, and then click on the correct colour on the Stage.
+要选择一种颜色，请在 `将笔的颜色设置为`{:class=" block3extensions"} 积木块中单击颜色块，在打开的弹窗中选择滴管工具并移动到舞台中的障碍物上，来获取正确的颜色
 
 \--- /task \---
 
 \--- task \---
 
-Add some more code to make the sprite follow the mouse pointer. Test your program to check that the code works.
+添加更多代码来让精灵随着鼠标移动。 测试您的程序以检查代码是否有效。
 
-![Pen sprite](images/pen-sprite.png)
+![笔精灵](images/pen-sprite.png)
 
 ```blocks3
 forever
@@ -55,19 +55,19 @@ end
 
 \--- task \---
 
-Add some code to tell the sprite to draw a line on the Stage if the mouse button is pressed down.
+添加一些代码，告诉精灵如果按下鼠标按钮，则可以在舞台上画一条线。
 
-![Pen sprite](images/pen-sprite.png)
+![笔精灵](images/pen-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-`If`{:class="block3control"} the `mouse is down`{:class="block3sensing"}, put the `pen down`{:class="block3extensions"}, and `else`{:class="block3control"}, lift the `pen up`{:class="block3extensions"}.
+`如果`{:class="block3control"}`按下鼠标?`{:class=" block3sensing"}，则 `落笔`{:class="block3extensions"}，`否则`{:class="block3control"}，`抬笔`{:class ="block3extensions"}。
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+下面是你需要的代码块：
 
 ```blocks3
 <mouse down?>
@@ -85,7 +85,7 @@ end
 
 \--- hint \---
 
-This is what your code should look like:
+你的代码应该是这样的：
 
 ```blocks3
 when flag clicked
@@ -107,19 +107,19 @@ end
 
 \--- task \---
 
-Test your code. You should be able to click and drag with the mouse to draw a blue line on the Stage.
+测试你的代码。 您应该能够单击并拖动鼠标在舞台上绘制蓝色的线。
 
-![Draw a line](images/draw-a-line.png)
+![画一条线](images/draw-a-line.png)
 
 \--- /task \---
 
-You probably see that a blue dot always appears in the top right-hand corner of the Stage (it's circled in the image above). This is because, when you click the green flag to start the game, you press the mouse down, and so the pen immediately starts drawing.
+您可能会看到一个蓝点始终出现在舞台的右上角(在上图中被圈出)。 这是因为，当您单击绿色标志开始游戏时，您按下了鼠标，因此笔立即开始绘制。
 
 \--- task \---
 
-To stop this from happening, add a `pen up`{:class="block3extensions"} block at the start of the script, and a `wait one second`{:class="block3control"} block above the `forever`{:class="block3control"} block.
+为了阻止这种情况发生，在代码块开始的部分添加 `抬笔`{:class="block3extensions"} 和 `等待 1 秒`{:class="block3control"} 积木块，放在 `重复执行`{:class=" block3control"} 积木块前面。
 
-![Pen sprite](images/pen-sprite.png)
+![笔精灵](images/pen-sprite.png)
 
 ```blocks3
 when flag clicked
