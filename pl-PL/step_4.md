@@ -1,22 +1,22 @@
-## Make the cats move
+## Spraw, aby koty poruszały się
 
-Once a cat reaches the floor, it should step slowly to the right.
+Gdy kot dotrze do podłogi, powinien powoli posuwać się w prawo.
 
 \--- task \---
 
-Add code to the `when I start as a clone`{:class="block3control"} section to make the cat sprite `move ten steps`{:class="block3motion"}, and switch between the sprite's two costumes every 0.1 seconds to make the cat look like it's walking.
+Dodaj następujący kod do sekcji `gdy zaczynam jako klon`{:class="block3control"} duszka kota aby `przesuń o 10 kroków`{:class="block3motion"}, i przełączaj dwoma kostiumami duszka co 0,1 sekundy żeby kot wyglądał, jakby szedł.
 
-![Cat sprite](images/cat-sprite.png)
+![Duszek kota](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-The cat sprite should `move 10 steps`{:class="block3motion"}, and `switch costume`{:class="block3looks"} every `0.1 seconds`{:class="block3control"}. This code should repeat `forever`{:class="block3control"}, just like the code to make the cat fall.
+Duszek kota powinien się `przesunąć o10 kroków`{:class="block3motion"} i następnie zmienić kostium `następny kostium`{:class="block3looks"}co `0,1 sekundy`{:class="block3control"}. Ten kod powinien powtarzać się `zawsze`{:class="block3control"}, podobnie jak kod powodujący upadek kota.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+Oto potrzebne bloki kodu:
 
 ```blocks3
 move (10) steps
@@ -33,7 +33,7 @@ end
 
 \--- hint \---
 
-This is what your code should look like:
+Tak powinien wyglądać Twój kod:
 
 ```blocks3
 when I start as a clone
@@ -54,19 +54,19 @@ end
 
 \--- task \---
 
-Press the green flag and check that the cats now move along the blue platform at the bottom.
+Naciśnij zieloną flagę i sprawdź, czy koty poruszają się teraz wzdłuż niebieskiej platformy na dole.
 
 \--- /task \---
 
-If you draw a bridge across the gap so that the cats can get all the way to the right side of the Stage, you can see that they end up getting stuck walking into the right wall.
+Jeśli narysujesz most nad dziurą, aby koty mogły dotrzeć do końca prawej strony sceny, zobaczysz, że w końcu utknęły w prawej ścianie.
 
-![Flailing cats at the edge](images/flailing-at-edge.png)
+![Spadające koty na krawędzi](images/flailing-at-edge.png)
 
 \--- task \---
 
-Remove the `forever`{:class="block3control"} loop, and instead add a different loop to make the cats only walk until they reach an edge. When a cat reaches the edge of the Stage, it should disappear.
+Usuń pętlę `zawsze`{:class="block3control"} i zamiast niej dodaj inną pętlę, aby koty chodziły tylko do krawędzi. Kiedy kot dotrze do krawędzi sceny, powinien zniknąć.
 
-![Cat sprite](images/cat-sprite.png)
+![Duszek kota](images/cat-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -86,26 +86,26 @@ end
 
 \--- task \---
 
-Press the green flag and check that the cats disappear when they reach the edge of the Stage.
+Naciśnij zieloną flagę i sprawdź, czy koty znikają, gdy dotrą do krawędzi sceny.
 
 \--- /task \---
 
-You may notice that, if the cats fall into the hole, they don't disappear but instead get stuck at the bottom. This is because they keep trying to fall downwards.
+Możesz zauważyć, że jeśli koty wpadną do dziury, nie znikną, ale utkną na dole. To dlatego, że wciąż próbują spadać w dół.
 
-This is the part of the code that tells the cat to keep falling until it touches blue:
+To jest część kodu, która mówi kotowi, aby spadał, dopóki nie dotknie niebieskiego:
 
 ```blocks3
 repeat until <touching color [#0000ff]?>
 end
 ```
 
-However, in the hole, the cat can never reach blue, so it is stuck forever.
+Jednak w dziurze kot nigdy nie osiągnie niebieskiego, więc utknie na zawsze.
 
 \--- task \---
 
-Add more blocks to this loop so that it repeats until the cat sprite is touching blue `or`{:class="block3operators"} `touching the edge`{:class="block3sensing"}. This way, the sprite stops trying to fall if it reaches the edge of the Stage.
+Dodaj więcej bloków do tej pętli, aby powtarzała się, aż duszek kota dotknie niebieskiego `lub`{:class="block3operators"} `dotknie krawędzi`{:class="block3sensing"}. W ten sposób duszek przestaje próbować spadać, jeśli dojdzie do krawędzi sceny.
 
-![Cat sprite](images/cat-sprite.png)
+![Duszek kota](images/cat-sprite.png)
 
 ```blocks3
 repeat until <<touching color [#0000ff]?> or <touching (edge v)?>>
