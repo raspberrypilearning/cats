@@ -6,13 +6,13 @@
 
 ## はじめに
 
-このプロジェクトでは、ネコを安全にあんないして、あなにネコを落とさないようにするゲームを作ります。
+このプロジェクトでは、ネコを安全な場所へみちびき、あなにネコを落とさないようにするゲームを作ります。
 
 ### 作るもの
 
 \--- no-print \---
 
-ペンで線を引くには、マウスでクリックしてドラッグします。 このゲームの目的は、出口への安全な道を作ってネコが穴に落ちるのをふせぐことです。
+ペンで線を引くには、マウスでクリックしてドラッグします。 このゲームのもくてきは、出口への安全な道を作ってネコがあなに落ちるのをふせぐことです。
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/253667883/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -22,7 +22,7 @@
 
 \--- print-only \---
 
-![ネコ！完成版](images/cats-finished.png)
+![ネコ！(かんせい)](images/cats-finished.png)
 
 \--- /print-only \---
 
