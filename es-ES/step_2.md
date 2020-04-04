@@ -1,0 +1,142 @@
+## Dibuja líneas
+
+--- task ---
+
+Abre el proyecto de inicio de Scratch '¡GATOS!'.
+
+**En línea:** abre el proyecto de inicio en [scratch.mit.edu/projects/382692590](https://scratch.mit.edu/projects/382692590){:target="_blank"}.
+
+Si tienes una cuenta de Scratch puedes hacer una copia haciendo clic en **Reinventar**.
+
+**Sin conexión**: abre el [proyecto de inicio](http://rpf.io/p/es-ES/cats-go) en el editor sin conexión. Si necesitas descargar e instalar el editor sin conexión de Scratch, puedes encontrarlo en [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+
+--- /task ---
+
+--- task ---
+
+Añade la extensión Lápiz a tu proyecto.
+
+[[[generic-scratch3-add-pen-extension]]]
+
+--- /task ---
+
+--- task ---
+
+Haz clic en el objeto llamado 'Lápiz' y agrega el código para establecer el color del lápiz en el mismo azul que los obstáculos en el Escenario.
+
+![Objeto lápiz](images/pen-sprite.png)
+
+```blocks3
+al presionar la bandera verde
+fijar el color del lápiz a [#0000ff]
+borrar todo
+fijar tamaño del lápiz a (5)
+```
+
+Para seleccionar un color, haz clic en el cuadrado de color en el bloque `fijar color de lápiz a`{:class="block3extensions"} para hacer que el cursor del ratón se convierta en una pipeta, y luego haz clic en el color correcto en el Escenario.
+
+--- /task ---
+
+--- task ---
+
+Agrega un poco más de código para que el objeto siga al puntero del ratón. Prueba tu programa para verificar que el código funcione.
+
+![Objeto lápiz](images/pen-sprite.png)
+
+```blocks3
+por siempre 
+ir a (puntero del ratón v)
+end
+```
+
+[[[generic-scratch3-saving]]]
+
+--- /task ---
+
+--- task ---
+
+Agrega algo de código para indicarle al objeto que dibuje una línea en el escenario si se presiona el botón del ratón.
+
+![Objeto lápiz](images/pen-sprite.png)
+
+--- hints ---
+ --- hint ---
+
+`Si`{:class="block3control"} el `ratón está pulsado`{:class="block3sensing"}, pon el `lápiz abajo`{:class="block3extensions"}, y `sino`{:class="block3control"}, levanta el `lápiz hacia arriba`{:class="block3extensions"}.
+
+--- /hint ---
+
+--- hint ---
+
+Aquí están los bloques de código que necesitas:
+
+```blocks3
+<mouse down?>
+
+bajar lápiz
+
+subir lápiz
+
+si <> entonces
+si no
+end
+```
+
+--- /hint ---
+
+--- hint ---
+
+Así es como debería verse tu código:
+
+```blocks3
+al presionar bandera verde
+fijar color de lápiz a [#0000ff]
+borrar todo
+fijar tamaño de lápiz a (5)
+por siempre 
+ir a (puntero del ratón v)
+si <mouse down?> entonces 
+bajar lápiz
+si no 
+subir lápiz
+end
+end
+```
+
+--- /hint ---
+
+--- /hints --- --- /task ---
+
+--- task ---
+
+Prueba tu código. Deberías poder hacer clic y arrastrar con el ratón para dibujar una línea azul en el escenario.
+
+![Dibuja una línea](images/draw-a-line.png)
+
+--- /task ---
+
+Probablemente veas que siempre aparece un punto azul en la esquina superior derecha del Escenario (está encerrado en un círculo en la imagen de arriba). Esto se debe a que, cuando haces clic en la bandera verde para iniciar el juego, presionas el ratón y el bolígrafo comienza a dibujar inmediatamente.
+
+--- task ---
+
+Para evitar que esto suceda, agrega un bloque `subir lápiz`{:class="block3extensions"} al comienzo del script, y un bloque `esperar (1) segundos`{:class="block3control"} sobre el bloque `por siempre`{:class="block3control"}.
+
+![Objeto lápiz](images/pen-sprite.png)
+
+```blocks3
+al presionar bandera verde
++ subir lápiz
+fijar color de lápiz a [#0000ff]
+borrar todo
+fijar tamaño de lápiz a (5)
++ esperar (1) segundos
+por siempre 
+ir a (puntero del ratón v)
+si <mouse down?> entonces 
+bajar lápiz
+si no 
+subir lápiz
+end
+```
+
+--- /task ---
