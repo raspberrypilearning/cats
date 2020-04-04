@@ -1,4 +1,4 @@
-## Stick to the lines
+## 让猫咪沿着线行走
 
 You might notice that, if you draw a low bridge between the two platforms, or a line that slopes upwards, the cats end up walking through the platform rather than on top of it!
 
