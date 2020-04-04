@@ -4,9 +4,9 @@
 
 \--- task \---
 
-Click on the sprite called 'Cat', and add some code to `hide`{:class="block3looks"} the sprite, and also to `clone`{:class="block3control"} it every three seconds.
+单击名为 "猫咪" 的精灵，然后添加代码来 `隐藏`{:class=" block3looks"} 猫咪精灵，并每 3 秒 `克隆自己`{:class="block3looks"}。
 
-![Cat sprite](images/cat-sprite.png)
+![猫咪精灵](images/cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -19,23 +19,23 @@ end
 
 \--- /task \---
 
-If you run the program now, nothing happens on the Stage. To check that a new Cat sprite clone is created every three seconds, make each clone appear and fall out of the sky.
+如果您现在运行程序，舞台上什么也不会发生。 要检查是否每 3 秒克隆了一个新的猫咪精灵，我们需要让猫咪显示出来并从天空中掉下来
 
 \--- task \---
 
-Add code to tell the sprite that `when it starts as a clone`{:class="block3control"}, it should `show`{:class="block3looks"} itself and fall until it `touches`{:class="block3sensing"} the blue floor that is drawn on the Stage.
+添加代码，`当作为克隆体启动时`{:class="block3control"}，它应该`显示`{:class="block3control"}，然后 `碰到颜色`{:class="block3control"} 为舞台上绘制的蓝色。
 
-![Cat sprite](images/cat-sprite.png)
+![猫咪精灵](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-`When the sprite starts as a clone`{:class="block3control"}, `show`{:class="block3looks"} the sprite. `Repeatedly`{:class="block3control"} `Change`{:class="block3motion"} the sprite's `y` coordinate by `-2`, until the sprite `touches`{:class="block3sensing"} the blue Stage.
+`当作为克隆体启动时`{:class="block3control"}，`显示`{:class="block3control"} 精灵。 `重复执行直到`{:class =“ block3control”}`碰到颜色`{:class =“ block3control”} 蓝色 `将 y 坐标增加`{:class =“ block3control”}`-2`
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+以下是你需要的代码块：
 
 ```blocks3
 repeat until <>
@@ -54,7 +54,7 @@ when I start as a clone
 
 \--- hint \---
 
-This is what your code should look like:
+你的代码应该是这样的：
 
 ```blocks3
 when I start as a clone
@@ -68,6 +68,6 @@ end
 
 \--- /task \---
 
-When you click the green flag, you should see a new cat fall from the top of the Stage every three seconds. Every cat should land in a big pile of overlapping cats on the blue floor at the bottom.
+单击绿色小旗标志时，您应该看到每三秒钟一只新的猫咪从舞台的顶部掉下来。 蓝色的地板上应该有一大堆的猫咪
 
-![Falling cats](images/falling-cats.png)
+![掉落的猫咪](images/falling-cats.png)
