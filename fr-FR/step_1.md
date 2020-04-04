@@ -6,7 +6,7 @@ Ceci est la version **Scratch 3** du projet. Il existe également une version [S
 
 ## Introduction
 
-Dans ce projet, tu vas créer un jeu dans lequel tu dois guider les chats en sécurité et ne laisser aucun d'entre eux passer à travers le vide !
+Dans ce projet, tu vas créer un jeu dans lequel tu dois guider les chats en sécurité et ne laisser aucun d'entre eux tomber dans le vide !
 
 ### Ce que tu feras
 
@@ -37,7 +37,7 @@ Clique et glisse la souris pour tracer une ligne avec le crayon. Ton but est d'e
 
 ## \--- collapse \---
 
-## title: Ce que tu auras besoin
+## title: Ce qu'il te faut
 
 ### Matériel informatique
 
