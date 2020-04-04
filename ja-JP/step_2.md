@@ -55,13 +55,13 @@ end
 
 \--- task \---
 
-スプライトに、マウスボタンがおされた時にステージ上に線をかくようにめいれいするコードを追加します。
+スプライトに、マウスボタンが押された (おされた) ときにステージ上に線をかくようにめいれいするコードを追加します。
 
 ![ペンスプライト](images/pen-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-`もし`{:class="block3control"}`マウスが押された`{:class="block3sensing"} (おされた) なら、 `ペンを下ろし`{:class="block3extensions"}、`でなければ`{:class="block3control"}`ペンを上げます`{:class="block3extensions"}。
+`もし`{:class="block3control"}`マウスが押された`{:class="block3sensing"}なら、 `ペンを下ろし`{:class="block3extensions"}、`でなければ`{:class="block3control"}`ペンを上げます`{:class="block3extensions"}。
 
 \--- /hint \---
 
