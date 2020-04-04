@@ -1,6 +1,6 @@
-## Clone cats
+## 克隆猫咪
 
-You want a never-ending stream of cats that the player has to guide along the path to the exit.
+您需要源源不断的生成猫咪来让玩家画出路径引导猫咪直到出口。
 
 \--- task \---
 
