@@ -4,7 +4,7 @@ Une fois qu'un chat atteint le sol, il devrait avancer lentement vers la droite.
 
 \--- task \---
 
-Ajoute du code à la section `quand je commence comme un clone`{:class="block3control"} pour que le sprite chat se `déplace de dix pas`{:class="block3motion"}, et bascule entre les deux costumes du sprite toutes les 0,1 secondes pour que le chat ait l'air de marcher.
+Ajoute du code à la section `quand je commence comme un clone`{:class="block3control"} pour que le sprite chat se `déplace de dix pas`{:class="block3motion"}, et change entre les deux costumes du sprite toutes les 0,1 secondes pour que le chat ait l'air de marcher.
 
 ![Sprite Chat](images/cat-sprite.png)
 
@@ -54,7 +54,7 @@ end
 
 \--- task \---
 
-Appuies sur le drapeau vert et vérifie que les chats se déplacent maintenant le long de la plate-forme bleue en bas.
+Appuie sur le drapeau vert et vérifie que les chats se déplacent maintenant le long de la plate-forme bleue en bas.
 
 \--- /task \---
 
@@ -86,7 +86,7 @@ end
 
 \--- task \---
 
-Appuies sur le drapeau vert et vérifie que les chats disparaissent lorsqu'ils atteignent le bord de la scène.
+Appuie sur le drapeau vert et vérifie que les chats disparaissent lorsqu'ils atteignent le bord de la scène.
 
 \--- /task \---
 
