@@ -33,20 +33,20 @@ apague tudo
 adicione (5) ao tamanho da caneta
 ```
 
-To select a colour, click on the colour square in the `set pen color`{:class="block3extensions"} block to make your mouse cursor turn into a pipette, and then click on the correct colour on the Stage.
+Para selecionar uma cor, clique no quadrado de cores no bloco `mude a cor da caneta para`{:class="block3extensions"} para transformar o cursor do mouse em uma pipeta e clique na cor correta no palco.
 
 \--- /task \---
 
 \--- task \---
 
-Add some more code to make the sprite follow the mouse pointer. Test your program to check that the code works.
+Adicione um pouco mais de código para fazer o ator seguir o ponteiro do mouse. Teste seu programa para verificar se o código funciona.
 
 ![Pen sprite](images/pen-sprite.png)
 
 ```blocks3
-forever
-go to (mouse pointer v)
-end
+sempre
+vá para (ponteiro do mouse v)
+fim
 ```
 
 [[[generic-scratch3-saving]]]
@@ -55,19 +55,19 @@ end
 
 \--- task \---
 
-Add some code to tell the sprite to draw a line on the Stage if the mouse button is pressed down.
+Adicione algum código para dizer ao ator para desenhar uma linha no palco se o botão do mouse for pressionado.
 
 ![Pen sprite](images/pen-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-`If`{:class="block3control"} the `mouse is down`{:class="block3sensing"}, put the `pen down`{:class="block3extensions"}, and `else`{:class="block3control"}, lift the `pen up`{:class="block3extensions"}.
+`Se`{:class="block3control"} o `mouse está pressionado`{:class="block3sensing"}, `use a caneta`{:class="block3extensions"}, e `senão`{:class="block3control"}, `levante a caneta`{:class="block3extensions "}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+Aqui estão os blocos de código que você precisa:
 
 ```blocks3
 <mouse down?>
