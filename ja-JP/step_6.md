@@ -4,9 +4,9 @@
 
 \--- task \---
 
-Create a variable called `score`{:class="block3variables"}.
+`スコア`{:class="block3variables"}という名前の変数を作りましょう。
 
-![Cat sprite](images/cat-sprite.png)
+![ネコのスプライト](images/cat-sprite.png)
 
 [[[generic-scratch3-add-variable]]]
 
@@ -14,19 +14,19 @@ Create a variable called `score`{:class="block3variables"}.
 
 \--- task \---
 
-Add code to your cat sprite to add `1` to the `score`{:class="block3variables"} each time a cat reaches the door. Also set `score`{:class="block3variables"} to `0` `when the flag is clicked`{:class="block3events"} at the start of the game.
+ネコのスプライトに、ネコがドアに着くたびに`スコア`{:class="block3variables"}に`1`を足すコードを追加します。 また、ゲームを始めるときに`旗がクリックされたとき`{:class="block3events"}、`スコア`{:class="block3variables"}を`0`にするようにします。
 
-![Cat sprite](images/cat-sprite.png)
+![ネコのスプライト](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-`If`{:class="block3control"} the cat is `touching the door sprite`{:class="block3sensing"}, then `add 1 to the score`{:class="block3variables"}.
+`もし`{:class="block3control"}ネコが`ドアのスプライトに触れている` {:class="block3sensing"}なら、`スコアに1を足します` {:class="block3variables"}。
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the new code blocks you need to add to your `when I start as a clone` script:
+`クローンされたとき`スクリプトに追加する新しいコードブロックです。
 
 ```blocks3
 change [score v] by (1)
@@ -43,7 +43,7 @@ set [score v] to (0)
 
 \--- hint \---
 
-This is what your code should look like:
+コードは次のようになります。
 
 ```blocks3
 when I start as a clone
@@ -77,9 +77,9 @@ when flag clicked
 
 \--- task \---
 
-Add some more code so that, when a cat sprite reaches the door, the cat makes a 'meow' sound and then disappears.
+ネコのスプライトがドアに着いたときに「ニャー」という音を出して消えるように、さらにコードを入れます。
 
-![Cat sprite](images/cat-sprite.png)
+![ネコのスプライト](images/cat-sprite.png)
 
 ```blocks3
 play sound (meow v)
