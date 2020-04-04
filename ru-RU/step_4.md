@@ -1,31 +1,31 @@
-## Make the cats move
+## Заставь котов двигаться
 
-Once a cat reaches the floor, it should step slowly to the right.
+Как только кот достигает пола, он должен медленно двигаться вправо.
 
 \--- task \---
 
-Add code to the `when I start as a clone`{:class="block3control"} section to make the cat sprite `move ten steps`{:class="block3motion"}, and switch between the sprite's two costumes every 0.1 seconds to make the cat look like it's walking.
+Добавь код в секцию `когда я начинаю как клон`{:class="block3control"}, чтобы спрайт кота `шёл 10 шагов`{:class="block3motion"}, и переключался между двумя костюмами спрайта каждую 0.1 секунду, чтобы кот выглядел так, как будто он идёт.
 
-![Cat sprite](images/cat-sprite.png)
+![Спрайт кота](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-The cat sprite should `move 10 steps`{:class="block3motion"}, and `switch costume`{:class="block3looks"} every `0.1 seconds`{:class="block3control"}. This code should repeat `forever`{:class="block3control"}, just like the code to make the cat fall.
+Спрайт кота должен `идти 10 шагов`{:class="block3motion"}, и `следующий костюм`{:class="block3looks"} каждую `0.1 секунд`{:class="block3control"}. Этот код должен повторяться `всегда`{:class="block3control"}, так же, как и код, заставляющий кота падать.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+Вот блоки кода, которые тебе нужны:
 
 ```blocks3
-move (10) steps
+идти (10) шагов
 
-wait (0.1) seconds
+ждать (0.1) секунд
 
-next costume
+следующий костюм
 
-forever
+повторять всегда
 end
 ```
 
@@ -33,18 +33,18 @@ end
 
 \--- hint \---
 
-This is what your code should look like:
+Вот как должен выглядеть твой код:
 
 ```blocks3
-when I start as a clone
-show
-+ forever
-    move (10) steps
-    repeat until <touching color [#0000ff]?>
-        change y by (-2)
-    end
-    next costume
-    wait (0.1) seconds
+когда я начинаю как клон
+показаться
++ повторять всегда 
+   идти (10) шагов
+   повторять пока не <touching color [#0000ff]?>
+      изменить y на (-2)
+   end
+   следующий костюм
+   ждать (0.1) секунд
 end
 ```
 
@@ -54,61 +54,61 @@ end
 
 \--- task \---
 
-Press the green flag and check that the cats now move along the blue platform at the bottom.
+Нажми зелёный флаг и убедись, что кошки теперь движутся по синей платформе внизу.
 
 \--- /task \---
 
-If you draw a bridge across the gap so that the cats can get all the way to the right side of the Stage, you can see that they end up getting stuck walking into the right wall.
+Если ты нарисуешь мост через пропасть, чтобы кошки смогли добраться до правой стороны Сцены, то ты увидишь, что они в конце концов застревают упёршись в стену справа.
 
-![Flailing cats at the edge](images/flailing-at-edge.png)
+![Падающие коты на краю](images/flailing-at-edge.png)
 
 \--- task \---
 
-Remove the `forever`{:class="block3control"} loop, and instead add a different loop to make the cats only walk until they reach an edge. When a cat reaches the edge of the Stage, it should disappear.
+Удали цикл `всегда`{:class="block3control"}, и вместо этого добавь другой цикл, чтобы коты ходили, пока не достигнут края. Когда кот достигает края Сцены, он должен исчезнуть.
 
-![Cat sprite](images/cat-sprite.png)
+![Спрайт кота](images/cat-sprite.png)
 
 ```blocks3
-when I start as a clone
-show
-+ repeat until <touching (edge v)?>
-    move (10) steps
-    repeat until <touching color [#0000ff]?>
-        change y by (-2)
-    end
-    next costume
-    wait (0.1) seconds
+когда я начинаю как клон
+показаться
++ повторять пока не <touching (edge v)?>
+  идти (10) шагов
+  повторять пока не <touching color [#0000ff]?>
+    изменить y на (-2)
+  end
+  следующий костюм
+  ждать (0.1) секунд
 end
-+ delete this clone
++ удалить клон
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Press the green flag and check that the cats disappear when they reach the edge of the Stage.
+Нажми на зелёный флаг и убедись, что коты исчезают, когда они достигают края Сцены.
 
 \--- /task \---
 
-You may notice that, if the cats fall into the hole, they don't disappear but instead get stuck at the bottom. This is because they keep trying to fall downwards.
+Ты можешь заметить, что, если коты падают в пропасть, они не исчезают, а застревают на дне. Это потому, что они продолжают пытаться упасть вниз.
 
-This is the part of the code that tells the cat to keep falling until it touches blue:
+Это часть кода, которая говорит котам продолжать падать, пока они не прикоснуться к синему цвету:
 
 ```blocks3
-repeat until <touching color [#0000ff]?>
+повторять пока не <touching color [#0000ff]?>
 end
 ```
 
-However, in the hole, the cat can never reach blue, so it is stuck forever.
+Однако кот никогда не сможет достичь синего цвета в пропасти, поэтому он застрянет навсегда.
 
 \--- task \---
 
-Add more blocks to this loop so that it repeats until the cat sprite is touching blue `or`{:class="block3operators"} `touching the edge`{:class="block3sensing"}. This way, the sprite stops trying to fall if it reaches the edge of the Stage.
+Добавь больше блоков в этот цикл, чтобы он повторялся до тех пор, пока спрайт кота не коснётся синего цвета `или`{:class="block3operators"} `коснется края`{:class="block3sensing"}. Таким образом, спрайт перестанет падать, если достигнет края Сцены.
 
-![Cat sprite](images/cat-sprite.png)
+![Спрайт кота](images/cat-sprite.png)
 
 ```blocks3
-repeat until <<touching color [#0000ff]?> or <touching (edge v)?>>
+повторять пока не <<touching color [#0000ff]?> or <touching (edge v)?>>
 end
 ```
 
