@@ -1,10 +1,10 @@
 ## ネコのクローンを作る
 
-ゲームには、プレイヤーが出口までの道にそってあんないする、つぎつぎと出てくるネコが必要です。
+このゲームには、プレイヤーが出口までの道にそってみちびく、つぎつぎと出てくるネコが必要です。
 
 \--- task \---
 
-「ネコ」というスプライトをクリックします。`隠す`{:class="block3looks"} (かくす) ブロックをスプライトに追加し、さらに3秒ごとにスプライトの`クローンを作る`{:class="block3looks"}。
+「ネコ」というスプライトをクリックします。`隠す`{:class="block3looks"} (かくす) ブロックをスプライトに追加し、さらに3秒ごとにスプライトの`クローンを作ります`{:class="block3looks"}。
 
 ![ネコのスプライト](images/cat-sprite.png)
 
@@ -23,13 +23,13 @@ end
 
 \--- task \---
 
-スプライトが`クローンされたとき`{:class="block3control"}、 `表示`{:class="block3looks"}します。スプライトがステージにかかれた青いゆかに`触れる`{:class="block3sensing"} (ふれる) まで落ちるようにコードを入れます。
+スプライトが`クローンされたとき`{:class="block3control"}、 `表示します`{:class="block3looks"}。スプライトがステージにかかれた青いゆかに`触れる`{:class="block3sensing"} (ふれる) まで落ちるようにコードを入れます。
 
 ![ネコのスプライト](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-スプライトが`クローンされたとき`{:class="block3control"}、 `表示`{:class="block3looks"}します。 ステージの青い部分に`触れる`{:class="block3sensing"}まで、スプライトの`y`座標 (ざひょう) を`-2`ずつ`繰り返し`{:class="block3control"} (くりかえし) `変え`{:class="block3motion"} (かえ) ます。
+スプライトが`クローンされたとき`{:class="block3control"}、 `表示します`{:class="block3looks"}。 ステージの青い部分に`触れる`{:class="block3sensing"}まで、スプライトの`y`座標 (ざひょう) を`-2`ずつ`繰り返し`{:class="block3control"} (くりかえし) `変え`{:class="block3motion"} (かえ) ます。
 
 \--- /hint \---
 
