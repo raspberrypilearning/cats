@@ -1,24 +1,24 @@
-## Stick to the lines
+## Trzymaj się linii
 
-You might notice that, if you draw a low bridge between the two platforms, or a line that slopes upwards, the cats end up walking through the platform rather than on top of it!
+Możesz zauważyć, że jeśli narysujesz nisko zawieszony most między dwiema platformami lub stromą linię w górę, koty ostatecznie przechodzą przez platformę, zamiast po niej!
 
-![Cats walking through the platform](images/cat-walk-through-platform.png)
+![Koty przechodzą przez platformę](images/cat-walk-through-platform.png)
 
 \--- task \---
 
-In the code for the cat sprite, add another loop before the `next costume`{:class="block3looks"} block. This time, the loop should tell the cat to move upwards by `2` until it is not touching blue.
+W kodzie duszka kota dodaj kolejną pętlę przed blokiem `następny kostium`{:class="block3looks"}. Tym razem pętla powinna poinformować kota o przesunięciu się w górę o `2` dopóki nie dotknie niebieskiego.
 
-![Cat sprite](images/cat-sprite.png)
+![Duszek kota](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-The cat should `move up 2`{:class="block3motion"} `repeatedly until`{:class="block3control"} it is `not`{:class="block3operators"} `touching blue`{:class="block3sensing"}.
+Kot powinien `przesuwać się w górę o 2`{:class="block3motion"} i `powtarzać aż`{:class="block3control"} `nie`{:class="block3operators"} `dotyka niebieskiego`{:class="block3sensing"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+Oto potrzebne bloki kodu:
 
 ```blocks3
 <touching color [#0000ff]?>
@@ -35,7 +35,7 @@ not <>
 
 \--- hint \---
 
-This is what your code should look like:
+Tak powinien wyglądać Twój kod:
 
 ```blocks3
 when I start as a clone
@@ -60,6 +60,6 @@ delete this clone
 
 \--- task \---
 
-Click the green flag and try drawing a line that slopes upwards. Check that your cat follows this line.
+Kliknij zieloną flagę i spróbuj rysować linię nachylenia w górę. Sprawdź, czy twój kot podąża za tą linią.
 
 \--- /task \---
