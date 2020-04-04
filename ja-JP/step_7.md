@@ -2,12 +2,12 @@
 
 今のところ、このゲームはかんたんです。 ゲームをむずかしくするアイデアはありますか？
 
-+ Add more backgrounds with different platform designs.
++ ちがうデザインの足場を背景に追加する。
 
-+ Move the location of the door depending on which background is displayed.
++ 表示される背景に応じて、ドアの位置を移動する。
 
 + 動くしょうがいぶつとしてスプライトを追加する。 ネコがさけなければいけない、うろつく犬や回転するトゲなどでしょうか。
 
-+ Only allow the player to use a limited amount of "ink" to draw lines in the game. You can keep track of how much "ink" is used by creating a timer variable that records how long the mouse is held down.
++ プレイヤーがゲームの中で線をかくために使える「インク」のりょうがかぎられている。 マウスをおしている時間をきろくするタイマー変数を作ることで、使用された「インク」のりょうをきろくできます。
 
-+ Create a sprite to show the player how much ink is left.
++ プレイヤーにのこっているインクのりょうを知らせるスプライトを作る。
