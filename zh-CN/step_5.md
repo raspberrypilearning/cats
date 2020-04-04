@@ -1,24 +1,24 @@
 ## 让猫咪沿着线行走
 
-You might notice that, if you draw a low bridge between the two platforms, or a line that slopes upwards, the cats end up walking through the platform rather than on top of it!
+您可能会注意到，如果您在两个平台之间画了一座稍微低一些的桥， 或者一条向上倾斜的直线，猫最终会在平台或线上穿行而不是走在它们上面！
 
-![Cats walking through the platform](images/cat-walk-through-platform.png)
+![小猫咪们走过平台](images/cat-walk-through-platform.png)
 
 \--- task \---
 
-In the code for the cat sprite, add another loop before the `next costume`{:class="block3looks"} block. This time, the loop should tell the cat to move upwards by `2` until it is not touching blue.
+在猫咪精灵的代码中，在 `下一个造型`{:class="block3looks"} 积木块之前添加另一个循环。 这一次，循环应该告诉猫咪上移 `2` 步直到它不触碰蓝色。
 
-![Cat sprite](images/cat-sprite.png)
+![猫咪精灵](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-The cat should `move up 2`{:class="block3motion"} `repeatedly until`{:class="block3control"} it is `not`{:class="block3operators"} `touching blue`{:class="block3sensing"}.
+猫咪应该 `重复执行直到`{:class="block3motion"} `碰到颜色 蓝色`{:class="block3motion"} `不成立`{:class="block3motion"} `将 y 坐标增加2 `{:class="block3motion"}。
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+以下是你需要的代码块：
 
 ```blocks3
 <touching color [#0000ff]?>
@@ -35,7 +35,7 @@ not <>
 
 \--- hint \---
 
-This is what your code should look like:
+你的代码应该是这样的：
 
 ```blocks3
 when I start as a clone
@@ -60,6 +60,6 @@ delete this clone
 
 \--- task \---
 
-Click the green flag and try drawing a line that slopes upwards. Check that your cat follows this line.
+单击绿色小旗标志，然后尝试绘制一条向上倾斜的线。 请检查您的猫是否跟随这条线。
 
 \--- /task \---
