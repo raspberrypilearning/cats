@@ -61,7 +61,7 @@ Ajoute du code pour dire au sprite de tracer une ligne sur la scène si le bouto
 
 \--- hints \--- \--- hint \---
 
-`si`{:class="block3control"} `souris pressée ?`{:class="block3sensing"}, `stylo en position d'écriture`{:class="block3extensions"}, et `sinon`{:class=" block3control"}, `relever le stylo`{:class="block3extensions"}.
+`si`{:class="block3control"} `souris pressée ?`{:class="block3sensing"}, `crayon en position d'écriture`{:class="block3extensions"}, et `sinon`{:class=" block3control"}, `relever le crayon`{:class="block3extensions"}.
 
 \--- /hint \---
 
@@ -117,7 +117,7 @@ Tu vois probablement qu'un point bleu apparaît toujours dans le coin supérieur
 
 \--- task \---
 
-Pour éviter que cela ne se produise, ajoute un bloc `relever le stylo`{:class="block3extensions"} au début du script et un bloc `attendre une seconde`{:class="block3control"} au-dessus du bloc `répéter indéfiniment`{:class="block3control"}.
+Pour éviter que cela ne se produise, ajoute un bloc `relever le crayon`{:class="block3extensions"} au début du script et un bloc `attendre une seconde`{:class="block3control"} au-dessus du bloc `répéter indéfiniment`{:class="block3control"}.
 
 ![Sprite Crayon](images/pen-sprite.png)
 
