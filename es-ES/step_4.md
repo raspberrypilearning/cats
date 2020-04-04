@@ -90,7 +90,7 @@ Presiona la bandera verde y verifica que los gatos desaparezcan cuando lleguen a
 
 \--- /task \---
 
-Date cuenta de que, si los gatos caen en el agujero, no desaparecen, sino que se clavados en la parte inferior. Esto se debe a que siguen tratando de caerse.
+Date cuenta de que, si los gatos caen en el agujero, no desaparecen, sino que se quedan clavados en la parte inferior. Esto se debe a que siguen tratando de caerse.
 
 Esta es la parte del código que le dice al gato que siga cayendo hasta que toque el color azul:
 
