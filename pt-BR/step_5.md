@@ -2,13 +2,13 @@
 
 Você pode ter notado que, se você desenhar uma ponte baixa entre as duas plataformas, ou uma linha que inclina para cima, os gatos acabam por caminhar através da plataforma e não por cima dela!
 
-![Cats walking through the platform](images/cat-walk-through-platform.png)
+![Gatos andando através da plataforma](images/cat-walk-through-platform.png)
 
 \--- task \---
 
 No código do ator Gato, adicione outro laço antes do bloco `próxima fantasia` {:class="block3looks"}. Desta vez, o laço deve dizer ao gato para subir `2` até não tocar na cor azul.
 
-![Cat sprite](images/cat-sprite.png)
+![ator Gato](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
@@ -23,35 +23,35 @@ Aqui estão os blocos de código que você precisa:
 ```blocks3
 <touching color [#0000ff]?>
 
-change y by (2)
+adicione (2) a y
 
-repeat until <>
-end
+repita até que <>
+fim
 
-not <>
+não <>
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-This is what your code should look like:
+É assim que seu código deve parecer:
 
 ```blocks3
-when I start as a clone
-show
-repeat until <touching (edge v)?>
-    move (10) steps
-    repeat until <touching color [#0000ff]?>
-        change y by (-2)
-    end
-    repeat until <not <touching color [#0000ff]?>>
-        change y by (2)
-    end
-    next costume
-    wait (0.1) seconds
-end
-delete this clone
+quando eu começar como um clone
+mostre
+repita até que <touching (edge v)?>
+    mova(10) passos
+    repita até que <touching color [#0000ff]?>
+        adicione (-2) a y
+    fim
+    repita até que <not <touching color [#0000ff]?>>
+        adicione (2) a y
+    fim
+    próxima fantasia
+    espere (0.1) seg
+fim
+apague este clone
 ```
 
 \--- /hint \---
@@ -60,6 +60,6 @@ delete this clone
 
 \--- task \---
 
-Click the green flag and try drawing a line that slopes upwards. Check that your cat follows this line.
+Clique na bandeira verde e tente desenhar uma linha inclinada para cima. Verifique se o gato segue a linha.
 
 \--- /task \---
