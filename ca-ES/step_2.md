@@ -1,10 +1,10 @@
-## Draw lines
+## Dibuixa línies
 
 \--- task \---
 
-Open the 'CATS!' Scratch starter project.
+Obre el projecte inicial "CATS!" d’Scratch.
 
-**Online:** open the starter project at [rpf.io/cats-on](http://rpf.io/cats-on){:target="_blank"}.
+**En línia:** obre el projecte inicial a [rpf.io/cats-on ](http://rpf.io/cats-on) {:target = "_ blank"}.
 
 Si tens un compte a Scratch pots fer una còpia fent clic a **Reinventa**.
 
@@ -14,7 +14,7 @@ Si tens un compte a Scratch pots fer una còpia fent clic a **Reinventa**.
 
 \--- task \---
 
-Add the Pen extension to your project.
+Afegeix l’extensió Llapis al teu projecte.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -22,9 +22,9 @@ Add the Pen extension to your project.
 
 \--- task \---
 
-Click on the sprite called 'Pen', and add code to set the pen colour to the same blue as the obstacles on the Stage.
+Fes clic al personatge anomenat "Llapis", i afegeix codi per configurar el color del llapis al mateix blau que el dels obstacles de l'escenari.
 
-![Pen sprite](images/pen-sprite.png)
+![Personatge del llapis](images/pen-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -33,13 +33,13 @@ erase all
 set pen size to (5)
 ```
 
-To select a colour, click on the colour square in the `set pen color`{:class="block3extensions"} block to make your mouse cursor turn into a pipette, and then click on the correct colour on the Stage.
+Per seleccionar un color, fes clic al quadrat de color del bloc `fixa el color del llapis a`{:class="block3extensions"} per fer que el cursor del ratolí es converteixi en una pipeta i, a continuació, fes clic al color correcte de l'escenari.
 
 \--- /task \---
 
 \--- task \---
 
-Add some more code to make the sprite follow the mouse pointer. Prova el programa per comprovar que el codi funciona.
+Afegeix més codi per tal que el personatge segueixi el punter del ratolí. Prova el programa per comprovar que el codi funciona.
 
 ![Pen sprite](images/pen-sprite.png)
 
