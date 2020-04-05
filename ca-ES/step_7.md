@@ -1,13 +1,13 @@
 ## Repte: més obstacles
 
-At the moment, the game is rather easy to win. Can you think of ideas to you make your game harder?
+De moment, el joc és bastant fàcil de guanyar. Pots pensar en idees que facin el joc més difícil?
 
-+ Add more backgrounds with different platform designs.
++ Afegeix més fons amb dissenys de plataformes diferents.
 
-+ Move the location of the door depending on which background is displayed.
++ Desplaça la ubicació de la porta segons quin fons es mostri.
 
-+ Add more sprites as moving obstacles. Perhaps you could have roaming dogs or rotating spikes the cats need to avoid?
++ Afegeix més objectes com obstacles en moviment. Potser podries tenir gossos voltant o punxes rotatives que els gats hagin d'evitar?
 
-+ Only allow the player to use a limited amount of "ink" to draw lines in the game. You can keep track of how much "ink" is used by creating a timer variable that records how long the mouse is held down.
++ Permet al jugador que utilitzi només una quantitat limitada de "tinta" per dibuixar línies en el joc. Pots fer un seguiment de la quantitat de "tinta" que s'utilitza creant una variable temporitzador que enregistri quant de temps es manté el ratolí pressionat.
 
-+ Create a sprite to show the player how much ink is left.
++ Crea un personatge que mostri al jugador la quantitat de tinta que queda.
