@@ -22,7 +22,7 @@ Füge die Malstift Erweiterung zu deinem Projekt hinzu.
 
 \--- task \---
 
-Klicke auf die Figut mit dem Namen "Stift" und füge Code hinzu, um die Stiftfarbe auf das gleiche Blau wie die Hindernisse auf der Bühne einzustellen.
+Klicke auf die Figur mit dem Namen "Stift" und füge einen Code hinzu, um die Stiftfarbe auf das gleiche Blau wie die Hindernisse auf der Bühne einzustellen.
 
 ![Stift Figur](images/pen-sprite.png)
 
@@ -55,7 +55,7 @@ end
 
 \--- task \---
 
-Füge Code hinzu, um die Figur anzuweisen, eine Linie auf der Bühne zu zeichnen, wenn die Maustaste gedrückt wird.
+Füge einen Code hinzu, um die Figur anzuweisen, eine Linie auf der Bühne zu zeichnen, wenn die Maustaste gedrückt wird.
 
 ![Stift Figur](images/pen-sprite.png)
 
@@ -67,7 +67,7 @@ Füge Code hinzu, um die Figur anzuweisen, eine Linie auf der Bühne zu zeichnen
 
 \--- hint \---
 
-Hier sind die Codeblöcke die du brauchst:
+Hier sind die Codeblöcke, die du brauchst:
 
 ```blocks3
 <mouse down?>
