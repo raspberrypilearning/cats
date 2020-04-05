@@ -4,7 +4,7 @@ O objetivo do jogo é guiar os gatos para o abrigo em segurança, criando um cam
 
 \--- task \---
 
-Crie uma nova variável chamada `pontos`{:class="block3variables"}.
+Crie uma nova variável chamada `pontuação`{:class="block3variables"}.
 
 ![Cat sprite](images/cat-sprite.png)
 
@@ -14,36 +14,35 @@ Crie uma nova variável chamada `pontos`{:class="block3variables"}.
 
 \--- task \---
 
-Add code to your cat sprite to add `1` to the `score`{:class="block3variables"} each time a cat reaches the door. Also set `score`{:class="block3variables"} to `0` `when the flag is clicked`{:class="block3events"} at the start of the game.
+Adicione código ao ator Gato para adicionar `1` à `pontuação`{:class="block3variables"} cada vez que um gato chega na porta. Defina também `pontos`{:class="block3variables"} como `0` `quando bandeira verde for clicado` {: class = "block3events"} no início do jogo.
 
 ![Cat sprite](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-`If`{:class="block3control"} the cat is `touching the door sprite`{:class="block3sensing"}, then `add 1 to the score`{:class="block3variables"}.
+`Se`{:class="block3control"} o gato está `tocando em Porta`{:class="block3sensing"}, então, `adiciona 1 a pontuação`{:class="block3variables"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the new code blocks you need to add to your `when I start as a clone` script:
+Estes são os novos blocos de código que você precisa adicionar ao seu script `quando eu começar como um clone`:
 
 ```blocks3
-change [score v] by (1)
-
-if <> then
-end
+adicione (1) a [pontuação v]
+se <> então
+fim
 
 <touching (Door v)?>
 
-set [score v] to (0)
+mude [pontuação v] para (0)
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-This is what your code should look like:
+É assim que seu código deve parecer:
 
 ```blocks3
 when I start as a clone
