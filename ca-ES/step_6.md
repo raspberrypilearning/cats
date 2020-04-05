@@ -1,12 +1,12 @@
-## Get to safety
+## Fes que vagin segurs
 
-The object of the game is to guide the cats to safety by creating a path so they can reach the door. Create a score variable to keep track of how many cats reach the door.
+L’objectiu del joc és guiar els gats de manera segura creant un camí perquè puguin arribar fins a la porta. Crea una variable de puntuació per fer un seguiment de quants gats arriben fins la porta.
 
 \--- task \---
 
-Create a variable called `score`{:class="block3variables"}.
+Crea una variable anomenada `puntuació`{:class="block3variables"}.
 
-![Cat sprite](images/cat-sprite.png)
+![Personatge del gat](images/cat-sprite.png)
 
 [[[generic-scratch3-add-variable]]]
 
@@ -14,19 +14,19 @@ Create a variable called `score`{:class="block3variables"}.
 
 \--- task \---
 
-Add code to your cat sprite to add `1` to the `score`{:class="block3variables"} each time a cat reaches the door. Also set `score`{:class="block3variables"} to `0` `when the flag is clicked`{:class="block3events"} at the start of the game.
+Afegeix codi al teu personatge de gat per afegir `1` a la `puntuació`{:class="block3variables"} cada vegada que un gat arribi a la porta. També assigna a `puntuació`{:class="block3variables"} el valor `0` `quan es faci clic a la bandera`{:class="block3events"} al començament del joc.
 
-![Cat sprite](images/cat-sprite.png)
+![Personatge del gat](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-`If`{:class="block3control"} the cat is `touching the door sprite`{:class="block3sensing"}, then `add 1 to the score`{:class="block3variables"}.
+`Si`{:class="block3control"} el gat està `tocant a la porta`{:class="block3sensing"}, aleshores `afegir 1 a la puntuació`{:class="block3variables"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the new code blocks you need to add to your `when I start as a clone` script:
+Aquests són els nou blocs de codi que necessites afegir al que ja tens `quan començo com a clon`:
 
 ```blocks3
 change [score v] by (1)
@@ -77,9 +77,9 @@ when flag clicked
 
 \--- task \---
 
-Add some more code so that, when a cat sprite reaches the door, the cat makes a 'meow' sound and then disappears.
+Afegeix més codi per tal que, quan un personatge de gat arriba a la porta, aquest faci el so 'mèu' i després desaparegui.
 
-![Cat sprite](images/cat-sprite.png)
+![Personatge del gat](images/cat-sprite.png)
 
 ```blocks3
 play sound (meow v)
