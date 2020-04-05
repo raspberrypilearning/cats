@@ -4,7 +4,7 @@
 
 --- task ---
 
-单击名为 "猫咪" 的精灵，然后添加代码来 `隐藏`{:class="block3looks"} 猫咪精灵，并每 3 秒 `克隆自己`{:class="block3looks"}。
+单击名为 "猫咪" 的精灵，然后添加代码来 `隐藏`{:class="block3looks"} 猫咪精灵，并每 3 秒 `克隆自己`{:class="block3control"}。
 
 ![猫咪精灵](images/cat-sprite.png)
 
@@ -23,7 +23,7 @@ end
 
 --- task ---
 
-添加代码，`当作为克隆体启动时`{:class="block3control"}，它应该`显示`{:class="block3control"}，然后 `碰到颜色`{:class="block3control"} 为舞台上绘制的蓝色。
+添加代码，`当作为克隆体启动时`{:class="block3control"}，它应该`显示`{:class="block3looks"}，然后 `碰到颜色`{:class="block3sensing"} 为舞台上绘制的蓝色。
 
 ![猫咪精灵](images/cat-sprite.png)
 
