@@ -6,7 +6,7 @@ Es tracta de la versió **Scratch 3** del projecte. També hi ha una [versió de
 
 ## Introducció
 
-In this project, you will create a game in which you need to guide cats to safety and not let any of them fall through the gaps!
+En aquest projecte, crearàs un joc en el qual has guiar els gats de forma segura i no deixar que cap d’ells caigui entre els buits!
 
 ### Què faràs
 
@@ -30,8 +30,8 @@ Fes clic i arrossega amb el ratolí per dibuixar una línia amb el llapis. El te
 
 ## title: Què aprendràs
 
-+ How to use a `forever`{:class="block3control"} loop to constantly generate moving cats
-+ How to use a `repeat until`{:class="block3control"} loop to ensure your cats follow a line
++ Com utilitzar un bucle `per sempre`{:class="block3control"} per generar constantment gats en moviment
++ Com utilitzar un bucle `repeteix fins`{:class="block3control"} per assegurar-te que els teus gats segueixen una línia
 
 \--- /collapse \---
 
@@ -45,11 +45,11 @@ Fes clic i arrossega amb el ratolí per dibuixar una línia amb el llapis. El te
 
 ### Programari
 
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (ja sigui [en línia](http://rpf.io/scratchon){:target="_ blank"} o [fora de línia](http://rpf.io/scratchoff){:target="_ blank"})
 
 ### Descàrregues
 
-+ [Offline starter project](http://rpf.io/p/en/cats-go){:target="_blank"}
++ [Projecte inicial fora de línia](http://rpf.io/p/en/cats-go){:target="_ blank"}
 
 \--- /collapse \---
 
@@ -59,8 +59,8 @@ Fes clic i arrossega amb el ratolí per dibuixar una línia amb el llapis. El te
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/cats/print). \--- /no-print \---
+Si necessites imprimir aquest projecte, si us plau utilitza la [versió per a imprimir](https://projects.raspberrypi.org/en/projects/cats/print). \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/cats-get){:target="_blank"}.
+Pots trobar el [projecte acabat aquí](http://rpf.io/p/en/cats-get){:target="_blank"}.
 
 \--- /collapse \---
