@@ -1,0 +1,18 @@
+---
+title: GATOS!
+hero_image: images/banner.png
+description: Crie um jogo em que você guia os gatos para o abrigo e impeça que eles caiam em buracos
+listed: true
+copyedit: true
+version: 4.0.2
+last_tested: 2018-10-18
+steps:
+  - title: Introdução
+  - title: Desenhar linhas
+  - title: Clonar gatos
+  - title: Faça os gatos se moverem
+  - title: Fiquem nas linhas
+  - title: Vá para o abrigo
+  - title: "Desafio: Mais obstáculos"
+    challenge: true
+  - title: E agora?

@@ -1,0 +1,18 @@
+---
+title: ネコ！
+hero_image: images/banner.png
+description: ネコを安全な場所へみちびき、あなに落ちないようにするゲームを作る
+listed: true
+copyedit: true
+version: 4.0.2
+last_tested: 2018-10-18
+steps:
+  - title: はじめに
+  - title: 線をかく
+  - title: ネコのクローンを作る
+  - title: ネコを動かす
+  - title: 線にそわせる
+  - title: 安全な場所へ
+  - title: "チャレンジ: しょうがいぶつをふやす"
+    challenge: true
+  - title: 次は何をしましょうか？
