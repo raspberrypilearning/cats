@@ -1,26 +1,26 @@
 ---
-title: CATS!
+title: GATOS!
 hero_image: images/banner.png
-description: Create a game in which you guide cats to safety and stop them from falling into holes
+description: Crie um jogo em que você guia os gatos para o abrigo e impeça que eles caiam em buracos
 listed: true
 copyedit: true
 version: 4.0.2
 last_tested: 2018-10-18
 steps:
   - 
-    title: Introduction
+    title: Introdução
   - 
-    title: Draw lines
+    title: Desenhar linhas
   - 
-    title: Clone cats
+    title: Clonar gatos
   - 
-    title: Make the cats move
+    title: Faça os gatos se moverem
   - 
-    title: Stick to the lines
+    title: Fiquem nas linhas
   - 
-    title: Get to safety
+    title: Vá para o abrigo
   - 
-    title: "Challenge: more obstacles"
+    title: "Desafio: Mais obstáculos"
     challenge: true
   - 
-    title: What next?
+    title: E agora?
