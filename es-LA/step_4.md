@@ -42,7 +42,7 @@ mostrar
 + por siempre 
   mover (10) pasos
   repetir hasta que <touching color [#0000ff]?> 
-    cambiar y a (-2)
+    change y by (-2)
   end
   siguiente disfraz
   esperar (0.1) segundos
@@ -75,7 +75,7 @@ mostrar
 + repetir hasta que <touching (edge v)?> 
 mover (10) pasos
 repetir hasta que <touching color [#0000ff]?> 
-cambiar y a (-2)
+change y by (-2)
 end
 siguiente disfraz
 esperar (0.1) segundos

@@ -9,7 +9,7 @@ Haz clic en el objeto llamado 'Gato' y agrega un código para `esconder`{:class=
 ![Objeto Gato](images/cat-sprite.png)
 
 ```blocks3
-al presionar bandera
+when flag clicked
 esconder
 por siempre 
 crear clon de (mí mismo v)
@@ -46,7 +46,7 @@ mostrar
 
 <touching color [#0000ff]?>
 
-cambia y a (-2)
+change y by (-2)
 
 al comenzar como clon
 ```

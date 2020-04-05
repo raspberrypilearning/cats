@@ -27,10 +27,10 @@ Haz clic en el objeto llamado 'Lápiz' y agrega el código para establecer el co
 ![Objeto lápiz](images/pen-sprite.png)
 
 ```blocks3
-al presionar la bandera
-fijar el color del lápiz a [#0000ff]
-borrar todo
-fijar tamaño del lápiz a (5)
+when flag clicked
+set pen color to [#0000ff]
+erase all
+set pen size to (5)
 ```
 
 Para seleccionar un color, haz clic en el cuadro de color del bloque `fijar color del lápiz`{:class="block3extensions"} para hacer que el cursor del ratón se convierta en una pipeta, y luego haz clic en el color correcto en el escenario.
@@ -89,13 +89,13 @@ end
 Así es como debería verse tu código:
 
 ```blocks3
-al presionar bandera
+when flag clicked
 fijar color de lápiz a [#0000ff]
 borrar todo
 fijar tamaño de lápiz a (5)
 por siempre 
 ir a (puntero del ratón v)
-si <mouse down?> entonces 
++ si <mouse down?> entonces 
 bajar lápiz
 si no 
 subir lápiz
