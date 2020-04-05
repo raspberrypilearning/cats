@@ -10,7 +10,7 @@ Adicione código à seção `quando eu começar como um clone`{:class="block3con
 
 \--- hints \--- \--- hint \---
 
-O ator Gato deve `mover 10 passos`{:class="block3motion"} e `mude para a fantasia ()`{:class="block3looks"} a cada `0,1 segundos`{:class="block3control"}. Este código deve repetir `sempre`{:class="block3control"}, assim como o código para fazer o gato cair.
+O ator Gato deve `mover 10 passos`{:class="block3motion"} e `mude para a fantasia ()`{:class="block3looks"} a cada `0.1 segundos`{:class="block3control"}. Este código deve repetir `sempre`{:class="block3control"}, assim como o código para fazer o gato cair.
 
 \--- /hint \---
 
@@ -58,52 +58,52 @@ Pressione a bandeira verde e verifique se os gatos agora se movem ao longo da pl
 
 \--- /task \---
 
-If you draw a bridge across the gap so that the cats can get all the way to the right side of the Stage, you can see that they end up getting stuck walking into the right wall.
+Se você desenhar uma ponte através da abertura para que os gatos possam chegar até o lado direito do Palco, poderá ver que eles acabam ficando presos andando para a parede direita.
 
 ![Flailing cats at the edge](images/flailing-at-edge.png)
 
 \--- task \---
 
-Remove the `forever`{:class="block3control"} loop, and instead add a different loop to make the cats only walk until they reach an edge. When a cat reaches the edge of the Stage, it should disappear.
+Remova o laço `sempre`{:class="block3control"} e adicione um laço diferente para fazer com que os gatos andem apenas até atingirem uma borda. Quando um gato chega na borda do palco, ele deve desaparecer.
 
 ![Cat sprite](images/cat-sprite.png)
 
 ```blocks3
-when I start as a clone
-show
-+ repeat until <touching (edge v)?>
-    move (10) steps
-    repeat until <touching color [#0000ff]?>
-        change y by (-2)
-    end
-    next costume
-    wait (0.1) seconds
-end
-+ delete this clone
+quando eu começar como um clone
+mostre
++ repita até que <touching (edge v)?>
+    mova(10) passos
+    repita até que <touching color [#0000ff]?>
+        adicione (-2) a y
+    fim
+    próxima fantasia
+    espere (0.1) seg
+fim
++ apague este clone
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Press the green flag and check that the cats disappear when they reach the edge of the Stage.
+Pressione a bandeira verde e verifique se os gatos desaparecem quando chegam na borda do palco.
 
 \--- /task \---
 
-You may notice that, if the cats fall into the hole, they don't disappear but instead get stuck at the bottom. This is because they keep trying to fall downwards.
+Você pode perceber que, se os gatos caem no buraco, eles não desaparecem, mas ficam presos no fundo. Isso acontece porque eles continuam tentando cair mais fundo.
 
-This is the part of the code that tells the cat to keep falling until it touches blue:
+Esta é a parte do código que diz ao gato para continuar caindo até tocar no azul:
 
 ```blocks3
-repeat until <touching color [#0000ff]?>
-end
+repita até que <touching color [#0000ff]?>
+fim
 ```
 
-However, in the hole, the cat can never reach blue, so it is stuck forever.
+Entretanto, no buraco, o gato nunca pode chegar no azul, por isso fica preso para sempre.
 
 \--- task \---
 
-Add more blocks to this loop so that it repeats until the cat sprite is touching blue `or`{:class="block3operators"} `touching the edge`{:class="block3sensing"}. This way, the sprite stops trying to fall if it reaches the edge of the Stage.
+Adicione mais blocos a esse loop para que ele repita até o ator Gato tocar no azul `ou`{:class="block3operators"} `tocando em borda`{:class="block3sensing"}. Dessa forma, o ator para de tentar cair se atingir a borda do Palco.
 
 ![Cat sprite](images/cat-sprite.png)
 
