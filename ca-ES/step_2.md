@@ -6,9 +6,9 @@ Open the 'CATS!' Scratch starter project.
 
 **Online:** open the starter project at [rpf.io/cats-on](http://rpf.io/cats-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Si tens un compte a Scratch pots fer una còpia fent clic a **Reinventa**.
 
-**Offline:** open the [starter project](http://rpf.io/p/en/cats-go) in the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+**Fora de línia:** obriu el [projecte inicial](http://rpf.io/p/en/cats-go) a l’editor fora de línia. Si necessites descarregar i instal·lar l'editor fora de línia d'Scratch, el pots trobar a [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
@@ -39,7 +39,7 @@ To select a colour, click on the colour square in the `set pen color`{:class="bl
 
 \--- task \---
 
-Add some more code to make the sprite follow the mouse pointer. Test your program to check that the code works.
+Add some more code to make the sprite follow the mouse pointer. Prova el programa per comprovar que el codi funciona.
 
 ![Pen sprite](images/pen-sprite.png)
 
@@ -67,7 +67,7 @@ Add some code to tell the sprite to draw a line on the Stage if the mouse button
 
 \--- hint \---
 
-Here are the code blocks you need:
+Aquí tens els blocs que necessites:
 
 ```blocks3
 <mouse down?>
@@ -85,7 +85,7 @@ end
 
 \--- hint \---
 
-This is what your code should look like:
+Així és com s'hauria de veure el teu codi:
 
 ```blocks3
 when flag clicked
@@ -107,9 +107,9 @@ end
 
 \--- task \---
 
-Test your code. You should be able to click and drag with the mouse to draw a blue line on the Stage.
+Prova el codi nou. You should be able to click and drag with the mouse to draw a blue line on the Stage.
 
-![Draw a line](images/draw-a-line.png)
+![Dibuixa una línia](images/draw-a-line.png)
 
 \--- /task \---
 
