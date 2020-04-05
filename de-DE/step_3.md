@@ -4,7 +4,7 @@ Du möchtest einen endlosen Strom von Katzen, die der Spieler auf den Weg zum Au
 
 \--- task \---
 
-Klicke auf die Figur namens 'Katze' und füge Code hinzu um sie zu `verstecken`{:class="block3looks"} und um sie alle drei Sekunden zu `klonen`{:class="block3control"}.
+Klicke auf die Figur namens 'Katze' und füge einen Code hinzu, um sie zu `verstecken`{:class="block3looks"} und um sie alle drei Sekunden zu `klonen`{:class="block3control"}.
 
 ![Katzen Figur](images/cat-sprite.png)
 
@@ -23,7 +23,7 @@ Wenn du das Programm jetzt ausführst, passiert auf der Bühne nichts. Um zu üb
 
 \--- task \---
 
-Füge Code hinzu, um der Figur mitzuteilen, dass sie, `wenn sie als Klon entsteht`{:class="block3control"}, sich selbst `zeigen`{:class="block3looks"} und fallen soll, bis sie den blauen Boden `berührt`{:class="block3sensing"}, der auf der Bühne gezeichnet wird.
+Füge einen Code hinzu, um der Figur mitzuteilen, dass sie `wenn sie als Klon entsteht`{:class="block3control"}, sich selbst `zeigen`{:class="block3looks"} und fallen soll, bis sie den blauen Boden `berührt`{:class="block3sensing"}, der auf der Bühne gezeichnet wird.
 
 ![Katzen Figur](images/cat-sprite.png)
 
