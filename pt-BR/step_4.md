@@ -6,7 +6,7 @@ Uma vez que o gato chega ao chão, deve avançar lentamente para a direita.
 
 Adicione código à seção `quando eu começar como um clone`{:class="block3control"} para fazer com que o ator Gato se `mova 10 passos`{:class="block3motion"}, e alterne entre as duas fantasias do ator a cada 0,1 segundos para fazer o gato parecer andar.
 
-![Cat sprite](images/cat-sprite.png)
+![ator Gato](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
@@ -60,13 +60,13 @@ Pressione a bandeira verde e verifique se os gatos agora se movem ao longo da pl
 
 Se você desenhar uma ponte através da abertura para que os gatos possam chegar até o lado direito do Palco, poderá ver que eles acabam ficando presos andando para a parede direita.
 
-![Flailing cats at the edge](images/flailing-at-edge.png)
+![Gatos agitados na borda](images/flailing-at-edge.png)
 
 \--- task \---
 
 Remova o laço `sempre`{:class="block3control"} e adicione um laço diferente para fazer com que os gatos andem apenas até atingirem uma borda. Quando um gato chega na borda do palco, ele deve desaparecer.
 
-![Cat sprite](images/cat-sprite.png)
+![ator Gato](images/cat-sprite.png)
 
 ```blocks3
 quando eu começar como um clone
@@ -105,11 +105,11 @@ Entretanto, no buraco, o gato nunca pode chegar no azul, por isso fica preso par
 
 Adicione mais blocos a esse loop para que ele repita até o ator Gato tocar no azul `ou`{:class="block3operators"} `tocando em borda`{:class="block3sensing"}. Dessa forma, o ator para de tentar cair se atingir a borda do Palco.
 
-![Cat sprite](images/cat-sprite.png)
+![ator Gato](images/cat-sprite.png)
 
 ```blocks3
-repeat until <<touching color [#0000ff]?> or <touching (edge v)?>>
-end
+repita até que <<touching color [#0000ff]?> ou <touching (edge v)?>>
+fim
 ```
 
 \--- /task \---
