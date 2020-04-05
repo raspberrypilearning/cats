@@ -117,9 +117,9 @@ Probablement veuràs sempre apareix que un punt blau a la part superior dreta de
 
 \--- task \---
 
-To stop this from happening, add a `pen up`{:class="block3extensions"} block at the start of the script, and a `wait one second`{:class="block3control"} block above the `forever`{:class="block3control"} block.
+Per evitar que això passi, afegeix un bloc `puja el llapis`:{:class="block3extensions"} al començament del codi i un bloc `espera un segon`{:class="block3control"} per sobre del bloc `per sempre`{:class="block3control"}.
 
-![Pen sprite](images/pen-sprite.png)
+![Personatge del llapis](images/pen-sprite.png)
 
 ```blocks3
 when flag clicked
