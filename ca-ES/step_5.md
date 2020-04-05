@@ -18,7 +18,7 @@ The cat should `move up 2`{:class="block3motion"} `repeatedly until`{:class="blo
 
 \--- hint \---
 
-Here are the code blocks you need:
+Aquí tens els blocs que necessites:
 
 ```blocks3
 <touching color [#0000ff]?>
@@ -35,7 +35,7 @@ not <>
 
 \--- hint \---
 
-This is what your code should look like:
+Així és com s'hauria de veure el teu codi:
 
 ```blocks3
 when I start as a clone
