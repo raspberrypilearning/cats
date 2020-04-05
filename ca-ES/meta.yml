@@ -8,19 +8,19 @@ version: 4.0.2
 last_tested: 2018-10-18
 steps:
   - 
-    title: Introduction
+    title: Introducció
   - 
-    title: Draw lines
+    title: Dibuixa línies
   - 
-    title: Clone cats
+    title: Clona gats
   - 
-    title: Make the cats move
+    title: Fes moure els gats
   - 
-    title: Stick to the lines
+    title: Adhereix-los a les línies
   - 
-    title: Get to safety
+    title: Fes que vagin segurs
   - 
-    title: "Challenge: more obstacles"
+    title: "Repte: més obstacles"
     challenge: true
   - 
     title: What next?
