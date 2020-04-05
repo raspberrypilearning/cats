@@ -1,10 +1,10 @@
-## Get to safety
+## Vá para o abrigo
 
-The object of the game is to guide the cats to safety by creating a path so they can reach the door. Create a score variable to keep track of how many cats reach the door.
+O objetivo do jogo é guiar os gatos para o abrigo em segurança, criando um caminho para que eles possam chegar na porta. Crie uma variável de pontuação para registrar quantos gatos chegam na porta.
 
 \--- task \---
 
-Create a variable called `score`{:class="block3variables"}.
+Crie uma nova variável chamada `pontos`{:class="block3variables"}.
 
 ![Cat sprite](images/cat-sprite.png)
 
