@@ -35,7 +35,7 @@ Add code to tell the sprite that `when it starts as a clone`{:class="block3contr
 
 \--- hint \---
 
-Here are the code blocks you need:
+Aquí tens els blocs que necessites:
 
 ```blocks3
 repeat until <>
@@ -54,7 +54,7 @@ when I start as a clone
 
 \--- hint \---
 
-This is what your code should look like:
+Així és com s'hauria de veure el teu codi:
 
 ```blocks3
 when I start as a clone
@@ -70,4 +70,4 @@ end
 
 When you click the green flag, you should see a new cat fall from the top of the Stage every three seconds. Every cat should land in a big pile of overlapping cats on the blue floor at the bottom.
 
-![Falling cats](images/falling-cats.png)
+![Gats que cauen](images/falling-cats.png)
