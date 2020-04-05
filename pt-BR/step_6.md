@@ -6,7 +6,7 @@ O objetivo do jogo é guiar os gatos para o abrigo em segurança, criando um cam
 
 Crie uma nova variável chamada `pontuação`{:class="block3variables"}.
 
-![Cat sprite](images/cat-sprite.png)
+![ator Gato](images/cat-sprite.png)
 
 [[[generic-scratch3-add-variable]]]
 
@@ -16,7 +16,7 @@ Crie uma nova variável chamada `pontuação`{:class="block3variables"}.
 
 Adicione código ao ator Gato para adicionar `1` à `pontuação`{:class="block3variables"} cada vez que um gato chega na porta. Defina também `pontos`{:class="block3variables"} como `0` `quando bandeira verde for clicado` {: class = "block3events"} no início do jogo.
 
-![Cat sprite](images/cat-sprite.png)
+![ator Gato](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
@@ -45,27 +45,27 @@ mude [pontuação v] para (0)
 É assim que seu código deve parecer:
 
 ```blocks3
-when I start as a clone
-show
-repeat until <touching (edge v)?>
-    move (10) steps
-    repeat until <touching color [#0000ff]?>
-        change y by (-2)
-    end
-    repeat until <not <touching color [#0000ff]?>>
-        change y by (2)
-    end
-    next costume
-    wait (0.1) seconds
-+   if <touching (Door v)?> then
-        change [score v] by (1)
-    end
-end
-delete this clone
+quando eu começar comp um clone
+mostre
+repita até que <touching (edge v)?>
+    mova(10) passos
+    repita até que <touching color [#0000ff]?>
+        adicione (-2) a y
+    fim
+    repita até que <not <touching color [#0000ff]?>>
+        adicione (2) a y
+    fim
+    próxima fantasia
+    espere (0.1) seg
++   se <touching (Door v)?> então
+        adicione (1) a [pontuação v]
+    fim
+fim
+apague este clone
 
-when flag clicked
+quando bandeira verde for clicado
 
-+ set [score v] to (0)
++ mude [pontuação v] para (0)
 ```
 
 \--- /hint \---
@@ -76,13 +76,13 @@ when flag clicked
 
 \--- task \---
 
-Add some more code so that, when a cat sprite reaches the door, the cat makes a 'meow' sound and then disappears.
+Adicione um pouco mais de código para que, quando o gato chegar na porta, o gato faça o som 'miau' e depois então desapareça.
 
-![Cat sprite](images/cat-sprite.png)
+![ator Gato](images/cat-sprite.png)
 
 ```blocks3
-play sound (meow v)
-delete this clone
+toque o som (miau v)
+apague este clone
 ```
 
 \--- /task \---
