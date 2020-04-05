@@ -1,6 +1,6 @@
 ## Make the cats move
 
-Once a cat reaches the floor, it should step slowly to the right.
+Una vegada que un gat arriba al terra, hauria de passar lentament cap a la dreta.
 
 \--- task \---
 
@@ -16,7 +16,7 @@ The cat sprite should `move 10 steps`{:class="block3motion"}, and `switch costum
 
 \--- hint \---
 
-Here are the code blocks you need:
+Aquí tens els blocs que necessites:
 
 ```blocks3
 move (10) steps
@@ -33,7 +33,7 @@ end
 
 \--- hint \---
 
-This is what your code should look like:
+Així és com s'hauria de veure el teu codi:
 
 ```blocks3
 when I start as a clone
@@ -58,7 +58,7 @@ Press the green flag and check that the cats now move along the blue platform at
 
 \--- /task \---
 
-If you draw a bridge across the gap so that the cats can get all the way to the right side of the Stage, you can see that they end up getting stuck walking into the right wall.
+Si dibuixes un pont que tapi la bretxa perquè els gats puguin anar fins al costat dret de l’Escenari, pots veure que s’acaben enganxant caminant per la paret dreta.
 
 ![Flailing cats at the edge](images/flailing-at-edge.png)
 
@@ -90,7 +90,7 @@ Press the green flag and check that the cats disappear when they reach the edge 
 
 \--- /task \---
 
-You may notice that, if the cats fall into the hole, they don't disappear but instead get stuck at the bottom. This is because they keep trying to fall downwards.
+You may notice that, if the cats fall into the hole, they don't disappear but instead get stuck at the bottom. Això és perquè continuen intentant caure cap avall.
 
 This is the part of the code that tells the cat to keep falling until it touches blue:
 
@@ -99,7 +99,7 @@ repeat until <touching color [#0000ff]?>
 end
 ```
 
-However, in the hole, the cat can never reach blue, so it is stuck forever.
+Tot i això, al forat, el gat no pot arribar mai al blau, de manera que queda enganxat per sempre.
 
 \--- task \---
 
