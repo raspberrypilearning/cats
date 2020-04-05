@@ -54,19 +54,19 @@ end
 
 \--- task \---
 
-Press the green flag and check that the cats now move along the blue platform at the bottom.
+Prem la bandera verda i comprova que els gats es mouen per la plataforma blava de la part inferior.
 
 \--- /task \---
 
 Si dibuixes un pont que tapi la bretxa perquè els gats puguin anar fins al costat dret de l’Escenari, pots veure que s’acaben enganxant caminant per la paret dreta.
 
-![Flailing cats at the edge](images/flailing-at-edge.png)
+![Gats movent-se per la vora](images/flailing-at-edge.png)
 
 \--- task \---
 
-Remove the `forever`{:class="block3control"} loop, and instead add a different loop to make the cats only walk until they reach an edge. When a cat reaches the edge of the Stage, it should disappear.
+Elimina el bucle `per sempre`{:class="block3control"}, i afegeix en el seu lloc un bucle diferent perquè els gats només caminin fins que arribin a la vora. Quan un gat arriba a la vora de l’Escenari, hauria de desaparèixer.
 
-![Cat sprite](images/cat-sprite.png)
+![Personatge del gat](images/cat-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -86,13 +86,13 @@ end
 
 \--- task \---
 
-Press the green flag and check that the cats disappear when they reach the edge of the Stage.
+Prem la bandera verda i comprova que els gats desapareixen quan arriben a la vora de l’Escenari.
 
 \--- /task \---
 
-You may notice that, if the cats fall into the hole, they don't disappear but instead get stuck at the bottom. Això és perquè continuen intentant caure cap avall.
+Pots observar que, si els gats cauen al forat, no desapareixen sinó que es queden enganxats a la part inferior. Això és perquè continuen intentant caure cap avall.
 
-This is the part of the code that tells the cat to keep falling until it touches blue:
+Aquesta és la part del codi que indica que el gat continuï caient fins que toqui el blau:
 
 ```blocks3
 repeat until <touching color [#0000ff]?>
@@ -103,9 +103,9 @@ Tot i això, al forat, el gat no pot arribar mai al blau, de manera que queda en
 
 \--- task \---
 
-Add more blocks to this loop so that it repeats until the cat sprite is touching blue `or`{:class="block3operators"} `touching the edge`{:class="block3sensing"}. This way, the sprite stops trying to fall if it reaches the edge of the Stage.
+Afegeix més blocs a aquest bucle de manera que es repeteixi fins que el personatge del gat toqui el blau `o`{:class="block3operators"} `toqui la vora`{:class="block3sensing"}. D’aquesta manera, el personatge deixa d’intentar caure si arriba a la vora de l’Escenari.
 
-![Cat sprite](images/cat-sprite.png)
+![Personatge del gat](images/cat-sprite.png)
 
 ```blocks3
 repeat until <<touching color [#0000ff]?> or <touching (edge v)?>>
