@@ -1,16 +1,16 @@
-## Make the cats move
+## Fes moure els gats
 
 Una vegada que un gat arriba al terra, hauria de passar lentament cap a la dreta.
 
 \--- task \---
 
-Add code to the `when I start as a clone`{:class="block3control"} section to make the cat sprite `move ten steps`{:class="block3motion"}, and switch between the sprite's two costumes every 0.1 seconds to make the cat look like it's walking.
+Afegeix codi a la secció `quan començo com a clon`{:class="block3control"} per fer que el gat es `mogui deu passos`{:class="block3motion"} i canvia entre els dos vestits del personatge cada 0,1 segons fer que el gat sembli que camini.
 
-![Cat sprite](images/cat-sprite.png)
+![Personatge del gat](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-The cat sprite should `move 10 steps`{:class="block3motion"}, and `switch costume`{:class="block3looks"} every `0.1 seconds`{:class="block3control"}. This code should repeat `forever`{:class="block3control"}, just like the code to make the cat fall.
+El personatge del gat s'hauria de `moure 10 passos`{:class="block3motion"} i `canviar de vestit`{:class="block3looks"} cada `0,1 segons`{:class="block3control"}. Aquest codi s'hauria de repetir `per sempre`{:class="block3control"}, de la mateixa manera que el codi per fer caure el gat.
 
 \--- /hint \---
 
