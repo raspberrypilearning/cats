@@ -1,18 +1,18 @@
-## Stick to the lines
+## Adhereix-los a les línies
 
-You might notice that, if you draw a low bridge between the two platforms, or a line that slopes upwards, the cats end up walking through the platform rather than on top of it!
+És possible que notis que, si dibuixes un pont baix entre les dues plataformes, o bé una línia inclinada cap amunt, els gats acaben caminant a través de la plataforma en lloc de per sobre!
 
-![Cats walking through the platform](images/cat-walk-through-platform.png)
+![Gats caminant a través de la plataforma](images/cat-walk-through-platform.png)
 
 \--- task \---
 
-In the code for the cat sprite, add another loop before the `next costume`{:class="block3looks"} block. This time, the loop should tell the cat to move upwards by `2` until it is not touching blue.
+En el codi del personatge del gat, afegeix un altre bucle abans del bloc `següent vestit`{:class="block3looks"}. Aquesta vegada, el bucle hauria de dir al gat que es mogui cap amunt per`2` fins que no toqui el blau.
 
-![Cat sprite](images/cat-sprite.png)
+![Personatge del gat](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-The cat should `move up 2`{:class="block3motion"} `repeatedly until`{:class="block3control"} it is `not`{:class="block3operators"} `touching blue`{:class="block3sensing"}.
+El gat hauria de `pujar 2`{:class="block3motion"} `repetidament fins que`{:class="block3control"} `no`{:class="block3operators"} `toqui el color blau`{:class="block3sensing"}.
 
 \--- /hint \---
 
@@ -60,6 +60,6 @@ delete this clone
 
 \--- task \---
 
-Click the green flag and try drawing a line that slopes upwards. Check that your cat follows this line.
+Fes clic a la bandera verda i prova de dibuixar una línia inclinada cap amunt. Comprova que el teu gat segueixi aquesta línia.
 
 \--- /task \---
