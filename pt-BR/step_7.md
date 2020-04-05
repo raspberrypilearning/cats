@@ -1,13 +1,13 @@
-## Challenge: more obstacles
+## Desafio: Mais obstáculos
 
-At the moment, the game is rather easy to win. Can you think of ideas to you make your game harder?
+No momento, este jogo é muito fácil de vencer. Você consegue pensar em ideias para fazer o jogo ficar mais difícil?
 
-+ Add more backgrounds with different platform designs.
++ Adicione mais fundos com plataformas de desenhos diferentes.
 
-+ Move the location of the door depending on which background is displayed.
++ Mude a localização da porta dependendo do fundo que é apresentado.
 
-+ Add more sprites as moving obstacles. Perhaps you could have roaming dogs or rotating spikes the cats need to avoid?
++ Adicione mais atores como obstáculos em movimento. Talvez possa ter cachorros caminhando ou rodas com espinhos que os gatos devem evitar?
 
-+ Only allow the player to use a limited amount of "ink" to draw lines in the game. You can keep track of how much "ink" is used by creating a timer variable that records how long the mouse is held down.
++ Limite a quantidade de "tinta" que o jogador tem para desenhar linhas no jogo. Você pode controlar a quantidade de "tinta" que é utilizada através de uma variável que registre por quanto tempo o botão do mouse foi pressionado.
 
-+ Create a sprite to show the player how much ink is left.
++ Crie um ator que mostre ao jogador quanto de "tinta" ainda tem.
