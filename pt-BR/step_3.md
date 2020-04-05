@@ -9,7 +9,7 @@ Clique no ator chamado 'Gato' e adicione algum código para que se `esconda`{:cl
 ![ator Gato](images/cat-sprite.png)
 
 ```blocks3
-quando bandeira verde for clicado
+when flag clicked
 esconda
 sempre
     crie clone de (este ator v)

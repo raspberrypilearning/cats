@@ -14,14 +14,14 @@
 
 --- task ---
 
-添加代码，每次当有猫咪到达门口时，将`分数`{:class="block3variables"} 增加 `1`{:class="block3variables"}。 同时在 `当绿旗被点击`{:class="block3variables"} 将 `分数`{:class="block3variables"} 设为 `0`{:class="block3variables"} 。
+添加代码，每次当有猫咪到达门口时，将`分数`{:class="block3variables"} 增加 `1`。 同时在 `当绿旗被点击`{:class="block3events"} 将 `分数`{:class="block3variables"} 设为 `0`。
 
 ![猫咪精灵](images/cat-sprite.png)
 
 --- hints ---
  --- hint ---
 
-`如果`{:class="block3variables"} 猫咪精灵 `碰到门`{:class="block3variables"}，`将 分数 增加 1`{:class="block3variables"}。
+`如果`{:class="block3control"} 猫咪精灵 `碰到门`{:class="block3sensing"}，`将 分数 增加 1`{:class="block3variables"}。
 
 --- /hint ---
 

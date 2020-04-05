@@ -4,14 +4,14 @@
 
 --- task ---
 
-添加代码到 `当作为克隆体启动时`{:class="block3control"} ，使猫咪精灵 `移动 10 步`{:class="block3control"} 并且 每隔 0.1 秒在猫咪精灵的两个造型之间切换，来让猫咪看起来像在走路。
+添加代码到 `当作为克隆体启动时`{:class="block3control"} ，使猫咪精灵 `移动 10 步`{:class="block3motion"} 并且 每隔 0.1 秒在猫咪精灵的两个造型之间切换，来让猫咪看起来像在走路。
 
 ![猫咪精灵](images/cat-sprite.png)
 
 --- hints ---
  --- hint ---
 
-猫咪精灵应该 `移动 10 步`{:class="block3motion"} 并且每 `0.1秒`{:class="block3motion"} 切换 `下一个造型`{:class="block3motion"} 。 这个代码应该和猫咪下落的代码一样在 `重复执行`{:class="block3control"}积木块里。
+猫咪精灵应该 `移动 10 步`{:class="block3motion"} 并且每 `0.1秒`{:class="block3control"} 切换 `下一个造型`{:class="block3looks"} 。 这个代码应该和猫咪下落的代码一样在 `重复执行`{:class="block3control"}积木块里。
 
 --- /hint ---
 

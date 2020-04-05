@@ -27,7 +27,7 @@ Clique no ator chamado 'Caneta' e adicione um código para definir a cor da cane
 ![ator Caneta](images/pen-sprite.png)
 
 ```blocks3
-quando bandeira verde for clicado
+when flag clicked
 mude a cor da caneta para [#0000ff]
 apague tudo
 adicione (5) ao tamanho da caneta
@@ -89,7 +89,7 @@ fim
 É assim que seu código deve parecer:
 
 ```blocks3
-quando bandeira verde for clicado
+when flag clicked
 mude a cor da caneta para [#0000ff]
 apague tudo
 adicione (5) ao tamanho da caneta
@@ -123,7 +123,7 @@ Para impedir que isso aconteça, adicione um bloco `levante a caneta`{:class="bl
 ![ator Caneta](images/pen-sprite.png)
 
 ```blocks3
-quando bandeira verde for clicado
+when flag clicked
 + levante a caneta
 mude a cor da caneta para [#0000ff]
 apague tudo

@@ -31,6 +31,7 @@ Estes são os novos blocos de código que você precisa adicionar ao seu script 
 
 ```blocks3
 adicione (1) a [pontuação v]
+
 se <> então
 fim
 
@@ -46,7 +47,7 @@ mude [pontuação v] para (0)
 É assim que seu código deve parecer:
 
 ```blocks3
-quando eu começar comp um clone
+when I start as a clone
 mostre
 repita até que <touching (edge v)?>
     mova(10) passos
@@ -64,7 +65,7 @@ repita até que <touching (edge v)?>
 fim
 apague este clone
 
-quando bandeira verde for clicado
+when flag clicked
 + mude [pontuação v] para (0)
 ```
 

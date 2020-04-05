@@ -32,7 +32,7 @@ title: 你将学到什么
 ---
 
 + 如何使用 `重复执行`{:class="block3control"} 循环来不断生成移动的猫咪
-+ 如何使用 `重复执行直到`{:class ="block3control"} 循环来确保猫咪沿着直线移动
++ 如何使用 `重复执行直到`{:class="block3control"} 循环来确保猫咪沿着直线移动
 
 --- /collapse ---
 

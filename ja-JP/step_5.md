@@ -13,7 +13,7 @@
 --- hints ---
  --- hint ---
 
-`青色に触れた`{:class="block3sensing"}じょうたい`ではなく`{:class="block3operators"}なるまで、ネコは`2つ上に動く`{:class="block3motion"}のを`繰り返す`{:class="block3control}必要があります。
+`青色に触れた`{:class="block3sensing"}じょうたい`ではなく`{:class="block3operators"}なるまで、ネコは`2つ上に動く`{:class="block3motion"}のを`繰り返す`{:class="block3control"}必要があります。
 
 --- /hint ---
 

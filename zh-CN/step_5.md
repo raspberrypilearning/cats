@@ -13,7 +13,7 @@
 --- hints ---
  --- hint ---
 
-猫咪应该 `重复执行直到`{:class="block3motion"} `碰到颜色 蓝色`{:class="block3motion"} `不成立`{:class="block3motion"} `将 y 坐标增加2 `{:class="block3motion"}。
+猫咪应该 `重复执行直到`{:class="block3motion"} `碰到颜色 蓝色`{:class="block3control"} `不成立`{:class="block3operators"} `将 y 坐标增加2 `{:class="block3sensing"}。
 
 --- /hint ---
 

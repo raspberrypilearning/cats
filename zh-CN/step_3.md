@@ -30,7 +30,7 @@ end
 --- hints ---
  --- hint ---
 
-`当作为克隆体启动时`{:class="block3control"}，`显示`{:class="block3control"} 精灵。 `重复执行直到`{:class="block3control"}`碰到颜色`{:class="block3control"} 蓝色 `将 y 坐标增加`{:class="block3control"}`-2`
+`当作为克隆体启动时`{:class="block3control"}，`显示`{:class="block3looks"} 精灵。 `重复执行直到`{:class="block3control"}`碰到颜色`{:class="block3motion"} 蓝色 `将 y 坐标增加`{:class="block3control"}`-2`
 
 --- /hint ---
 

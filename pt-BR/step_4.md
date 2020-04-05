@@ -22,7 +22,7 @@ Aqui estão os blocos de código que você precisa:
 ```blocks3
 mova (10) passos
 
-espere(0.1) seg
+wait (0.1) seconds
 
 próxima fantasia
 
@@ -45,7 +45,7 @@ mostre
         adicione (-2) a y
     fim
     próxima fantasia
-    espere(0.1) seg.
+    wait (0.1) seconds
 fim
 ```
 
