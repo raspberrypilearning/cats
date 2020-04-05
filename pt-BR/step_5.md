@@ -1,4 +1,4 @@
-## Ficar nas linhas
+## Fiquem nas linhas
 
 Você pode ter notado que, se você desenhar uma ponte baixa entre as duas plataformas, ou uma linha que inclina para cima, os gatos acabam por caminhar através da plataforma e não por cima dela!
 
