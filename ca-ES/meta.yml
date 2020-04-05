@@ -1,0 +1,18 @@
+---
+title: GATS!
+hero_image: images/banner.png
+description: Crea un joc en el qual has de guiar els gats de forma segura sense que caiguin als forats
+listed: true
+copyedit: true
+version: 4.0.2
+last_tested: 2018-10-18
+steps:
+  - title: Introducció
+  - title: Dibuixa línies
+  - title: Clona gats
+  - title: Fes moure els gats
+  - title: Adhereix-los a les línies
+  - title: Fes que vagin segurs
+  - title: "Repte: més obstacles"
+    challenge: true
+  - title: I ara què ve?
