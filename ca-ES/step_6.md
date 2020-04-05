@@ -43,7 +43,7 @@ set [score v] to (0)
 
 \--- hint \---
 
-This is what your code should look like:
+Així és com s'hauria de veure el teu codi:
 
 ```blocks3
 when I start as a clone
