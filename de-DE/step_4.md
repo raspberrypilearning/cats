@@ -4,7 +4,7 @@ Sobald eine Katze den Boden erreicht, sollte sie langsam nach rechts gehen.
 
 \--- task \---
 
-Füge dem `wenn ich als Klon entstehe`{:class="block3control"}-Teil Code hinzu, damit die Katzenfigur `zehn Schritte geht`{:class="block3motion"} und alle 0,1 Sekunden zwischen den beiden Kostümen der Figur wechselt damit die Katze so aussieht, als würde sie laufen.
+Füge dem `wenn ich als Klon entstehe`{:class="block3control"}-Teil einen Code hinzu, damit die Katzenfigur `zehn Schritte geht`{:class="block3motion"} und alle 0,1 Sekunden zwischen den beiden Kostümen der Figur wechselt damit die Katze so aussieht, als würde sie laufen.
 
 ![Katzen Figur](images/cat-sprite.png)
 
