@@ -41,7 +41,7 @@ Per seleccionar un color, fes clic al quadrat de color del bloc `fixa el color d
 
 Afegeix més codi per tal que el personatge segueixi el punter del ratolí. Prova el programa per comprovar que el codi funciona.
 
-![Pen sprite](images/pen-sprite.png)
+![Personatge del llapis](images/pen-sprite.png)
 
 ```blocks3
 forever
@@ -55,13 +55,13 @@ end
 
 \--- task \---
 
-Add some code to tell the sprite to draw a line on the Stage if the mouse button is pressed down.
+Afegeix codi per dir-li al personatge que dibuixi una línia a l’Escenari si es manté premut el botó del ratolí.
 
-![Pen sprite](images/pen-sprite.png)
+![Personatge del llapis](images/pen-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-`If`{:class="block3control"} the `mouse is down`{:class="block3sensing"}, put the `pen down`{:class="block3extensions"}, and `else`{:class="block3control"}, lift the `pen up`{:class="block3extensions"}.
+`Si`{:class="block3control"} el `ratolí clicat`{:class="block3sensing"}, `baixa el llapis`{:class="block3extensions"} i `si no`{:class="block3control"}, `puja el llapis`{:class="block3extensions "}.
 
 \--- /hint \---
 
@@ -107,13 +107,13 @@ end
 
 \--- task \---
 
-Prova el codi nou. You should be able to click and drag with the mouse to draw a blue line on the Stage.
+Prova el codi nou. Hauries de fer clic i arrossegar amb el ratolí per dibuixar una línia blava a l'Escenari.
 
 ![Dibuixa una línia](images/draw-a-line.png)
 
 \--- /task \---
 
-You probably see that a blue dot always appears in the top right-hand corner of the Stage (it's circled in the image above). This is because, when you click the green flag to start the game, you press the mouse down, and so the pen immediately starts drawing.
+Probablement veuràs sempre apareix que un punt blau a la part superior dreta de l'Escenari (està encerclat a la imatge de dalt). Això es deu al fet que, quan fas clic a la bandera verda per iniciar el joc, prems el ratolí cap avall i així el llapis comença a dibuixar immediatament.
 
 \--- task \---
 
