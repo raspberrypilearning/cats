@@ -14,7 +14,7 @@ Erstelle eine neue Variable namens `Punktzahl`{:class='block3variable'}.
 
 \--- task \---
 
-Füge deiner Katzen-Figur Code hinzu, um jedesmal `1` zur `Punktzahl`{:class="block3variables"} hinzuzufügen, wenn eine Katze die Tür erreicht. Setze außerdem die `Punktzahl`{:class="block3variables"} beim Start des Spiels auf `0` `wenn die grüne Flagge angeklickt wird`{:class="block3events"}.
+Füge deiner Katzen-Figur einen Code hinzu, um jedesmal `1` zur `Punktzahl`{:class="block3variables"} hinzuzufügen, wenn eine Katze die Tür erreicht. Setze außerdem die `Punktzahl`{:class="block3variables"} beim Start des Spiels auf `0` `wenn die grüne Flagge angeklickt wird`{:class="block3events"}.
 
 ![Katzen Figur](images/cat-sprite.png)
 
