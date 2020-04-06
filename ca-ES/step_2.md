@@ -113,7 +113,7 @@ Prova el codi nou. Hauries de fer clic i arrossegar amb el ratolí per dibuixar 
 
 \--- /task \---
 
-Probablement veuràs sempre apareix que un punt blau a la part superior dreta de l'Escenari (està encerclat a la imatge de dalt). Això es deu al fet que, quan fas clic a la bandera verda per iniciar el joc, prems el ratolí cap avall i així el llapis comença a dibuixar immediatament.
+Probablement veuràs que sempre apareix un punt blau a la part superior dreta de l'Escenari (està encerclat a la imatge de dalt). Això es deu al fet que, quan fas clic a la bandera verda per iniciar el joc, prems el ratolí cap avall i així el llapis comença a dibuixar immediatament.
 
 \--- task \---
 
