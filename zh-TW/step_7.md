@@ -1,13 +1,13 @@
-## Challenge: more obstacles
+## 挑戰: 更多的障礙
 
-At the moment, the game is rather easy to win. Can you think of ideas to you make your game harder?
+目前，這個遊戲還很容易獲勝。 您能想到讓您的遊戲更有挑戰性嗎？
 
-+ Add more backgrounds with different platform designs.
++ 添加更多背景不同的平台設計。
 
-+ Move the location of the door depending on which background is displayed.
++ 根據顯示的背景變換門的位置。
 
-+ Add more sprites as moving obstacles. Perhaps you could have roaming dogs or rotating spikes the cats need to avoid?
++ 添加更多的角色作為移動障礙。 也許可以考慮設計閒晃的狗或會旋轉的障礙物讓貓能躲開？
 
-+ Only allow the player to use a limited amount of "ink" to draw lines in the game. You can keep track of how much "ink" is used by creating a timer variable that records how long the mouse is held down.
++ 僅允許玩家使用限量的“墨水”在遊戲中畫線。 您可以通過建立一個計時器變數，該變數記錄了按下鼠標的時間來追踪使用了多少“墨水”。
 
-+ Create a sprite to show the player how much ink is left.
++ 創建一個物件來顯示玩家剩餘的墨水量。
