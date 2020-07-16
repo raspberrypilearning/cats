@@ -1,12 +1,12 @@
-## Get to safety
+## 安全抵達
 
-The object of the game is to guide the cats to safety by creating a path so they can reach the door. Create a score variable to keep track of how many cats reach the door.
+遊戲的目標是畫出一條路徑引導貓咪讓他們能夠平安到達出口的門。 建立一個計分的變數來紀錄有多少隻貓咪到達了門口。
 
 \--- task \---
 
-Create a variable called `score`{:class="block3variables"}.
+建立一個新的變數，稱作`得分`{:class="block3variables"}。
 
-![Cat sprite](images/cat-sprite.png)
+![貓咪](images/cat-sprite.png)
 
 [[[generic-scratch3-add-variable]]]
 
@@ -14,19 +14,19 @@ Create a variable called `score`{:class="block3variables"}.
 
 \--- task \---
 
-Add code to your cat sprite to add `1` to the `score`{:class="block3variables"} each time a cat reaches the door. Also set `score`{:class="block3variables"} to `0` `when the flag is clicked`{:class="block3events"} at the start of the game.
+添加代碼，每當有一隻貓咪到達門口時，`分數`{:class="block3variables"} 就加 `1`分。 同時在`點擊綠色旗幟開始遊戲` {：class =“ block3events”}時將`分數` {：class =“ block3variables”}歸` 0 ` 。
 
-![Cat sprite](images/cat-sprite.png)
+![貓咪](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-`If`{:class="block3control"} the cat is `touching the door sprite`{:class="block3sensing"}, then `add 1 to the score`{:class="block3variables"}.
+`如果` {：class =“ block3control”}貓咪`碰到了門` {：class =“ block3sensing”}，將分數`加1 ` {：class =“ block3variables”}。
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the new code blocks you need to add to your `when I start as a clone` script:
+下面是你需要添加到`當分身產生` 區塊的代碼：
 
 ```blocks3
 change [score v] by (1)
@@ -43,7 +43,7 @@ set [score v] to (0)
 
 \--- hint \---
 
-This is what your code should look like:
+你的程式看起來應該像這樣：
 
 ```blocks3
 when I start as a clone
@@ -77,9 +77,9 @@ when flag clicked
 
 \--- task \---
 
-Add some more code so that, when a cat sprite reaches the door, the cat makes a 'meow' sound and then disappears.
+添加更多代碼，以便讓貓咪到達門時，會發出“喵”的聲音，然後消失。
 
-![Cat sprite](images/cat-sprite.png)
+![貓咪](images/cat-sprite.png)
 
 ```blocks3
 play sound (meow v)
