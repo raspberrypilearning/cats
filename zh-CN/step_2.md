@@ -14,7 +14,7 @@
 
 \--- task \---
 
-将 pen 扩展库添加到项目中。
+将 画笔 扩展库添加到项目中。
 
 [[[generic-scratch3-add-pen-extension]]]
 
