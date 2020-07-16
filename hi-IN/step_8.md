@@ -1,10 +1,10 @@
-## What next?
+## आगे क्या?
 
-Try the [Flower generator](https://projects.raspberrypi.org/en/projects/flower-generator?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, where you will use custom blocks to create flower patterns.
+[Flower generator](https://projects.raspberrypi.org/en/projects/flower-generator?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) (फूल जनरेटर) प्रोजेक्ट बनाने का प्रयास करें, जिसमें आप फूलों के पैटर्न बनाने के लिए कस्टम ब्लॉकों का उपयोग करेंगे।
 
 \--- no-print \---
 
-Press `f` to draw a few flowers, or `r` to draw lots of random flowers, or `p` to draw a flower pattern.
+थोड़े से फूल बनाने के लिए `f` दबाएँ, या बहुत से अनोखी फूल बनाने के लिए `r`दबाएँ, या फूलों का कोई भी पैटर्न बनाने के लिए `p` दबाएँ।
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/253355932/?autostart=false" frameborder="0" scrolling="no"></iframe>
