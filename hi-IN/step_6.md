@@ -1,10 +1,10 @@
-## Get to safety
+## सुरक्षित रहें
 
-The object of the game is to guide the cats to safety by creating a path so they can reach the door. Create a score variable to keep track of how many cats reach the door.
+गेम का उद्देश्य एक रास्ता बनाकर बिल्लियों को सुरक्षित मार्गदर्शन करना है ताकि वे दरवाजे तक पहुँच सकें। दरवाजे तक कितनी बिल्लियाँ पहुँचती हैं, इस पर नज़र रखने के लिए एक स्कोर वेरिएबल (score variable) बनाएँ।
 
 \--- task \---
 
-Create a variable called `score`{:class="block3variables"}.
+`score`{:class="block3variables"} नामक एक वेरिएबल (variable) बनाएं |
 
 ![Cat sprite](images/cat-sprite.png)
 
@@ -14,19 +14,19 @@ Create a variable called `score`{:class="block3variables"}.
 
 \--- task \---
 
-Add code to your cat sprite to add `1` to the `score`{:class="block3variables"} each time a cat reaches the door. Also set `score`{:class="block3variables"} to `0` `when the flag is clicked`{:class="block3events"} at the start of the game.
+हर बार जब कोई बिल्ली दरवाजे तक पहुँचती है तो `score`{:class="block3variables"} में `1` जोड़ने के लिए अपने बिल्ली स्प्राइट में कोड जोड़ें। साथ ही गेम के आरंभ में `when the flag is clicked`{:class="block3events"} में `score`{:class="block3variables"} को `0` सेट करें।
 
 ![Cat sprite](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-`If`{:class="block3control"} the cat is `touching the door sprite`{:class="block3sensing"}, then `add 1 to the score`{:class="block3variables"}.
+यदि बिल्ली दरवाजा स्प्राइट को छूती है तो उपयोग करें `If`{:class="block3control"} the cat is `touching the door sprite`{:class="block3sensing"}, फिर जोड़ें `add 1 to the score`{:class="block3variables"}।
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the new code blocks you need to add to your `when I start as a clone` script:
+यहाँ नए कोड ब्लॉक दिए गए हैं जिन्हें आपको अपनी `when I start as a clone` स्क्रिप्ट में जोड़ने की आवश्यकता होगी:
 
 ```blocks3
 change [score v] by (1)
@@ -43,7 +43,7 @@ set [score v] to (0)
 
 \--- hint \---
 
-This is what your code should look like:
+आपका कोड ऐसा दिखना चाहिए:
 
 ```blocks3
 when I start as a clone
@@ -77,7 +77,7 @@ when flag clicked
 
 \--- task \---
 
-Add some more code so that, when a cat sprite reaches the door, the cat makes a 'meow' sound and then disappears.
+कुछ और कोड जोड़ें ताकि जब बिल्ली स्प्राइट दरवाजे तक पहुँच जाए, तो बिल्ली 'म्याऊँ' ('meow') की आवाज करे और फिर गायब होजाए।
 
 ![Cat sprite](images/cat-sprite.png)
 
