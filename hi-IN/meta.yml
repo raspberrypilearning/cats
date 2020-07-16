@@ -1,0 +1,18 @@
+---
+title: बिल्लियाँ!
+hero_image: images/banner.png
+description: एक गेम बनाएँ जिसमें आप बिल्लियों को सुरक्षा की ओर मार्गदर्शन करते हैं और उन्हें छेदों में गिरने से रोकते हैं
+listed: true
+copyedit: true
+version: 4.0.2
+last_tested: 2018-10-18
+steps:
+  - title: परिचय
+  - title: रेखाएँ खींचें
+  - title: बिल्लियाँ को क्लोन (clone) करना
+  - title: बिल्लियों को चलाएँ
+  - title: रेखाओं से जुड़े रहें
+  - title: सुरक्षित रहें
+  - title: "चुनौती: अधिक बाधाएँ!"
+    challenge: true
+  - title: आगे क्या?
