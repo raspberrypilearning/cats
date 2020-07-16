@@ -1,22 +1,22 @@
-## Make the cats move
+## बिल्लियों को चलाएँ
 
-Once a cat reaches the floor, it should step slowly to the right.
+एक बार जब बिल्ली फर्श पर पहुँच जाती है, तो उसे धीरे-धीरे दाईं ओर जाना चाहिए।
 
 \--- task \---
 
-Add code to the `when I start as a clone`{:class="block3control"} section to make the cat sprite `move ten steps`{:class="block3motion"}, and switch between the sprite's two costumes every 0.1 seconds to make the cat look like it's walking.
+`when I start as a clone`{:class="block3control"}खाने में कोड जोड़े जिससे cat स्प्राइट`move ten steps`{:class="block3motion"}, और स्प्राइट के दोनों कॉस्ट्यूम (costumes) को हर 0.1 सेकंड में बदले जिससे यह लगे की बिल्ली चल रही हैं।
 
 ![Cat sprite](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-The cat sprite should `move 10 steps`{:class="block3motion"}, and `switch costume`{:class="block3looks"} every `0.1 seconds`{:class="block3control"}. This code should repeat `forever`{:class="block3control"}, just like the code to make the cat fall.
+बिल्ली स्प्राइट (cat sprite) को चलाने के लिए `move 10 steps`{:class="block3motion"}, और हर `0.1 seconds`{:class="block3control"} पर कॉस्ट्यूम/पोशाक (costume) बदलने के लिए `switch costume`{:class="block3looks"} का उपयोग करें। इस कोड को भी `forever`{:class="block3control"} दोहराना चाहिए, बिल्ली को गिराने वाले कोड की तरह।
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+आपको इन कोड ब्लॉक की ज़रुरत पड़ेगी:
 
 ```blocks3
 move (10) steps
@@ -33,7 +33,7 @@ end
 
 \--- hint \---
 
-This is what your code should look like:
+आपका कोड कुछ ऐसा दिखना चाहिए:
 
 ```blocks3
 when I start as a clone
@@ -54,17 +54,17 @@ end
 
 \--- task \---
 
-Press the green flag and check that the cats now move along the blue platform at the bottom.
+हरे झंडे को दबाएँ और जाँचें कि बिल्लियाँ अब नीचे नीले मंच के साथ चलती हैं।
 
 \--- /task \---
 
-If you draw a bridge across the gap so that the cats can get all the way to the right side of the Stage, you can see that they end up getting stuck walking into the right wall.
+यदि आप खाली जगह पर पुल बनाते हैं ताकि बिल्लियाँ स्टेज के दाईं ओर पूरे रास्ते पर चल सकें, तो आप देख सकते हैं कि वे अंत में दाहिनी दीवार में जाकर अटक जाती हैं।
 
 ![Flailing cats at the edge](images/flailing-at-edge.png)
 
 \--- task \---
 
-Remove the `forever`{:class="block3control"} loop, and instead add a different loop to make the cats only walk until they reach an edge. When a cat reaches the edge of the Stage, it should disappear.
+`forever`{:class="block3control"} लूप (loop) को निकालें, और इसके बजाय एक अलग लूप जोड़ें जिससे बिल्लियां केवल तब तक चले जब तक वे किसी किनारे पर नहीं पहुँच जातीं। जब कोई बिल्ली स्टेज के किनारे पर पहुँच जाती है, तो उसे गायब हो जाना चाहिए।
 
 ![Cat sprite](images/cat-sprite.png)
 
@@ -86,24 +86,24 @@ end
 
 \--- task \---
 
-Press the green flag and check that the cats disappear when they reach the edge of the Stage.
+हरे झंडे को दबाएं और जांचें कि जब वे स्टेज के किनारे तक पहुंचते हैं तो बिल्लियां गायब हो जाती हैं।
 
 \--- /task \---
 
-You may notice that, if the cats fall into the hole, they don't disappear but instead get stuck at the bottom. This is because they keep trying to fall downwards.
+आप देख सकते हैं कि, यदि बिल्लियाँ छेद में गिरती हैं, तो वे गायब नहीं होती हैं, बल्कि नीचे तल में अटक जाती हैं। ऐसा इसलिए है क्योंकि वे नीचे की तरफ गिरने की कोशिश करती रहती हैं।
 
-This is the part of the code that tells the cat to keep falling until it touches blue:
+यह उस कोड का हिस्सा है जो बिल्ली को बताता है कि वह तब तक गिरती रहे जब तक कि वह नीले रंग को नहीं छू लेती:
 
 ```blocks3
 repeat until <touching color [#0000ff]?>
 end
 ```
 
-However, in the hole, the cat can never reach blue, so it is stuck forever.
+हालांकि, छेद में, बिल्ली कभी भी नीले रंग तक नहीं पहुँच सकती, इसलिए यह हमेशा के लिए अटक जाती है।
 
 \--- task \---
 
-Add more blocks to this loop so that it repeats until the cat sprite is touching blue `or`{:class="block3operators"} `touching the edge`{:class="block3sensing"}. This way, the sprite stops trying to fall if it reaches the edge of the Stage.
+इस लूप में अधिक ब्लॉक जोड़ें, ताकि यह तब तक दोहराता रहे जब तक कि बिल्ली स्प्राइट नीले रंग को न छू ले, `or`{:class="block3operators"} `touching the edge`{:class="block3sensing"} का उपयोग करें। इस तरह, स्प्राइट अगर स्टेज के किनारे तक पहुँच जाता है तो वह गिरने की कोशिश करना बंद कर देता है।
 
 ![Cat sprite](images/cat-sprite.png)
 
