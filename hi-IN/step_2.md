@@ -55,13 +55,13 @@ end
 
 \--- task \---
 
-Add some code to tell the sprite to draw a line on the Stage if the mouse button is pressed down.
+यदि माउस बटन नीचे दबाया जाता है तो स्टेज पर एक रेखा खींचने के लिए स्प्राइट को बताने के लिए कुछ कोड जोड़ें।
 
 ![पेन स्प्राइट](images/pen-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-`If`{:class="block3control"} the `mouse is down`{:class="block3sensing"}, put the `pen down`{:class="block3extensions"}, and `else`{:class="block3control"}, lift the `pen up`{:class="block3extensions"}.
+`If`{:class="block3control"} the `mouse is down`{:class="block3sensing"}, `pen down`{:class="block3extensions"} रखें, और `else`{:class="block3control"}, `pen up`{:class="block3extensions"} रखें।
 
 \--- /hint \---
 
@@ -85,7 +85,7 @@ end
 
 \--- hint \---
 
-This is what your code should look like:
+आपका कोड ऐसा दिखना चाहिए:
 
 ```blocks3
 when flag clicked
@@ -107,17 +107,17 @@ end
 
 \--- task \---
 
-अपने कोड का परीक्षण करें। You should be able to click and drag with the mouse to draw a blue line on the Stage.
+अपने कोड का परीक्षण करें। आप माउस से क्लिक और ड्रैग (drag) करके स्टेज पर नीली रेखा खींच पाएँगे।
 
 ![एक रेखा खींचें](images/draw-a-line.png)
 
 \--- /task \---
 
-You probably see that a blue dot always appears in the top right-hand corner of the Stage (it's circled in the image above). This is because, when you click the green flag to start the game, you press the mouse down, and so the pen immediately starts drawing.
+आप शायद यह देखेंगे कि स्टेज के ऊपरी दाएँ कोने में एक नीली बिंदू हमेशा दिखाई देती है (ऊपर की छवि में इस पर घेरा डाला गया है)। ऐसा इसलिए है क्योंकि जब आप गेम शुरू करने के लिए हरे झंडे पर क्लिक करते हैं, तो आप माउस को नीचे दबाते हैं, और इसलिए पेन तुरंत बनाना शुरू कर देता है।
 
 \--- task \---
 
-To stop this from happening, add a `pen up`{:class="block3extensions"} block at the start of the script, and a `wait one second`{:class="block3control"} block above the `forever`{:class="block3control"} block.
+ऐसा होने से रोकने के लिए, स्क्रिप्ट के आरंभ में एक `pen up`{:class="block3extensions"} ब्लॉक जोड़ें, और `forever` {:class="block3control"} ब्लॉक के ऊपर एक `wait one second`{:class="block3control"} ब्लॉक को जोड़ें।
 
 ![पेन स्प्राइट](images/pen-sprite.png)
 
