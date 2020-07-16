@@ -1,26 +1,26 @@
 ---
-title: CATS!
+title: 貓！
 hero_image: images/banner.png
-description: Create a game in which you guide cats to safety and stop them from falling into holes
+description: 創作一個遊戲，在其中引導貓到安全處並阻止它們掉入洞中
 listed: true
 copyedit: true
 version: 4.0.2
 last_tested: 2018-10-18
 steps:
   - 
-    title: Introduction
+    title: 介紹
   - 
-    title: Draw lines
+    title: 畫線
   - 
-    title: Clone cats
+    title: 複製貓
   - 
-    title: Make the cats move
+    title: 讓貓咪動起來
   - 
-    title: Stick to the lines
+    title: 讓貓咪沿著線走
   - 
-    title: Get to safety
+    title: 安全起見
   - 
-    title: "Challenge: more obstacles"
+    title: "挑戰: 更多的障礙"
     challenge: true
   - 
-    title: What next?
+    title: 然後呢？
