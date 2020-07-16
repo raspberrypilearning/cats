@@ -1,24 +1,24 @@
-## Stick to the lines
+## 讓貓咪沿著線走
 
-You might notice that, if you draw a low bridge between the two platforms, or a line that slopes upwards, the cats end up walking through the platform rather than on top of it!
+您會注意到，如果在兩個平台間畫了一座矮橋或是一條向上的斜坡，貓咪還是最終會穿過平台而不是走在平台上呢！
 
-![Cats walking through the platform](images/cat-walk-through-platform.png)
+![貓咪們走過平台](images/cat-walk-through-platform.png)
 
 \--- task \---
 
-In the code for the cat sprite, add another loop before the `next costume`{:class="block3looks"} block. This time, the loop should tell the cat to move upwards by `2` until it is not touching blue.
+在貓咪的代碼中，在 `下個造型`{:class="block3looks"} 積木之前加入另一個迴圈。 這次，迴圈應告訴貓向上移動` 2 `直到它不碰到藍色為止。
 
-![Cat sprite](images/cat-sprite.png)
+![貓咪](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-The cat should `move up 2`{:class="block3motion"} `repeatedly until`{:class="block3control"} it is `not`{:class="block3operators"} `touching blue`{:class="block3sensing"}.
+貓咪應該 `將 y 座標增加2 `{:class="block3motion"}`重複無限次直到`{:class="block3motion"} 它`沒有`{:class="block3motion"}`碰到藍色`{:class="block3motion"} 為止。
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+這是你需要的程式積木：
 
 ```blocks3
 <touching color [#0000ff]?>
@@ -35,7 +35,7 @@ not <>
 
 \--- hint \---
 
-This is what your code should look like:
+你的程式看起來應該像這樣：
 
 ```blocks3
 when I start as a clone
@@ -60,6 +60,6 @@ delete this clone
 
 \--- task \---
 
-Click the green flag and try drawing a line that slopes upwards. Check that your cat follows this line.
+點一下綠色旗幟，然後畫一條向上的斜線。 看看貓咪是否有沿著這條線走。
 
 \--- /task \---
