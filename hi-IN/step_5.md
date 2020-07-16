@@ -1,24 +1,24 @@
-## Stick to the lines
+## रेखाओं से जुड़े रहें
 
-You might notice that, if you draw a low bridge between the two platforms, or a line that slopes upwards, the cats end up walking through the platform rather than on top of it!
+आप देख सकते हैं कि, यदि आप दो प्लेटफार्मों के बीच एक नीचा पुल बनाते हैं, या ऊपर की ओर ढलान वाली एक रेखा खींचते हैं, तो बिल्लियाँ प्लेटफार्म के ऊपर चलने के बजाय उसमें से निकल कर जाती हैं!
 
 ![Cats walking through the platform](images/cat-walk-through-platform.png)
 
 \--- task \---
 
-In the code for the cat sprite, add another loop before the `next costume`{:class="block3looks"} block. This time, the loop should tell the cat to move upwards by `2` until it is not touching blue.
+बिल्ली स्प्राइट के कोड में, `next costume`{:class="block3looks"} ब्लॉक से पहले एक और लूप जोड़ें। इस बार लूप को बिल्ली को यह बताना चाहिए कि जब तक वह नीले रंग को न छू ले, तब तक उसे `2` से ऊपर की ओर जाना चाहिए।
 
 ![Cat sprite](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-The cat should `move up 2`{:class="block3motion"} `repeatedly until`{:class="block3control"} it is `not`{:class="block3operators"} `touching blue`{:class="block3sensing"}.
+बिल्ली को बार-बार ऊपर जाना चाहिए `move up 2`{:class="block3motion"} `repeatedly until`{:class="block3control"} जब तक वह नीले रंग को न छू ले `not`{:class="block3operators"} `touching blue`{:class="block3sensing"} का उपयोग करें |
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+आपको इन कोड ब्लॉक्स की ज़रुरत पड़ेगी:
 
 ```blocks3
 <touching color [#0000ff]?>
@@ -35,7 +35,7 @@ not <>
 
 \--- hint \---
 
-This is what your code should look like:
+आपका कोड ऐसा दिखना चाहिए:
 
 ```blocks3
 when I start as a clone
@@ -60,6 +60,6 @@ delete this clone
 
 \--- task \---
 
-Click the green flag and try drawing a line that slopes upwards. Check that your cat follows this line.
+हरे झंडे पर क्लिक करें और एक रेखा खींचने की कोशिश करें जिसकी ढलान ऊपर की ओर हो। जाँच करें कि आपकी बिल्ली इस रेखा का अनुसरण (follow) करती है।
 
 \--- /task \---
