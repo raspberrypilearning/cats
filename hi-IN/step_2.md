@@ -118,7 +118,7 @@ end
 
 --- task ---
 
-ऐसा होने से रोकने के लिए, स्क्रिप्ट के आरंभ में एक `pen up`{:class="block3extensions"} ब्लॉक जोड़ें, और `forever` {:class="block3control"} ब्लॉक के ऊपर एक `wait one second`{:class="block3control"} ब्लॉक को जोड़ें।
+ऐसा होने से रोकने के लिए, स्क्रिप्ट के आरंभ में एक `pen up`{:class="block3extensions"} ब्लॉक जोड़ें, और `forever`{:class="block3control"} ब्लॉक के ऊपर एक `wait one second`{:class="block3control"} ब्लॉक को जोड़ें।
 
 ![पेन स्प्राइट](images/pen-sprite.png)
 

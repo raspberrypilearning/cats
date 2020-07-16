@@ -61,7 +61,9 @@ title: शिक्षकों के लिए अतिरिक्त टि
 
 --- no-print ---
 
-यदि आप इस प्रोजेक्ट को प्रिंट करने की जरुरत है, तो कृपया [प्रिंटर अनुकूल संस्करण](https://projects.raspberrypi.org/hi-IN/projects/cats/print) का उपयोग करें। --- /no-print ---
+यदि आप इस प्रोजेक्ट को प्रिंट करने की जरुरत है, तो कृपया [प्रिंटर अनुकूल संस्करण](https://projects.raspberrypi.org/hi-IN/projects/cats/print) का उपयोग करें। 
+
+--- /no-print ---
 
 आप [यहां पूरे प्रोजेक्ट](http://rpf.io/p/hi-IN/cats-get){:target="_blank"} को देख सकते हैं ।
 

@@ -13,7 +13,7 @@
 --- hints ---
  --- hint ---
 
-बिल्ली को बार-बार ऊपर जाना चाहिए `move up 2`{:class="block3motion"} `repeatedly until`{:class="block3control"} जब तक वह नीले रंग को न छू ले `not`{:class="block3operators"} `touching blue`{:class="block3sensing"} का उपयोग करें |
+बिल्ली को बार-बार ऊपर जाना चाहिए `move up 2`{:class="block3motion"} `repeatedly until`{:class="block3control"} जब तक वह नीले रंग को न छू ले `not`{:class="block3operators"} `touching blue`{:class="block3sensing"} का उपयोग करें ।
 
 --- /hint ---
 

@@ -4,7 +4,7 @@
 
 --- task ---
 
-`score`{:class="block3variables"} नामक एक वेरिएबल (variable) बनाएं |
+`score`{:class="block3variables"} नामक एक वेरिएबल (variable) बनाएं ।
 
 ![Cat sprite](images/cat-sprite.png)
 

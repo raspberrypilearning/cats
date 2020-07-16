@@ -30,7 +30,7 @@ end
 --- hints ---
  --- hint ---
 
-`When the sprite starts as a clone`{:class="block3control"}, `show`{:class="block3looks"} वह स्प्राइट | `Repeatedly`{:class="block3control"} `Change`{:class="block3motion"} करें स्प्राइट के `y` निर्देशांक (coordinates) `-2` से जब तक स्प्राइट नीली मंजिल को `touches`{:class="block3sensing"} न लें |
+`When the sprite starts as a clone`{:class="block3control"}, `show`{:class="block3looks"} वह स्प्राइट । `Repeatedly`{:class="block3control"} `Change`{:class="block3motion"} करें स्प्राइट के `y` निर्देशांक (coordinates) `-2` से जब तक स्प्राइट नीली मंजिल को `touches`{:class="block3sensing"} न लें ।
 
 --- /hint ---
 
