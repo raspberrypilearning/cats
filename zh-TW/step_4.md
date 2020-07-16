@@ -1,22 +1,22 @@
-## Make the cats move
+## 讓貓咪動起來
 
-Once a cat reaches the floor, it should step slowly to the right.
+當貓碰到地板後，它應該慢慢地向右前進。
 
 \--- task \---
 
-Add code to the `when I start as a clone`{:class="block3control"} section to make the cat sprite `move ten steps`{:class="block3motion"}, and switch between the sprite's two costumes every 0.1 seconds to make the cat look like it's walking.
+添加代碼到 `當分身產生`{:class="block3control"} 這部分，讓貓咪 `移動十步`{:class="block3control"} ，然後每隔 0.1 秒從貓咪的兩種造型中切換一次，使它看起來像在走路一樣。
 
-![Cat sprite](images/cat-sprite.png)
+![貓咪](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-The cat sprite should `move 10 steps`{:class="block3motion"}, and `switch costume`{:class="block3looks"} every `0.1 seconds`{:class="block3control"}. This code should repeat `forever`{:class="block3control"}, just like the code to make the cat fall.
+貓咪應該要`移動10步` {：class =“ block3motion”}和每` 0.1秒` {：class =“ block3control”}`切換到下個造型` {：class =“ block3looks”}。 這代碼應重複` 重複無限次` {：class =“ block3control”}，就像使貓掉下來的代碼一樣。
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+這是你需要的程式積木：
 
 ```blocks3
 move (10) steps
@@ -33,7 +33,7 @@ end
 
 \--- hint \---
 
-This is what your code should look like:
+你的程式看起來應該像這樣：
 
 ```blocks3
 when I start as a clone
@@ -54,19 +54,19 @@ end
 
 \--- task \---
 
-Press the green flag and check that the cats now move along the blue platform at the bottom.
+按下綠色旗幟，然後檢查貓咪現在是否有沿著底部的藍色平台移動。
 
 \--- /task \---
 
-If you draw a bridge across the gap so that the cats can get all the way to the right side of the Stage, you can see that they end up getting stuck walking into the right wall.
+如果您在間隙上搭起一座橋樑，就能讓貓咪可以一直走到舞台的右側，您會發現它們最後都會卡在右邊的牆裡。
 
-![Flailing cats at the edge](images/flailing-at-edge.png)
+![在邊緣掙扎的貓咪](images/flailing-at-edge.png)
 
 \--- task \---
 
-Remove the `forever`{:class="block3control"} loop, and instead add a different loop to make the cats only walk until they reach an edge. When a cat reaches the edge of the Stage, it should disappear.
+移除`重複無限次` {：class =“ block3control”}迴圈，然後添加一個不同的迴圈使貓咪只走到當它們到達邊緣為止。 當貓咪到達舞台邊緣時，它應該要消失。
 
-![Cat sprite](images/cat-sprite.png)
+![貓咪](images/cat-sprite.png)
 
 ```blocks3
 when I start as a clone
@@ -86,26 +86,26 @@ end
 
 \--- task \---
 
-Press the green flag and check that the cats disappear when they reach the edge of the Stage.
+按下綠色旗幟，並檢查貓咪們走到舞台邊緣時是否有消失。
 
 \--- /task \---
 
-You may notice that, if the cats fall into the hole, they don't disappear but instead get stuck at the bottom. This is because they keep trying to fall downwards.
+您可能有注意到，如果貓掉入洞中，它們不會消失，而是會卡在底部。 這是因為他們一直不斷試圖著往下掉。
 
-This is the part of the code that tells the cat to keep falling until it touches blue:
+這是原代碼的一部分，讓貓一直一直往下掉到它碰到藍色才停止：
 
 ```blocks3
 repeat until <touching color [#0000ff]?>
 end
 ```
 
-However, in the hole, the cat can never reach blue, so it is stuck forever.
+但是，在洞中，貓永遠無法到達藍色，因此它會一直卡住。
 
 \--- task \---
 
-Add more blocks to this loop so that it repeats until the cat sprite is touching blue `or`{:class="block3operators"} `touching the edge`{:class="block3sensing"}. This way, the sprite stops trying to fall if it reaches the edge of the Stage.
+在這重複無限次區塊中加入更多積木，讓它能重複執行直到碰到藍色 `或`{:class="block3operators"}, `碰到舞台邊緣`{:class="block3sensing"}。 這樣一來，如果貓咪到了舞台的邊緣，它就會停止繼續往下掉。
 
-![Cat sprite](images/cat-sprite.png)
+![貓咪](images/cat-sprite.png)
 
 ```blocks3
 repeat until <<touching color [#0000ff]?> or <touching (edge v)?>>
