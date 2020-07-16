@@ -1,12 +1,12 @@
-## Clone cats
+## 複製貓
 
-You want a never-ending stream of cats that the player has to guide along the path to the exit.
+您需要玩家引導這些源源不斷出現的貓群找到出口的路。
 
 \--- task \---
 
-Click on the sprite called 'Cat', and add some code to `hide`{:class="block3looks"} the sprite, and also to `clone`{:class="block3control"} it every three seconds.
+點一下名為“ Cat”的角色，然後添加代碼來 `隱藏`{：class =“ block3looks”}角色，並每3秒`複製`{：class =“ block3looks”}它。
 
-![Cat sprite](images/cat-sprite.png)
+![貓角色](images/cat-sprite.png)
 
 ```blocks3
 when flag clicked
@@ -19,23 +19,23 @@ end
 
 \--- /task \---
 
-If you run the program now, nothing happens on the Stage. To check that a new Cat sprite clone is created every three seconds, make each clone appear and fall out of the sky.
+如果您現在執行程序，舞台上會什麼動靜也沒有。 要檢查是否每三秒鐘就出現一個新的複製貓，我們可以讓每隻分身都從天空出現掉下來。
 
 \--- task \---
 
-Add code to tell the sprite that `when it starts as a clone`{:class="block3control"}, it should `show`{:class="block3looks"} itself and fall until it `touches`{:class="block3sensing"} the blue floor that is drawn on the Stage.
+添加代碼以告知這角色，當它</code>{：class =“ block3control”}開始分身時 `，它應該要 <code>顯示`{：class =“ block3looks”}，然後一直下降到牠 `碰到`{：class =“ block3sensing“}畫在舞台上的藍色地板為止。
 
-![Cat sprite](images/cat-sprite.png)
+![貓角色](images/cat-sprite.png)
 
 \--- hints \--- \--- hint \---
 
-`When the sprite starts as a clone`{:class="block3control"}, `show`{:class="block3looks"} the sprite. `Repeatedly`{:class="block3control"} `Change`{:class="block3motion"} the sprite's `y` coordinate by `-2`, until the sprite `touches`{:class="block3sensing"} the blue Stage.
+`當角色作為分身`{：class =“ block3control”}開始時， `顯示`{：class =“ block3looks”}角色。 `重複`{：class =“ block3control”} `更改`{：class =“ block3motion”}這個角色的 `y` 坐標 `-2`，直到這個角色 `碰到`{：class =“ block3control”“}了藍色舞台。
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need:
+這裡是你需要的程式積木：
 
 ```blocks3
 repeat until <>
@@ -54,7 +54,7 @@ when I start as a clone
 
 \--- hint \---
 
-This is what your code should look like:
+你的程式看起來應該像這樣：
 
 ```blocks3
 when I start as a clone
@@ -68,6 +68,6 @@ end
 
 \--- /task \---
 
-When you click the green flag, you should see a new cat fall from the top of the Stage every three seconds. Every cat should land in a big pile of overlapping cats on the blue floor at the bottom.
+點一下綠色旗幟時，您應該會每三秒鐘看到一隻新的貓從舞台上方掉下來。 每隻貓都應該都會掉在底部藍色地板上的那一大堆貓咪中。
 
-![Falling cats](images/falling-cats.png)
+![掉下來的貓咪](images/falling-cats.png)
