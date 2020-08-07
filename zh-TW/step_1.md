@@ -31,7 +31,7 @@
 title: 你會學到
 ---
 
-+ 如何使用 `重複無限次`{:class ="block3control"} 迴圈來產生不停移動的貓咪
++ 如何使用 `重複無限次`{:class="block3control"} 迴圈來產生不停移動的貓咪
 + 如何使用 `重複直到`{:class="block3control"}迴圈以確保您的貓能順著一條線走
 
 --- /collapse ---
@@ -62,7 +62,9 @@ title: 給教師的其它資訊
 
 --- no-print ---
 
-如果你需要列印這個專案，可以先切換成[列印友好模式](https://projects.raspberrypi.org/zh-TW/projects/cats/print)。 --- /no-print ---
+如果你需要列印這個專案，可以先切換成[列印友好模式](https://projects.raspberrypi.org/zh-TW/projects/cats/print)。 
+
+--- /no-print ---
 
 你可以在這裡找到[已經完成的專案](http://rpf.io/p/zh-TW/cats-get){:target="_blank"}。
 
