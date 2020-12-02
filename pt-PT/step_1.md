@@ -47,11 +47,11 @@ title: Do que é que vais necessitar
 
 ### Software
 
-+ Scratch 3 (ou [online](http://rpf.io/scratchon){:target="_blank"} ou [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (ou [online](https://rpf.io/scratchon){:target="_blank"} ou [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 
-+ [Projeto inicial offline](http://rpf.io/p/pt-PT/cats-go){:target="_blank"}
++ [Projeto inicial offline](https://rpf.io/p/pt-PT/cats-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -65,6 +65,6 @@ title: Notas adicionais para educadores
 Se necessitar imprimir este projeto, por favor utilize a [versão para impressão](https://projects.raspberrypi.org/pt-PT/projects/cats/print).
 --- /no-print ---
 
-Pode encontrar o [projeto concluído aqui](http://rpf.io/p/pt-PT/cats-get){:target="_blank"}.
+Pode encontrar o [projeto concluído aqui](https://rpf.io/p/pt-PT/cats-get){:target="_blank"}.
 
 --- /collapse ---

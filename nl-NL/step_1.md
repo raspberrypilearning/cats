@@ -45,11 +45,11 @@ title: Wat heb je nodig
 
 ### Software
 
-+ Scratch 3 ([online](http://rpf.io/scratchon){:target="_blank"} of [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 ([online](https://rpf.io/scratchon){:target="_blank"} of [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 
-+ [ Offline startproject ](http://rpf.io/p/nl-NL/cats-go){:target="_ blank"}
++ [ Offline startproject ](https://rpf.io/p/nl-NL/cats-go){:target="_ blank"}
 
 --- /collapse ---
 
@@ -61,6 +61,6 @@ title: Aanvullende informatie voor docenten
 
 Als je dit project wilt afdrukken, gebruik dan de [printvriendelijke versie](https://projects.raspberrypi.org/nl-NL/projects/cats/print). --- /no-print ---
 
-Je kunt het [voltooide project hier](http://rpf.io/p/nl-NL/cats-get)"{:target="_blank"} vinden.
+Je kunt het [voltooide project hier](https://rpf.io/p/nl-NL/cats-get)"{:target="_blank"} vinden.
 
 --- /collapse ---

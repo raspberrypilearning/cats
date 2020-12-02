@@ -47,11 +47,11 @@ title: Τι θα χρειαστείς
 
 ### Λογισμικό
 
-+ Scratch 3 (είτε [online](http://rpf.io/scratchon){:target="_blank"} είτε [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (είτε [online](https://rpf.io/scratchon){:target="_blank"} είτε [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Λήψεις
 
-+ [Αρχικό έργο εκτός σύνδεσης](http://rpf.io/p/el-GR/cats-go){:target="_blank"}
++ [Αρχικό έργο εκτός σύνδεσης](https://rpf.io/p/el-GR/cats-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -65,6 +65,6 @@ title: Πρόσθετες σημειώσεις για εκπαιδευτικού
 Αν χρειαστεί να εκτυπώσεις αυτό το έργο, παρακαλούμε να χρησιμοποιήσεις την [εκτυπώσιμη](https://projects.raspberrypi.org/el-GR/projects/cats/print) έκδοση. 
 --- /no-print ---
 
-Μπορείς να βρεις [το ολοκληρωμένο έργο εδώ](http://rpf.io/p/el-GR/cats-get){:target="_blank"}.
+Μπορείς να βρεις [το ολοκληρωμένο έργο εδώ](https://rpf.io/p/el-GR/cats-get){:target="_blank"}.
 
 --- /collapse ---
