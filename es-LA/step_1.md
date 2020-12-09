@@ -47,11 +47,11 @@ title: Lo que vas a necesitar
 
 ### Programa
 
-+ Scratch 3 (ya sea [con Internet](http://rpf.io/scratchon){:target="_blank"} o [sin Internet](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (ya sea [con Internet](https://rpf.io/scratchon){:target="_blank"} o [sin Internet](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Descargas
 
-+ [Iniciar proyecto sin Internet](http://rpf.io/p/es-LA/cats-go){:target="_blank"}
++ [Iniciar proyecto sin Internet](https://rpf.io/p/es-LA/cats-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -65,6 +65,6 @@ title: Notas adicionales para educadores
 Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://projects.raspberrypi.org/es-LA/projects/cats/print). 
 --- /no-print ---
 
-Puedes encontrar el [ proyecto completo aquí ](http://rpf.io/p/es-LA/cats-get){:target="_blank"}.
+Puedes encontrar el [ proyecto completo aquí ](https://rpf.io/p/es-LA/cats-get){:target="_blank"}.
 
 --- /collapse ---

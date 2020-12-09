@@ -47,11 +47,11 @@ title: Що тобі знадобиться
 
 ### Програмне забезпечення
 
-+ Скретч 3 (або [онлайн](http://rpf.io/scratchon){:target="_blank"}, або [офлайн](http://rpf.io/scratchoff){:target="_blank"})
++ Скретч 3 (або [онлайн](https://rpf.io/scratchon){:target="_blank"}, або [офлайн](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Завантаження
 
-+ [Стартовий офлайн-шаблон проєкта](http://rpf.io/p/uk-UA/cats-go){:target="_blank"}
++ [Стартовий офлайн-шаблон проєкта](https://rpf.io/p/uk-UA/cats-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -65,6 +65,6 @@ title: Додаткові примітки для викладачів
 Якщо вам потрібно роздрукувати цей проєкт, будь ласка, скористайтеся [версією для друку](https://projects.raspberrypi.org/uk-UA/projects/cats/print). 
 --- /no-print ---
 
-Ви можете знайти [завершений проєкт тут](http://rpf.io/p/uk-UA/cats-get){:target="_blank"}.
+Ви можете знайти [завершений проєкт тут](https://rpf.io/p/uk-UA/cats-get){:target="_blank"}.
 
 --- /collapse ---

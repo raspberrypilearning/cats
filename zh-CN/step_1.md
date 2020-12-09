@@ -47,11 +47,11 @@ title: 你需要准备什么
 
 ### 软件部分
 
-+ Scratch 3 ([在线版本](http://rpf.io/scratchon){:target="_blank"} 或 [离线版本](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 ([在线版本](https://rpf.io/scratchon){:target="_blank"} 或 [离线版本](https://rpf.io/scratchoff){:target="_blank"})
 
 ### 下载
 
-+ [离线版本的初始项目](http://rpf.io/p/zh-CN/cats-go){:target =“_ blank”}
++ [离线版本的初始项目](https://rpf.io/p/zh-CN/cats-go){:target =“_ blank”}
 
 --- /collapse ---
 
@@ -65,6 +65,6 @@ title: 给教师的附加说明
 如果您需要打印本项目文件，请使用[合适的打印版本](https://projects.raspberrypi.org/zh-CN/projects/cats/print) 
 --- /no-print ---
 
-你可以在这里找到 [完成的项目](http://rpf.io/p/zh-CN/cats-get){:target="_blank"}。
+你可以在这里找到 [完成的项目](https://rpf.io/p/zh-CN/cats-get){:target="_blank"}。
 
 --- /collapse ---

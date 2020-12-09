@@ -47,11 +47,11 @@ title: Què necessitaràs
 
 ### Programari
 
-+ Scratch 3 (ja sigui [en línia](http://rpf.io/scratchon){:target="_blank"} o [fora de línia](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (ja sigui [en línia](https://rpf.io/scratchon){:target="_blank"} o [fora de línia](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Descàrregues
 
-+ [Projecte inicial fora de línia](http://rpf.io/p/ca-ES/cats-go){:target="_blank"}
++ [Projecte inicial fora de línia](https://rpf.io/p/ca-ES/cats-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -65,6 +65,6 @@ title: Notes addicionals per a educadors
 Si necessites imprimir aquest projecte, si us plau utilitza la [versió per a imprimir](https://projects.raspberrypi.org/ca-ES/projects/cats/print). 
 --- /no-print ---
 
-Pots trobar el [projecte acabat aquí](http://rpf.io/p/ca-ES/cats-get){:target="_blank"}.
+Pots trobar el [projecte acabat aquí](https://rpf.io/p/ca-ES/cats-get){:target="_blank"}.
 
 --- /collapse ---

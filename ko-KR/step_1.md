@@ -47,11 +47,11 @@ title: 준비물
 
 ### 소프트웨어
 
-+ 스크래치 3 ([온라인](http://rpf.io/scratchon){:target="_blank"} 또는 [오프라인](http://rpf.io/scratchoff){:target="_blank"})
++ 스크래치 3 ([온라인](https://rpf.io/scratchon){:target="_blank"} 또는 [오프라인](https://rpf.io/scratchoff){:target="_blank"})
 
 ### 다운로드
 
-+ [오프라인 스타터 프로젝트](http://rpf.io/p/ko-KR/cats-go){:target="_blank"}
++ [오프라인 스타터 프로젝트](https://rpf.io/p/ko-KR/cats-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -66,6 +66,6 @@ title: 교육자를 위한 추가 정보
 
 --- /no-print ---
 
-[여기서](http://rpf.io/p/ko-KR/cats-get){:target="_blank"} 완료된 프로젝트를 확인할 수 있습니다.
+[여기서](https://rpf.io/p/ko-KR/cats-get){:target="_blank"} 완료된 프로젝트를 확인할 수 있습니다.
 
 --- /collapse ---

@@ -47,11 +47,11 @@ title: 必要 (ひつよう) なもの
 
 ### ソフトウェア
 
-+ Scratch 3 ([オンライン](http://rpf.io/scratchon){:target="_blank"}または[オフライン](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 ([オンライン](https://rpf.io/scratchon){:target="_blank"}または[オフライン](https://rpf.io/scratchoff){:target="_blank"})
 
 ### ダウンロード
 
-+ [基本 (きほん) のプロジェクト (オフライン)](http://rpf.io/p/ja-JP/cats-go){:target="_blank"}
++ [基本 (きほん) のプロジェクト (オフライン)](https://rpf.io/p/ja-JP/cats-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -65,6 +65,6 @@ title: 教育者向けの追加メモ
 このプロジェクトを印刷する必要がある場合は、 [印刷用バージョン](https://projects.raspberrypi.org/ja-JP/projects/cats/print)を使用してください。 
 --- /no-print ---
 
-[完成したプロジェクトはこちら](http://rpf.io/p/ja-JP/cats-get){:target="_blank"}にあります。
+[完成したプロジェクトはこちら](https://rpf.io/p/ja-JP/cats-get){:target="_blank"}にあります。
 
 --- /collapse ---
