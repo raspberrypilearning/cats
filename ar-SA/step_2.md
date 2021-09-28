@@ -27,10 +27,12 @@
 ![كائن القلم](images/pen-sprite.png)
 
 ```blocks3
+<span dir "rtl">
 when flag clicked
 set pen color to [#0000ff]
 erase all
 set pen size to (5)
+</span>
 ```
 
 لتحديد لون، انقر فوق مربع اللون في كتلة `تعيين لون القلم`{:class="block3extensions"} لتحويل مؤشر الماوس إلى انبوب، ثم انقر فوق اللون الصحيح في المنصة.
