@@ -7,12 +7,14 @@ copyedit: true
 version: 4.0.2
 last_tested: 2018-10-18
 steps:
-  - title: 介紹
-  - title: 畫線
-  - title: 複製貓
-  - title: 讓貓咪動起來
-  - title: 讓貓咪沿著線走
-  - title: 安全起見
-  - title: "挑戰: 更多的障礙"
-    challenge: true
-  - title: 然後呢？
+- title: 介紹
+  completion: engaged
+- title: 畫線
+- title: 複製貓
+- title: 讓貓咪動起來
+- title: 讓貓咪沿著線走
+  completion: internal
+- title: 安全起見
+- title: '挑戰: 更多的障礙'
+  challenge: true
+- title: 然後呢？
