@@ -8,7 +8,7 @@
 
 如果你有 Scratch 帳戶，你就可以直接**改編**專案。
 
-**離線：** 在離線編輯器中打開 [入門項目](http://rpf.io/p/zh-TW/cats-go)。 如果你需要 Scratch 離線版編輯器，可以連結到 [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}。
+**離線：** 在離線編輯器中打開 [入門項目](https://rpf.io/p/zh-TW/cats-go)。 如果你需要 Scratch 離線版編輯器，可以連結到 [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}。
 
 --- /task ---
 

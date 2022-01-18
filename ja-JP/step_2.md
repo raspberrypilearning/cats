@@ -8,7 +8,7 @@
 
 Scratch アカウントを持っている場合、 **リミックス**をクリックしてプロジェクトをコピーできます。
 
-**オフライン:** オフラインエディターで [基本のプロジェクト](http://rpf.io/p/ja-JP/cats-go)を開きます。 [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}から、Scratch オフラインエディターのダウンロードとインストールができます。
+**オフライン:** オフラインエディターで [基本のプロジェクト](https://rpf.io/p/ja-JP/cats-go)を開きます。 [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}から、Scratch オフラインエディターのダウンロードとインストールができます。
 
 --- /task ---
 

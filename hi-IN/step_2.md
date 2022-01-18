@@ -4,11 +4,11 @@
 
 'CATS!' Scratch स्टार्टर प्रोजेक्ट खोलें।
 
-**ऑनलाइन:** [rpf.io/cats-on](http://rpf.io/cats-on){:target="_blank"} पर स्टार्टर प्रोजेक्ट खोलें।
+**ऑनलाइन:** [rpf.io/cats-on](https://rpf.io/cats-on){:target="_blank"} पर स्टार्टर प्रोजेक्ट खोलें।
 
 अगर आपके पास एक Scratch अकाउंट है तो आप एक कॉपी **Remix** क्लिक कर के भी बना सकते है।
 
-**ऑफ़लाइन:** ऑफ़लाइन एडिटर में [स्टार्टर प्रोजेक्ट](http://rpf.io/p/hi-IN/cats-go) खोलें। यदि आपको Scratch ऑफ़लाइन एडिटर को डाउनलोड और इंस्टॉल करने की आवश्यकता है, तो आप इसे [rpf.io/scratchoff](http://rpf.io/scratchoff) {:target="_blank"} पर प्राप्त कर सकते हैं।
+**ऑफ़लाइन:** ऑफ़लाइन एडिटर में [स्टार्टर प्रोजेक्ट](https://rpf.io/p/hi-IN/cats-go) खोलें। यदि आपको Scratch ऑफ़लाइन एडिटर को डाउनलोड और इंस्टॉल करने की आवश्यकता है, तो आप इसे [rpf.io/scratchoff](https://rpf.io/scratchoff) {:target="_blank"} पर प्राप्त कर सकते हैं।
 
 --- /task ---
 

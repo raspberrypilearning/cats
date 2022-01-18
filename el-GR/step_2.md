@@ -8,7 +8,7 @@
 
 Αν έχεις λογαριασμό Scratch μπορείς να δημιουργήσεις ένα αντίγραφο κάνοντας κλικ στο **Ανάμειξη**.
 
-**Offline**: άνοιξε το [αρχικό έργο](http://rpf.io/p/el-GR/cats-go) στον επεξεργαστή εκτός σύνδεσης. Αν χρειαστεί να κατεβάσεις και να εγκαταστήσεις τον offline editor για το Scratch, μπορείς να το βρεις στο [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+**Offline**: άνοιξε το [αρχικό έργο](https://rpf.io/p/el-GR/cats-go) στον επεξεργαστή εκτός σύνδεσης. Αν χρειαστεί να κατεβάσεις και να εγκαταστήσεις τον offline editor για το Scratch, μπορείς να το βρεις στο [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 --- /task ---
 
