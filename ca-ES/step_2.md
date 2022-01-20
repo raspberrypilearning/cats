@@ -8,7 +8,7 @@ Obre el projecte inicial "CATS!" d’Scratch.
 
 Si tens un compte a Scratch pots fer una còpia fent clic a **Reinventa**.
 
-**Fora de línia:** obriu el [projecte inicial](http://rpf.io/p/ca-ES/cats-go) a l’editor fora de línia. Si necessites descarregar i instal·lar l'editor fora de línia d'Scratch, el pots trobar a [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+**Fora de línia:** obriu el [projecte inicial](https://rpf.io/p/ca-ES/cats-go) a l’editor fora de línia. Si necessites descarregar i instal·lar l'editor fora de línia d'Scratch, el pots trobar a [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 --- /task ---
 

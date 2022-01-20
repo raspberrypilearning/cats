@@ -8,7 +8,7 @@
 
 스크래치 계정이 있는 경우 **Remix**을 클릭하여 사본을 만들 수 있습니다.
 
-**오프라인:** 오프라인 편집기에서 [스타터 프로젝트](http://rpf.io/p/ko-KR/cats-go)를 엽니다. 스크래치 오프라인 에디터를 다운로드 받아야 하는 경우, [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}에서 다운 받을 수 있습니다.
+**오프라인:** 오프라인 편집기에서 [스타터 프로젝트](https://rpf.io/p/ko-KR/cats-go)를 엽니다. 스크래치 오프라인 에디터를 다운로드 받아야 하는 경우, [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}에서 다운 받을 수 있습니다.
 
 --- /task ---
 

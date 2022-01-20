@@ -8,7 +8,7 @@ Abre el proyecto de inicio de Scratch '¡GATOS!'.
 
 Si tienes una cuenta de Scratch puedes hacer una copia haciendo clic en **Reinventar**.
 
-**Sin conexión**: abre el [proyecto de inicio](http://rpf.io/p/es-ES/cats-go) en el editor sin conexión. Si necesitas descargar e instalar el editor sin conexión de Scratch, puedes encontrarlo en [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+**Sin conexión**: abre el [proyecto de inicio](https://rpf.io/p/es-ES/cats-go) en el editor sin conexión. Si necesitas descargar e instalar el editor sin conexión de Scratch, puedes encontrarlo en [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 --- /task ---
 

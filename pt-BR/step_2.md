@@ -8,7 +8,7 @@ Abra o projeto inicial Scratch 'GATOS!'.
 
 Se você tiver uma conta Scratch, você pode fazer uma cópia clicando em **Remix**.
 
-**Offline:** Abra o [projeto inicial](http://rpf.io/p/pt-BR/cats-go) no editor offline. Se você precisar baixar e instalar o editor offline do Scratch, você pode encontrá-lo em [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+**Offline:** Abra o [projeto inicial](https://rpf.io/p/pt-BR/cats-go) no editor offline. Se você precisar baixar e instalar o editor offline do Scratch, você pode encontrá-lo em [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 --- /task ---
 
