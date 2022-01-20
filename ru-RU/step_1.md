@@ -47,11 +47,11 @@ title: Что тебе понадобится
 
 ### Программное обеспечение
 
-+ Scratch 3 ([онлайн](http://rpf.io/scratchon){:target="_blank"} или [оффлайн](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 ([онлайн](https://rpf.io/scratchon){:target="_blank"} или [оффлайн](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Загрузки
 
-+ [Оффлайн стартовый проект](http://rpf.io/p/ru-RU/cats-go){:target="_blank"}
++ [Оффлайн стартовый проект](https://rpf.io/p/ru-RU/cats-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -66,6 +66,6 @@ title: Дополнительные примечания для педагого
 
 --- /no-print ---
 
-Вы можете найти [законченный проект здесь](http://rpf.io/p/ru-RU/cats-get){:target="_blank"}.
+Вы можете найти [законченный проект здесь](https://rpf.io/p/ru-RU/cats-get){:target="_blank"}.
 
 --- /collapse ---

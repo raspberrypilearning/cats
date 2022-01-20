@@ -8,7 +8,7 @@
 
 Wenn du bereits einen Scratch-Account besitzt, kannst du dir durch klicken auf **Remix** eine Kopie anlegen.
 
-**Offline**: Öffne das [Starter-Projekt](http://rpf.io/p/de-DE/cats-go) im Offline-Editor. Wenn du den Scratch-Offline-Editor herunterladen und installieren möchtest, findest du diesen unter [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+**Offline**: Öffne das [Starter-Projekt](https://rpf.io/p/de-DE/cats-go) im Offline-Editor. Wenn du den Scratch-Offline-Editor herunterladen und installieren möchtest, findest du diesen unter [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 --- /task ---
 

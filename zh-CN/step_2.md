@@ -8,7 +8,7 @@
 
 如果您有 Scratch 帐户，可以单击 **改编** 复制这个项目。
 
-**离线版本:** 在离线编辑器中打开 [初始项目](http://rpf.io/p/zh-CN/cats-go)。 如果您需要下载并安装 Scratch 离线编辑器，可以点击链接获取[rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}。
+**离线版本:** 在离线编辑器中打开 [初始项目](https://rpf.io/p/zh-CN/cats-go)。 如果您需要下载并安装 Scratch 离线编辑器，可以点击链接获取[rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}。
 
 --- /task ---
 
