@@ -9,13 +9,15 @@ version: 4.0.2
 last_tested: 2018-10-18
 steps:
 - title: Introduzione
-  completion: engaged
 - title: Traccia delle linee
 - title: Clona i gatti
+  completion:
+  - engaged
 - title: Fai muovere i gatti
 - title: Aderisci alle linee
-  completion: internal
 - title: Mettiti in salvo
+  completion:
+  - internal
 - title: 'Sfida: Ancora più ostacoli'
   challenge: true
 - title: E poi?

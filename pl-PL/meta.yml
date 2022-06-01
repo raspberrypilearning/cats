@@ -9,13 +9,15 @@ version: 4.0.2
 last_tested: 2018-10-18
 steps:
 - title: Wprowadzenie
-  completion: engaged
 - title: Narysuj linie
 - title: Klonowanie kotów
+  completion:
+  - engaged
 - title: Spraw, aby koty poruszały się
 - title: Trzymaj się linii
-  completion: internal
 - title: Dostań się w bezpieczne miejsce
+  completion:
+  - internal
 - title: 'Wyzwanie: więcej przeszkód'
   challenge: true
 - title: Co dalej?

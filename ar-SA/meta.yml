@@ -8,13 +8,15 @@ version: 4.0.2
 last_tested: 2018-10-18
 steps:
 - title: المقدمة
-  completion: engaged
 - title: رسم الخطوط
 - title: استنساخ القطط
+  completion:
+  - engaged
 - title: تحريك القطط
 - title: الالتزام بالخطوط
-  completion: internal
 - title: الوصول إلى بر الأمان
+  completion:
+  - internal
 - title: 'التحدي: مزيد من العوائق'
   challenge: true
 - title: ما التالي؟

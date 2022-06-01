@@ -9,13 +9,15 @@ version: 4.0.2
 last_tested: 2018-10-18
 steps:
 - title: Введение
-  completion: engaged
 - title: Нарисуй линии
 - title: Клонируй котов
+  completion:
+  - engaged
 - title: Заставь котов двигаться
 - title: Придерживайся линий
-  completion: internal
 - title: Доберись до безопасного места
+  completion:
+  - internal
 - title: 'Задача: больше препятствий'
   challenge: true
 - title: Что дальше?
