@@ -9,13 +9,15 @@ version: 4.0.2
 last_tested: 2018-10-18
 steps:
 - title: Inleiding
-  completion: engaged
 - title: Teken lijnen
 - title: Kloon katten
+  completion:
+  - engaged
 - title: Laat de katten bewegen
 - title: Blijf bij de lijnen
-  completion: internal
 - title: In veiligheid komen
+  completion:
+  - internal
 - title: 'Uitdaging: meer obstakels'
   challenge: true
 - title: Wat kun je verder nog doen?

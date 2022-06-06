@@ -8,13 +8,15 @@ version: 4.0.2
 last_tested: 2018-10-18
 steps:
 - title: 介绍
-  completion: engaged
 - title: 画线
 - title: 克隆猫咪
+  completion:
+  - engaged
 - title: 让猫咪动起来
 - title: 让猫咪沿着线行走
-  completion: internal
 - title: 让猫咪保持安全
+  completion:
+  - internal
 - title: 挑战：更多的障碍
   challenge: true
 - title: 接下来呢？

@@ -8,13 +8,15 @@ version: 4.0.2
 last_tested: 2018-10-18
 steps:
 - title: 소개
-  completion: engaged
 - title: 선 그리기
 - title: 고양이 복제하기
+  completion:
+  - engaged
 - title: 고양이가 움직이도록 만들기
 - title: 선 따라가기
-  completion: internal
 - title: 안전 확보
+  completion:
+  - internal
 - title: '도전 과제: 더 많은 장애물'
   challenge: true
 - title: 더 나아가기

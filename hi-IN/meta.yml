@@ -9,13 +9,15 @@ version: 4.0.2
 last_tested: 2018-10-18
 steps:
 - title: परिचय
-  completion: engaged
 - title: रेखाएँ खींचें
 - title: बिल्लियाँ को क्लोन (clone) करना
+  completion:
+  - engaged
 - title: बिल्लियों को चलाएँ
 - title: रेखाओं से जुड़े रहें
-  completion: internal
 - title: सुरक्षित रहें
+  completion:
+  - internal
 - title: 'चुनौती: अधिक बाधाएँ!'
   challenge: true
 - title: आगे क्या?

@@ -9,13 +9,15 @@ version: 4.0.2
 last_tested: 2018-10-18
 steps:
 - title: Introdução
-  completion: engaged
 - title: Desenhar linhas
 - title: Clonar gatos
+  completion:
+  - engaged
 - title: Faça os gatos se mexerem
 - title: Aderir às linhas
-  completion: internal
 - title: Alcançar a segurança
+  completion:
+  - internal
 - title: 'Desafio: mais obstáculos'
   challenge: true
 - title: O que se segue?

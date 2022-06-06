@@ -9,13 +9,15 @@ version: 4.0.2
 last_tested: 2018-10-18
 steps:
 - title: Introducció
-  completion: engaged
 - title: Dibuixa línies
 - title: Clona gats
+  completion:
+  - engaged
 - title: Fes moure els gats
 - title: Adhereix-los a les línies
-  completion: internal
 - title: Fes que vagin segurs
+  completion:
+  - internal
 - title: 'Repte: més obstacles'
   challenge: true
 - title: I ara què ve?

@@ -9,13 +9,15 @@ version: 4.0.2
 last_tested: 2018-10-18
 steps:
 - title: Εισαγωγή
-  completion: engaged
 - title: Ζωγράφισε γραμμές
 - title: Κλωνοποίησε τις γάτες
+  completion:
+  - engaged
 - title: Κάνε τις γάτες να κινηθούν
 - title: Ακολούθησε τις γραμμές
-  completion: internal
 - title: Οδήγησέ τες στην ασφάλεια
+  completion:
+  - internal
 - title: 'Πρόκληση: περισσότερα εμπόδια'
   challenge: true
 - title: Και τώρα;

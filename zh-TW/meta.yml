@@ -8,13 +8,15 @@ version: 4.0.2
 last_tested: 2018-10-18
 steps:
 - title: 介紹
-  completion: engaged
 - title: 畫線
 - title: 複製貓
+  completion:
+  - engaged
 - title: 讓貓咪動起來
 - title: 讓貓咪沿著線走
-  completion: internal
 - title: 安全起見
+  completion:
+  - internal
 - title: '挑戰: 更多的障礙'
   challenge: true
 - title: 然後呢？
