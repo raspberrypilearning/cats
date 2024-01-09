@@ -13,14 +13,18 @@ steps:
     title: Draw lines
   - 
     title: Clone cats
+    completion:
+      - engaged
   - 
     title: Make the cats move
   - 
     title: Stick to the lines
   - 
     title: Get to safety
+    completion:
+      - internal
   - 
-    title: "Challenge: more obstacles"
+    title: 'Challenge: more obstacles'
     challenge: true
   - 
     title: What next?
