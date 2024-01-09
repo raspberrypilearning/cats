@@ -45,11 +45,11 @@ Clicca e trascina con il mouse per tracciare una linea con la matita. Il tuo obi
 
 ### Software
 
-+ Scratch 3 ([online](http://rpf.io/scratchon){:target="_blank"} o [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Download
 
-+ [Progetto iniziale offline](http://rpf.io/p/en/cats-go){:target="_ blank"}
++ [Offline starter project](https://rpf.io/p/en/cats-go){:target="_blank"}
 
 \--- /collapse \---
 
@@ -61,6 +61,6 @@ Clicca e trascina con il mouse per tracciare una linea con la matita. Il tuo obi
 
 Se intendete stampare questo progetto, cliccate su [Versione stampabile](https://projects.raspberrypi.org/en/projects/cats/print). \--- /no-print \---
 
-Potete trovare il [progetto completo qui](http://rpf.io/p/en/cats-get){:target="_blank"}.
+You can find the [completed project here](https://rpf.io/p/en/cats-get){:target="_blank"}.
 
 \--- /collapse \---
