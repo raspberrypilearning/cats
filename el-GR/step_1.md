@@ -45,11 +45,11 @@
 
 ### Λογισμικό
 
-+ Scratch 3 (είτε [online](http://rpf.io/scratchon){:target="_blank"} είτε [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Λήψεις
 
-+ [Αρχικό έργο εκτός σύνδεσης](http://rpf.io/p/en/cats-go){:target="_ blank"}
++ [Offline starter project](https://rpf.io/p/en/cats-go){:target="_blank"}
 
 \--- /collapse \---
 
@@ -61,6 +61,6 @@
 
 Αν χρειαστεί να εκτυπώσεις αυτό το έργο, παρακαλούμε να χρησιμοποιήσεις την [εκτυπώσιμη](https://projects.raspberrypi.org/en/projects/cats/print) έκδοση. \--- /no-print \---
 
-Μπορείς να βρεις [το ολοκληρωμένο έργο εδώ](http://rpf.io/p/en/cats-get){:target="_blank"}.
+You can find the [completed project here](https://rpf.io/p/en/cats-get){:target="_blank"}.
 
 \--- /collapse \---
