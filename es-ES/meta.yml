@@ -13,14 +13,18 @@ steps:
     title: Dibuja líneas
   - 
     title: Clona gatos
+    completion:
+      - engaged
   - 
     title: Haz que los gatos se muevan
   - 
     title: Pegarse a las líneas
   - 
     title: Llegar a un lugar seguro
+    completion:
+      - internal
   - 
-    title: "Desafío: Más obstáculos"
+    title: 'Desafío: Más obstáculos'
     challenge: true
   - 
     title: '¿Qué hacer a continuación?'
