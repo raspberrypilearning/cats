@@ -45,11 +45,11 @@ Klik en sleep met de muis om een lijn met het potlood te tekenen. Je doel is te 
 
 ### Software
 
-+ Scratch 3 ([online](http://rpf.io/scratchon){:target="_blank"} of [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 
-+ [ Offline startproject ](http://rpf.io/p/en/cats-go){:target="_ blank"}
++ [Offline starter project](https://rpf.io/p/en/cats-go){:target="_blank"}
 
 \--- /collapse \---
 
@@ -61,6 +61,6 @@ Klik en sleep met de muis om een lijn met het potlood te tekenen. Je doel is te 
 
 Als je dit project wilt afdrukken, gebruik dan de [printvriendelijke versie](https://projects.raspberrypi.org/en/projects/cats/print). \--- /no-print \---
 
-Je kunt het [voltooide project hier](http://rpf.io/p/en/cats-get)"{:target="_blank"} vinden.
+You can find the [completed project here](https://rpf.io/p/en/cats-get){:target="_blank"}.
 
 \--- /collapse \---
