@@ -45,11 +45,11 @@ Clica e arrasta com o rato para desenhar uma linha com o lápis. O teu objetivo 
 
 ### Software
 
-+ Scratch 3 (ou [online](http://rpf.io/scratchon){:target="_ blank"} ou [offline](http://rpf.io/scratchoff){:target="_ blank"})
++ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 
-+ [ Projeto inicial offline ](http://rpf.io/p/en/cats-go) {: target = "_ blank"}
++ [Offline starter project](https://rpf.io/p/en/cats-go){:target="_blank"}
 
 \--- /collapse \---
 
@@ -61,6 +61,6 @@ Clica e arrasta com o rato para desenhar uma linha com o lápis. O teu objetivo 
 
 Se necessitar imprimir este projeto, por favor utilize a [versão para impressão](https://projects.raspberrypi.org/en/projects/cats/print). \--- /no-print \---
 
-Pode encontrar o [projeto concluído aqui](http://rpf.io/p/en/cats-get){: target = "_ blank"}.
+You can find the [completed project here](https://rpf.io/p/en/cats-get){:target="_blank"}.
 
 \--- /collapse \---
