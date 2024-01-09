@@ -4,11 +4,11 @@
 
 「ネコ！」という基本 (きほん) の Scratch プロジェクトを開きます。
 
-**オンライン:** [rpf.io/cats-on](http://rpf.io/cats-on){:target="_blank"}から基本のプロジェクトを開きます。
+**Online:** open the starter project at [rpf.io/cats-on](https://rpf.io/cats-on){:target="_blank"}.
 
 Scratch アカウントを持っている場合、 **リミックス**をクリックしてプロジェクトをコピーできます。
 
-**オフライン:** オフラインエディターで [基本のプロジェクト](http://rpf.io/p/en/cats-go)を開きます。 [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}から、Scratch オフラインエディターのダウンロードとインストールができます。
+**Offline:** open the [starter project](https://rpf.io/p/en/cats-go) in the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
