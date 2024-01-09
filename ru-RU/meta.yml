@@ -13,14 +13,18 @@ steps:
     title: Нарисуй линии
   - 
     title: Клонируй котов
+    completion:
+      - engaged
   - 
     title: Заставь котов двигаться
   - 
     title: Придерживайся линий
   - 
     title: Доберись до безопасного места
+    completion:
+      - internal
   - 
-    title: "Задача: больше препятствий"
+    title: 'Задача: больше препятствий'
     challenge: true
   - 
     title: Что дальше?
