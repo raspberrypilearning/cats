@@ -13,14 +13,18 @@ steps:
     title: Linien zeichnen
   - 
     title: Katzen klonen
+    completion:
+      - engaged
   - 
     title: Lass die Katzen sich bewegen
   - 
     title: Auf der Linie bleiben
   - 
     title: In Sicherheit bringen
+    completion:
+      - internal
   - 
-    title: "Herausforderung: Mehr Hindernisse"
+    title: 'Herausforderung: Mehr Hindernisse'
     challenge: true
   - 
     title: Wie geht es weiter?
