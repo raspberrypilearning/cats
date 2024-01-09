@@ -4,11 +4,11 @@
 
 스크래치 스타터 프로젝트 '고양이들!'를 여십시오.
 
-** 온라인:** [rpf.io/cats-on](http://rpf.io/cats-on){:target="_blank"}에서 새로운 스타터 프로젝트 열기.
+**Online:** open the starter project at [rpf.io/cats-on](https://rpf.io/cats-on){:target="_blank"}.
 
 스크래치 계정이 있는 경우 **Remix**을 클릭하여 사본을 만들 수 있습니다.
 
-**오프라인:** 오프라인 편집기에서 [스타터 프로젝트](http://rpf.io/p/en/cats-go)를 엽니다. 스크래치 오프라인 에디터를 다운로드 받아야 하는 경우, [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}에서 다운 받을 수 있습니다.
+**Offline:** open the [starter project](https://rpf.io/p/en/cats-go) in the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
