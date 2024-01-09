@@ -13,14 +13,18 @@ steps:
     title: Малювання ліній
   - 
     title: Клонування котів
+    completion:
+      - engaged
   - 
     title: Коти, що рухаються
   - 
     title: Переміщення по поверхні
   - 
     title: Шлях до безпечного місця
+    completion:
+      - internal
   - 
-    title: "Завдання: більше перешкод"
+    title: 'Завдання: більше перешкод'
     challenge: true
   - 
     title: Що далі?
