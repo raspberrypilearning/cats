@@ -4,11 +4,11 @@
 
 Open het 'CATS!' Scratch startproject.
 
-**Online:** open het startproject op [rpf.io/cats-on](http://rpf.io/cats-on){:target="_ blank"}.
+**Online:** open the starter project at [rpf.io/cats-on](https://rpf.io/cats-on){:target="_blank"}.
 
 Als je een Scratch account hebt, kun je een kopie maken door op **Remix** te klikken.
 
-**Offline:** open het [startproject](http://rpf.io/p/en/cats-go) in de offline editor. Als je de Scratch offline editor wilt downloaden en installeren dan kan je die vinden op [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+**Offline:** open the [starter project](https://rpf.io/p/en/cats-go) in the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
