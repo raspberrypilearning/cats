@@ -45,11 +45,11 @@
 
 ### البرامج
 
-+ برنامج Scratch 3 (سواء أكان [عبر الإنترنت](http://rpf.io/scratchon){:target="_blank"} أو [دون اتصال بالإنترنت](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### للتحميل
 
-+ [للبدء بالمشروع دون الاتصال بالانترنت](http://rpf.io/p/en/cats-go){:target="_blank"}
++ [Offline starter project](https://rpf.io/p/en/cats-go){:target="_blank"}
 
 \--- /collapse \---
 
@@ -61,6 +61,6 @@
 
 إذا كنت بحاجة إلى طباعة هذا المشروع، فيُرجى استخدام [النسخة المخصصة للطباعة](https://projects.raspberrypi.org/en/projects/cats/print). \--- /no-print \---
 
-يمكنك الحصول على [المشروع كاملاً من هنا](http://rpf.io/p/en/cats-get){:target="_blank"}.
+You can find the [completed project here](https://rpf.io/p/en/cats-get){:target="_blank"}.
 
 \--- /collapse \---
