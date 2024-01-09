@@ -13,14 +13,18 @@ steps:
     title: Tracer des lignes
   - 
     title: Cloner les chats
+    completion:
+      - engaged
   - 
     title: Faire bouger les chats
   - 
     title: Respecter les lignes
   - 
     title: Mettons-nous à l'abri
+    completion:
+      - internal
   - 
-    title: "Défi : plus d'obstacles"
+    title: 'Défi : plus d''obstacles'
     challenge: true
   - 
     title: Et ensuite ?
