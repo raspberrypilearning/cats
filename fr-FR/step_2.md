@@ -4,11 +4,11 @@
 
 Ouvre le projet de démarrage Scratch « CHATS ! ».
 
-**En ligne :** ouvre le projet de démarrage à [rpf.io/cats-on](http://rpf.io/cats-on){:target="_ blank"}.
+**Online:** open the starter project at [rpf.io/cats-on](https://rpf.io/cats-on){:target="_blank"}.
 
 Si tu as un compte Scratch, tu peux en créer une copie en cliquant sur **Remix**.
 
-**Hors-ligne :** ouvre le [projet de démarrage](http://rpf.io/p/en/cats-go) dans l'éditeur hors-ligne. Si tu dois télécharger et installer l'éditeur hors-ligne Scratch, tu peux le trouver à [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+**Offline:** open the [starter project](https://rpf.io/p/en/cats-go) in the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
