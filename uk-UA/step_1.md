@@ -45,11 +45,11 @@
 
 ### Програмне забезпечення
 
-+ Скретч 3 (або [онлайн](http://rpf.io/scratchon){:target="_ blank"}, або [офлайн](http://rpf.io/scratchoff){:target="_ blank"})
++ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Завантаження
 
-+ [Стартовий офлайн-шаблон проєкта](http://rpf.io/p/en/cats-go){:target="_ blank"}
++ [Offline starter project](https://rpf.io/p/en/cats-go){:target="_blank"}
 
 \--- /collapse \---
 
@@ -61,6 +61,6 @@
 
 Якщо вам потрібно роздрукувати цей проєкт, будь ласка, скористайтеся [версією для друку](https://projects.raspberrypi.org/en/projects/cats/print). \--- /no-print \---
 
-Ви можете знайти [завершений проєкт тут](http://rpf.io/p/en/cats-get){:target="_ blank"}.
+You can find the [completed project here](https://rpf.io/p/en/cats-get){:target="_blank"}.
 
 \--- /collapse \---
