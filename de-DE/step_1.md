@@ -45,11 +45,11 @@ Klicke und ziehe mit der Maus, um mit dem Stift eine Linie zu zeichnen. Dein Zie
 
 ### Software
 
-+ Scratch 3 (entweder [online](http://rpf.io/scratchon){:target="_blank"} oder [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 
-+ [Offline Starter Projekt](http://rpf.io/p/en/cats-go){:target="_blank"}
++ [Offline starter project](https://rpf.io/p/en/cats-go){:target="_blank"}
 
 \--- /collapse \---
 
@@ -61,6 +61,6 @@ Klicke und ziehe mit der Maus, um mit dem Stift eine Linie zu zeichnen. Dein Zie
 
 Falls du dieses Projekt ausdrucken musst, verwende bitte die [druckfreundliche Version](https://projects.raspberrypi.org/en/projects/cats/print). \--- /no-print \---
 
-Du findest das [fertige Projekt hier](http://rpf.io/p/en/cats-get){:target="_blank"}.
+You can find the [completed project here](https://rpf.io/p/en/cats-get){:target="_blank"}.
 
 \--- /collapse \---
