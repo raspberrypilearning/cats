@@ -45,11 +45,11 @@ Clique et glisse la souris pour tracer une ligne avec le crayon. Ton but est d'e
 
 ### Logiciel
 
-+ Scratch 3 ([en ligne](http://rpf.io/scratchon){:target="_blank"} ou [hors-ligne](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Téléchargements
 
-+ [Projet de démarrage hors-ligne](http://rpf.io/p/en/cats-go){:target="_blank"}
++ [Offline starter project](https://rpf.io/p/en/cats-go){:target="_blank"}
 
 \--- /collapse \---
 
@@ -61,6 +61,6 @@ Clique et glisse la souris pour tracer une ligne avec le crayon. Ton but est d'e
 
 Si vous avez besoin d'imprimer ce projet, merci d'utiliser la [version imprimable](https://projects.raspberrypi.org/en/projects/cats/print). \--- /no-print \---
 
-Vous pouvez trouver le [projet terminé ici](http://rpf.io/p/en/cats-get){:target="_blank"}.
+You can find the [completed project here](https://rpf.io/p/en/cats-get){:target="_blank"}.
 
 \--- /collapse \---
