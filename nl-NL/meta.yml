@@ -13,14 +13,18 @@ steps:
     title: Teken lijnen
   - 
     title: Kloon katten
+    completion:
+      - engaged
   - 
     title: Laat de katten bewegen
   - 
     title: Blijf bij de lijnen
   - 
     title: Kom in veiligheid
+    completion:
+      - internal
   - 
-    title: "Uitdaging: meer obstakels"
+    title: 'Uitdaging: meer obstakels'
     challenge: true
   - 
     title: Wat kun je verder nog doen?
