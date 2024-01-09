@@ -13,14 +13,18 @@ steps:
     title: रेखाएँ खींचें
   - 
     title: बिल्लियों को क्लोन करना
+    completion:
+      - engaged
   - 
     title: बिल्लियों को चलाएँ
   - 
     title: रेखाओं से जुड़े रहें
   - 
     title: सुरक्षित रहें
+    completion:
+      - internal
   - 
-    title: "चुनौती: अधिक बाधाएँ!"
+    title: 'चुनौती: अधिक बाधाएँ!'
     challenge: true
   - 
     title: आगे क्या?
