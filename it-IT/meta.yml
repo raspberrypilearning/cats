@@ -13,14 +13,18 @@ steps:
     title: Traccia delle linee
   - 
     title: Clona i gatti
+    completion:
+      - engaged
   - 
     title: Fai muovere i gatti
   - 
     title: Aderisci alle linee
   - 
     title: Mettiti in salvo
+    completion:
+      - internal
   - 
-    title: "Sfida: Altri ostacoli"
+    title: 'Sfida: Altri ostacoli'
     challenge: true
   - 
     title: E poi?
