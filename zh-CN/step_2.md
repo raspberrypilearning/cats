@@ -4,11 +4,11 @@
 
 打开“猫！”的初始项目。
 
-**在线版本:** 从这里 [rpf.io/cats-on](http://rpf.io/cats-on){:target ="_ blank"} 打开初始项目。
+**Online:** open the starter project at [rpf.io/cats-on](https://rpf.io/cats-on){:target="_blank"}.
 
 如果您有 Scratch 帐户，可以单击 **改编** 复制这个项目。
 
-**离线版本:** 在离线编辑器中打开 [初始项目](http://rpf.io/p/en/cats-go)。 如果您需要下载并安装 Scratch 离线编辑器，可以点击链接获取[rpf.io/scratchoff](http://rpf.io/scratchoff) {:target="_blank"}。
+**Offline:** open the [starter project](https://rpf.io/p/en/cats-go) in the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
