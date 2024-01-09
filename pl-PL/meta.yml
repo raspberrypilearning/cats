@@ -13,14 +13,18 @@ steps:
     title: Narysuj linie
   - 
     title: Klonowanie kotów
+    completion:
+      - engaged
   - 
     title: Spraw, aby koty poruszały się
   - 
     title: Trzymaj się linii
   - 
     title: Dostań się w bezpieczne miejsce
+    completion:
+      - internal
   - 
-    title: "Wyzwanie: więcej przeszkód"
+    title: 'Wyzwanie: więcej przeszkód'
     challenge: true
   - 
     title: Co dalej?
