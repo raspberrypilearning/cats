@@ -13,14 +13,18 @@ steps:
     title: Dibuixa línies
   - 
     title: Clona gats
+    completion:
+      - engaged
   - 
     title: Fes moure els gats
   - 
     title: Adhereix-los a les línies
   - 
     title: Fes que vagin segurs
+    completion:
+      - internal
   - 
-    title: "Repte: més obstacles"
+    title: 'Repte: més obstacles'
     challenge: true
   - 
     title: I ara què ve?
