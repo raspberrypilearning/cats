@@ -45,11 +45,11 @@ Fes clic i arrossega amb el ratolí per dibuixar una línia amb el llapis. El te
 
 ### Programari
 
-+ Scratch 3 (ja sigui [en línia](http://rpf.io/scratchon){:target="_ blank"} o [fora de línia](http://rpf.io/scratchoff){:target="_ blank"})
++ Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Descàrregues
 
-+ [Projecte inicial fora de línia](http://rpf.io/p/en/cats-go){:target="_ blank"}
++ [Offline starter project](https://rpf.io/p/en/cats-go){:target="_blank"}
 
 \--- /collapse \---
 
@@ -61,6 +61,6 @@ Fes clic i arrossega amb el ratolí per dibuixar una línia amb el llapis. El te
 
 Si necessites imprimir aquest projecte, si us plau utilitza la [versió per a imprimir](https://projects.raspberrypi.org/en/projects/cats/print). \--- /no-print \---
 
-Pots trobar el [projecte acabat aquí](http://rpf.io/p/en/cats-get){:target="_blank"}.
+You can find the [completed project here](https://rpf.io/p/en/cats-get){:target="_blank"}.
 
 \--- /collapse \---
