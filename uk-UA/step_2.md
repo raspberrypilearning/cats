@@ -4,11 +4,11 @@
 
 Відкрий початковий проєкт "КОТИ!" у Скретч.
 
-**Онлайн:** відкрий стартовий проєкт на [rpf.io/cats-on](http://rpf.io/cats-on){:target="_ blank"}.
+**Online:** open the starter project at [rpf.io/cats-on](https://rpf.io/cats-on){:target="_blank"}.
 
 Якщо у тебе є обліковий запис Скретч, то ти можеш зробити його копію, натиснувши **Ремікс**.
 
-**Офлайн:** відкрий [початковий проєкт](http://rpf.io/p/en/cats-go) в офлайн-редакторі. Якщо тобі треба завантажити та встановити офлайн-редактор Скретч, то ти можеш його знайти на [rpf.io/scratchoff](http://rpf.io/scratchoff){:target="_blank"}.
+**Offline:** open the [starter project](https://rpf.io/p/en/cats-go) in the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
