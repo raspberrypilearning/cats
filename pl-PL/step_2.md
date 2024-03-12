@@ -6,7 +6,7 @@ Otwórz startowy projekt Scratch "KOTY!".
 
 **Online:** otwórz projekt początkowy Scratch na stronie [scratch.mit.edu/projects/382683951](https://scratch.mit.edu/projects/382683951){:target="_blank"}.
 
-Jeśli posiadasz konto Scratch, możesz utworzyć kopie poprzez kliknięcie **Remiks**.
+Jeśli posiadasz konto Scratch, możesz utworzyć kopie poprzez kliknięcie **Remix**.
 
 **Offline:** otwórz [projekt startowy](https://rpf.io/p/pl-PL/cats-go) w edytorze offline. Jeśli musisz pobrać i zainstalować edytor Scratcha, znajdziesz go na stronie [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
@@ -14,7 +14,7 @@ Jeśli posiadasz konto Scratch, możesz utworzyć kopie poprzez kliknięcie **Re
 
 --- task ---
 
-Dodaj rozszerzenie pióra do swojego projektu.
+Dodaj rozszerzenie pisaka do swojego projektu.
 
 [[[generic-scratch3-add-pen-extension]]]
 
@@ -22,7 +22,7 @@ Dodaj rozszerzenie pióra do swojego projektu.
 
 --- task ---
 
-Kliknij na duszka o nazwie 'ołówek' i dodaj kod, aby ustawić kolor pióra na ten sam niebieski co przeszkody na scenie.
+Kliknij na duszka o nazwie 'ołówek' i dodaj kod, aby ustawić kolor pisaka na ten sam niebieski co przeszkody na scenie.
 
 ![Duszek ołówka](images/pen-sprite.png)
 
@@ -33,7 +33,7 @@ erase all
 set pen size to (5)
 ```
 
-Aby wybrać kolor, kliknij kwadrat koloru w bloku `ustaw kolor pióra`{:class="block3extensions"}, aby kursor myszy zmienił się w pipetę, a następnie kliknij odpowiedni kolor na stole montażowym.
+Aby wybrać kolor, kliknij kwadrat koloru w bloku `ustaw kolor pisaka`{:class="block3extensions"}, aby kursor myszy zmienił się w pipetę, a następnie kliknij odpowiedni kolor na stole montażowym.
 
 --- /task ---
 
