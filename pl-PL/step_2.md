@@ -4,11 +4,11 @@
 
 Otwórz startowy projekt Scratch "KOTY!".
 
-**Online:** open the starter project at [rpf.io/cats-on](https://rpf.io/cats-on){:target="_blank"}.
+**Online:** otwórz projekt początkowy Scratch na stronie [scratch.mit.edu/projects/382683951](https://scratch.mit.edu/projects/382683951){:target="_blank"}.
 
 Jeśli posiadasz konto Scratch, możesz utworzyć kopie poprzez kliknięcie **Remix**.
 
-**Offline:** open the [starter project](https://rpf.io/p/en/cats-go) in the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+**Offline:** otwórz [projekt startowy](https://rpf.io/p/pl-PL/cats-go) w edytorze offline. Jeśli musisz pobrać i zainstalować edytor Scratcha, znajdziesz go na stronie [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 \--- /task \---
 
