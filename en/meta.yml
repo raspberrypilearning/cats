@@ -20,4 +20,6 @@ steps:
   - internal
 - title: 'Challenge: more obstacles'
   challenge: true
-- title: What next?
+- title: What can you do now?
+  completion:
+  - internal
