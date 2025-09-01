@@ -18,6 +18,7 @@ steps:
 - title: Get to safety
   completion:
   - internal
+  - external
 - title: 'Challenge: more obstacles'
   challenge: true
   completion:
