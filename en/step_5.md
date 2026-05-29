@@ -13,29 +13,6 @@ In the code for the cat sprite, add another loop before the `next costume`{:clas
 --- hints ---
 --- hint ---
 
-The cat should `move up 2`{:class="block3motion"} `repeatedly until`{:class="block3control"} it is `not`{:class="block3operators"} `touching blue`{:class="block3sensing"}.
-
---- /hint ---
-
---- hint ---
-
-Here are the code blocks you need:
-
-```blocks3
-<touching color [#0000ff]?>
-
-change y by (2)
-
-repeat until <>
-end
-
-not <>
-```
-
---- /hint ---
-
---- hint ---
-
 This is what your code should look like:
 
 ```blocks3
@@ -56,8 +33,8 @@ delete this clone
 ```
 
 --- /hint ---
-
 --- /hints ---
+
 --- /task ---
 
 --- task ---

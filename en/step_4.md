@@ -11,29 +11,6 @@ Add code to the `when I start as a clone`{:class="block3control"} section to mak
 --- hints ---
 --- hint ---
 
-The cat sprite should `move 10 steps`{:class="block3motion"}, and `switch costume`{:class="block3looks"} every `0.1 seconds`{:class="block3control"}. This code should repeat `forever`{:class="block3control"}, just like the code to make the cat fall.
-
---- /hint ---
-
---- hint ---
-
-Here are the code blocks you need:
-
-```blocks3
-move (10) steps
-
-wait (0.1) seconds
-
-next costume
-
-forever
-end
-```
-
---- /hint ---
-
---- hint ---
-
 This is what your code should look like:
 
 ```blocks3
@@ -50,8 +27,8 @@ end
 ```
 
 --- /hint ---
-
 --- /hints ---
+
 --- /task ---
 
 --- task ---
