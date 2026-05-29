@@ -62,30 +62,6 @@ Add some code to tell the sprite to draw a line on the Stage if the mouse button
 --- hints ---
 --- hint ---
 
-`If`{:class="block3control"} the `mouse is down`{:class="block3sensing"}, put the `pen down`{:class="block3extensions"}, and `else`{:class="block3control"}, lift the `pen up`{:class="block3extensions"}.
-
---- /hint ---
-
---- hint ---
-
-Here are the code blocks you need:
-
-```blocks3
-<mouse down?>
-
-pen down
-
-pen up
-
-if <> then
-else
-end
-```
-
---- /hint ---
-
---- hint ---
-
 This is what your code should look like:
 
 ```blocks3
@@ -103,8 +79,8 @@ end
 ```
 
 --- /hint ---
-
 --- /hints ---
+
 --- /task ---
 
 --- task ---

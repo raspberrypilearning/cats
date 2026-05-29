@@ -31,31 +31,6 @@ Add code to tell the sprite that `when it starts as a clone`{:class="block3contr
 --- hints ---
 --- hint ---
 
-`When the sprite starts as a clone`{:class="block3control"}, `show`{:class="block3looks"} the sprite. `Repeatedly`{:class="block3control"} `Change`{:class="block3motion"} the sprite's `y` coordinate by `-2`, until the sprite `touches`{:class="block3sensing"} the blue Stage.
-
---- /hint ---
-
---- hint ---
-
-Here are the code blocks you need:
-
-```blocks3
-repeat until <>
-end
-
-show
-
-<touching color [#0000ff]?>
-
-change y by (-2)
-
-when I start as a clone
-```
-
---- /hint ---
-
---- hint ---
-
 This is what your code should look like:
 
 ```blocks3
@@ -68,6 +43,7 @@ end
 
 --- /hint ---
 --- /hints ---
+
 
 --- /task ---
 

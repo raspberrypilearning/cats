@@ -21,29 +21,6 @@ Add code to your cat sprite to add `1` to the `score`{:class="block3variables"} 
 --- hints ---
 --- hint ---
 
-`If`{:class="block3control"} the cat is `touching the door sprite`{:class="block3sensing"}, then `add 1 to the score`{:class="block3variables"}.
-
---- /hint ---
-
---- hint ---
-
-Here are the new code blocks you need to add to your `when I start as a clone` script:
-
-```blocks3
-change [score v] by (1)
-
-if <> then
-end
-
-<touching (Door v)?>
-
-set [score v] to (0)
-```
-
---- /hint ---
-
---- hint ---
-
 This is what your code should look like:
 
 ```blocks3
@@ -70,8 +47,8 @@ when flag clicked
 ```
 
 --- /hint ---
-
 --- /hints ---
+
 
 --- /task ---
 
