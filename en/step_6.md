@@ -28,7 +28,7 @@ when I start as a clone
 show
 repeat until <touching (edge v)?>
     move (10) steps
-    repeat until <touching color [#0000ff]?>
+    repeat until <<touching color [#0000ff]?> or <touching (edge v)?>>
         change y by (-2)
     end
     repeat until <not <touching color [#0000ff]?>>
